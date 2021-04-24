@@ -1,23 +1,26 @@
 {{ define "main" }}
 <section class="section">
+    <h1>Single template</h1>
     <article class="article">
-        <h1 class="article__title">{{ .Title }}</h1>
+        <h2 class="article__title">{{ .Title }}</h2>
         <p class="article__date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</p>
         {{ if .Params.tags }}
-            <p class="article__tags">
-                <strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}
-            </p>
+        <p class="article__tags">
+            <strong>Tags:</strong> {{range .Params.tags}}<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ .
+                }}</a> {{end}}
+        </p>
         {{end}}
         {{ if .Params.categories }}
-            <p class="article__categories">
-                <strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}
-            </p>
+        <p class="article__categories">
+            <strong>Categories:</strong> {{range .Params.categories}}<a href="{{ " /categories/" | relLangURL }}{{ . |
+                urlize }}">{{ . }}</a> {{end}}
+        </p>
         {{end}}
-       {{if .Params.author}}
-       <p class="article__author">
+        {{if .Params.author}}
+        <p class="article__author">
             Author: {{.Params.Author}}
-            </p>
-       {{end}}
+        </p>
+        {{end}}
         <p class="article__content">{{ .Content }}</p>
     </article>
 </section>

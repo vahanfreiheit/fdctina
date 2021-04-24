@@ -1,8 +1,10 @@
 {{ define "main" }}
 <main>
-    <h1>List template</h1>
+    <h1>Homepage</h1>
     <section class="section">
-        <h2 class="section__title">Pages</h2>
+        {{ .Content }}
+    </section>
+    <section class="section">
         {{ range .Pages }}
         <article class="article article--excerpt">
             <h2 class="article__title">

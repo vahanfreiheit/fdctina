@@ -1,4 +1,5 @@
 {{ $style := resources.Get "sass/main.scss" | toCSS }}
+
 <head>
     <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
     {{- if eq .Kind "page" }}
