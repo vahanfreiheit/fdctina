@@ -1,5 +1,7 @@
 ## Hugo default output directory
 /public
+/resources/_gen
+hugo_stats.json
 
 ## ide
 .idea
@@ -13,4 +15,3 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
-

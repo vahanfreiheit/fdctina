@@ -1,0 +1,15 @@
+{{ $style := resources.Get "sass/main.scss" | toCSS }}
+<head>
+    <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    {{- if eq .Kind "page" }}
+    <meta name="description" content="{{ .Summary }}">
+    <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}">
+    {{- else }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="author" content="{{ .Site.Author.name }}">
+    {{- end }}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ $style.Permalink }}" rel="stylesheet">
+</head>

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main>
+    <section class="section">
+        <h1 class="h1">{{ .Title }}</h1>
+        <article class="article">
+            <div class="article__date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+            <div class="article__author">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
+            <div class="article__content">{{ .Content }}</div>
+        </article>
+    </section>
+    <section class="section">
+        <h1 class="h1">Pages</h1>
+        {{ range .Pages }}
+       <article class="article article--excerpt">
+            <h2 class="article__title">
+                <a href="{{.URL}}">{{.Title}}</a>
+            </h2>
+       </article>
+     {{ end }}
+</main>
+{{ end }}
