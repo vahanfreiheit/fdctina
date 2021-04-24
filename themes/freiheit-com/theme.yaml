@@ -1,0 +1,10 @@
+name: freiheit-com
+license: MIT
+description: 'freiheit.com website template'
+homepage: 'https://freiheit.com/'
+tags: []
+features: []
+min_version: 0.82.0
+author:
+  name: 'freiheit.com'
+  homepage: 'https://freiheit.com/'
