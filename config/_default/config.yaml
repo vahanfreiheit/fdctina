@@ -3,3 +3,4 @@ title: freiheit.com
 theme: freiheit-com
 languageCode: en-us
 defaultContentLanguage: en
+relativeURLs: true
