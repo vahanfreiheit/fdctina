@@ -1,6 +1,7 @@
 ## Hugo default output directory
-/public
-/resources
+public
+resources
+node_modules
 hugo_stats.json
 
 ## ide

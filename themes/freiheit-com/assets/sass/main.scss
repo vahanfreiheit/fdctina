@@ -1,9 +1,39 @@
+
+/// incluse tailwindcss
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+
 /// colors
 $color-black: #292C35;
 $color-paleGreen: #899C8C;
+$color-alabaster: #E6DFCA;
+$color-pink: #FF19FF;
+$color-red: #FF5B40;
 
 /// basic styles
 body {
-  background-color: $color-paleGreen;
+  background-color: $color-alabaster;
   color: $color-black;
+}
+
+h1 {
+  @apply text-3xl;
+  margin-bottom: 1em;
+}
+h2 {
+  @apply text-2xl;
+  margin-bottom: 1em;
+}
+h3 {
+  @apply text-xl;
+  margin-bottom: 1em;
+}
+h4 {
+  @apply text-lg;
+  margin-bottom: 1em;
+}
+a {
+  color: $color-red;
+  text-decoration: underline;
 }
