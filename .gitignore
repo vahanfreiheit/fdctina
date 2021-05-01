@@ -1,10 +1,11 @@
 ## Hugo default output directory
 /public
-/resources/_gen
+/resources
 hugo_stats.json
 
 ## ide
 .idea
+.vscode
 
 ## OS Files
 # Windows
