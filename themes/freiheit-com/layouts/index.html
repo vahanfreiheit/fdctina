@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main>
+<main class="p-4">
     <h1>
         {{ i18n "homepage" }}
     </h1>
@@ -9,10 +9,10 @@
     <section>
         <h2>This is the menu:</h2>
         {{ range .Pages }}
-        <article class="article article--excerpt">
-            <h2 class="article__title">
+        <article class="">
+            <h3 class="">
                 <a href="{{.Permalink}}">{{.Title}}</a>
-            </h2>
+            </h3>
         </article>
         {{ end }}
     </section>

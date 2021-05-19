@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main>
+<main class="p-4">
     {{with .Title }}
         <h1>{{.}}</h1>
     {{ end }}
@@ -8,9 +8,9 @@
         <h2>Posts</h2>
         {{ range . }}
         <article>
-            <h2>
+            <h3>
                 <a href="{{.Permalink}}">{{.Title}}</a>
-            </h2>
+            </h3>
         </article>
         {{ end }}
     </section>

@@ -1,14 +1,14 @@
 {{ define "main" }}
-<main>
+<main class="p-4">
     <h1>This is only for "What Others Say"</h1>
     {{ with .Pages }}
     <section class="section">
         <h2 class="section__title">Posts</h2>
         {{ range . }}
-        <article class="article article--excerpt">
-            <h2 class="article__title">
+        <article class="">
+            <h3 class="">
                 <a href="{{.Permalink}}">{{.Title}}</a>
-            </h2>
+            </h3>
         </article>
         {{ end }}
     </section>
