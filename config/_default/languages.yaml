@@ -1,9 +1,12 @@
 de:
   title: 'freiheit.com - the next generation [DEUTSCH]'
+  languageName: Deutsch
   weight: 1
 en:
   title: 'freiheit.com - the next generation [ENGLISH]'
+  languageName: English
   weight: 2
 pt:
   title: 'freiheit.com - the next generation [PORTUGUÊS]'
+  languageName: Portugês
   weight: 3

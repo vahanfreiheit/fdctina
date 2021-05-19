@@ -1,2 +1,47 @@
-<header>
+<header class="p-12
+ {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
+ {{ .Params.headerTextClass | default "text-black" }}">
+    {{ $logo := resources.GetMatch "image/logo.svg" }}
+    <a href="{{site.BaseURL}}"><img class="h-8 inline" src="{{$logo.Permalink}}" alt="freiheit logo" /></a>
+    {{ if or (.Params.headerHeadline) (.Params.headerSubline) }}
+        <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="{{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
+                <a href="#">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            <ul class="sub-menu">
+                {{ range .Children }}
+                <li class="{{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ else }}
+            <li>
+                <a href="{{ .URL }}">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+    <div class="py-40 md:pr-80">
+        {{ if .Params.headerHeadline }}
+        <h1>
+            {{ .Params.headerHeadline }}
+        </h1>
+        {{ end }}
+        {{ if .Params.headerSubline }}
+        <p>
+            {{ .Params.headerSubline }}
+        </p>
+        {{ end }}
+    </div>  
+    {{ end }}
 </header>

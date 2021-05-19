@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true, // todo: only in production with "NODE_ENV" set to "production"
+    enabled: false, // todo: only in production with "NODE_ENV" set to "production"
     content: [
       "./themes/freiheit-com/layouts/**/*.html",
       "./layouts/**/*.html",
@@ -97,7 +97,7 @@ module.exports = {
       'green': '#34B255',
       'pink': '#FF19FF',
       'red': '#FF5B40',
-      'pale-green': '#A6BCAA',
+      'pale-green': '#899C8C',
       'honeydew': '#DFEFDA',
       'alabaster': '#E6DFCA',
       'pale-purple': '#E4D1E8',
