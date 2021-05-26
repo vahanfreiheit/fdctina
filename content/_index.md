@@ -6,4 +6,4 @@ headerHeadline: Shipping software that’s shaped around you.
 headerBackgroundClass: bg-pale-green
 ---
 
-This is the english homepage
+This is the english homepage.
