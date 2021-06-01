@@ -14,9 +14,9 @@
     <meta name="author" content="{{ .Site.Author.name }}">
     {{- end }}
     {{ if .Site.IsServer }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ else }}
     {{ $styles := $style | minify | fingerprint | resources.PostProcess }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"/>
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"/>
     {{ end }}
 </head>
