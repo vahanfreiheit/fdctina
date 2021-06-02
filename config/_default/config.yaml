@@ -1,4 +1,4 @@
-baseURL: https://freiheit.com
+baseURL: http://localhost
 title: freiheit.com
 theme: freiheit-com
 languageCode: en-us

@@ -1,2 +1,3 @@
+baseURL: https://freiheit.com/freiheit-com-hugo/
 enableRobotsTXT: true
 minify: true
