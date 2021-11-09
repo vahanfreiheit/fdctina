@@ -25,6 +25,16 @@
     font-style:   normal;
     font-weight:  400;
   }
+  @font-face {
+    font-family: 'NB International Pro';
+    src: url('/fonts/NB-International-Pro-Light.eot');
+    src: url('/fonts/NB-International-Pro-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/NB-International-Pro-Light.woff') format('woff'),
+    url('/fonts/NB-International-Pro-Light.ttf')  format('truetype'),
+    url('/fonts/NB-International-Pro-Light.svg') format('svg');
+    font-style:   normal;
+    font-weight:  300;
+  }
   p {
     @apply text-body-md;
     @screen lg {
@@ -61,4 +71,11 @@
       @apply text-head-sm;
     }
   }
+}
+
+/* display content as soon as a checkbox is set (see navigation in header.html) */
+.checkbox:checked ~ .checkbox-content {
+    display: block;
+    opacity: 1;
+    z-index: 2;
 }

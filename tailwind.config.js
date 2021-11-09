@@ -27,6 +27,11 @@ module.exports = {
         lineHeight: '15.6px',
         fontFamily: 'NB International Pro',
       }],
+      'navigation': ['16px', {
+        lineHeight: '20.8px',
+        fontFamily: 'NB International Pro',
+        fontWeight: 300,
+      }],
       'body-sm': ['12px', {
         lineHeight: '15.6px',
         fontFamily: 'NB International Pro',
@@ -84,10 +89,13 @@ module.exports = {
       }],
     },
     screens: {
-      'sm': '375px',
+      'xs': '0',
+      'sm': '576px',
       'md': '768px',
-      'lg': '1440px',
-      'xl': '1920px',
+      'lg': '992px',
+      'xl': '1200px',
+      'xxl': '1400px',
+      'xxxl': '1920px',
     },
     colors: {
       'black': '#292C35',
