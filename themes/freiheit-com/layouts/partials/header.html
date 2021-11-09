@@ -1,12 +1,12 @@
 <header class="p-12 relative
     {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
     {{ .Params.headerTextClass | default "text-black" }}">
-    <nav class="flex items-center justify-between space">
+    <nav class="flex items-center justify-between space" id="navigation">
         {{ $logo := resources.GetMatch "image/logo.svg" }}
-        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{$logo.Permalink}}" alt="freiheit logo" /></a>
-        <input type="checkbox" class="hidden checkbox" id="open-menu">
-            <div class="md:hidden hidden checkbox-content">
-                <ul class="block lg:hidden absolute top-20 right-0 text-right px-10 py-5 filter drop-shadow-lg
+        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{$logo.Permalink}}" alt="freiheit logo" id="open-menu-image" /></a>
+        <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
+            <div class="md:hidden checkbox-content transition duration-200 ease-in-out">
+                <ul class="filter brightness-105 block lg:hidden absolute top-10 right-10 text-right px-10 py-5 filter drop-shadow-lg
                 {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
     {{ .Params.headerTextClass | default "text-black" }}">
                     {{ $currentPage := . }}
@@ -27,7 +27,7 @@
                 </ul>
             </div>
         </input>
-        <label for="open-menu" class="lg:hidden">
+        <label for="open-menu-checkbox" class="lg:hidden">
             <span type="button"
                 class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center text-black transform hover:scale-125 focus:outline-none"
                 aria-expanded="false">
@@ -67,7 +67,7 @@
         {{ end }}
         </ul>
     </nav>
-    <div class="py-40 md:pr-80">
+    <div class="py-40 md:pr-80" id="page-content">
         {{ if .Params.headerHeadline }}
         <h1>
             {{ .Params.headerHeadline }}
