@@ -1,36 +1,72 @@
-<header class="p-12
- {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
- {{ .Params.headerTextClass | default "text-black" }}">
-    {{ $logo := resources.GetMatch "image/logo.svg" }}
-    <a href="{{site.BaseURL}}"><img class="h-8 inline" src="{{$logo.Permalink}}" alt="freiheit logo" /></a>
-    {{ if or (.Params.headerHeadline) (.Params.headerSubline) }}
-        <ul>
+<header class="p-12 relative
+    {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
+    {{ .Params.headerTextClass | default "text-black" }}">
+    <nav class="flex items-center justify-between space">
+        {{ $logo := resources.GetMatch "image/logo.svg" }}
+        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{$logo.Permalink}}" alt="freiheit logo" /></a>
+        <input type="checkbox" class="hidden checkbox" id="open-menu">
+            <div class="md:hidden hidden checkbox-content">
+                <ul class="block lg:hidden absolute top-20 right-0 text-right px-10 py-5 filter drop-shadow-lg
+                {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
+    {{ .Params.headerTextClass | default "text-black" }}">
+                    {{ $currentPage := . }}
+                    <li class="p-5">
+                        <a href="/" class="">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    {{ range .Site.Menus.main }}
+                    <li class="p-5">
+                        <a href="{{ .URL | absLangURL }}" class="{{if or ($currentPage.IsMenuCurrent "main" .)
+                            ($currentPage.HasMenuCurrent "main" .) }}underline{{end}}">
+                            {{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </input>
+        <label for="open-menu" class="lg:hidden">
+            <span type="button"
+                class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center text-black transform hover:scale-125 focus:outline-none"
+                aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </span>
+        </label>
+        <ul class="hidden lg:flex flex-wrap items-centertext-navigation font-light w-100">
+        {{ if or (.Params.headerHeadline) (.Params.headerSubline) }}
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-            <li class="{{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
-                <a href="#">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            <ul class="sub-menu">
-                {{ range .Children }}
-                <li class="{{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}">
-                    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-            {{ else }}
-            <li>
-                <a href="{{ .URL | absLangURL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
+                {{ if .HasChildren }}
+                    <li class="pr-6 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}underline{{end}}">
+                        <a href="#">
+                            {{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
+                    <ul class="sub-menu">
+                        {{ range .Children }}
+                        <li class="pr-6 {{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}">
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                {{ else }}
+                    <li class="pr-6">
+                        <a href="{{ .URL | absLangURL }}" class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}underline{{end}}">
+                            {{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
             {{ end }}
-            {{ end }}
+        {{ end }}
         </ul>
+    </nav>
     <div class="py-40 md:pr-80">
         {{ if .Params.headerHeadline }}
         <h1>
