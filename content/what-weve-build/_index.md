@@ -10,4 +10,4 @@ menu:
     weight: 2
 ---
 
-# What we've build
+##### In the last 20+ years, we have built software for any type of business model you can imagine ...

@@ -10,4 +10,4 @@ menu:
     weight: 3
 ---
 
-# Join the team
+##### Join the team
