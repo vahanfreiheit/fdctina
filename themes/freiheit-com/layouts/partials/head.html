@@ -22,7 +22,7 @@
         <script type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
     {{ else }}
         {{ $stylesMin := $style | resources.Minify | resources.PostProcess }}
-        <link rel="stylesheet" href="{{ $stylesMin.Permalink }}" integrity="{{ $stylesMin.Data.Integrity }}"/>
+        <link rel="stylesheet" href="{{ $stylesMin.Permalink }}" />
         {{ $mainJsMin := $mainJs | resources.Minify }}
         <script type="text/javascript" src="{{ $mainJsMin.Permalink }}" defer></script>
     {{ end }}
