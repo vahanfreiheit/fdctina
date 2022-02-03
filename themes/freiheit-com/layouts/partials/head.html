@@ -1,4 +1,8 @@
-{{ $style := resources.Get "sass/main.scss" | toCSS | postCSS }}
+{{ $sass := resources.Get "sass/main.scss" }}
+{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $style := $sass | resources.ToCSS $options | resources.PostCSS | resources.Fingerprint }}
+
+{{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | resources.Fingerprint }}
 
 <head>
     <meta charset="utf-8">
@@ -15,12 +19,11 @@
     {{- end }}
     {{ if .Site.IsServer }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
-        {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" }}
         <script type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
     {{ else }}
-        {{ $styles := $style | minify | fingerprint | resources.PostProcess }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}"/>
-        {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
-        <script type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
+        {{ $stylesMin := $style | resources.Minify | resources.PostProcess }}
+        <link rel="stylesheet" href="{{ $stylesMin.Permalink }}" integrity="{{ $style.Data.Integrity }}"/>
+        {{ $mainJsMin := $mainJs | resources.Minify }}
+        <script type="text/javascript" src="{{ $mainJsMin.Permalink }}" defer></script>
     {{ end }}
 </head>

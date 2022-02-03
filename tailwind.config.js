@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: false, // todo: only in production with "NODE_ENV" set to "production"
+    enabled: true, // todo: only in production with "NODE_ENV" set to "production"
     content: [
       "./themes/freiheit-com/layouts/**/*.html",
       "./layouts/**/*.html",
