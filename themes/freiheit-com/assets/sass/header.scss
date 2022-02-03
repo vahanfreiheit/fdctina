@@ -1,0 +1,25 @@
+@mixin bg($file) {
+  background-size: cover;
+  background-position: bottom right;
+  background-image: url('#{$file}');
+  background-repeat: no-repeat;
+}
+
+header {
+  &.background-02-yellow {
+    @include bg('../img/patterns/freiheit_Pattern_02_Yellow_Transparent_Low_Res.png');
+  }
+  &.background-05-yellow {
+    @include bg('../img/patterns/freiheit_Pattern_05_Yellow_Transparent_Low_Res.png');
+  }
+  &.background-08-sage {
+    @include bg('../img/patterns/freiheit_Pattern_08_Sage_Transparent_Low_Res.png');
+  }
+  &.background-06-light-grey {
+    background-position: top right !important;
+    @include bg('../img/patterns/freiheit_Pattern_06_Light_Grey_Transparent_Low_Res.png');
+  }
+  &.background-05-pink {
+    @include bg('../img/patterns/freiheit_Pattern_05_Pink_Transparent_Low_Res.png');
+  }
+}
