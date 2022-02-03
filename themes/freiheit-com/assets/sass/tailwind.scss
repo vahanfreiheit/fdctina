@@ -1,0 +1,78 @@
+@layer base {
+  @font-face {
+    font-family: 'Neue-Machina';
+    src: url('../fonts/NeueMachina-Bold.eot');
+    src: local('Neue Machina Bold'), local('NeueMachina-Bold'),
+    url('../fonts/NeueMachina-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeueMachina-Bold.woff2') format('woff2'),
+    url('../fonts/NeueMachina-Bold.woff') format('woff'),
+    url('../fonts/NeueMachina-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'NB-International-Pro';
+    src: url('../fonts/NB-International-Pro-Regular.eot');
+    src: url('../fonts/NB-International-Pro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NB-International-Pro-Regular.woff') format('woff'),
+    url('../fonts/NB-International-Pro-Regular.ttf')  format('truetype'),
+    url('../fonts/NB-International-Pro-Regular.svg') format('svg');
+    font-style:   normal;
+    font-weight:  400;
+  }
+  @font-face {
+    font-family: 'NB-International-Pro';
+    src: url('../fonts/NB-International-Pro-Light.eot');
+    src: url('../fonts/NB-International-Pro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NB-International-Pro-Light.woff') format('woff'),
+    url('../fonts/NB-International-Pro-Light.ttf')  format('truetype'),
+    url('../fonts/NB-International-Pro-Light.svg') format('svg');
+    font-style:   normal;
+    font-weight:  300;
+  }
+  p {
+    @apply text-body-md;
+    @screen lg {
+      @apply text-body-lg;
+    }
+    @screen xl {
+      @apply text-body-xl;
+    }
+    @screen xxl {
+      @apply text-body-xxl;
+    }
+  }
+  h1 {
+    @apply text-head-xl;
+    @screen lg {
+      @apply text-head-xxl;
+    };
+  }
+  h2 {
+    @apply text-head-lg;
+    @screen lg {
+      @apply text-head-xl;
+    }
+  }
+  h3 {
+    @apply text-head-md;
+    @screen lg {
+      @apply text-head-lg;
+    }
+  }
+  h4 {
+    @apply text-head-sm;
+    @screen lg {
+      @apply text-head-md;
+    }
+  }
+  h5 {
+    @apply text-head-xs;
+    @screen lg {
+      @apply text-head-sm;
+    }
+  }
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Neue-Machina';
+}

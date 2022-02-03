@@ -1,4 +1,4 @@
-<header class="p-12 relative
+<header class="p-5 md:p-12 relative w-screen
     {{ .Params.headerBackgroundClass | default "bg-pale-green" }} 
     {{ .Params.headerTextClass | default "text-black" }}">
     <nav class="flex items-center justify-between space" id="navigation">
@@ -67,17 +67,19 @@
         {{ end }}
         </ul>
     </nav>
-    <div class="py-40 md:pr-80" id="page-content">
-        {{ if .Params.headerHeadline }}
-        <h1>
-            {{ .Params.headerHeadline }}
-        </h1>
-        {{ end }}
-        {{ if .Params.headerSubline }}
-        <p>
-            {{ .Params.headerSubline }}
-        </p>
-        {{ end }}
+    <div class="pt-20 pb-40 flex flex-col items-center" id="page-content">
+        <div class="p-5 md:p-12 max-w-screen-lg">
+            {{ if .Params.headerHeadline }}
+            <h1>
+                {{ .Params.headerHeadline }}
+            </h1>
+            {{ end }}
+            {{ if .Params.headerSubline }}
+            <p>
+                {{ .Params.headerSubline }}
+            </p>
+            {{ end }}
+        </div>
     </div>  
     {{ end }}
 </header>

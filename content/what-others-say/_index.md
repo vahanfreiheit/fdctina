@@ -10,4 +10,4 @@ menu:
     weight: 4
 ---
 
-# What others say
+# This is only for "What Others Say"
