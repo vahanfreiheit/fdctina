@@ -4,6 +4,7 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: What others say.
 headerBackgroundClass: bg-alabaster
+headerBackgroundImageClass: background-05-pink
 menu:
   main:
     name: What others say
