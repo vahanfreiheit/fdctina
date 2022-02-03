@@ -2,7 +2,7 @@
 {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
 {{ $style := $sass | resources.ToCSS $options | resources.PostCSS | resources.Fingerprint }}
 
-{{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | resources.Fingerprint }}
+{{ $mainJs := resources.Get "js/main.js" | js.Build "js/main.js" | resources.Fingerprint }}
 
 <head>
     <meta charset="utf-8">

@@ -7,7 +7,7 @@ module.exports = {
       "./content/**/*.md",
       "./content/**/*.html"],
   },
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     corePlugins: {
       lineHeight: false,
