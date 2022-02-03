@@ -38,6 +38,12 @@
   p {
     @apply text-body-md;
     @screen lg {
+      @apply text-body-lg;
+    }
+    @screen xl {
+      @apply text-body-xl;
+    }
+    @screen xxl {
       @apply text-body-xxl;
     }
   }

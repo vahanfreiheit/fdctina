@@ -1,23 +1,10 @@
 {{ define "main" }}
 <main class="p-4">
-    <h1>
-        {{ i18n "homepage" }}
-    </h1>
     <section>
         {{ .Content }}
     </section>
     <section>
-        <h3>This is the menu:</h2>
-        {{ range .Pages }}
-        <article class="">
-            <p class="">
-                <a href="{{.Permalink}}">{{.Title}}</a>
-            </h3>
-        </article>
-        {{ end }}
-    </section>
-    <section>
-        <h1>Demo of translated pages:</h1>
+        <h2>Demo of translated pages:</h2>
         {{ partial "i18nlist" . }}
     </section>
 </main>

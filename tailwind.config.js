@@ -40,22 +40,22 @@ module.exports = {
       'body-md': ['16px', {
         lineHeight: '20.8px',
         fontFamily: 'NB International Pro',
-        fontWeight: 400,
+        fontWeight: 300,
       }],
       'body-lg': ['20px', {
         lineHeight: '26px',
         fontFamily: 'NB International Pro',
-        fontWeight: 400,
+        fontWeight: 300,
       }],
       'body-xl': ['28px', {
         lineHeight: '36.4px',
         fontFamily: 'NB International Pro',
-        fontWeight: 400,
+        fontWeight: 300,
       }],
       'body-xxl': ['36px', {
         lineHeight: '46.8px',
         fontFamily: 'NB International Pro',
-        fontWeight: 400,
+        fontWeight: 300,
       }],
       'head-xs': ['16px', {
         lineHeight: '17.6px',
