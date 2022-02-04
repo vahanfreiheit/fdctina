@@ -5,21 +5,21 @@
   background-repeat: no-repeat;
 }
 
-header {
-  &.background-02-yellow {
-    @include bg('../img/patterns/freiheit_Pattern_02_Yellow_Transparent_Low_Res.png');
+.header {
+  &__background__who-we-are {
+    @include bg('../img/patterns/header_background_who-we-are.png');
   }
-  &.background-05-yellow {
-    @include bg('../img/patterns/freiheit_Pattern_05_Yellow_Transparent_Low_Res.png');
+  &__background__what-we-build {
+    @include bg('../img/patterns/header_background_what-we-build.png');
   }
-  &.background-08-sage {
-    @include bg('../img/patterns/freiheit_Pattern_08_Sage_Transparent_Low_Res.png');
+  &__background__get-in-touch {
+    @include bg('../img/patterns/header_background_get-in-touch.png');
   }
-  &.background-06-light-grey {
+  &__background__join-the-team {
     background-position: top right !important;
-    @include bg('../img/patterns/freiheit_Pattern_06_Light_Grey_Transparent_Low_Res.png');
+    @include bg('../img/patterns/header_background_join-the-team.png');
   }
-  &.background-05-pink {
-    @include bg('../img/patterns/freiheit_Pattern_05_Pink_Transparent_Low_Res.png');
+  &__background__what-others-say {
+    @include bg('../img/patterns/header_background_what-others-say.png');
   }
 }
