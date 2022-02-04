@@ -31,10 +31,7 @@
     font-weight:  300;
   }
   p {
-    @apply text-body-md;
-    @screen lg {
-      @apply text-body-lg;
-    }
+    @apply text-body-lg;
     @screen xl {
       @apply text-body-xl;
     }
@@ -75,4 +72,12 @@
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Neue-Machina';
+  margin-top: 3em;
+  margin-bottom: 1em;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+p {
+  margin-bottom: 1em;
 }
