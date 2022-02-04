@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " }}"
-date: {{ .Date }}
+date: {{ dateFormat "2006-01-02" .Date }}
 draft: true
+weight: 1
 ---
 
