@@ -1,7 +1,7 @@
 ---
 title: "We Are a Product Development Organization"
 date: 2022-02-04
-draft: true
+draft: false
 weight: 8
 backgroundClass: bg-black text-white
 ---

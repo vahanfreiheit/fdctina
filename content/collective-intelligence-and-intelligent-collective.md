@@ -1,7 +1,7 @@
 ---
 title: "Collective Intelligence and Intelligent Collective"
 date: 2022-02-04
-draft: true
+draft: false
 weight: 7
 backgroundClass: bg-black text-white
 ---

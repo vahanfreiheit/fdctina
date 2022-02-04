@@ -1,7 +1,7 @@
 ---
 title: "We Are a Global Team"
 date: 2022-02-04
-draft: true
+draft: false
 weight: 9
 backgroundClass: bg-black text-white
 ---

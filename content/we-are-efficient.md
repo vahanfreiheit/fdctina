@@ -1,7 +1,7 @@
 ---
 title: "We are Efficient, Productive and Successful"
 date: 2022-02-04
-draft: true
+draft: false
 weight: 4
 ---
 ## We are Efficient, Productive and Successful
