@@ -1,8 +1,8 @@
 ---
-title: "What we've build"
+title: "Things we've build"
 date: 2021-04-24T15:55:09+02:00
 draft: false
-headerHeadline: What we've build.
+headerHeadline: Things we've build.
 headerBackgroundClass: bg-yellow
 headerBackgroundImageClass: what-we-build
 menu:
