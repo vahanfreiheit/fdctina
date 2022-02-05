@@ -3,18 +3,16 @@
         <div class="p-12 max-w-screen-xl">
         {{ .Content }}
         {{ with .Pages }}
-            <div class="grid grid-cols-2 gap-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
             {{ range . }}
                 <article class="{{.Params.BackgroundColorClass}}">
-                    <a href="{{.Permalink}}">
-                        <img src="/img/what-weve-build/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
-                        <div class="p-5">
+                    <img src="/img/what-weve-build/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
+                    <div class="p-5">
                         <h5 class="mt-0">{{.Title}}</h5>
                         <p class="text-body-md">
                             {{.Content | plainify }}
                         </p>
-                        </div>
-                    </a>
+                    </div>
                 </article>
             {{ end }}
             </div>
