@@ -3,7 +3,7 @@
     {{ with .Pages }}
         {{ range . }}
             <section class="w-full flex flex-col items-center {{ .Params.backgroundClass }}">
-                <div class="p-12 max-w-screen-xl">
+                <div class="w-full p-12 max-w-screen-xl">
                     {{ .Content }}
                 </div>
             </section>
@@ -12,11 +12,9 @@
 
     {{ with .Content }}
     <section class="w-full flex flex-col items-center">
-        <div class="p-12 max-w-screen-xl">
-            <div class="p-12 max-w-screen-xl">
-                {{ . }}
-                <div id="jobs"></div>
-            </div>
+        <div class="w-full p-12 max-w-screen-xl">
+            {{ . }}
+            <div id="jobs"></div>
         </div>
     </section>
     {{ end }}
