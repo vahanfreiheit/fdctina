@@ -1,12 +1,14 @@
 {{ define "main" }}
     {{ with .Content }}
         <section class="w-full flex flex-col items-center">
+            <div class="w-full p-12 max-w-screen-xl">
             {{ . }}
+            </div>
         </section>
     {{ end }}
     {{ range where .Data.Pages "Type" "page" }}
         <section class="w-full flex flex-col items-center {{ .Params.backgroundClass }}">
-            <div class="p-12 max-w-screen-xl">
+            <div class="w-full p-12 max-w-screen-xl">
                 {{ .Content }}
             </div>
         </section>
