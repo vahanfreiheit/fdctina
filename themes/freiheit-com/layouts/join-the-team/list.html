@@ -1,6 +1,58 @@
 {{ define "main" }}
-<section>
-    {{ .Content }}
-</section>
+
+    {{ with .Pages }}
+        {{ range . }}
+            <section class="w-full flex flex-col items-center {{ .Params.backgroundClass }}">
+                <div class="p-12 max-w-screen-xl">
+                    {{ .Content }}
+                </div>
+            </section>
+        {{ end }}
+    {{ end }}
+
+    {{ with .Content }}
+    <section class="w-full flex flex-col items-center">
+        <div class="p-12 max-w-screen-xl">
+            <div class="p-12 max-w-screen-xl">
+                {{ . }}
+                <div id="jobs"></div>
+            </div>
+        </div>
+    </section>
+    {{ end }}
 
 {{ end }}
+
+{{ define "page_script" }}
+<script>
+    let target = document.getElementById('jobs');
+    if (Date.now() < localStorage.getItem("jobsDate") + (1000 * 60 * 60 * 24)) {
+        target.innerHTML = localStorage.getItem("jobsHtml");
+    } else {
+        let jobTemplate = '<div class="bg-white m-5 p-5"><h3 class="job-title"><a href="#Url" target="_blank">#Title</a></h3>' +
+        '<div class="job-location">#Location</div>' +
+        '<div class="job-team">#Team</div>' +
+        '<div class="job-commitment">#Commitment</div>' +
+        '<div class="job-url">' +
+        '<a href="#Url" target="_blank">{{ i18n "applyNow" . }}</a>' +
+        '</div>' +
+        '</div>';
+    fetch("https://api.lever.co/v0/postings/freiheit-2?mode=json")
+        .then(function(response) {
+            return response.json();
+        }).then(function(jobs) {
+            jobs.forEach(function(job) {
+                let jobHtml = jobTemplate.replace("#Title", job.text);
+                jobHtml = jobHtml.replace("#Team", job.categories.team);
+                jobHtml = jobHtml.replace("#Commitment", job.categories.commitment);
+                jobHtml = jobHtml.replace("#Location", job.categories.location);
+                jobHtml = jobHtml.replace("#Url", job.applyUrl);
+                target.innerHTML += jobHtml;
+            });
+            localStorage.setItem("jobsDate", Date.now().toString());
+            localStorage.setItem("jobsHtml", target.innerHTML);
+        });
+    }
+</script>
+{{ end }}
+
