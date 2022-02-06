@@ -11,4 +11,4 @@ menu:
     weight: 3
 ---
 
-##### Join the team
+## Interested in working with us?
