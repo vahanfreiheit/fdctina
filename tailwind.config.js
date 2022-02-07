@@ -23,14 +23,15 @@ module.exports = {
         letterSpacing: '0.05em',
         fontFamily: 'NB-International-Pro',
       }],
-      'body-xs': ['12px', {
-        lineHeight: '15.6px',
-        fontFamily: 'NB-International-Pro',
-      }],
       'navigation': ['16px', {
         lineHeight: '20.8px',
         fontFamily: 'NB-International-Pro',
         fontWeight: 300,
+      }],
+      // body text
+      'body-xs': ['12px', {
+        lineHeight: '15.6px',
+        fontFamily: 'NB-International-Pro',
       }],
       'body-sm': ['12px', {
         lineHeight: '15.6px',
@@ -57,6 +58,7 @@ module.exports = {
         fontFamily: 'NB-International-Pro',
         fontWeight: 300,
       }],
+      // heading text
       'head-xs': ['16px', {
         lineHeight: '17.6px',
         fontWeight: 700,
@@ -90,7 +92,7 @@ module.exports = {
     },
     screens: {
       'xs': '0',
-      'sm': '576px',
+      'sm': '360px', // 576
       'md': '768px',
       'lg': '992px',
       'xl': '1200px',
