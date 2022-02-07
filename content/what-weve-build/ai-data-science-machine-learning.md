@@ -8,4 +8,4 @@ tags: [case study]
 weight: 6
 ---
 
-For Volkswagen we have built a new core app (and its cloud back ends), which is the main app for all new owners of the recently launched electric cars. We love using Flutter and Dart!
+In our view, AI is the application of machine learning to solve a problem that previously only humans were capable of solving. We have built several decision support systems that use machine learning. One example is an AI system that employs many machine learning models together to make medical experts 10x more productive.
