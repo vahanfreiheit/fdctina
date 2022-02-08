@@ -2,14 +2,14 @@
 
 <section class="fdc-content-layout bg-black text-light-grey">
     <div class="fdc-content-layout-section">
-        <div class="grid md:grid-cols-4 gap-12 text-body-md fdc-format-links">
-            <div class="md:col-span-4">
+        <div class="grid md:grid-flow-row md:auto-rows-min gap-12 text-body-md fdc-format-links">
+            <div class="md:col-span-4 text-body-sm">
                 {{ .Content }}
             </div>
             <div class="md:col-start-1 md:col-end-3">
                 {{ with .Site.GetPage "/get-in-touch/contact-followus" }} {{ .Content }} {{ end }}
             </div>
-            <div class="md:col-start-3 md-col-end-4">
+            <div class="md:col-start-4 md-col-end-5">
                 {{ with .Site.GetPage "/get-in-touch/contact-hamburg" }} {{ .Content }} {{ end }}
             </div>
             <div class="md:col-start-5 md-col-end-6">
