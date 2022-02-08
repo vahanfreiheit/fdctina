@@ -4,9 +4,13 @@ date: 2021-04-24
 draft: false
 headerHeadline: Imprint.
 headerBackgroundClass: bg-black
-headerBackgroundImageClass: get-in-touch
+# headerBackgroundImageClass: get-in-touch
 headerTextClass: text-white
+hideFooter: true
+hideHeaderTitle: true
 ---
+
+# Imprint { .text-yellow .mb-20 }
 
 freiheit.com technologies gmbh
 Budapester Str. 45
