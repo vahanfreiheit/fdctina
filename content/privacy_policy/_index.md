@@ -4,9 +4,13 @@ date: 2021-04-24
 draft: false
 headerHeadline: Privacy Policy.
 headerBackgroundClass: bg-black
-headerBackgroundImageClass: get-in-touch
+# headerBackgroundImageClass: get-in-touch
 headerTextClass: text-white
+hideFooter: true
+hideHeaderTitle: true
 ---
+
+# Privacy Policy { .text-yellow .mb-20 }
 
 The protection of your personal data ("Data") is of particular importance to us.
 Therefore, we would like to inform you comprehensively about which data we collect from you and for what purpose.
