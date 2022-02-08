@@ -50,8 +50,8 @@
                 </svg>
             </span>
         </label>
-        <ul class="hidden lg:flex flex-wrap items-centertext-navigation font-light w-100">
         {{ if or (.Params.headerHeadline) (.Params.headerSubline) }}
+        <ul class="hidden lg:flex flex-wrap items-centertext-navigation font-light w-100">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
                 {{ if .HasChildren }}
@@ -75,10 +75,14 @@
                             <span>{{ .Name }}</span>
                         </a>
                     </li>
+                {{ end }}
             {{ end }}
-        {{ end }}
         </ul>
+        {{ end }}
     </nav>
+
+    <!-- header title -->
+    {{ if not (.Params.hideHeaderTitle) }}
     <div class="pt-20 pb-40 flex flex-col items-center" id="page-content">
         <div class="w-full p-5 md:p-12 max-w-screen-xl">
             {{ if .Params.headerHeadline }}

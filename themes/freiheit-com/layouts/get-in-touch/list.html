@@ -1,5 +1,30 @@
 {{ define "main" }}
-<section class="w-full flex flex-col items-center">
+
+<section class="fdc-content-layout bg-black text-light-grey">
+    <div class="fdc-content-layout-section">
+        <div class="grid md:grid-cols-4 gap-12 text-body-md fdc-format-links">
+            <div class="md:col-span-4">
+                {{ .Content }}
+            </div>
+            <div class="md:col-start-1 md:col-end-3">
+                {{ with .Site.GetPage "/get-in-touch/contact-followus" }} {{ .Content }} {{ end }}
+            </div>
+            <div class="md:col-start-3 md-col-end-4">
+                {{ with .Site.GetPage "/get-in-touch/contact-hamburg" }} {{ .Content }} {{ end }}
+            </div>
+            <div class="md:col-start-5 md-col-end-6">
+                {{ with .Site.GetPage "/get-in-touch/contact-lisbon" }} {{ .Content }} {{ end }}
+            </div>
+        </div>
+        <div class="self-start pt-20 md:pt-32">
+            &copy; freiheit {{ now.Year }}
+            <a class="ml-10 no-underline" href="./imprint">Imprint</a>
+            <a class="ml-10 no-underline" href="./privacy_policy">Privacy policy</a>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="w-full flex flex-col items-center">
     <div class="w-full p-12 max-w-screen-xl">
     {{ .Content }}
 
@@ -9,5 +34,6 @@
         {{ end }}
     {{ end }}
     </div>
-</section>
+</section> -->
+
 {{ end }}

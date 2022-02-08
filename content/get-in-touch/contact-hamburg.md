@@ -1,11 +1,13 @@
 ---
-title: "Follow us"
+title: "Hamburg"
 date: 2022-02-02
 draft: false
-weight: 1
+weight: 2
 ---
 
-### Follow us
+### Hamburg { .text-yellow }
 
-[Youtube](https://www.youtube.com/channel/UCouXbAqEDBOuiSYUWxSIoNw)
-[LinkedIn](https://www.linkedin.com/company/freiheit-com-technologies-gmbh/)    
+<!-- [hamburg@freiheit.com](mailto:hamburg@freiheit.com) -->
+Budapester Str. 45
+20359 Hamburg
+Germany
