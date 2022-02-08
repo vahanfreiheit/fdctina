@@ -6,6 +6,7 @@ headerHeadline: Get in touch.
 headerBackgroundClass: bg-black
 headerBackgroundImageClass: get-in-touch
 headerTextClass: text-white
+hideFooter: true
 menu:
   main:
     name: Get in touch

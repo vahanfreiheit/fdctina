@@ -1,3 +1,4 @@
+{{ if not .Page.Params.hideFooter }}
 <footer class="w-full flex flex-col items-center
     {{ if .IsHome }} bg-green text-black{{ else }} bg-black text-light-grey{{ end }}">
     <div class="max-w-screen-xl text-lg w-full p-12">
@@ -25,3 +26,4 @@
         </div>
     </div>
 </footer>
+{{ end }}
