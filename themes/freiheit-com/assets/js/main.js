@@ -1,5 +1,6 @@
+const checkbox = document.getElementById('open-menu-checkbox')
+
 document.body.addEventListener("click", function (evt) {
-    const checkbox = document.getElementById('open-menu-checkbox')
     let clickedInNavigation = false;
     evt.path.forEach(item => {
         if (item.id) {
@@ -11,4 +12,9 @@ document.body.addEventListener("click", function (evt) {
     if (!clickedInNavigation) {
         checkbox.checked = false;
     }
+});
+
+document.getElementById('navigation_close').addEventListener("click", function (e) {
+    e.preventDefault()
+    checkbox.checked = false;
 });

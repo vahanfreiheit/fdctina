@@ -1,3 +1,9 @@
-{{- partial "header.html" . }}
-<div>404</div>
-{{- partial "footer.html" . }}
+{{ define "main"}}
+<main id="main">
+    <section class="w-full flex flex-col items-center">
+        <div class="w-full p-12 max-w-screen-xl">
+            <h1>404 - Page not found</h1>
+        </div>
+    </section>
+</main>
+{{ end }}
