@@ -4,8 +4,3 @@ theme: freiheit-com
 languageCode: en-us
 defaultContentLanguage: en
 relativeURLs: true
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-      hardWraps: true
