@@ -1,52 +1,27 @@
 <footer class="w-full flex flex-col items-center
     {{ if .IsHome }} bg-green text-black{{ else }} bg-black text-light-grey{{ end }}">
     <div class="max-w-screen-xl text-lg w-full p-12">
-
         <div class="grid md:grid-cols-2 md:gap-x-36">
             <div class="pb-8 sm:w-1/2 md:w-full">
-                <h3>Want to talk? <br>Get in touch.</h3>
+                <h3>{{ i18n "wantToTalk" . }}?<br>{{ i18n "getInTouch" . }}.</h3>
             </div>
             <div class="md:row-span-2 md:w-3/4">
                 <div class="mb-20">
-                    <h4>Let's chat</h4>
-                    <div class="text-md mb-4 md:w-full">We're always happy to chat - just send us an email.</div>
-                    <a class="btn-link text-light-grey border-light-grey hover:text-white hover:border-white" href="">
-                        <span>Get in touch</span>
+                    <h5>{{ i18n "letsChat" . }}</h5>
+                    <div class="text-md mb-4 md:w-full">
+                        {{ i18n "wereAlwaysHappyToChat" . }} -
+                        {{ i18n "justSendUsAnEmail" . }}.
+                    </div>
+                    <a class="btn-link" href="mailto:kontakt@freiheit.com" target="_blank" rel="nofollow">
+                        <span>{{ i18n "getInTouchButton" . }}</span>
                     </a>
-                </div>
-                <div>
-                    <h4>Live events</h4>
-                    <div class="mb-4 md:w-full">Sign up to be first to hear about our live events</div>
-                    <!-- <input type="email" name="" id="" pattern="Enter email"> -->
-                    <form class="w-full max-w-sm">
-                        <div class="flex items-center border-b border-teal-500 py-2">
-                            <input style="background: transparent" class="placeholder-opacity-50 bg-transparent appearance-none border-none w-full mr-3 py-2 leading-tight focus:outline-none {{ if .IsHome }} text-black placeholder-black {{ else }}text-light-grey placeholder-light-grey{{ end }}" type="email" placeholder="Enter email" aria-label="Full name">
-                            <button class="flex-shrink-0 border-0 hover:text-white text-sm py-1 px-2 {{ if .IsHome }} text-black{{ else }} text-light-grey{{ end }}" type="button">
-                           &nbsp;→&nbsp;
-                            </button>
-                        </div>
-                    </form>
                 </div>
             </div>
             <div class="self-end pt-16">
-                <span>&copy; freiheit {{ now.Year }}</span>
-                <span class="pl-2"><a href="{{ "/imprint" | absLangURL }}">Imprint</a></span>
-                <span class="pl-2"><a href="{{ "/privacy" | absLangURL}}">Privacy policy</a></span>
+                &copy; freiheit {{ now.Year }}
+                <a class="ml-10 no-underline" href="{{ "imprint" | relLangURL }}">Imprint</a>
+                <a class="ml-10 no-underline" href="{{ "privacy_policy" | relLangURL}}">Privacy policy</a>
             </div>
         </div>
-
-        <!-- <div class="max-w-screen-xl w-3/6">
-            <h4 class="">Get in touch with our team</h4>
-            <div class="pb-4"> We always love to hear from interesting people and about exciting projects. Whether you're looking to join our team, or tackle a digital project with us, one email is all it takes to get the ball rolling.</div>
-            <div><a class="text-white" href="mailto:kontakt@freiheit.com">kontakt@freiheit.com →</a></div>
-        </div>
-        <div class="flex">
-            <div class="flex"></div>
-            <div></div>
-        </div>
-        <div class="flex justify-center text-white py-1">
-            <span>&copy; {{ now.Year }} {{ .Site.Title }}</span>
-        </div> -->
-
     </div>
 </footer>

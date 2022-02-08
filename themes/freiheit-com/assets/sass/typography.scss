@@ -30,14 +30,6 @@
     font-style:   normal;
     font-weight:  300;
   }
-  // custom reusable styles
-  .btn-link {
-    @apply inline-block leading-none rounded-full cursor-pointer border py-4 px-8;
-    ::after { content: " →"}
-    &:hover {
-      // background: rgba(0,0,0,0.1);
-    }
-  }
   p {
     @apply text-body-md;
     @screen md {
