@@ -83,12 +83,15 @@
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Neue-Machina';
-  margin-top: 3em;
-  margin-bottom: 1em;
+  @apply mt-12;
+  @apply mb-4;
   &:first-child {
-    margin-top: 0;
+    @apply mt-0;
   }
 }
 p {
-  margin-bottom: 1em;
+  @apply mb-4;
+}
+a {
+  @apply underline;
 }
