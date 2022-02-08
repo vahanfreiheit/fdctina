@@ -4,7 +4,6 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: Get in touch.
 headerBackgroundClass: bg-black
-# headerBackgroundImageClass: get-in-touch
 headerTextClass: text-white
 hideFooter: true
 hideHeaderTitle: true

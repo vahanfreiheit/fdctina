@@ -1,1 +1,1 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "mailto:" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+<a class="font-serif no-underline hover:text-red" href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if or (strings.HasPrefix .Destination "mailto:") (strings.HasPrefix .Destination "http") }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}&nbsp;→</a>

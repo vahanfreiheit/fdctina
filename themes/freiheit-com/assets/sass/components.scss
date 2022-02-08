@@ -3,32 +3,49 @@
 // content container
 .fdc-content-layout {
   @apply w-full flex flex-col flex-1 items-center;
-  &-section {
+  > section {
     @apply w-full p-12 max-w-screen-xl;
   }
 }
 
 .fdc-btn-link {
-  @apply inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline;
+  @apply inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline font-serif;
   ::after { content: " →"}
-  &:hover {
-    @apply bg-white bg-opacity-10;
-  }
 }
-
-.fdc-link {
-  @apply inline-block leading-none cursor-pointer no-underline;
-  ::after { content: " →"}
-  &:hover {
-    @apply bg-white bg-opacity-10;
+.fdc-btn-link {
+  &--red {
+    @extend .fdc-btn-link ;
+    &:hover {
+      @apply text-red border-red;
+    }
   }
-}
-
-.fdc-format {
-  &-links {
-    a {
-      @apply inline-flex leading-none cursor-pointer no-underline;
-      &::after { content: " →"}
+  &--yellow {
+    @extend .fdc-btn-link ;
+    &:hover {
+      @apply text-yellow border-yellow;
     }
   }
 }
+
+.fdc-text-sm {
+  p {
+    @apply text-body-lg;
+  }
+}
+
+// .fdc-link {
+//   @apply inline-block leading-none cursor-pointer no-underline;
+//   ::after { content: " →"}
+//   &:hover {
+//     @apply bg-white bg-opacity-10;
+//   }
+// }
+
+// .fdc-format {
+//   &-links {
+//     a {
+//       @apply inline-flex leading-none cursor-pointer no-underline;
+//       &::after { content: " →"}
+//     }
+//   }
+// }

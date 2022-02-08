@@ -4,7 +4,6 @@ date: 2021-04-24
 draft: false
 headerHeadline: Imprint.
 headerBackgroundClass: bg-black
-# headerBackgroundImageClass: get-in-touch
 headerTextClass: text-white
 hideFooter: true
 hideHeaderTitle: true
@@ -16,8 +15,9 @@ freiheit.com technologies gmbh
 Budapester Str. 45
 20359 Hamburg
 Germany
-kontakt@freiheit.com
-<a href="tel:0049408905840">T +49 40 890584 0</a>
+
+[kontakt@freiheit.com](mailto:kontakt@freiheit.com)
+T +49 40 890584 0
 F +49 40 890584 20
 
 Managing Directors:
