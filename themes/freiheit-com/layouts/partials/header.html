@@ -3,28 +3,40 @@
     {{ .Params.headerBackgroundClass | default "bg-pale-green" }}
     {{ .Params.headerTextClass | default "text-black" }}">
     <nav class="flex items-center justify-between space" id="navigation">
-        {{ $logo := resources.GetMatch "image/logo.svg" }}
+        {{ $logo_black := resources.GetMatch "image/logo.svg" }}
+        {{ $logo_white := resources.GetMatch "image/logo_white.svg" }}
+        {{ $logo := $logo_black }}
         {{ if (eq .Params.headerTextClass "text-white") }}
-            {{ $logo = resources.GetMatch "image/logo_white.svg" }}
+            {{ $logo = $logo_white }}
         {{ end }}
-        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{$logo.Permalink}}" alt="freiheit logo" id="open-menu-image" /></a>
+        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo.Permalink }}" alt="freiheit logo" /></a>
         <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
-            <div class="md:hidden checkbox-content transition duration-200 ease-in-out">
-                <ul class="filter brightness-105 block lg:hidden absolute top-10 right-10 text-right px-10 py-5 filter drop-shadow-lg
-                    {{ .Params.headerBackgroundClass | default "bg-pale-green" }}
-                    {{ .Params.headerTextClass | default "text-black" }}
-                ">
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
-                    <li class="p-5">
-                        <a href="{{ .URL | absLangURL }}" class="{{if or ($currentPage.IsMenuCurrent "main" .)
-                            ($currentPage.HasMenuCurrent "main" .) }}underline{{end}}">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                </ul>
+            <div class="lg:hidden checkbox-content transition duration-200 ease-in-out">
+                <div class="mobile-navigation__background flex flex-col lg:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-white" >
+                    <div class="flex items-center justify-between space">
+                        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" /></a>
+                        <span type="button" class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5,6 L19,17.9845516 M5,18 L19,6"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <ul class="mt-20 flex-1">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                        <li class="pb-5 md:pb-10">
+                            <a href="{{ .URL | absLangURL }}" class="{{if or ($currentPage.IsMenuCurrent "main" .)
+                                ($currentPage.HasMenuCurrent "main" .) }}underline{{else}}no-underline{{end}}">
+                                {{ .Pre }}
+                                <h3>{{ .Name }}</h3>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <div class="">
+                        {{- partial "footer-legal.html" . -}}
+                    </div>
+                </div>
             </div>
         </input>
         <label for="open-menu-checkbox" class="lg:hidden">

@@ -19,9 +19,7 @@
                 </div>
             </div>
             <div class="self-end pt-16">
-                &copy; freiheit {{ now.Year }}
-                <a class="ml-10 no-underline" href="./imprint">Imprint</a>
-                <a class="ml-10 no-underline" href="./privacy_policy">Privacy policy</a>
+                {{- partial "footer-legal.html" . -}}
             </div>
         </div>
     </div>
