@@ -26,7 +26,6 @@ module.exports = {
       'navigation': ['16px', {
         lineHeight: '20.8px',
         fontFamily: 'NB-International-Pro',
-        fontWeight: 300,
       }],
       // body text
       'body-xs': ['12px', {
@@ -36,57 +35,46 @@ module.exports = {
       'body-sm': ['12px', {
         lineHeight: '15.6px',
         fontFamily: 'NB-International-Pro',
-        fontWeight: 400,
       }],
       'body-md': ['16px', {
         lineHeight: '20.8px',
         fontFamily: 'NB-International-Pro',
-        fontWeight: 300,
       }],
       'body-lg': ['20px', {
         lineHeight: '26px',
         fontFamily: 'NB-International-Pro',
-        fontWeight: 300,
       }],
       'body-xl': ['28px', {
         lineHeight: '36.4px',
         fontFamily: 'NB-International-Pro',
-        fontWeight: 300,
       }],
       'body-xxl': ['36px', {
         lineHeight: '46.8px',
         fontFamily: 'NB-International-Pro',
-        fontWeight: 300,
       }],
       // heading text
       'head-xs': ['16px', {
         lineHeight: '17.6px',
-        fontWeight: 700,
         fontFamily: 'Neue-Machina',
       }],
       'head-sm': ['20px', {
         lineHeight: '22px',
-        fontWeight: 700,
         fontFamily: 'Neue-Machina',
       }],
       'head-md': ['28px', {
         lineHeight: '30.8px',
-        fontWeight: 700,
         fontFamily: 'Neue-Machina',
       }],
       'head-lg': ['36px', {
         lineHeight: '39.6px',
-        fontWeight: 700,
         fontFamily: 'Neue-Machina',
       }],
       'head-xl': ['64px', {
         lineHeight: '70.4px',
-        fontWeight: 700,
         fontFamily: 'Neue-Machina',
       }],
       'head-xxl': ['84px', {
         lineHeight: '92.4px',
-        fontWeight: 700,
         fontFamily: 'Neue-Machina',
       }],
     },

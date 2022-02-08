@@ -31,9 +31,9 @@
     font-weight:  300;
   }
   p {
-    @apply text-body-md;
+    @apply mb-4 text-body-md font-normal;
     @screen md {
-      @apply text-body-lg
+      @apply text-body-lg font-light
     }
     @screen xl {
       @apply text-body-xl;
@@ -74,15 +74,10 @@
   }
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Neue-Machina';
-  @apply mt-12;
-  @apply mb-4;
+  @apply font-serif font-bold mt-12 mb-4;
   &:first-child {
     @apply mt-0;
   }
-}
-p {
-  @apply mb-4;
 }
 a {
   @apply underline;
