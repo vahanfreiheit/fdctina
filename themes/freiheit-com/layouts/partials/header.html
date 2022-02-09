@@ -83,19 +83,21 @@
 
     <!-- header title -->
     {{ if not (.Params.hideHeaderTitle) }}
-    <div class="pt-20 pb-40 flex flex-col items-center" id="page-content">
-        <div class="w-full p-5 md:p-12 max-w-screen-xl">
-            {{ if .Params.headerHeadline }}
-            <h1>
-                {{ .Params.headerHeadline }}
-            </h1>
-            {{ end }}
-            {{ if .Params.headerSubline }}
-            <p>
-                {{ .Params.headerSubline }}
-            </p>
-            {{ end }}
-        </div>
+    <div class="fdc-content-layout" id="page-content">
+        <section>
+            <div class="py-5 md:py-24">
+                {{ if .Params.headerHeadline }}
+                <h1>
+                    {{ .Params.headerHeadline }}
+                </h1>
+                {{ end }}
+                {{ if .Params.headerSubline }}
+                <p>
+                    {{ .Params.headerSubline }}
+                </p>
+                {{ end }}
+            </div>
+        </section>
     </div>  
     {{ end }}
 </header>

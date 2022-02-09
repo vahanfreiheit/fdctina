@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-## We Are Software Engineers
+### We Are Software Engineers
 
 We see software development as an engineering discipline. We focus on simplicity, lean and iterative engineering - and fast delivery processes since our foundation and long before “agile” became a buzzword.
 
@@ -17,6 +17,9 @@ Becoming a well-rounded software engineer is a long journey that takes many year
 
 We are for engineers, by engineers.
 
-![](/img/who-we-are/we-are-software-engineers-1.jpg)
+
+{{< content-images >}}
+  {{< image src="/img/who-we-are/we-are-software-engineers-1.jpg" >}}
+{{< /content-images >}}
 
 Working at freiheit.com is an exciting adventure, with the goal to become a well-rounded software engineer who is able to plan, create and operate and lead large-scale systems in a team of software engineers.

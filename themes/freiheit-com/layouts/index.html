@@ -1,16 +1,16 @@
 {{ define "main" }}
     {{ with .Content }}
-        <section class="w-full flex flex-col items-center">
-            <div class="w-full p-12 max-w-screen-xl">
+        <div class="fdc-content-layout">
+            <section>
             {{ . }}
-            </div>
-        </section>
+            </section>
+        </div>
     {{ end }}
     {{ range where .Data.Pages "Type" "page" }}
-        <section class="w-full flex flex-col items-center {{ .Params.backgroundClass }}">
-            <div class="w-full p-12 max-w-screen-xl">
+        <div class="fdc-content-layout {{ .Params.backgroundClass }}">
+            <section>
                 {{ .Content }}
-            </div>
-        </section>
+            </section>
+        </div>
     {{ end }}
 {{ end }}
