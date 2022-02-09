@@ -5,7 +5,7 @@ draft: false
 weight: 6
 ---
 
-## We Ship Great Products
+### We Ship Great Products
 
 “Ship” means that we deliver. Fast and in daily increments. To achieve goals.
 
@@ -13,4 +13,6 @@ weight: 6
 
 Most large-scale systems are in production for over a decade and most of them even longer. Because they are important investments.
 
-![](/img/who-we-are/we-ship-great-products-1.jpg)
+{{< content-images >}}
+  {{< image src="/img/who-we-are/we-ship-great-products-1.jpg" >}}
+{{< /content-images >}}

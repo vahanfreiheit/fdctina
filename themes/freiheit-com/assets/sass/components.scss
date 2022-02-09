@@ -1,13 +1,5 @@
 // custom reusable styles
 
-// content container
-.fdc-content-layout {
-  @apply w-full flex flex-col flex-1 items-center;
-  > section {
-    @apply w-full p-12 max-w-screen-xl;
-  }
-}
-
 .fdc-btn-link {
   @apply inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline font-serif;
   ::after { content: " →"}
@@ -28,24 +20,42 @@
 }
 
 .fdc-text-sm {
+  @apply text-body-lg;
   p {
     @apply text-body-lg;
   }
 }
 
-// .fdc-link {
-//   @apply inline-block leading-none cursor-pointer no-underline;
-//   ::after { content: " →"}
-//   &:hover {
-//     @apply bg-white bg-opacity-10;
-//   }
-// }
 
-// .fdc-format {
-//   &-links {
-//     a {
-//       @apply inline-flex leading-none cursor-pointer no-underline;
-//       &::after { content: " →"}
-//     }
-//   }
-// }
+// content container
+
+// layout
+.fdc-content-layout {
+  @apply w-full flex flex-col flex-1 items-center;
+  > section {
+    @apply w-full px-12 py-6 max-w-screen-bp;
+  }
+}
+
+// content grid images
+.fdc-content-grid-images {
+  @apply grid md:grid-cols-2 gap-y-8 md:gap-16 py-16;
+  > .fdc-figure {
+    &:nth-child(3n+1) {
+      @apply md:mr-16;
+    }
+    &:nth-child(3n+2) {
+      grid-row: span 2;
+      @apply md:mt-32;
+    }
+    &:nth-child(3n+3) {
+      @apply md:justify-self-end md:mt-8 md:mr-4;
+    }
+  }
+  img {
+    @apply w-full md:w-auto;
+  }
+}
+
+// content images
+.fdc-content-images { }

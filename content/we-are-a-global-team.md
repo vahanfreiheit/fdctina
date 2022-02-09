@@ -6,7 +6,7 @@ weight: 9
 backgroundClass: bg-black text-white
 ---
 
-## We Are a Global Team
+### We Are a Global Team
 
 Our headquarter is in Hamburg, Germany. In 2018, we opened an engineering hub in Lisbon. Our next goal was to open global satellite offices and be able to work from anywhere in the world.
 
@@ -22,5 +22,7 @@ However, we see a great value in remote work too, and we will continue to open u
 
 We are pretty sure that the office of the future will look different than it did before COVID-19. It will probably look more like a club with teams doing intense creative work that needs personal interaction. Our vision for a post-COVID office is a place focused on human connection and belonging.
 
-![](/img/who-we-are/we-are-a-global-team-1.jpg)
-![](/img/who-we-are/we-are-a-global-team-2.jpg)
+{{< content-grid-images >}}
+  {{< image src="/img/who-we-are/we-are-a-global-team-1.jpg" class="md:justify-self-end" >}}
+  {{< image src="/img/who-we-are/we-are-a-global-team-2.jpg" class="justify-self-center" >}}
+{{< /content-grid-images>}}

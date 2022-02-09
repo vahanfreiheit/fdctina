@@ -1,0 +1,19 @@
+<figure {{ with .Get "class" }}class="fdc-figure {{.}}"{{else}}class="fdc-figure"{{ end }}>
+  {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
+      <img
+        src="{{ .Get "src" }}"
+        {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }}
+        {{ with .Get "class" }}class="fdc-image {{.}}"{{ end }} />
+  {{ if .Get "link" }}</a>{{ end }}
+  {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
+  <figcaption>{{ if isset .Params "title" }}
+      <div class="body-text-xs pt-2">{{ .Get "title" }}</div>{{ end }}
+      {{ if or (.Get "caption") (.Get "attr") }}<div class="text-body-sm pt-1">
+      {{ .Get "caption" }}
+      {{ with .Get "attrlink" }}<a href="{{ . }}"> {{ end }}
+          {{ .Get "attr" }}
+      {{ if .Get "attrlink" }}</a> {{ end }}
+      </div> {{ end }}
+  </figcaption>
+  {{ end }}
+</figure>
