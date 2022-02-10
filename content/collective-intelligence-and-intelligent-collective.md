@@ -3,7 +3,7 @@ title: "Collective Intelligence and Intelligent Collective"
 date: 2022-02-04
 draft: false
 weight: 7
-backgroundClass: bg-black text-white pt-24
+contentClass: fdc-page-home-content bg-black text-white pt-24
 ---
 
 ### Collective Intelligence and Intelligent Collective
