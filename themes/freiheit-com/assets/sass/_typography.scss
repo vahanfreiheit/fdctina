@@ -31,6 +31,7 @@
     font-weight:  300;
   }
   p {
+    transition: all 0.3s ease-in-out;
     @apply mb-4 text-body-md font-normal;
     @screen md {
       @apply text-body-lg font-light
@@ -43,7 +44,10 @@
     }
   }
   h1 {
-    @apply text-head-xl;
+    @apply text-head-lg;
+    @screen md {
+      @apply text-head-xl;
+    }
     @screen lg {
       @apply text-head-xxl;
     };
@@ -74,6 +78,7 @@
   }
 }
 h1,h2,h3,h4,h5,h6 {
+  transition: all 0.3s ease-in-out;
   @apply font-serif font-bold mt-12 mb-4;
   &:first-child {
     @apply mt-0;

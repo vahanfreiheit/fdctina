@@ -1,0 +1,27 @@
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none !important;
+}
+.CookieDeclaration {
+  .CookieDeclarationLastUpdated {
+    display: none !important;
+  }
+  .CookieDeclarationType {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #CookieDeclarationUserStatusLabel {
+    > div {
+      @apply mb-4 text-body-md font-bold;
+      @screen md {
+        @apply text-body-lg font-bold
+      }
+      @screen xl {
+        @apply text-body-xl;
+      }
+      @screen xxl {
+        @apply text-body-xxl;
+      }
+    }
+  }
+}

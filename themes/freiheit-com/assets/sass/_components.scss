@@ -20,9 +20,8 @@
 }
 
 .fdc-text-sm {
-  @apply text-body-lg;
   p {
-    @apply text-body-lg;
+    font-size: 0.8em;
   }
 }
 
@@ -33,7 +32,7 @@
 .fdc-content-layout {
   @apply w-full flex flex-col flex-1 items-center;
   > section {
-    @apply w-full px-12 py-6 max-w-screen-bp;
+    @apply w-full px-12 py-6 max-w-screen-3xl;
   }
 }
 
@@ -59,8 +58,3 @@
 
 // content images
 .fdc-content-images { }
-
-a#CybotCookiebotDialogPoweredbyCybot,
-div#CybotCookiebotDialogPoweredByText {
-  display: none !important;
-}

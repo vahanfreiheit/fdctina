@@ -148,6 +148,10 @@ Please refer to the instructions provided by your browser manufacturer for detai
 For some browsers there are also add-ons that make it easier for you to make these settings, e.g. for Mozilla Firefox the script blocker "NoScript" [noscript.net](http://noscript.net) or the ad blocker "Adblock Plus" [adblockplus.org](https://adblockplus.org/de) in combination with the "EasyPrivacy" list [easylist.to](https://easylist.to).
 
 
+## Cookie settings
+{{< cookie-declaration >}}
+
+
 ## Third party {#Drittlandtransfer}
 
 Data will only be transferred to third parties if you have given your explicit consent in advance or if we are contractually or legally entitled or obliged to do so, or if we are required to do so by court or official authorities.

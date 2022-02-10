@@ -2,8 +2,9 @@
 @import "node_modules/tailwindcss/base";
 @import "node_modules/tailwindcss/components";
 @import "node_modules/tailwindcss/utilities";
-@import "typography";
-@import "menu";
-@import "header";
-@import "components";
-@import "navigation";
+@import "_typography";
+@import "_menu";
+@import "_header";
+@import "_components";
+@import "_navigation";
+@import "_cookiebot";

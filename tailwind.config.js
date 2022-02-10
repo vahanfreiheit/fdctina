@@ -86,8 +86,8 @@ module.exports = {
       'lg': '992px',
       'xl': '1200px',
       'xxl': '1400px',
-      'bp': '1530px',
-      'xxxl': '1920px',
+      '3xl': '1530px',
+      '4xl': '1920px',
     },
     colors: {
       'black': '#292C35',
