@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-## Our Community
+### Our Community
 
 In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world, different cultures, colors, languages, genders and lifestyles. We celebrate diversity and openness.
 

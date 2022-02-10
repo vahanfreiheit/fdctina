@@ -11,7 +11,7 @@ menu:
     weight: 4
 ---
 
-## Meet Humans in Tech.
+### Meet Humans in Tech.
 
 Listen to our brand new podcast, hosted by freiheit founder Stefan and featuring the boldest voices in tech today.
 
