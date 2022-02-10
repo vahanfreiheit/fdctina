@@ -1,7 +1,7 @@
 .fdc-page-home-content {
   > section {
     > p, h1, h2, h3, h4, h5, h6 {
-      @apply md:pr-64;
+      @apply md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96;
     }
   }
 }
