@@ -149,8 +149,9 @@ For some browsers there are also add-ons that make it easier for you to make the
 
 
 ## Cookie settings
+<div id="CookieDeclarationContainer">
 {{< cookie-declaration >}}
-
+</div>
 
 ## Third party {#Drittlandtransfer}
 

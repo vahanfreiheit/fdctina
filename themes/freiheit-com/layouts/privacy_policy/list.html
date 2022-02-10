@@ -17,40 +17,35 @@
 
 {{ define "page_script" }}
 <script>
-    const observer = new MutationObserver(function(mutations_list) {
-        mutations_list.forEach(function(mutation) {
-            mutation.addedNodes.forEach(function(added_node) {
-                if(added_node.id === 'CookieDeclarationUserStatusPanel') {
+    const observer = new MutationObserver(function (mutations_list) {
+        if (mutations_list.length > 0) {
+            // add styles and arrows to buttons
+            const cookieDeclarationChangeConsent = document.querySelectorAll('#CookieDeclarationChangeConsent a');
+            for (let i = 0; i < cookieDeclarationChangeConsent.length; i++) {
+                cookieDeclarationChangeConsent[i].innerHTML = '<span>' + cookieDeclarationChangeConsent[i].innerHTML + '</span>';
+            }
 
-                    // add styles and arrows to buttons
-                    const cookieDeclarationChangeConsent = document.querySelectorAll('#CookieDeclarationChangeConsent a');
-                    for (let i = 0; i < cookieDeclarationChangeConsent.length; i++) {
-                        cookieDeclarationChangeConsent[i].innerHTML = '<span>' + cookieDeclarationChangeConsent[i].innerHTML + '</span>';
-                    }
-
-                    // create button to show cookie settings
-                    const openCookieSettingsButton = document.createElement('a');
-                    openCookieSettingsButton.innerHTML = '<span>Show cookie settings</span>';
-                    openCookieSettingsButton.className = 'fdc-btn-link--yellow';
-                    openCookieSettingsButton.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        // show all cookie settings tables
-                        const cookieDeclarationSections = document.getElementsByClassName('CookieDeclarationType');
-                        for (let i = 0; i < cookieDeclarationSections.length; i++) {
-                            cookieDeclarationSections[i].classList.add('visible');
-                        }
-                        openCookieSettingsButton.remove();
-                    });
-
-                    // attach button to content
-                    const target = document.getElementsByClassName("CookieDeclarationLastUpdated")[0];
-                    target.replaceWith(openCookieSettingsButton);
-
-                    observer.disconnect();
+            // create button to show cookie settings
+            const openCookieSettingsButton = document.createElement('a');
+            openCookieSettingsButton.innerHTML = '<span>Show cookie settings</span>';
+            openCookieSettingsButton.className = 'fdc-btn-link--yellow';
+            openCookieSettingsButton.addEventListener('click', function (e) {
+                e.preventDefault();
+                // show all cookie settings tables
+                const cookieDeclarationSections = document.getElementsByClassName('CookieDeclarationType');
+                for (let i = 0; i < cookieDeclarationSections.length; i++) {
+                    cookieDeclarationSections[i].classList.add('visible');
                 }
+                openCookieSettingsButton.remove();
             });
-        });
+
+            // attach button to content
+            const target = document.getElementsByClassName("CookieDeclarationLastUpdated")[0];
+            target.replaceWith(openCookieSettingsButton);
+
+            observer.disconnect();
+        }
     });
-    observer.observe(document.querySelector(".CookieDeclaration"), { subtree: false, childList: true });
+    observer.observe(document.querySelector("#CookieDeclarationContainer"), {subtree: false, childList: true});
 </script>
 {{ end }}
