@@ -2,7 +2,8 @@
 title: "We are pioneers"
 date: 2022-02-04
 draft: false
-backgroundClass: pt-24
+contentClass: pt-24
+contentClass: fdc-page-home-content pt-24
 weight: 1
 ---
 

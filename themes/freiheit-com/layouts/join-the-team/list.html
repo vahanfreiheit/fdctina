@@ -2,7 +2,7 @@
 
     {{ with .Pages }}
         {{ range . }}
-            <section class="w-full flex flex-col items-center {{ .Params.backgroundClass }}">
+            <section class="w-full flex flex-col items-center {{ .Params.contentClass }}">
                 <div class="w-full p-12 max-w-screen-xl">
                     {{ .Content }}
                 </div>

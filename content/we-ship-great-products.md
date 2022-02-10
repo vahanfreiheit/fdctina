@@ -2,6 +2,7 @@
 title: "We Ship Great Products"
 date: 2022-02-04
 draft: false
+contentClass: fdc-page-home-content
 weight: 6
 ---
 

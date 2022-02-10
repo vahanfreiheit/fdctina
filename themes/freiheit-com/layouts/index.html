@@ -7,7 +7,7 @@
         </div>
     {{ end }}
     {{ range where .Data.Pages "Type" "page" }}
-        <div class="fdc-content-layout {{ .Params.backgroundClass }}">
+        <div class="fdc-content-layout {{ .Params.contentClass }}">
             <section>
                 {{ .Content }}
             </section>
