@@ -4,7 +4,7 @@ date: 2021-04-24
 draft: false
 headerHeadline: Privacy Policy.
 headerBackgroundClass: bg-black
-headerTextClass: text-white
+headerTextClass: text-light-grey
 hideFooter: true
 hideHeaderTitle: true
 ---
