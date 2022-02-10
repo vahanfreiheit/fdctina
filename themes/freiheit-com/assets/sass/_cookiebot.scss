@@ -3,12 +3,23 @@ div#CybotCookiebotDialogPoweredByText {
   display: none !important;
 }
 .CookieDeclaration {
-  .CookieDeclarationLastUpdated {
-    display: none !important;
-  }
   .CookieDeclarationType {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    display: none;
+    &.visible {
+      display: block;
+    }
+  }
+  #CookieDeclarationChangeConsent {
+    @apply text-black;
+    a {
+      @apply text-light-grey inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline font-serif;
+      ::after { content: " →"}
+      &:hover {
+        @apply text-yellow border-yellow;
+      }
+    }
   }
   #CookieDeclarationUserStatusLabel {
     > div {
@@ -23,5 +34,22 @@ div#CybotCookiebotDialogPoweredByText {
         @apply text-body-xxl;
       }
     }
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
   }
 }

@@ -3,7 +3,7 @@
 <div class="fdc-content-layout bg-black text-light-grey">
     <section>
         {{ with .Content }}
-            {{ . }}
+        {{ . }}
         {{ end }}
     </section>
     <section>
@@ -13,4 +13,35 @@
     </section>
 </div>
 
+{{ end }}
+
+{{ define "page_script" }}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // add styles and arrows to buttons
+        const cookieDeclarationChangeConsent = document.querySelectorAll('#CookieDeclarationChangeConsent a');
+        for (let i = 0; i < cookieDeclarationChangeConsent.length; i++) {
+            cookieDeclarationChangeConsent[i].innerHTML = '<span>' + cookieDeclarationChangeConsent[i].innerHTML + '</span>';
+        }
+
+        // create button to show cookie settings
+        const openCookieSettingsButton = document.createElement('a');
+        openCookieSettingsButton.innerHTML = '<span>Show cookie settings</span>';
+        openCookieSettingsButton.className = 'fdc-btn-link--yellow';
+        openCookieSettingsButton.addEventListener('click', function (e) {
+            e.preventDefault();
+            // show all cookie settings tables
+            const cookieDeclarationSections = document.getElementsByClassName('CookieDeclarationType');
+            for (let i = 0; i < cookieDeclarationSections.length; i++) {
+                cookieDeclarationSections[i].classList.add('visible');
+            }
+            openCookieSettingsButton.remove();
+        });
+
+        // attach button to content
+        const target = document.getElementsByClassName("CookieDeclarationLastUpdated")[0];
+        target.replaceWith(openCookieSettingsButton);
+    });
+</script>
 {{ end }}

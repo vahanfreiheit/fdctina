@@ -14,7 +14,7 @@
                 <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
                 <p>{{ printf "%02d" .Params.weight }}</p>
                 <p>{{ .Params.minutes }} mins</p>
-                <a href="https://www.youtube.com/watch?v={{ .Params.youtube }}" class="border rounded-full px-5 py-3">Watch Now</a>
+                <a href="https://www.youtube.com/watch?v={{ .Params.youtube }}" class="fdc-btn-link--red"><span>Watch Now</span></a>
             </article>
             {{ end }}
         </div>
