@@ -20,7 +20,7 @@ We are for engineers, by engineers.
 
 
 {{< content-images >}}
-  {{< image src="/img/who-we-are/we-are-software-engineers-1.jpg" >}}
+  {{< image src="/img/who-we-are/we-are-software-engineers-1.jpg" class="fdc-scroll fdc-scroll--slide-right">}}
 {{< /content-images >}}
 
 Working at freiheit.com is an exciting adventure, with the goal to become a well-rounded software engineer who is able to plan, create and operate and lead large-scale systems in a team of software engineers.

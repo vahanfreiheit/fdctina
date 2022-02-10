@@ -23,6 +23,6 @@ However, we see a great value in remote work too, and we will continue to open u
 We are pretty sure that the office of the future will look different than it did before COVID-19. It will probably look more like a club with teams doing intense creative work that needs personal interaction. Our vision for a post-COVID office is a place focused on human connection and belonging.
 
 {{< content-grid-images >}}
-  {{< image src="/img/who-we-are/we-are-a-global-team-1.jpg" class="md:justify-self-end" >}}
-  {{< image src="/img/who-we-are/we-are-a-global-team-2.jpg" class="justify-self-center" >}}
+  {{< image src="/img/who-we-are/we-are-a-global-team-1.jpg" class="md:justify-self-end" class="fdc-scroll fdc-scroll--slide-left" >}}
+  {{< image src="/img/who-we-are/we-are-a-global-team-2.jpg" class="justify-self-center" class="fdc-scroll fdc-scroll--slide-right" >}}
 {{< /content-grid-images>}}

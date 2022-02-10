@@ -15,5 +15,5 @@ weight: 6
 Most large-scale systems are in production for over a decade and most of them even longer. Because they are important investments.
 
 {{< content-images >}}
-  {{< image src="/img/who-we-are/we-ship-great-products-1.jpg" >}}
+  {{< image src="/img/who-we-are/we-ship-great-products-1.jpg" class="fdc-scroll fdc-scroll--slide-left" >}}
 {{< /content-images >}}
