@@ -2,17 +2,27 @@
 
 .fdc-btn-link {
   @apply inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline font-serif;
-  ::after { content: " →"}
+  > span {
+    margin-top: 3px;
+    display: inline-block;
+  }
+  ::after {
+    content: " →"
+  }
 }
+
 .fdc-btn-link {
   &--red {
     @extend .fdc-btn-link ;
+
     &:hover {
       @apply text-red border-red;
     }
   }
+
   &--yellow {
     @extend .fdc-btn-link ;
+
     &:hover {
       @apply text-yellow border-yellow;
     }
@@ -21,7 +31,7 @@
 
 .fdc-text-sm {
   p {
-    font-size: 0.8em;
+    @apply text-body-lg;
   }
 }
 
@@ -43,18 +53,22 @@
     &:nth-child(3n+1) {
       @apply md:mr-16;
     }
+
     &:nth-child(3n+2) {
       grid-row: span 2;
       @apply md:mt-32;
     }
+
     &:nth-child(3n+3) {
       @apply md:justify-self-end md:mt-8 md:mr-4;
     }
   }
+
   img {
     @apply w-full md:w-auto;
   }
 }
 
 // content images
-.fdc-content-images { }
+.fdc-content-images {
+}

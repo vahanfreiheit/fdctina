@@ -2,7 +2,7 @@
 <html>
 {{- partial "head.html" . -}}
 
-{{ $current := index (split .URL "/") 1 }}
+{{ $current := index (split .RelPermalink "/") 1 }}
 {{ if eq $current "" }}
     {{ $current = "home" }}
 {{ end }}
