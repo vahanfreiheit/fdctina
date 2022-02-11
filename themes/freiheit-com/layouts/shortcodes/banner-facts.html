@@ -3,7 +3,7 @@
     <div class="fdc-banner-facts grid grid-cols-3">
       <div class="fdc-banner-facts__numbers col-span-3 flex justify-center bg-black">
         {{ if isset .Params "numbers" }}
-        <object class="w-full max-h-full py-8 px-12 md:py-24 md:px-32" type="image/svg+xml" data="/img/svg/{{ .Get "numbers"}}"></object>
+        <img class="w-full max-h-full py-8 px-12 md:py-24 md:px-32" src="/img/svg/{{ .Get "numbers"}}">
         {{ end }}
       </div>
       <div class="fdc-banner-facts__title items-center flex justify-center col-span-2 bg-yellow">
