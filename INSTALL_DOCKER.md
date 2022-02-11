@@ -87,3 +87,11 @@
 # Test
 
     docker run hello-world
+
+# to suspend the machine (freeing system resources)
+
+    vagrant suspend
+
+# to stop the machine
+
+    vagrant halt
