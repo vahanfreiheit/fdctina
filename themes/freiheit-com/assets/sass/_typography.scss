@@ -30,6 +30,18 @@
     font-style:   normal;
     font-weight:  300;
   }
+  // fdc numbers
+  @font-face {
+    font-family: 'fdc';
+    src:  url('../fonts/fdc-numbers/fdc-numbers.eot?sehrkc');
+    src:  url('../fonts/fdc-numbers/fdc-numbers.eot?sehrkc#iefix') format('embedded-opentype'),
+      url('../fonts/fdc-numbers/fdc-numbers.ttf?sehrkc') format('truetype'),
+      url('../fonts/fdc-numbers/fdc-numbers.woff?sehrkc') format('woff'),
+      url('../fonts/fdc-numbers/fdc-numbers.svg?sehrkc#fdc-numbers') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
   p {
     @apply mb-4 text-body-md font-normal;
     @screen md {

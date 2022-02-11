@@ -78,6 +78,7 @@ module.exports = {
     fontFamily: {
       sans: ['NB-International-Pro', 'sans-serif'],
       serif: ['Neue-Machina', 'serif'],
+      fdc: ['fdc', 'serif'],
     },
     screens: {
       'xs': '0',
