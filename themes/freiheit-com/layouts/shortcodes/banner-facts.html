@@ -1,0 +1,18 @@
+<div {{ if isset .Params "class" }} class="{{ .Get "class" }}"{{ end }}>
+  <div class="flex flex-row justify-center w-full">
+    <div class="fdc-banner-facts grid grid-cols-3">
+      <div class="fdc-banner-facts__numbers col-span-3 flex justify-center bg-black">
+        {{ if isset .Params "numbers" }}
+        <object class="w-full max-h-full py-8 px-12 md:py-24 md:px-32" type="image/svg+xml" data="/img/svg/{{ .Get "numbers"}}"></object>
+        {{ end }}
+      </div>
+      <div class="fdc-banner-facts__title items-center flex justify-center col-span-2 bg-yellow">
+        {{ if isset .Params "title" }}
+        <span class="text-lg md:text-4xl md:py-24 md:px-12 py-12 px-8 text-center">{{ .Get "title" }}</span>
+        {{ end }}
+      </div>
+      <div class="fdc-banner-facts__graphics bg-pale-green flex">
+      </div>
+    </div>
+  </div> 
+</div>
