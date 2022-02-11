@@ -1,0 +1,52 @@
+{{ define "main" }}
+    <section class="w-full flex flex-col items-center">
+        <div class="w-full p-12 max-w-screen-xl">
+        {{ .Content }}
+        </div>
+    </section>
+    <section class="w-full flex flex-col items-center">
+        <div class="w-full p-12 max-w-screen-xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                {{ $logo := resources.GetMatch "image/symbol.svg" }}
+                {{ range .Pages.ByParam "group" }}
+                    {{ $bgColor := "bg-yellow" }}
+                    {{ $bgImage := resources.GetMatch "image/chronical_group_1.png" }}
+                    {{ if eq .Params.Group "Why Agile Is Not Enough" }}
+                        {{ $bgColor = "bg-pink" }}
+                        {{ $bgImage = resources.GetMatch "image/chronical_group_2.png" }}
+                    {{ end }}
+                    <article class="bg-white fdc-text-sm flex flex-col">
+                        <div class="grid grid-cols-7">
+                            <div class="bg-black text-white col-span-5 flex justify-center items-center">
+                                <img src="{{ $logo.Permalink }}" alt="freiheit logo" class="m-10" />
+                            </div>
+                            <div class="{{ $bgColor }} col-span-2 flex justify-center items-end">
+                                <h2>{{ printf "%02d" .Params.weight }}</h2>
+                            </div>
+                        </div>
+                        <img src="{{ $bgImage.Permalink }}" alt="" class="w-full">
+                        <div class="p-5 lg:p-10 flex flex-col flex-1">
+                            <div class="flex mb-10 font-light">
+                                <div class="flex-1">Podcast</div>
+                                <div>{{ .PublishDate.Format "January 2, 2006" }}</div>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="mb-0">
+                                    {{ .Params.Group }}:<br />
+                                    {{ .Title }}
+                                </h3>
+                                {{ .Content }}
+                            </div>
+                            <div class="mt-10 flex items-center">
+                                <div class="flex-1">
+                                    <a href="https://www.youtube.com/watch?v={{ .Params.youtube }}" class="fdc-btn-link--red"><span>Watch Now</span></a>
+                                </div>
+                                <div>{{ .Params.minutes }} mins</div>
+                            </div>
+                        </div>
+                    </article>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+{{ end }}
