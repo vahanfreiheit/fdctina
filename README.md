@@ -22,11 +22,17 @@ As an alternative we use `act` (https://github.com/nektos/act) to execute the pi
 
 ### Preparation
 
+* install docker with the instructions in `INSTALL_DOCKER.md`
 * Install `act` by following the instructions on https://github.com/nektos/act
 * Create a Github token at https://github.com/settings/tokens that grands access to private repositories.
 
+### export token
+Put this into your .zshrc or .bashrc:
+
+    export GITHUB_TOKEN=your_token
+
 ### Publish
 
-    $ act --secret GITHUB_TOKEN=[YOUR_TOKEN] deploy
+    $ act --secret GITHUB_TOKEN=$GITHUB_TOKEN deploy
 
 You have to select the medium installation on the first execution of `act`.
