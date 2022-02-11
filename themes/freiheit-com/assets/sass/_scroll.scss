@@ -1,10 +1,7 @@
 /**Styling scrollable elements*/
 
-.fdc-scroll {
-  transition: opacity 500ms;
-}
-
 .fdc-scroll--fade-in {
+  transition: opacity 500ms;
   opacity: 0;
   &.fdc-scroll--in-viewport {
     animation: fdc-scroll--fade-in 1s ease-in-out both;
@@ -34,38 +31,32 @@
 @keyframes fdc-scroll--slide-in-left {
   0% {
     transform: translateX(-50px);
-    opacity: 1;
   }
   100% {
     transform: translateX(0);
-    opacity: 1;
   }
 }
 
 @keyframes fdc-scroll--slide-in-right {
   0% {
     transform: translateX(50px);
-    opacity: 1;
   }
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    opacity: 1;
   }
 }
 
 @keyframes fdc-scroll--fade-in-bottom {
   0% {
     transform: translateY(50px);
-    opacity: 1;
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
-@keyframes fade-in {
+@keyframes fdc-scroll--fade-in {
   0% {
     opacity: 0;
   }
