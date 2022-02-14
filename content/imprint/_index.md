@@ -3,8 +3,7 @@ title: "Imprint"
 date: 2021-04-24
 draft: false
 headerHeadline: Imprint.
-headerBackgroundClass: bg-black
-headerTextClass: text-light-grey
+headerTheme: black
 hideFooter: true
 hideHeaderTitle: true
 ---

@@ -1,24 +1,36 @@
+{{ $backgroundImage := "" }}
+{{ $backgroundClasses := "" }}
+{{ $logo_black := resources.GetMatch "image/logo.svg" }}
+{{ $logo_white := resources.GetMatch "image/logo_white.svg" }}
+{{ $logo := $logo_black }}
+{{ if eq .Params.headerTheme "black"}}
+    {{ $backgroundClasses = "bg-black text-light-grey"}}
+    {{ $logo = $logo_white }}
+{{ else if eq .Params.headerTheme "green" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_green.png" }}
+    {{ $backgroundClasses = "bg-green text-black"}}
+{{ else if eq .Params.headerTheme "yellow" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_yellow.png" }}
+    {{ $backgroundClasses = "bg-yellow text-black"}}
+{{ else if eq .Params.headerTheme "pale-green" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_pale-green.png" }}
+    {{ $backgroundClasses = "bg-pale-green text-black"}}
+{{ else if eq .Params.headerTheme "alabaster" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_alabaster.png" }}
+    {{ $backgroundClasses = "bg-alabaster text-black"}}
+{{ end }}
 <header class="p-5 md:p-12 relative w-full
     bg-cover bg-right-bottom bg-no-repeat
-    header__background__{{ .Params.headerBackgroundImageClass }}
-    {{ .Params.headerBackgroundClass | default "bg-pale-green" }}
-    {{ .Params.headerTextClass | default "text-black" }}"
-    {{ if .Params.headerBackgroundImage }} style="background-image: url('{{ site.BaseURL }}{{ .Params.headerBackgroundImage }}');" {{ end }}
+    {{ $backgroundClasses }}"
+    {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}
     >
     <nav class="flex items-center justify-between space" id="navigation">
-        {{ $logo_black := resources.GetMatch "image/logo.svg" }}
-        {{ $logo_white := resources.GetMatch "image/logo_white.svg" }}
-        {{ $logo := $logo_black }}
-        {{ if (eq .Params.headerTextClass "text-light-grey") }}
-            {{ $logo = $logo_white }}
-        {{ end }}
         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo.Permalink }}" alt="freiheit logo" /></a>
         <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
             <div class="lg:hidden checkbox-content transition duration-200 ease-in-out">
-                {{ $backgroundImage := resources.GetMatch "image/mobile-navigation_background.png" }}
                 <div
                         class="bg-right bg-contain bg-no-repeat flex flex-col lg:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey"
-                        style="background-image: url('{{ $backgroundImage.Permalink }}');">
+                        style="background-image: url('{{ (resources.GetMatch "image/mobile-navigation_background.png").Permalink }}');">
                     <div class="flex items-center justify-between space">
                         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" /></a>
                         <span type="button" class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
