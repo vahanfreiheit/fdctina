@@ -6,7 +6,7 @@
   {{ end }}
   {{ if isset .Params "graphic" }}
     <div class="w-24 md:w-auto md:flex-1 bg-yellow w-64 bg-right-bottom bg-cover bg-no-repeat"
-    style="background-image: url('{{ .Get "graphic" }}')">
+    style="background-image: url('{{site.BaseURL}}{{ .Get "graphic" }}')">
     </div>
   {{ end }}
 </div>

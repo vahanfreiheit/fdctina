@@ -3,7 +3,7 @@
     header__background__{{ .Params.headerBackgroundImageClass }}
     {{ .Params.headerBackgroundClass | default "bg-pale-green" }}
     {{ .Params.headerTextClass | default "text-black" }}"
-    {{ if .Params.headerBackgroundImage }} style="background-image: url('{{ .Params.headerBackgroundImage }}');" {{ end }}
+    {{ if .Params.headerBackgroundImage }} style="background-image: url('{{ site.BaseURL }}{{ .Params.headerBackgroundImage }}');" {{ end }}
     >
     <nav class="flex items-center justify-between space" id="navigation">
         {{ $logo_black := resources.GetMatch "image/logo.svg" }}
