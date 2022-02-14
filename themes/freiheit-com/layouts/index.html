@@ -9,7 +9,7 @@
     {{ range where .Data.Pages "Type" "page" }}
         <div class="fdc-content-layout {{ .Params.contentClass }}">
             <section>
-                {{ .Content }}
+                {{ partial "content-margin" . }}
             </section>
         </div>
     {{ end }}

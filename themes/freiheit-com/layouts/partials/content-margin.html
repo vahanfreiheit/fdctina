@@ -1,0 +1,7 @@
+{{ .Content |
+  replaceRE "<p" (printf "<p class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
+replaceRE "<h2" (printf "<h2 class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
+replaceRE "<h3" (printf "<h3 class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
+replaceRE "<h4" (printf "<h4 class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
+safeHTML
+}}

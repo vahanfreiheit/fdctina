@@ -2,9 +2,7 @@
 
 <div class="fdc-content-layout bg-black text-light-grey">
     <section>
-        {{ with .Content }}
-            {{ . }}
-        {{ end }}
+        {{ partial "content-margin" . }}
     </section>
     <section>
         <div class="self-start pt-20 md:pt-32">

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="fdc-content-layout">
     <section>
-        {{ .Content }}
+        {{ partial "content-margin" . }}
         {{ with .Pages }}
         <div class="flex flex-wrap">
         {{ range . }}
