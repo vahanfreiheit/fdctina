@@ -26,6 +26,5 @@
         <link rel="stylesheet" href="{{ $stylesMin.Permalink }}" />
         {{ $mainJsMin := $mainJs | resources.Minify }}
         <script type="text/javascript" src="{{ $mainJsMin.Permalink }}" defer></script>
-        {{- partial "google-analytics.html" . -}}
     {{ end }}
 </head>
