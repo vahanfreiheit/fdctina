@@ -2,7 +2,6 @@
 title: "We are pioneers"
 date: 2022-02-04
 draft: false
-contentClass: pt-24
 weight: 1
 ---
 

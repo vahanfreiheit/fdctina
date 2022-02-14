@@ -3,7 +3,7 @@ title: "Collective Intelligence and Intelligent Collective"
 date: 2022-02-04
 draft: false
 weight: 7
-contentClass: bg-black text-white pt-24
+contentTheme: black
 ---
 
 ### Collective Intelligence and Intelligent Collective

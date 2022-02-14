@@ -2,22 +2,22 @@
 
     {{ with .Pages }}
         {{ range . }}
-            <section class="w-full flex flex-col items-center {{ .Params.contentClass }}">
-                <div class="w-full p-12 max-w-screen-xl">
-                    {{ $class := .Site.Params.combos.fdcPageMargin }}
-                    {{ partial "content-margin" . }}
-                </div>
+        <div class="fdc-content-layout">
+            <section>
+                {{ $class := .Site.Params.combos.fdcPageMargin }}
+                {{ partial "content-margin" . }}
             </section>
+        </div>
         {{ end }}
     {{ end }}
 
     {{ with .Content }}
-    <section class="w-full flex flex-col items-center">
-        <div class="w-full p-12 max-w-screen-xl">
+    <div class="fdc-content-layout">
+        <section>
             {{ . }}
             <div id="jobs" class="grid md:grid-cols-2 gap-8 my-8"></div>
-        </div>
-    </section>
+        </section>
+    </div>
     {{ end }}
 
     <!-- This HTML will be used to render each job -->

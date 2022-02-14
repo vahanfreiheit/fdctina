@@ -7,7 +7,11 @@
         </div>
     {{ end }}
     {{ range where .Data.Pages "Type" "page" }}
-        <div class="fdc-content-layout {{ .Params.contentClass }}">
+        {{ $themeClasses := "fdc-content-layout" }}
+        {{ if eq .Params.contentTheme "black" }}
+            {{ $themeClasses = "fdc-content-layout bg-black text-light-grey" }}
+        {{ end }}
+        <div class="{{ $themeClasses }}">
             <section>
                 {{ partial "content-margin" . }}
             </section>
