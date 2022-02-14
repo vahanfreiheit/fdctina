@@ -2,7 +2,6 @@
 title: "We Are Software Engineers"
 date: 2022-02-04
 draft: false
-contentClass: fdc-page-home-content
 weight: 2
 ---
 

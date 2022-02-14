@@ -3,7 +3,7 @@ title: "We Are a Global Team"
 date: 2022-02-04
 draft: false
 weight: 9
-contentClass: fdc-page-home-content bg-black text-white
+contentClass: bg-black text-white
 ---
 
 ### We Are a Global Team

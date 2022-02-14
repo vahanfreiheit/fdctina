@@ -2,7 +2,6 @@
 title: "We are Efficient, Productive and Successful"
 date: 2022-02-04
 draft: false
-contentClass: fdc-page-home-content
 weight: 4
 ---
 ### We are Efficient, Productive and Successful
