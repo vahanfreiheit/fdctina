@@ -1,34 +1,5 @@
 // custom reusable styles
 
-.fdc-btn-link {
-  @apply inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline font-serif;
-  > span {
-    margin-top: 3px;
-    display: inline-block;
-  }
-  ::after {
-    content: " →"
-  }
-}
-
-.fdc-btn-link {
-  &--red {
-    @extend .fdc-btn-link ;
-
-    &:hover {
-      @apply text-red border-red;
-    }
-  }
-
-  &--yellow {
-    @extend .fdc-btn-link ;
-
-    &:hover {
-      @apply text-yellow border-yellow;
-    }
-  }
-}
-
 // layout
 .fdc-content-layout {
   @apply w-full flex flex-col flex-1 items-center;

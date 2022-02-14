@@ -4,7 +4,7 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: Things we've build.
 headerBackgroundClass: bg-yellow
-headerBackgroundImageClass: what-we-build
+headerBackgroundImage: /img/patterns/header_background_what-we-build.png
 menu:
   main:
     name: What we've build

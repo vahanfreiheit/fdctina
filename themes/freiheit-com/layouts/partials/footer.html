@@ -13,9 +13,11 @@
                         {{ i18n "wereAlwaysHappyToChat" . }} -
                         {{ i18n "justSendUsAnEmail" . }}.
                     </div>
-                    <a class="fdc-btn-link--yellow" href="mailto:kontakt@freiheit.com" target="_blank" rel="nofollow">
-                        <span>{{ i18n "getInTouchButton" . }}</span>
-                    </a>
+                    {{ partial "btn-link.html" (dict
+                    "linkUrl" "mailto:kontakt@freiheit.com"
+                    "linkText" (i18n "getInTouchButton")
+                    "color" "yellow"
+                    ) }}
                 </div>
             </div>
             <div class="self-end pt-16">

@@ -4,7 +4,7 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: Chronicle.
 headerBackgroundClass: bg-alabaster
-headerBackgroundImageClass: what-others-say
+headerBackgroundImage: /img/patterns/header_background_what-others-say.png
 menu:
   main:
     name: Chronicle

@@ -26,9 +26,10 @@
             }
 
             // create button to show cookie settings
+            const openCookieSettingsDiv = document.createElement('div');
+            openCookieSettingsDiv.attr('id', 'CookieDeclarationDisplayCookieSettings');
             const openCookieSettingsButton = document.createElement('a');
             openCookieSettingsButton.innerHTML = '<span>Show cookie settings</span>';
-            openCookieSettingsButton.className = 'fdc-btn-link--yellow';
             openCookieSettingsButton.addEventListener('click', function (e) {
                 e.preventDefault();
                 // show all cookie settings tables
@@ -38,10 +39,11 @@
                 }
                 openCookieSettingsButton.remove();
             });
+            openCookieSettingsDiv.appendChild(openCookieSettingsButton);
 
             // attach button to content
             const target = document.getElementsByClassName("CookieDeclarationLastUpdated")[0];
-            target.replaceWith(openCookieSettingsButton);
+            target.replaceWith(openCookieSettingsDiv);
 
             observer.disconnect();
         }

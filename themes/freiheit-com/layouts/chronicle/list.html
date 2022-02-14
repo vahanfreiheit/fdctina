@@ -43,7 +43,11 @@
                             </div>
                             <div class="mt-10 flex items-center">
                                 <div class="flex-1">
-                                    <a href="https://www.youtube.com/watch?v={{ .Params.youtube }}" class="fdc-btn-link--red"><span>Watch Now</span></a>
+                                    {{ partial "btn-link.html" (dict
+                                        "linkUrl" "https://www.youtube.com/watch?v={{ .Params.youtube }}"
+                                        "linkText" "Watch Now"
+                                        "color" "red"
+                                    ) }}
                                 </div>
                                 <div>{{ .Params.minutes }} mins</div>
                             </div>

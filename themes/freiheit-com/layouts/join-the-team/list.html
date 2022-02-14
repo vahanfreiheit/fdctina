@@ -19,33 +19,42 @@
     </section>
     {{ end }}
 
+    <!-- This HTML will be used to render each job -->
+    <div id="job_template" class="flex flex-col bg-white p-8 hidden">
+        <div class="flex justify-between">
+            <div>#Location</div>
+            <div>#Commitment</div>
+        </div>
+        <div class="mt-6"><h4 class="flex-1"><a
+                href="#Url" target="_blank" class="no-underline hover:text-red">#Title</a></h4>
+            <div class="job-team">#Team</div>
+        </div>
+        <div class="md:mt-8 mt-4 job-url">
+            {{ partial "btn-link.html" (dict
+            "linkUrl" "#Url"
+            "linkText" "Apply Now"
+            "color" "red"
+            ) }}
+        </div>
+    </div>
+
 {{ end }}
 
 {{ define "page_script" }}
 <script>
+    let template = document.getElementById('job_template').outerHTML;
     let target = document.getElementById('jobs');
     if (Date.now() < localStorage.getItem("jobsDate") + (1000 * 60 * 60 * 24)) {
         target.innerHTML = localStorage.getItem("jobsHtml");
     } else {
-        let jobTemplate = '<div class="flex flex-col bg-white p-8">' +
-            '<div class="flex justify-between">' +
-                '<div class="job-location">#Location</div>' +
-                '<div class="job-commitment">#Commitment</div>' +
-            '</div>' +
-            '<div class="mt-6">' +
-                '<h4 class="flex-1 job-title"><a href="#Url" target="_blank">#Title</a></h4>' +
-                '<div class="job-team">#Team</div>' +
-            '</div>' +
-            '<div class="md:mt-8 mt-4 job-url">' +
-                '<a href="#Url" class="fdc-btn-link--red" target="_blank">{{ i18n "applyNow" . }}</a>' +
-            '</div>' +
-        '</div>';
+        let jobTemplate = template;
     fetch("https://api.lever.co/v0/postings/freiheit-2?mode=json")
         .then(function(response) {
             return response.json();
         }).then(function(jobs) {
             jobs.forEach(function(job) {
-                let jobHtml = jobTemplate.replace("#Title", job.text);
+                let jobHtml = jobTemplate.replace("p-8 hidden", "p-8");
+                jobHtml = jobHtml.replace("#Title", job.text);
                 jobHtml = jobHtml.replace("#Team", job.categories.team);
                 jobHtml = jobHtml.replace("#Commitment", job.categories.commitment);
                 jobHtml = jobHtml.replace("#Location", job.categories.location);

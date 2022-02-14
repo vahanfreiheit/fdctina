@@ -11,7 +11,7 @@ div#CybotCookiebotDialogPoweredByText {
       display: block;
     }
   }
-  #CookieDeclarationChangeConsent {
+  #CookieDeclarationChangeConsent, #CookieDeclarationDisplayCookieSettings {
     @apply text-black;
     a {
       @apply text-light-grey inline-block leading-none rounded-full cursor-pointer border py-4 px-8 no-underline font-serif;
