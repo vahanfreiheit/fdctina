@@ -29,15 +29,6 @@
   }
 }
 
-.fdc-text-sm {
-  p {
-    @apply text-body-lg;
-  }
-}
-
-
-// content container
-
 // layout
 .fdc-content-layout {
   @apply w-full flex flex-col flex-1 items-center;
@@ -48,7 +39,6 @@
 
 // content grid images
 .fdc-content-grid-images {
-  @apply grid md:grid-cols-2 gap-y-8 md:gap-16 py-16;
   > .fdc-figure {
     &:nth-child(3n+1) {
       @apply md:mr-16;
@@ -67,8 +57,4 @@
   img {
     @apply w-full md:w-auto;
   }
-}
-
-// content images
-.fdc-content-images {
 }

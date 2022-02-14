@@ -2,9 +2,9 @@
 
 <div class="fdc-content-layout bg-black text-light-grey">
     <section class="fdc-content-layout-section">
-        <div class="grid md:grid-flow-row md:auto-rows-min gap-12 text-body-md fdc-text-sm">
+        <div class="grid md:grid-flow-row md:auto-rows-min gap-12 text-body-md">
             <div class="md:col-span-4">
-                {{ .Content }}
+                {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
             </div>
             <div class="md:col-start-1 md:col-end-3">
                 {{ with .Site.GetPage "/get-in-touch/contact-followus" }} {{ .Content }} {{ end }}

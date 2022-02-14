@@ -19,7 +19,7 @@
                         {{ $bgColor = "bg-pink" }}
                         {{ $bgImage = resources.GetMatch "image/chronical_group_2.png" }}
                     {{ end }}
-                    <article class="bg-white fdc-text-sm flex flex-col {{ $scrollClass }}">
+                    <article class="bg-white flex flex-col {{ $scrollClass }}">
                         <div class="grid grid-cols-7">
                             <div class="bg-black text-white col-span-5 flex justify-center items-center">
                                 <img src="{{ $logo.Permalink }}" alt="freiheit logo" class="m-10" />
@@ -39,7 +39,7 @@
                                     {{ .Params.Group }}:<br />
                                     {{ .Title }}
                                 </h3>
-                                {{ .Content }}
+                                {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
                             </div>
                             <div class="mt-10 flex items-center">
                                 <div class="flex-1">
