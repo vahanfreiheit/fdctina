@@ -59,7 +59,7 @@
                 jobHtml = jobHtml.replace("#Team", job.categories.team);
                 jobHtml = jobHtml.replace("#Commitment", job.categories.commitment);
                 jobHtml = jobHtml.replace("#Location", job.categories.location);
-                jobHtml = jobHtml.replace("#Url", job.applyUrl);
+                jobHtml = jobHtml.replaceAll("#Url", job.applyUrl);
                 target.innerHTML += jobHtml;
             });
             localStorage.setItem("jobsDate", Date.now().toString());
