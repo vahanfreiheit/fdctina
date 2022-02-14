@@ -14,4 +14,4 @@ We are known for our deep technical expertise and our track record of delivering
 
 This is why our clients trust us with their most important projects. Most of our business comes from recommendations.
 
-{{< banner-facts numbers="300+" title="Over 300 projects shipped on time." class="mt-16 mb-8 fdc-scroll fdc-scroll--slide-left" >}}
+{{< banner-facts numbers="300+" title="Over 300 projects shipped on time." graphic="/img/patterns/header_background_who-we-are.png" class="mt-16 mb-8 fdc-scroll fdc-scroll--slide-left" >}}

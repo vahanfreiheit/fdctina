@@ -1,18 +1,22 @@
 <div {{ if isset .Params "class" }} class="{{ .Get "class" }}"{{ end }}>
   <div class="flex flex-row justify-center w-full">
-    <div class="fdc-banner-facts grid grid-cols-3">
+    <div class="grid grid-cols-3">
       {{ if isset .Params "numbers" }}
-      <div class="fdc-banner-facts__numbers col-span-3 flex flex-1 justify-center bg-black">
-        <div class="font-fdc text-yellow my-10">{{ .Get "numbers" }}</div>
+      <div class="col-span-3 flex flex-1 justify-center bg-black">
+        <div class="font-fdc text-yellow my-10 text-6xl sm:text-7xl md:text-9xl">{{ .Get "numbers" }}</div>
       </div>
       {{ end }}
-      <div class="fdc-banner-facts__title items-center flex justify-center col-span-2 bg-yellow">
+      <div class="items-center flex justify-center col-span-2 bg-yellow">
         {{ if isset .Params "title" }}
         <span class="text-lg md:text-4xl md:py-24 md:px-12 py-12 px-8 text-center">{{ .Get "title" }}</span>
         {{ end }}
       </div>
-      <div class="fdc-banner-facts__graphics bg-pale-green flex">
+      {{ if isset .Params "graphic" }}
+      <div
+              class="bg-pale-green flex bg-right-bottom bg-cover bg-no-repeat"
+              style="background-image: url('{{ .Get "graphic" }}')">
       </div>
+      {{ end }}
     </div>
   </div> 
 </div>
