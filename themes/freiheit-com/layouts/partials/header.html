@@ -12,7 +12,10 @@
         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo.Permalink }}" alt="freiheit logo" /></a>
         <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
             <div class="lg:hidden checkbox-content transition duration-200 ease-in-out">
-                <div class="mobile-navigation__background flex flex-col lg:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey" >
+                {{ $backgroundImage := resources.GetMatch "image/mobile-navigation_background.png" }}
+                <div
+                        class="bg-right bg-contain bg-no-repeat flex flex-col lg:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey"
+                        style="background-image: url('{{ $backgroundImage.Permalink }}');">
                     <div class="flex items-center justify-between space">
                         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" /></a>
                         <span type="button" class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
