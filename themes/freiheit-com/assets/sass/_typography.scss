@@ -43,15 +43,9 @@
     font-display: block;
   }
   p {
-    @apply mb-4 text-body-md font-normal;
+    @apply mb-4 text-body-lg font-light;
     @screen md {
-      @apply text-body-lg font-light
-    }
-    @screen xl {
       @apply text-body-xl;
-    }
-    @screen xxl {
-      @apply text-body-xxl;
     }
   }
   h1 {
@@ -65,25 +59,25 @@
   }
   h2 {
     @apply text-head-lg;
-    @screen lg {
+    @screen md {
       @apply text-head-xl;
     }
   }
   h3 {
     @apply text-head-md;
-    @screen lg {
+    @screen md {
       @apply text-head-lg;
     }
   }
   h4 {
     @apply text-head-sm;
-    @screen lg {
+    @screen md {
       @apply text-head-md;
     }
   }
   h5 {
     @apply text-head-xs;
-    @screen lg {
+    @screen md {
       @apply text-head-sm;
     }
   }
