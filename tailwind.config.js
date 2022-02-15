@@ -106,7 +106,10 @@ module.exports = {
     fill: theme => theme('colors'),
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['hover'],
+      borderColor: ['hover'],
+    }
   },
   plugins: [],
 }
