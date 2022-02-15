@@ -12,9 +12,9 @@ document.body.addEventListener("click", function (evt) {
     if (!clickedInNavigation) {
         checkbox.checked = false;
     }
-});
+}, {passive: true});
 
 document.getElementById('navigation_close').addEventListener("click", function (e) {
     e.preventDefault()
     checkbox.checked = false;
-});
+}, {passive: true});

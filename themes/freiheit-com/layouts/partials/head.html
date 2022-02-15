@@ -12,10 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ .Site.Title }}{{ if not .IsHome }} - {{ .Title }}{{ end }}</title>
     {{- if eq .Kind "page" }}
-    <meta name="description" content="{{ .Summary }}">
     <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}">
     {{- else }}
-    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="description" content="{{ .Params.Description | default .Site.Params.description }}">
     <meta name="author" content="{{ .Site.Author.name }}">
     {{- end }}
     {{ if .Site.IsServer }}

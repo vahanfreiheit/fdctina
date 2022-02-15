@@ -36,7 +36,7 @@
                     cookieDeclarationSections[i].classList.add('visible');
                 }
                 openCookieSettingsButton.remove();
-            });
+            }, {passive: true});
             openCookieSettingsDiv.appendChild(openCookieSettingsButton);
 
             // attach button to content
