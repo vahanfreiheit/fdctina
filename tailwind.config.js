@@ -73,6 +73,22 @@ module.exports = {
           lineHeight: '92.4px',
           fontFamily: 'Neue-Machina',
         }],
+        'numbers-xs': ['4rem', {
+          lineHeight: '1em',
+          fontFamily: 'fdc-numbers',
+        }],
+        'numbers-sm': ['5rem', {
+          lineHeight: '1em',
+          fontFamily: 'fdc-numbers',
+        }],
+        'numbers-md': ['8rem', {
+          lineHeight: '1em',
+          fontFamily: 'fdc-numbers',
+        }],
+        'numbers-lg': ['11rem', {
+          lineHeight: '1em',
+          fontFamily: 'fdc-numbers',
+        }],
       },
     },
     fontFamily: {
