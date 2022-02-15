@@ -1,7 +1,8 @@
+{{ $class := "md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96" }}
 {{ .Content |
-  replaceRE "<p" (printf "<p class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
-replaceRE "<h2" (printf "<h2 class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
-replaceRE "<h3" (printf "<h3 class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
-replaceRE "<h4" (printf "<h4 class=\"%s\"" .Site.Params.combos.fdcPageMargin) |
+  replaceRE "<p" (printf "<p class=\"%s\"" $class) |
+replaceRE "<h2" (printf "<h2 class=\"%s\"" $class) |
+replaceRE "<h3" (printf "<h3 class=\"%s\"" $class) |
+replaceRE "<h4" (printf "<h4 class=\"%s\"" $class) |
 safeHTML
 }}

@@ -4,7 +4,7 @@
         {{ range . }}
         <div class="fdc-content-layout">
             <section>
-                {{ $class := .Site.Params.combos.fdcPageMargin }}
+                {{ $class := "md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96" }}
                 {{ partial "content-margin" . }}
             </section>
         </div>
