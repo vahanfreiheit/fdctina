@@ -26,27 +26,27 @@ module.exports = {
         // body text
         'body-xs': ['12px', {
           lineHeight: '15.6px',
-          fontFamily: 'NB-International-Pro',
+          fontFamily: 'NB-International-Pro-Light',
         }],
         'body-sm': ['12px', {
           lineHeight: '15.6px',
-          fontFamily: 'NB-International-Pro',
+          fontFamily: 'NB-International-Pro-Light',
         }],
         'body-md': ['16px', {
           lineHeight: '20.8px',
-          fontFamily: 'NB-International-Pro',
+          fontFamily: 'NB-International-Pro-Light',
         }],
         'body-lg': ['20px', {
           lineHeight: '26px',
-          fontFamily: 'NB-International-Pro',
+          fontFamily: 'NB-International-Pro-Light',
         }],
         'body-xl': ['28px', {
           lineHeight: '36.4px',
-          fontFamily: 'NB-International-Pro',
+          fontFamily: 'NB-International-Pro-Light',
         }],
         'body-xxl': ['36px', {
           lineHeight: '46.8px',
-          fontFamily: 'NB-International-Pro',
+          fontFamily: 'NB-International-Pro-Light',
         }],
         // heading text
         'head-xs': ['16px', {
@@ -76,7 +76,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ['NB-International-Pro', 'sans-serif'],
+      sans: ['NB-International-Pro-Light', 'sans-serif'],
       serif: ['Neue-Machina', 'serif'],
       fdc: ['fdc', 'serif'],
     },
