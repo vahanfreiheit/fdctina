@@ -15,20 +15,25 @@
     <div class="fdc-content-layout bg-alabaster">
         <section>
             {{ . }}
-            <div id="jobs" class="grid md:grid-cols-2 gap-8 my-8"></div>
+            <div id="jobs" class="grid xl:grid-cols-3 md:grid-cols-2 gap-8 my-8"></div>
         </section>
     </div>
     {{ end }}
 
     <!-- This HTML will be used to render each job -->
     <div id="job_template" class="flex flex-col bg-white p-8 hidden">
-        <div class="flex justify-between">
-            <div>#Location</div>
+        <div class="flex justify-between text-sm items-center">
+            <div class="flex items-center">
+                <span class="mr-1"><img src="{{site.BaseURL}}/img/svg/location.svg" alt=""></span>
+                <span>#Location</span>
+            </div>
             <div>#Commitment</div>
         </div>
-        <div class="mt-6"><div class="flex-1"><a
-                href="#Url" target="_blank" class="text-head-sm md:text-head-md font-serif no-underline hover:text-red">#Title</a></div>
-            <div class="job-team">#Team</div>
+        <div class="mt-6"><div class="flex-1">
+            <a href="#Url" target="_blank" class="text-head-sm md:text-head-md font-serif no-underline hover:text-red">
+                #Title
+            </a></div>
+            <div class="mt-4">#Team</div>
         </div>
         <div class="md:mt-8 mt-4 job-url">
             {{ partial "btn-link.html" (dict

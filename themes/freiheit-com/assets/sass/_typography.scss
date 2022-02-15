@@ -1,4 +1,5 @@
 @layer base {
+  // Neue-Machina
   @font-face {
     font-family: 'Neue-Machina';
     src: url('../fonts/NeueMachina-Bold.eot');
@@ -10,6 +11,7 @@
     font-weight: 700;
     font-style: normal;
   }
+  // NB-International-Pro
   @font-face {
     font-family: 'NB-International-Pro';
     src: url('../fonts/NB-International-Pro-Regular.eot');
@@ -20,8 +22,9 @@
     font-style:   normal;
     font-weight:  400;
   }
+  // NB-International-Pro-Light
   @font-face {
-    font-family: 'NB-International-Pro';
+    font-family: 'NB-International-Pro-Light';
     src: url('../fonts/NB-International-Pro-Light.eot');
     src: url('../fonts/NB-International-Pro-Light.eot?#iefix') format('embedded-opentype'),
     url('../fonts/NB-International-Pro-Light.woff') format('woff'),
