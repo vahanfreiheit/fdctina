@@ -33,7 +33,7 @@
                         style="background-image: url('{{ (resources.GetMatch "image/mobile-navigation_background.png").Permalink }}');">
                     <div class="flex items-center justify-between space">
                         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" /></a>
-                        <span type="button" class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
+                        <span class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5,6 L19,17.9845516 M5,18 L19,6"/>
                             </svg>
@@ -62,7 +62,7 @@
             </div>
         </input>
         <label for="open-menu-checkbox" class="lg:hidden">
-            <span type="button"
+            <span 
                 class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none"
                 aria-expanded="false">
                 <span class="sr-only">Open menu</span>
