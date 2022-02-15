@@ -1,0 +1,10 @@
+.bg-black {
+  &.fdc-content-layout {
+    a {
+      @apply text-white;
+      &:hover {
+        @apply text-red;
+      }
+    }
+  }
+}
