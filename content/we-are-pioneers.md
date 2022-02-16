@@ -14,7 +14,7 @@ Large-scale means: millions of users, queries, transactions and billions of reve
 
 From e-commerce to connected cars. Retail, healthcare, mobility, logistics and many more industries. Cloud computing, microservices, artificial intelligence and machine learning platforms. Multi-country, multi-continental. Multi-data center.
 
-<div class="md:px-40 py-10">
+<div class="pt-4 pb-4 md:pt-8 md:pb-8 md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96">
     <div class="fdc-scroll fdc-scroll--slide-left">
       {{< youtube Q7WV9XxlAd4 >}}
     </div>
