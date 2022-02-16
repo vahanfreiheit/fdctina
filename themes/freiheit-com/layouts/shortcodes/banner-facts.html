@@ -3,7 +3,7 @@
     <div class="grid grid-cols-3">
       {{ if isset .Params "numbers" }}
       <div class="col-span-3 flex flex-1 justify-center bg-black">
-        <div class="font-fdc text-yellow my-10 text-numbers-xs sm:text-numbers-sm md:text-numbers-md lg:text-numbers-lg">{{ .Get "numbers" }}</div>
+        <div class="font-fdc text-yellow my-8 md:my-16 text-numbers-xs sm:text-numbers-sm md:text-numbers-md lg:text-numbers-lg">{{ .Get "numbers" }}</div>
       </div>
       {{ end }}
       <div class="items-center flex justify-center col-span-2 bg-yellow">

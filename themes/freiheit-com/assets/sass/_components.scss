@@ -10,10 +10,16 @@
       md:px-12
       lg:px-12
       pt-8
-      md:pt-12
-      pb-6
-      md:pb-12
+      md:pt-16
+      pb-4
+      md:pb-0
       max-w-screen-3xl;
+  }
+  &:first-child {
+    @apply pt-4 md:pt-8;
+  }
+  &:last-child {
+    @apply pb-8 md:pb-16;
   }
 }
 
@@ -21,7 +27,7 @@
 .fdc-content-grid-images {
   > .fdc-figure {
     &:nth-child(3n+1) {
-      @apply md:mr-16;
+      @apply md:mr-12;
     }
 
     &:nth-child(3n+2) {
