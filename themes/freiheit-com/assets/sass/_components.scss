@@ -16,10 +16,14 @@
       max-w-screen-3xl;
   }
   &:first-child {
-    @apply pt-4 md:pt-8;
+    > section {
+      @apply pt-8 md:pt-24;
+    }
   }
   &:last-child {
-    @apply pb-8 md:pb-16;
+    > section {
+      @apply pb-12 md:pb-16;
+    }
   }
 }
 

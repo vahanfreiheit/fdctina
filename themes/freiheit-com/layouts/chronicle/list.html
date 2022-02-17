@@ -6,7 +6,7 @@
     </div>
     <section class="w-full flex flex-col items-center">
         <div class="w-full p-12 max-w-screen-xl">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10">
                 {{ $logo := resources.GetMatch "image/symbol.svg" }}
                 {{ $scrollClass := "" }}
                 {{ range $index, $value := (.Pages.ByWeight.Reverse).ByParam "group" }}
@@ -28,7 +28,7 @@
                                 <h2>{{ printf "%02d" .Params.weight }}</h2>
                             </div>
                         </div>
-                        <img src="{{ $bgImage.Permalink }}" alt="" class="w-full">
+                        <div class="w-full h-28 md:h-36 bg-cover" style="background-image: url('{{ $bgImage.Permalink }}');"></div>
                         <div class="p-5 lg:p-10 flex flex-col flex-1">
                             <div class="flex mb-10 font-light">
                                 <div class="flex-1">Podcast</div>
@@ -41,7 +41,7 @@
                                 </h3>
                                 {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
                             </div>
-                            <div class="mt-10 flex items-center">
+                            <div class="mt-10 flex flex-col sm:flex-row items-center">
                                 <div class="flex-1">
                                     {{ partial "btn-link.html" (dict
                                         "linkUrl" "https://www.youtube.com/watch?v={{ .Params.youtube }}"
@@ -49,7 +49,7 @@
                                         "color" "red"
                                     ) }}
                                 </div>
-                                <div>{{ .Params.minutes }} mins</div>
+                                <div class="my-4 sm:my-0">{{ .Params.minutes }} mins</div>
                             </div>
                         </div>
                     </article>
