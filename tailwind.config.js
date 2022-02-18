@@ -118,6 +118,7 @@ module.exports = {
       'honeydew': '#DFEFDA',
       'alabaster': '#E6DFCA',
       'pale-purple': '#E4D1E8',
+      'black-rgba': '#990000',
     },
     fill: theme => theme('colors'),
   },
