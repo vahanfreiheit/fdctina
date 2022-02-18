@@ -11,6 +11,9 @@
         {{ if eq .Params.contentTheme "black" }}
             {{ $themeClasses = "fdc-content-layout bg-black text-light-grey" }}
         {{ end }}
+        {{ if eq .Params.contentTheme "video" }}
+            {{ $themeClasses = "" }}
+        {{ end }}
         <div class="{{ $themeClasses }}">
             <section>
                 {{ partial "content-margin" . }}

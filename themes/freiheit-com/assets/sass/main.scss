@@ -8,3 +8,8 @@
 @import "_cookiebot";
 @import "_scroll";
 @import "_theme";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
