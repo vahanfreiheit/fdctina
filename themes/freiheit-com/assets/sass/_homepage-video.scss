@@ -1,0 +1,34 @@
+.homepage-video {
+  // top: -140px;
+  height: calc(100vh - 0px);
+  &__arrows {
+    &:hover {
+      .homepage-video__arrow {
+        @apply border-white
+      }
+    }
+  }
+  &__arrow {
+    @apply block w-4 h-4 border-r-4 border-b-4 border-yellow mx-2 mt-1 transform rotate-45;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-name: arrow-scroll;
+    animation-iteration-count: infinite;
+    &:nth-child(1) {
+      animation-delay: .1s;
+    }
+    &:nth-child(2) {
+      animation-delay: .2s;
+    }
+    &:nth-child(3) {
+      animation-delay: .3s;
+    }
+  }
+  
+}
+
+@keyframes arrow-scroll {
+  0% { opacity: 0; }
+  50% { opacity: .5; }
+  100% { opacity: 1; }
+}
