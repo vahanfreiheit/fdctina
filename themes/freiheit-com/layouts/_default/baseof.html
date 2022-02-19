@@ -8,7 +8,7 @@
 {{ end }}
 <body id="page__{{ $current }}" class="page__{{ $current }} flex flex-col min-h-screen justify-between bg-light-grey text-black font-sans text-body-md items-center">
     {{- partial "header.html" . -}}
-    <main class="flex flex-col h-full w-full flex-1 overflow-x-hidden">
+    <main class="flex flex-col h-full w-full flex-1">
     {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}

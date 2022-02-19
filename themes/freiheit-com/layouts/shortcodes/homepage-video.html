@@ -1,7 +1,11 @@
-<div class="hero h-screen w-screen mb-12 relative">
+<div class="homepage-video w-screen mb-12 relative">
   <div 
-    class="absolute top-0 left-0 w-full h-full z-20" 
-    style="background-image: url({{site.BaseURL}}/img/homepage-video/texture.png); background-color: rgba(41, 44, 53, 0.5)">
+    class="homepage-video__patern absolute top-0 left-0 w-full h-full z-20" 
+    style="background-image: url({{site.BaseURL}}/img/homepage-video/video_texture.png); background-color: rgba(41, 44, 53, 0.5)">
+  </div>
+  <div 
+    class="absolute w-full h-full z-20 opacity-30 bg-no-repeat bg-right bg-cover"
+    style="background-image: url({{site.BaseURL}}/img/homepage-video/video_background.png);">
   </div>
   <video
     loop
@@ -15,24 +19,22 @@
     <source src="{{site.BaseURL}}/img/homepage-video/video.mp4" type="video/mp4">
     Sorry your browsers dosen't not support video
   </video>
-  <div class="relative w-full h-full z-30 flex flex-col items-center justify-center text-white">
+  <div class="relative w-full h-full z-30 flex flex-col items-center justify-center text-white px-8 md:px-24 text-center">
+    {{ $logo := resources.GetMatch "image/symbol.svg" }}
+    <div><img src="{{ $logo.Permalink }}" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
     {{ if isset .Params "title" }}
       <div class="text-white font-serif text-head-lg md:text-head-xxl">{{ .Get "title" }} </div>
     {{ end }}
     {{ if isset .Params "subtitle" }}
-      <div class="mt-8 text-white font-serif text-head-md md:text-head-lg">{{ .Get "subtitle" }} </div>
+      <div class="mt-4 text-white font-serif text-head-md md:text-head-lg">{{ .Get "subtitle" }} </div>
     {{ end }}
-    <div class="mt-8">
+    <div class="mt-16">
       <a href="#we-are-pioneers">
         <div class="mouse_scroll">
-
-          <div class="mouse">
-            <div class="wheel"></div>
-          </div>
-          <div>
-            <span class="block w-4 h-4 border-r-4 border-b-4 border-yellow hover:border-white mx-2 transform rotate-45"></span>
-            <span class="block w-4 h-4 border-r-4 border-b-4 border-yellow mx-2 mt-1 transform rotate-45"></span>
-            <span class="block w-4 h-4 border-r-4 border-b-4 border-yellow mx-2 mt-1 transform rotate-45"></span>
+          <div class="homepage-video__arrows">
+            <span class="homepage-video__arrow"></span>
+            <span class="homepage-video__arrow"></span>
+            <span class="homepage-video__arrow"></span>
           </div>
       </div>
       </a>
