@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="fdc-content-layout">
+    <section>
+        <!-- {{ partial "content-margin" . }} -->
+        {{ .Content }}
+        {{ with .Pages }}
+            <div class="grid xl:grid-cols-2 gap-20 mt-20">
+            {{ range . }}
+                <article>
+                    <div class="bg-white">
+                        <div class="p-12">
+                            <h3>
+                                <a class="no-underline hover:text-red" href="{{ .RelPermalink }}">{{.Params.headline1}}</a>
+                            </h3>
+                            <h5>{{.Params.headline2}}</h5>
+                            <div class="text-body-lg">
+                                <!-- {{.Summary | plainify }} -->
+                                {{.Params.teaser}}
+                            </div>
+                            <a href="{{ .RelPermalink }}" 
+                                class="inline-block leading-none ursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
+                                Read →
+                            </a>
+                            
+                        </div>
+                        <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
+                    </div>
+                </article>
+            {{ end }}
+            </div>
+        {{ end }}
+    </section>
+</div>
+{{ end }}

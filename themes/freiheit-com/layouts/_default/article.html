@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="p-4">
+    <article>
+        <h2>{{ .Title }}</h2>
+        <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</p>
+        {{ if .Params.tags }}
+        <p>
+            <strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ .
+                }}</a> {{end}}
+        </p>
+        {{end}}
+        {{ if .Params.categories }}
+        <p>
+            <strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . |
+                urlize }}">{{ . }}</a> {{end}}
+        </p>
+        {{end}}
+        {{if .Params.author}}
+        <p>
+            Author: {{.Params.Author}}
+        </p>
+        {{end}}
+        <p>{{ .Content }}</p>
+    </article>
+</section>
+{{ end }}
