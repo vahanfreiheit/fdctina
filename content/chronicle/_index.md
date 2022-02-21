@@ -1,12 +1,12 @@
 ---
-title: "Chronicle"
+title: "Podcasts"
 date: 2021-04-24T15:55:09+02:00
 draft: false
-headerHeadline: Chronicle.
+headerHeadline: Podcasts
 headerTheme: alabaster
 menu:
   main:
-    name: Chronicle
+    name: Podcasts
     weight: 4
 ---
 
