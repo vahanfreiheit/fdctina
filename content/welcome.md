@@ -8,6 +8,5 @@ contentTheme: video
 
 
 {{< homepage-video 
-  title="We deliver what we promise"
-  subtitle="Over 300 projects shipped on time."
+  title="Building Large-Scale Software Since 1999"
 >}}
