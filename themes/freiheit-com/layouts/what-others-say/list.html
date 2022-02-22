@@ -8,6 +8,7 @@
             {{ range . }}
                 <article>
                     <div class="bg-white">
+                        <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
                         <div class="p-12">
                             <h3>
                                 <a class="no-underline hover:text-red" href="{{ .RelPermalink }}">{{.Params.headline1}}</a>
@@ -21,9 +22,7 @@
                                 class="inline-block leading-none ursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
                                 Read →
                             </a>
-                            
                         </div>
-                        <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
                     </div>
                 </article>
             {{ end }}
