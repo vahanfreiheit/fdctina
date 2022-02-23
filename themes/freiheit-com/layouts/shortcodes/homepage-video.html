@@ -11,15 +11,20 @@
     loop
     muted
     autoplay
+    playsinline
     preload="auto"
-    poster="/img/who-we-are/we-ship-great-products-1.jpg"
+    poster="{{site.BaseURL}}/img/homepage-video/poster.jpg"
     class="w-full h-full absolute z-10 top-0 left-0 object-cover"
+    id="welcomeVideo"
   >
-    <source src="{{site.BaseURL}}/img/homepage-video/video_freiheit.webm" type="video/webm">
-    <source src="{{site.BaseURL}}/img/homepage-video/video_freiheit.mp4" type="video/mp4">
+    <!-- <source src="{{site.BaseURL}}/img/homepage-video/video_freiheit.webm" type="video/webm"> -->
+    <source src="{{site.BaseURL}}/img/homepage-video/video.mp4" type="video/mp4">
     Sorry your browsers dosen't not support video
   </video>
   <div class="relative w-full h-full z-30 flex flex-col items-center justify-center text-white px-8 md:px-24 text-center">
+    <div id="videoSound" class="absolute bottom-12 right-2 md:bottom-24 md:right-8 cursor-pointer p-4">
+      Vibes ON
+    </div>
     <section class="flex flex-col items-center max-w-screen-3xl">
       {{ $logo := resources.GetMatch "image/symbol.svg" }}
       <div><img src="{{ $logo.Permalink }}" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
@@ -29,7 +34,7 @@
       {{ if isset .Params "subtitle" }}
         <div class="mt-4 text-white font-serif text-head-md md:text-head-lg">{{ .Get "subtitle" }} </div>
       {{ end }}
-      <div class="mt-16">
+      <div class="mt-4">
         <a href="#we-are-pioneers">
           <div class="mouse_scroll">
             <div class="homepage-video__arrows">
@@ -43,3 +48,17 @@
     </section>
   </div>
 </div>
+
+{{ define "page_script" }}
+<script>
+  // alert();
+  let vibes = document.getElementById('videoSound');
+  let video = document.getElementById('welcomeVideo');
+  vibes.addEventListener('click', function () {
+    let mute = video.muted
+    vibes.classList.toggle("music-on")
+    video.muted=!mute
+  })
+  
+</script>
+{{ end }}
