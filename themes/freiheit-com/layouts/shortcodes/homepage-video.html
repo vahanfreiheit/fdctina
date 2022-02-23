@@ -22,8 +22,15 @@
     Sorry your browsers dosen't not support video
   </video>
   <div class="relative w-full h-full z-30 flex flex-col items-center justify-center text-white px-8 md:px-24 text-center">
-    <div id="videoSound" class="absolute bottom-12 right-2 md:bottom-24 md:right-8 cursor-pointer p-4">
-      Vibes ON
+    <div id="videoSound" class="soundVibes absolute bottom-12 right-4 md:bottom-24 md:right-12 cursor-pointer flex items-center">
+      <!-- <div>Vibes ON</div> -->
+      <div class="soundVibes-eq">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
     <section class="flex flex-col items-center max-w-screen-3xl">
       {{ $logo := resources.GetMatch "image/symbol.svg" }}

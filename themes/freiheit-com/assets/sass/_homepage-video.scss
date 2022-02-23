@@ -23,11 +23,62 @@
       animation-delay: .3s;
     }
   }
-  
+
+  // vibes
+
+  .soundVibes {
+    $heigh: 18px;
+    $width: 4px;
+    $gap: 4px;
+    $wrapperWidth: ($width + $gap) * 5;
+
+    width: $wrapperWidth;
+    &.music-on {
+      .soundVibes-eq {
+        height: 36px;
+      }
+    }
+    .soundVibes-eq {
+      position: relative;
+      height: $heigh;
+      > span {
+        position: absolute;
+        bottom: $heigh / 2;
+        left: 0;
+        display: block;
+        width: $width;
+        height: $heigh;
+        animation: vibe-waves 1.5s infinite ease-in-out;
+        &:nth-child(2) {
+          left: $width + $gap;
+          animation-delay: .2s;
+        }
+        &:nth-child(3) {
+          left: ($width + $gap) * 2;
+          animation-delay: .4s;
+        }
+        &:nth-child(4) {
+          left: ($width + $gap) * 3;
+          animation-delay: .6s;
+        }
+        &:nth-child(5) {
+          left: ($width + $gap) * 4;
+          animation-delay: .8s;
+        }
+      }
+    }
+  }
 }
 
 @keyframes arrow-scroll {
   0% { opacity: 0; }
   50% { opacity: .5; }
   100% { opacity: 1; }
+}
+
+@keyframes vibe-waves {
+  0% { height: 5px; transform: translateY(0px); background: #899C8C; }
+  25% { height: 100%; transform: translateY(50%); background: #D3FF19; }
+  50% { height: 5px; transform: translateY(0px); background: #899C8C; }
+  100% { height: 5px; transform: translateY(0px); background: #899C8C; }
 }
