@@ -35,12 +35,14 @@
     width: $wrapperWidth;
     &.music-on {
       .soundVibes-eq {
+        opacity: 1;
         height: 36px;
       }
     }
     .soundVibes-eq {
       position: relative;
       height: $heigh;
+      opacity: .5;
       > span {
         position: absolute;
         bottom: $heigh / 2;
