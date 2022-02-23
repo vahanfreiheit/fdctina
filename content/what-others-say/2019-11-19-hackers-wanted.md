@@ -9,7 +9,7 @@ headline1: HACKERS WANTED!
 headline2: freiheit.com started their first campaign in Lisbon!
 teaser: Recently, we started a recruiting campaign “Hackers wanted” showing that our highly educated software engineers graduated from the best universities worldwide, such as at the ISCTE Lisboa, IST Lisboa, KIT Karlsruhe, WWU Münster and the ETH Zurich.
 lead_image: hackers-wanted-4-devs.jpg
-image: hackers-wanted-4-devs.jpg
+image:
 footer_image:
 vimeo:
 youtube:

@@ -5,11 +5,17 @@
         {{ .Content }}
         {{ with .Pages }}
             <div class="grid xl:grid-cols-2 gap-20 mt-20">
-            {{ range . }}
+            {{ range first 20 . }}
                 <article>
                     <div class="bg-white">
                         <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
-                        <div class="p-12">
+                        <div class="flex justify-between px-8 pt-8">
+                            <div class="text-sm">{{ if (.Params.tags ) }}{{ .Params.tags }} {{ end }}</div>
+                            <div class="text-sm">{{ .Params.date.Format "January 2, 2006" }}</div>
+                        </div>
+                        <div class="px-8 pb-8 pt-8">
+                            <!-- if headlines and teaser-->
+                            {{ if or (.Params.headline1) (.Params.headline) (.Params.teaser) }}
                             <h3>
                                 <a class="no-underline hover:text-red" href="{{ .RelPermalink }}">{{.Params.headline1}}</a>
                             </h3>
@@ -18,6 +24,13 @@
                                 <!-- {{.Summary | plainify }} -->
                                 {{.Params.teaser}}
                             </div>
+                            <!-- else -->
+                            {{ else }}
+                            <div class="text-body-lg">
+                                {{.Summary | plainify }}
+                            </div>
+                            {{ end }}
+                            <!-- end if -->
                             <a href="{{ .RelPermalink }}" 
                                 class="inline-block leading-none ursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
                                 Read →

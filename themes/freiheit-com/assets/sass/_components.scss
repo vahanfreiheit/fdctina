@@ -14,7 +14,11 @@
       pb-4
       md:pb-0
       max-w-screen-3xl;
-  }
+      // article page content
+      &.article-content {
+        @apply max-w-screen-lg;
+      }
+    }
   &:first-child {
     > section {
       @apply pt-8 md:pt-24;

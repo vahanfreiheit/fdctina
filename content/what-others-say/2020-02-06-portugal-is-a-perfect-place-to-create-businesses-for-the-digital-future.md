@@ -14,6 +14,7 @@ footer_image:
 vimeo: 
 youtube:
 tags: []
+hideHeaderTitle: true
 ---
 
 --
