@@ -21,8 +21,11 @@
 {{ else if eq .Params.headerTheme "pale-purple" }}
     {{ $backgroundImage = resources.GetMatch "image/header_pale-purple.png" }}
     {{ $backgroundClasses = "bg-pale-purple text-black"}}
+{{ else if eq .Params.headerTheme "video" }}
+    {{ $backgroundClasses = "text-light-grey bg-transparent"}}
+    {{ $logo = $logo_white }}
 {{ end }}
-<header class="p-5 md:p-12 relative w-full
+<header class="relative z-40 p-5 md:p-12 relative w-full
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"
     {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}

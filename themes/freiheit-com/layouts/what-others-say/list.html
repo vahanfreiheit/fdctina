@@ -5,7 +5,7 @@
         {{ .Content }}
         {{ with .Pages }}
             <div class="grid xl:grid-cols-2 gap-20 mt-20">
-            {{ range first 20 . }}
+            {{ range first 4 . }}
                 <article>
                     <div class="bg-white">
                         <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
