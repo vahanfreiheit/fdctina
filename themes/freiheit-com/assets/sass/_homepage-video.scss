@@ -50,7 +50,7 @@
         display: block;
         width: $width;
         height: $heigh;
-        animation: vibe-waves 1.5s infinite ease-in-out;
+        animation: vibe-waves 2.5s infinite ease-in-out;
         &:nth-child(2) {
           left: $width + $gap;
           animation-delay: .2s;
