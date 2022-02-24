@@ -2,7 +2,7 @@
 title: "We Are a Global Team"
 date: 2022-02-04
 draft: false
-weight: 9
+weight: 10
 contentTheme: black
 ---
 
