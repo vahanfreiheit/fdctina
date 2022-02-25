@@ -5,7 +5,7 @@
         {{ .Content }}
         {{ with .Pages }}
             <div class="grid xl:grid-cols-2 gap-20 mt-20">
-            {{ range first 4 . }}
+            {{ range first 10 . }}
                 <article>
                     <div class="bg-white" class="no-underline">
                         <a href="{{ .RelPermalink }}">
@@ -24,12 +24,12 @@
                             <h5>{{.Params.headline2}}</h5>
                             <div class="text-body-lg">
                                 <!-- {{.Summary | plainify }} -->
-                                {{.Params.teaser}}
+                                {{.Params.teaser | safeHTML }}
                             </div>
                             <!-- else -->
                             {{ else }}
                             <div class="text-body-lg">
-                                {{.Summary | plainify }}
+                                {{.Summary }}
                             </div>
                             {{ end }}
                             <!-- end if -->

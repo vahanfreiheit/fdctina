@@ -33,13 +33,13 @@
     <nav class="flex items-center justify-between space" id="navigation">
         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo.Permalink }}" alt="freiheit logo" /></a>
         <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
-            <div class="lg:hidden checkbox-content transition duration-200 ease-in-out">
+            <div class="xl:hidden checkbox-content transition duration-200 ease-in-out">
                 <div
-                        class="bg-right bg-contain bg-no-repeat flex flex-col lg:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey"
+                        class="bg-right bg-contain bg-no-repeat flex flex-col xl:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey"
                         style="background-image: url('{{ (resources.GetMatch "image/mobile-navigation_background.png").Permalink }}');">
                     <div class="flex items-center justify-between space">
                         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" /></a>
-                        <span class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
+                        <span class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5,6 L19,17.9845516 M5,18 L19,6"/>
                             </svg>
@@ -67,9 +67,9 @@
                 </div>
             </div>
         </input>
-        <label for="open-menu-checkbox" class="lg:hidden">
+        <label for="open-menu-checkbox" class="xl:hidden">
             <span 
-                class="cursor-pointer inline-flex lg:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none"
+                class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none"
                 aria-expanded="false">
                 <span class="sr-only">Open menu</span>
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -78,8 +78,8 @@
                 </svg>
             </span>
         </label>
-        {{ if or (.Params.headerHeadline) (.Params.headerSubline) }}
-        <ul class="hidden lg:flex flex-wrap items-centertext-navigation font-light w-100">
+        {{ if or (.Params.headerHeadline) (.Params.headerSubline) (eq .Params.layout "article") }}
+        <ul class="hidden xl:flex flex-wrap items-centertext-navigation font-light w-100">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
                 {{ if .HasChildren }}

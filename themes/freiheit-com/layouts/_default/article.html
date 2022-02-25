@@ -1,26 +1,8 @@
 {{ define "main" }}
 <div class="fdc-content-layout">
-    <section class="article-content">
+    <section class="article-content bg-white mb-24">
         <article>
             <p>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</p>
-            <!-- <h2>{{ .Title }}</h2>
-            {{ if .Params.tags }}
-            <p>
-                <strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ .
-                    }}</a> {{end}}
-            </p>
-            {{end}}
-            {{ if .Params.categories }}
-            <p>
-                <strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . |
-                    urlize }}">{{ . }}</a> {{end}}
-            </p>
-            {{end}}
-            {{if .Params.author}}
-            <p>
-                Author: {{.Params.Author}}
-            </p>
-            {{end}} -->
             {{ if or (.Params.headline1) (.Params.headline) (.Params.teaser) }}
                 {{ if .Params.headline1 }}<h1>{{ .Params.headline1 }}</h1>{{ end }}
                 {{ if .Params.headline2 }}<h3>{{ .Params.headline2 }}</h3>{{ end }}
