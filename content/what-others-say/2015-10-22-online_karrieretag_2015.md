@@ -16,4 +16,4 @@ On October 22, 2015, freiheit.com is a sponsor at the Online-Karrieretag in Hamb
 video::kfNMpgfs3Jg[youtube]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

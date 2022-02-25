@@ -17,4 +17,4 @@ The LinuxTag is a fantastic event for programmers and free software activists.  
 http://www.free-it.org/archiv/talks_2005/paper-11061/paper-11061-de.pdf[Read the entire paper here]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

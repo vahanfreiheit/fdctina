@@ -15,4 +15,4 @@ http://officesnapshots.com/2016/05/12/freiheit-com-offices-hamburg/[Check out Of
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

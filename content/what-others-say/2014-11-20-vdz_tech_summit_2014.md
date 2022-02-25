@@ -16,4 +16,4 @@ Stefan Richter holds his presentation “Von Big Data zum Machine Learning” (�
 http://www.vdz-tech-summit.com/konferenz/archiv/2-vdz-tech-summit-2014/interviews-2014/[Check out the interview]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

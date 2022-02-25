@@ -21,4 +21,4 @@ On May 5, 2017, https://de.wikipedia.org/wiki/Marco_B%C3%B6rries[Marco Börries,
 In his talk „Make small business work in a complex world“, he gives us an insight into his current product, his strategy as well as the architecture and technologies.
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

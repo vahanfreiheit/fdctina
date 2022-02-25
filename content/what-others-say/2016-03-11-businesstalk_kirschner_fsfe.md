@@ -18,4 +18,4 @@ https://www.bookzilla.de/shop/action/mymagazine/1001/home.html?aUrl=90006951[Che
 https://fsfe.org/donate/thankgnus.de.html[Become a donor]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

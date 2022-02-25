@@ -16,4 +16,4 @@ manager magazin - a German monthly magazine focusing on business, finance and ma
 http://www.manager-magazin.de/unternehmen/karriere/der-beste-rat-den-ich-je-bekommen-habe-a-1037828-2.html[Check out the article]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

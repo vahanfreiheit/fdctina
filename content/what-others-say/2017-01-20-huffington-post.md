@@ -22,4 +22,4 @@ Even though machines are taking over more jobs that previously have been execute
 http://www.huffingtonpost.de/claudia-dietze/maschine-sympathisches-gesicht_b_14266854.html[Check out The Huffington Post]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

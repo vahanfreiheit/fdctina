@@ -13,4 +13,4 @@ The slideshow in the series “Chefbüro” of the German magazine “Wirtschaft
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

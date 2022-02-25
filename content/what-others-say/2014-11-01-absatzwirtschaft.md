@@ -17,4 +17,4 @@ https://drive.google.com/a/freiheit.com/file/d/0B-4a6ZsmPQKVaUJIZEo1QWtfelk/view
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

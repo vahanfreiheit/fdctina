@@ -20,4 +20,4 @@ https://twitter.com/ambrosebs?lang=de[Ambrose Bonnaire-Sergeant,role="inline"] s
 http://typedclojure.org/#[Find out more about the campaign]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

@@ -17,4 +17,4 @@ In the newspaper series of the Hamburger Abendblatt “Der Rote Faden” (“The
 http://www.abendblatt.de/hamburg/persoenlich/article205527325/Claudia-Dietze-die-charmante-Mrs-Perfect.html[Check out the article]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

@@ -16,4 +16,4 @@ http://www.saalzwei.de/management-kolumne/artikel/?tx_ttnews%5Btt_news%5D=749&cH
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

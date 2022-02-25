@@ -18,4 +18,4 @@ In the digital age, recruiting is becoming the most important management role, w
 http://www.saalzwei.de/management-kolumne/artikel/?tx_ttnews%5Btt_news%5D=889&cHash=3854f2d5a101a31c3e7c9f5ec21e299f[Jobinterviews sind CEO-Sache]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

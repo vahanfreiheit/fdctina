@@ -15,4 +15,4 @@ Open House @ freiheit.com. On June 19, 2015, we are inviting friends and family 
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

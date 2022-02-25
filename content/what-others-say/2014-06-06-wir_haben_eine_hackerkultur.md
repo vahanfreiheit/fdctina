@@ -16,4 +16,4 @@ Claudia Dietze speaks of the necessity of transferring standard business models 
 https://www.deutsche-bank.de/pfb/data/docs/Einer_von_900.000_-_advertorial.pdf[Check out the article]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

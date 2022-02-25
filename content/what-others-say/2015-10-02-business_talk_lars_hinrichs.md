@@ -16,4 +16,4 @@ On October 2, 2015, Lars Hinrichs - Internet pioneer and founder of the career n
 http://www.apartimentum.com/#!home/mainPage[About the project]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

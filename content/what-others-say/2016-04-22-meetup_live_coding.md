@@ -16,4 +16,4 @@ Our founder Stefan Richter organizes the first Live Coding Meetup in Hamburg. On
 http://www.meetup.com/de-DE/Hamburg-Live-Coding-Meetup/events/230460632/?rv=ea1[Sign in here]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

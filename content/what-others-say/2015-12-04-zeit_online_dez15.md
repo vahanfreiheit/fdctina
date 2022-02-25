@@ -16,4 +16,4 @@ In her interview with ZEIT ONLINE, Claudia Dietze explains why authority and res
 http://www.zeit.de/karriere/beruf/2015-12/mitarbeiterfuehrung-hierarchie-autoritaet[Check out the article]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

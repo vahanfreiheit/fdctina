@@ -8,22 +8,22 @@ title:
 headline1: HACKERS WANTED!
 headline2: freiheit.com started their first campaign in Lisbon!
 teaser: Recently, we started a recruiting campaign “Hackers wanted” showing that our highly educated software engineers graduated from the best universities worldwide, such as at the ISCTE Lisboa, IST Lisboa, KIT Karlsruhe, WWU Münster and the ETH Zurich.
-lead_image: hackers-wanted-4-devs.jpg
-image:
+lead_image: echo/hackers-wanted-4-devs.jpg
+image: echo/hackers-wanted-4-devs.jpg
 footer_image:
 vimeo:
 youtube:
 tags: [Press, Lisboa]
+hideHeaderTitle: true
 ---
 
---
 Recently, we started a recruiting campaign “Hackers wanted” showing that our highly educated software engineers graduated from the best universities worldwide, such as at the ISCTE Lisboa, IST Lisboa, KIT Karlsruhe, WWU Münster and the ETH Zurich.
 
 We have a strong engineering culture. 90 % of the team are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong Machine Learning backgrounds.
 
 As internet pioneers, we have been building large-scale software systems since 1999, when our company was founded in Germany. Since then we have delivered hundreds of projects to our customers which are used by millions of users with thousands of requests per second.
 
-https://freiheit.com[freiheit.com, role="inline"] works for large and mid-sized companies to reinvent their future with technology. They are the who-is-who of the European economy such as Mercedes Benz, Volkswagen, Engel & Völkers and METRO Cash & Carry.
+[freiheit.com](https://freiheit.com) works for large and mid-sized companies to reinvent their future with technology. They are the who-is-who of the European economy such as Mercedes Benz, Volkswagen, Engel & Völkers and METRO Cash & Carry.
 
 In the last two decades, we have been constantly reinventing and improving ourselves. Self-improvement and learning are deeply ingrained in our DNA and in the personalities of all of our team members. We tackle new and interesting problems all the time and quite often create things that nobody has built before.
 
@@ -33,11 +33,10 @@ At heart, we are a unique, innovative and bold engineering company.
 
 We hire the top ranking students directly from university or from their first work experience and actively develop them to become well-rounded software engineers.
 
-https://freiheit.com/en/jobs/[Join us!]
+[Join us!](/join-the-team/)
 
-+++<img src="{{site.baseurl}}/assets/images/content/echo/hackers-wanted-street.jpg" />+++
-+++<img src="{{site.baseurl}}/assets/images/content/echo/hackers-wanted-andre.jpg" />+++
+{{< image src="/img/what-others-say/echo/hackers-wanted-street.jpg/" alt="" class="mt-12" >}}
+{{< image src="/img/what-others-say/echo/hackers-wanted-andre.jpg/" alt="" class="mt-4" >}}
 
---
 
-// vim: set textwidth=100:formatoptions+=t
+

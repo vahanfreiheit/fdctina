@@ -7,8 +7,10 @@
             <div class="grid xl:grid-cols-2 gap-20 mt-20">
             {{ range first 4 . }}
                 <article>
-                    <div class="bg-white">
-                        <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
+                    <div class="bg-white" class="no-underline">
+                        <a href="{{ .RelPermalink }}">
+                            <img src="/img/what-others-say/{{.Params.Image}}" class="w-full" alt="{{ .Title }}" />
+                        </a>
                         <div class="flex justify-between px-8 pt-8">
                             <div class="text-sm">{{ if (.Params.tags ) }}{{ .Params.tags }} {{ end }}</div>
                             <div class="text-sm">{{ .Params.date.Format "January 2, 2006" }}</div>
@@ -31,7 +33,7 @@
                             </div>
                             {{ end }}
                             <!-- end if -->
-                            <a href="{{ .RelPermalink }}" 
+                            <a href="{{ .RelPermalink }}"
                                 class="inline-block leading-none ursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
                                 Read →
                             </a>

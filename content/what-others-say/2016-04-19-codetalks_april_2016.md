@@ -14,4 +14,4 @@ Thomas Storck - CIO METRO Cash & Carry - knows the necessity of the digital tran
 http://commerce.codetalks.de/2016/programm/metro-goes-microservices[code.talks commerce special]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

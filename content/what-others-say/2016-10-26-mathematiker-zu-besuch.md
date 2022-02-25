@@ -20,4 +20,4 @@ On October 26, 2016, we hang out with these cool, young mathematicians from http
 http://www.math.uni-hamburg.de/siamchapter/news_013.html[Here´s more about the event]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

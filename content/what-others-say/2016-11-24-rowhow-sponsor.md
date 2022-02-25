@@ -22,4 +22,4 @@ Teams of the standard platform and Humanoid Kid Size League are invited to prese
 https://rohow.de/2016/de/index.php[Here´s more on RoHOW]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

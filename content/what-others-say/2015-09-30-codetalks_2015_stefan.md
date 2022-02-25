@@ -23,4 +23,4 @@ http://de.slideshare.net/AboutYouGmbH/stefan-richter-writing-simple-readable-and
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

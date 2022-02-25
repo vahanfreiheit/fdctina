@@ -18,4 +18,4 @@ http://netzhansa.blogspot.de/2010/01/title-berlin-lispers-meetup-date.html[Check
 http://de.slideshare.net/smartrevolution/how-a-clojure-pet-project-turned-into-a-fullblown-cloudcomputing-webapp[Check out the presentation]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

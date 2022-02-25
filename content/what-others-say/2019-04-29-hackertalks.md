@@ -34,4 +34,4 @@ Just make sure to register with our office to let us know in advance:
 
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

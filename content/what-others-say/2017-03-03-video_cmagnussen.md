@@ -20,4 +20,4 @@ http://christophmagnussen.com/[Christoph Magnussen,role="inline"] and Stefan Ric
 video::76gs8VC7c2M[youtube]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+

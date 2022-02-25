@@ -22,4 +22,4 @@ SPIEGEL ONLINE compares the top 17 offices worldwide - we are in. According to a
 http://www.spiegel.de/karriere/bueros-im-vergleich-wo-wuerden-sie-gern-arbeiten-a-1139943.html[Check it out at SPIEGEL ONLINE]
 --
 
-// vim: set textwidth=100:formatoptions+=t
+
