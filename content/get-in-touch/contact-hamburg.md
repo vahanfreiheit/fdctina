@@ -7,7 +7,7 @@ weight: 2
 
 ### Hamburg { .text-yellow }
 
-[hamburg@freiheit.com](mailto:hamburg@freiheit.com)
+<!-- [hamburg@freiheit.com](mailto:hamburg@freiheit.com) -->
 
 Budapester Str. 45
 20359 Hamburg
