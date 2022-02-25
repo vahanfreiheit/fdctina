@@ -13,9 +13,10 @@ Our teams develop strategically important products and we use the same organizat
 Our teams are deeply involved in the creation of the product, from the first idea to the final rollout and even continuing on with long-term product management.
 
 {{< content-grid-images >}}
-  <div class="fdc-scroll fdc-scroll--slide-left">
+  <!-- <div class="fdc-scroll fdc-scroll--slide-left">
     {{< youtube DMNt1re-kRY >}}
-  </div>
+  </div> -->
+  {{< image src="/img/who-we-are/freiheit.com_HackerX.jpg" alt="freiheit.com foyer" class="fdc-scroll fdc-scroll--slide-left" >}}
   {{< image src="/img/who-we-are/we-are-a-product-development-organization-2.jpg" alt="freiheit.com foyer" class="fdc-scroll fdc-scroll--slide-right" >}}
   {{< image src="/img/who-we-are/we-are-a-product-development-organization-3.jpg" alt="freiheit.com employees" class="fdc-scroll fdc-scroll--fade-in-bottom" >}}
 {{< /content-grid-images>}}
