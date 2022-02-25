@@ -1,11 +1,11 @@
 ---
 title: "Online Bookstores"
-image: online-bookstores.jpg
-backgroundColorClass: "bg-red" 
+image: online-bookstores_2.jpg
+backgroundColorClass: "bg-red"
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 8
+weight: 7
 size: big
 ---
 

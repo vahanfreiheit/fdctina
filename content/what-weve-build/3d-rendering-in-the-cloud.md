@@ -5,7 +5,7 @@ backgroundColorClass: "bg-red"
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 1
+weight: 3
 size: big
 ---
 
