@@ -1,11 +1,11 @@
 ---
 title: "And There Is More"
-image: and-there-is-more.jpg
+image: and-there-is-more_2.jpg
 backgroundColorClass: "bg-red" 
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 9
+weight: 8
 size: big
 ---
 

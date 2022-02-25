@@ -1,12 +1,12 @@
 ---
-title: "Connected Cars"
-image: connected-cars.jpg
+title: "Connected Cars & Companion Apps"
+image: connected-cars_2.jpg
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 2
-size: small
+weight: 4
+size: big
 ---
 
-We have been working with Daimler and VW, building cloud backends and head unit integration for new cars coming out over the next few years. Our music streaming, mobile office and notification applications are currently running in production in data centers around the world.
+We have been working with German Car Manufactures, building cloud back-ends and head unit integration for new cars coming out over the next few years. Our music streaming, mobile office and notification applications are currently running in production in data centers around the world. Also we have built a new core app (and its cloud back-ends), which is the main app for all new owners of the recently launched electric cars. We love using Flutter and Dart!

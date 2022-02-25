@@ -1,11 +1,11 @@
 ---
 title: "Global B2B Retail Platform"
-image: global-b2b-retail-platform.jpg
+image: global-b2b-retail-platform_2.jpg
 backgroundColorClass: "bg-red" 
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 4
+weight: 1
 size: big
 ---
 

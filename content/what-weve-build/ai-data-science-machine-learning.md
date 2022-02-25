@@ -1,11 +1,11 @@
 ---
 title: "AI, Data Science & Machine Learning"
-image: ai-data-science-machine-learning.jpg
+image: ai-data-science-machine-learning_2.jpg
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 6
+weight: 5
 size: small
 ---
 

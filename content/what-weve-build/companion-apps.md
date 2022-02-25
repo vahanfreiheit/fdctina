@@ -3,9 +3,9 @@ title: "Companion Apps"
 image: companion-apps.jpg
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
-draft: false
+draft: true
 tags: [case study]
-weight: 3
+weight: 30
 size: small
 ---
 
