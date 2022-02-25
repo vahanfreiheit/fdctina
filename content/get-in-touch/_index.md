@@ -9,7 +9,7 @@ hideHeaderTitle: true
 menu:
   main:
     name: Get in touch
-    weight: 5
+    weight: 6
 ---
 ## Get in touch with our team {.text-yellow}
 
