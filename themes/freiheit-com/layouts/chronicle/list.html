@@ -21,8 +21,12 @@
                     {{ end }}
                     <article class="bg-white flex flex-col {{ $scrollClass }}">
                         <div class="grid grid-cols-7">
-                            <div class="bg-black text-white col-span-5 flex justify-center items-center">
-                                <img src="{{ $logo.Permalink }}" alt="freiheit logo" class="m-10" />
+                            <div class="bg-black text-white col-span-5 flex justify-center items-end min-h-40 px-5 pt-5">
+                                <h3 class="text-white">
+                                    {{ .Params.Group }}:<br />
+                                    {{ .Title }}
+                                </h3>
+                                <!-- <img src="{{ $logo.Permalink }}" alt="freiheit logo" class="m-10" /> -->
                             </div>
                             <div class="{{ $bgColor }} col-span-2 flex justify-center items-end">
                                 <h2>{{ printf "%02d" .Params.weight }}</h2>
@@ -35,10 +39,10 @@
                                 <div>{{ .PublishDate.Format "January 2, 2006" }}</div>
                             </div>
                             <div class="flex-1">
-                                <h3 class="mb-0">
+                                <!-- <h3 class="mb-0">
                                     {{ .Params.Group }}:<br />
                                     {{ .Title }}
-                                </h3>
+                                </h3> -->
                                 {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
                             </div>
                             <div class="mt-10 flex flex-col sm:flex-row items-center">
