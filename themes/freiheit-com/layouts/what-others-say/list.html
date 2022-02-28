@@ -9,7 +9,7 @@
                 <article>
                     <div class="bg-white" class="no-underline">
                         {{ if or (.Params.Image) (.Params.lead_image) }}
-                        <a href="{{ .RelPermalink }}">
+                        <a href="{{ .RelPermalink | absURL }}">
                             {{ if .Params.Image }}
                                 <img src="/img/what-others-say/{{.Params.Image}}" class="w-full {{ .Params.image_class }}" alt="{{ .Title }}" />
                             {{ else if .Params.lead_image }}
@@ -25,7 +25,7 @@
                             <!-- if headlines and teaser-->
                             {{ if or (.Params.headline1) (.Params.headline) (.Params.teaser) }}
                             <h3>
-                                <a class="no-underline hover:text-red" href="{{ .RelPermalink }}">{{.Params.headline1}}</a>
+                                <a href="{{ .RelPermalink | absURL }}" class="no-underline hover:text-red">{{.Params.headline1}}</a>
                             </h3>
                             <h5>{{.Params.headline2}}</h5>
                             <div class="text-body-lg">
