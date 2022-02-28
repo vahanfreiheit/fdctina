@@ -4,3 +4,4 @@ theme: freiheit-com
 languageCode: en-us
 defaultContentLanguage: en
 relativeURLs: true
+paginate: 10

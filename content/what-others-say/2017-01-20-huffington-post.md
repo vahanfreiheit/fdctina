@@ -8,6 +8,7 @@ title:
 teaser: 
 lead_image: 
 image: echo/The_Huffington_Post_logo.svg.png
+image_class: p-8
 footer_image:
 vimeo: 
 youtube:

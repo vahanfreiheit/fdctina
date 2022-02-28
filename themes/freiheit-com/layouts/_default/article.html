@@ -10,6 +10,8 @@
             {{ end }}
             {{ if .Params.Image }}
                 <img src="/img/what-others-say/{{.Params.Image}}" class="w-full my-8" alt="{{ .Title }}"/>
+            {{ else if .Params.lead_image }}
+                <img src="/img/what-others-say/{{.Params.lead_image}}" class="w-full my-8" alt="{{ .Title }}"/>
             {{ end }}
             <p>{{ .Content }}</p>
         </article>

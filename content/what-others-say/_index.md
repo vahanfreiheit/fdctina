@@ -10,5 +10,5 @@ menu:
     weight: 5
 ---
 
-## The latest headlines
+<!-- ## The latest headlines -->
 Check out the latest news articles and other noteworthy mentions of Freiheit.

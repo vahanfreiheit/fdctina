@@ -52,3 +52,9 @@
     @apply w-full md:w-auto;
   }
 }
+
+// pagination
+.echo_pagination {
+  @apply flex justify-center items-center no-underline pb-1 pt-2 px-1 bg-white hover:text-red ;
+  min-width: 40px;
+}
