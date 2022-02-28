@@ -90,6 +90,28 @@ module.exports = {
           fontFamily: 'fdc-numbers',
         }],
       },
+      animation: {
+        headerBackground: "headerBackground 30s infinite"
+      },
+      keyframes: {
+        headerBackground: {
+          // "0%": {
+          //   transform: "scale(1.5) perspective(1000px) rotateX(40deg) rotateY(-160deg) rotateZ(40deg);"
+          // },
+          "0%": {
+            transform: "translate(0px, 0px) scale(1) rotate(0deg) perspective(1000px)"
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.4) rotate(5deg)"
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9) rotate(-5deg)"
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1.2) rotate(0)"
+          }
+        }
+      },
     },
     fontFamily: {
       sans: ['Work Sans', 'sans-serif'],
