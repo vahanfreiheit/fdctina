@@ -99,16 +99,16 @@ module.exports = {
           //   transform: "scale(1.5) perspective(1000px) rotateX(40deg) rotateY(-160deg) rotateZ(40deg);"
           // },
           "0%": {
-            transform: "translate(0px, 0px) scale(1) rotate(0deg) perspective(1000px)"
+            transform: "translate(0px, 0px) scale(1) rotate(0deg) perspective(1000)"
           },
           "33%": {
-            transform: "translate(30px, -50px) scale(1.4) rotate(5deg)"
+            transform: "translate(30px, -50px) scale(0.9) rotate(5deg) perspective(2000px)"
           },
           "66%": {
-            transform: "translate(-20px, 20px) scale(0.9) rotate(-5deg)"
+            transform: "translate(-20px, 20px) scale(1.1) rotate(3deg)"
           },
           "100%": {
-            transform: "translate(0px, 0px) scale(1.2) rotate(0)"
+            transform: "translate(0px, 0px) scale(1) rotate(0) perspective(1000)"
           }
         }
       },
