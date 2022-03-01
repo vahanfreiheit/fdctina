@@ -11,4 +11,4 @@ menu:
 ---
 
 <!-- ## The latest headlines -->
-Check out the latest news articles and other noteworthy mentions of Freiheit.
+Check out the latest news articles and other noteworthy mentions of freiheit.

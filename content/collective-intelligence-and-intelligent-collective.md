@@ -6,7 +6,7 @@ weight: 8
 contentTheme: black
 ---
 
-### Collective Intelligence and Intelligent Collective
+### Collective Intelligence and Intelligent Collective.
 
 As engineers, we strive to distribute our knowledge and best practices to everyone within our company. Our goal is to make sure all team members "know what the company knows." This reduces our reliance on induvidual experts and also helps us avoid making the same mistakes twice.
 

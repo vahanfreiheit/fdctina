@@ -6,7 +6,7 @@ weight: 9
 contentTheme: black
 ---
 
-### We Are a Product Development Organization
+### We Are a Product Development Organization.
 
 Our teams develop strategically important products and we use the same organizational principles and team structures that were shaped and pioneered by successful Silicon Valley product companies like Google or Apple.
 

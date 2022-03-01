@@ -21,7 +21,7 @@
     <source src="{{site.BaseURL}}/img/homepage-video/240222-draft-homepage-2.mp4" type="video/mp4">
     Sorry your browsers dosen't not support video
   </video>
-  <div class="relative w-full h-full z-30 flex flex-col items-center justify-end text-white px-8 md:px-24 text-center pb-32 md:pb-64">
+  <div class="relative w-full h-full z-30 flex flex-col items-center justify-center xl:justify-end text-white md:px-8 md:px-24 text-center xl:pb-32">
     <div id="videoSound" class="soundVibes absolute bottom-24 md:bottom-32 top-auto right-16 md:right-24 cursor-pointer flex items-center">
       <!-- <div>Vibes ON</div> -->
       <div class="soundVibes-eq">
@@ -34,9 +34,9 @@
     </div>
     <section class="flex flex-col items-center max-w-screen-3xl">
       {{ $logo := resources.GetMatch "image/symbol.svg" }}
-      <div><img src="{{ $logo.Permalink }}" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
+      <div class="hidden xl:block"><img src="{{ $logo.Permalink }}" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
       {{ if isset .Params "title" }}
-        <div class="text-white font-serif text-head-lg md:text-head-xl">{{ .Get "title" }} </div>
+        <div class="text-white font-serif text-head-lg lg:text-head-xl px-8">{{ .Get "title" }} </div>
       {{ end }}
       {{ if isset .Params "subtitle" }}
         <div class="mt-4 text-white font-serif text-head-md md:text-head-lg">{{ .Get "subtitle" }} </div>

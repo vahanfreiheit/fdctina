@@ -5,7 +5,7 @@ draft: false
 weight: 7
 ---
 
-### We Ship Great Products
+### We Ship Great Products.
 
 “Ship” means that we deliver. Fast and in daily increments. To achieve goals.
 

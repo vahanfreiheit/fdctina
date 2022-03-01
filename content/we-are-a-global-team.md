@@ -6,7 +6,7 @@ weight: 10
 contentTheme: black
 ---
 
-### We Are a Global Team
+### We Are a Global Team.
 
 Our headquarter is in Hamburg, Germany. In 2018, we opened an engineering hub in Lisbon. Our next goal was to open global satellite offices and be able to work from anywhere in the world.
 
