@@ -36,3 +36,12 @@ Put this into your .zshrc or .bashrc:
     $ act --secret GITHUB_TOKEN=$GITHUB_TOKEN deploy
 
 You have to select the medium installation on the first execution of `act`.
+
+
+### Netlify CMS
+
+#### running locally
+
+- run `npx netlify-cms-proxy-server` to start the proxy server
+- run `hugo serve` to start the hugo server
+- go to `http://localhost:1313/admin` to login to the CMS
