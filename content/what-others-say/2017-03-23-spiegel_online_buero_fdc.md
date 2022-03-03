@@ -1,16 +1,11 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2017/04/spiegel_online_buero_fdc/
 locale: en
 date: 2017-03-23 14:57:28
-title: 
 teaser: 
 headline1: SPIEGEL ONLINE compares top 17 offices
 headline2: Where would you like to work?
 lead_image:
-image: echo/Spiegel_Online_logo.svg.png
-footer_image:
+image: /img/what-others-say/Spiegel_Online_logo.svg.png
 vimeo: 
 youtube:
 tags: [ Press ]

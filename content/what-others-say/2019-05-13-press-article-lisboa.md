@@ -1,16 +1,11 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2019/05/press-article-lisboa/
 locale: en
 date: 2019-05-13 16:39:36
-title: 
 headline1: Renowned German software company in love with Lisbon
 headline2: freiheit.com is investing in people, office and business aiming at long-term excellence.
 teaser: Hamburg/Lisbon, May 7, 2019 – The German software company freiheit.com announces the opening of a new office in Lisbon. Specialised in building large-scale software platforms, the internet pioneer works for the who-is-who of the European economy such as Mercedes Benz, Volkswagen, Engel & Völkers and METRO. The company is a partner of Google and has a team of 150 people of which 85 per cent are software engineers. The company’s name ‘freiheit’ means ‘freedom’ or ‘liberdade’ and expresses its mission – to take the freedom to create the future with its software. With the new office in Lisbon, freiheit.com will further extend its reach by investing in long-term excellence at Europe’s new tech hotspot.
 lead_image:
-image: echo/freiheit_love_lisbon_201905.jpg
-footer_image:
+image: /img/what-others-say/freiheit_love_lisbon_201905.jpg
 vimeo: 
 youtube:
 tags: [Press, Lisboa]

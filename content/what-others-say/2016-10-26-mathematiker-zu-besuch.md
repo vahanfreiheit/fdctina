@@ -1,14 +1,10 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2016/11/mathematiker-zu-besuch/
 locale: en
 date: 2016-10-26 11:56:01
-title: 
+
 teaser: 
 lead_image:
-image: echo/Lothar_Collatz_School.jpg
-footer_image:
+image: /img/what-others-say/Lothar_Collatz_School.jpg
 vimeo: 
 youtube:
 tags: [ Events ]

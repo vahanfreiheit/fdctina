@@ -1,12 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-10-22 14:03:31
-permalink: /en/echo/2016/01/online_karrieretag_2015/
 locale: en
-image: echo/Onl_KT_2015_Logo.jpg
-image_class: p-8
+/img/uploads/: echo/Onl_KT_2015_Logo.jpg
 tags: [ Events ]
 hideHeaderTitle: true
 ---

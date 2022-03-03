@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2016-05-18 16:33:11
-permalink: /en/echo/2016/05/office_snapshots/
 locale: en
-lead_image: echo/office_snapshots.jpg
+lead_image: /img/what-others-say/office_snapshots.jpg
 tags: [Press]
 hideHeaderTitle: true
 ---

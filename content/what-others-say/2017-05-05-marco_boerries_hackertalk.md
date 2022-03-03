@@ -1,16 +1,11 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2017/05/marco_boerries_hackertalk/
 locale: en
 date: 2017-05-05 14:28:18
-title: 
 headline1: HackerTalk with Marco Börries
 headline2: "Make small business work in a complex world"
 teaser:
 lead_image:
-image: echo/marco_boerries_freiheitc.com.jpg
-footer_image:
+image: /img/what-others-say/marco_boerries_freiheitc.com.jpg
 vimeo: 
 youtube:
 tags: [ Businesstalk , Press ]

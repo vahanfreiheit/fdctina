@@ -1,15 +1,9 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2016/09/typed_clojure/
-locale: en
 date: 2016-04-24 21:04:37
-title: "typed clojure"
-headeline1: typed clojure
+headline1: typed clojure
 teaser: 
 lead_image:
 image:
-footer_image:
 vimeo: 
 youtube:
 tags: []

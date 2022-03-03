@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2014-06-06 13:58:38
-permalink: /en/echo/2016/01/wir_haben_eine_hackerkultur/
 locale: en
-image: echo/db_foto.jpg
+image: /img/what-others-say/db_foto.jpg
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

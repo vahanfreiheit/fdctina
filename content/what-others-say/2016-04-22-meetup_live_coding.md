@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2016-04-22 18:26:14
-permalink: /en/echo/2016/04/meetup_live_coding/
 locale: en
-image: echo/meetup_logo_3.jpg
+image: /img/what-others-say/meetup_logo_3.jpg
 tags: [ Events, Meetup ]
 hideHeaderTitle: true
 ---

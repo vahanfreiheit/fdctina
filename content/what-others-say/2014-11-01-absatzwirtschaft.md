@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2014-11-01 19:05:43
-permalink: /en/echo/2016/01/absatzwirtschaft/
 locale: en
-image: echo/absatzw_logo.jpg
+image: /img/what-others-say/absatzw_logo.jpg
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

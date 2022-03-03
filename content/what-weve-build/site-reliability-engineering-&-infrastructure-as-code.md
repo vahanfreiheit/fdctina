@@ -1,11 +1,11 @@
 ---
 title: "Site Reliability Engineering & Infrastructure as Code"
-image: site-reliability-engineering-&-infrastructure-as-code_2.jpg
+image: /img/what-weve-build/site-reliability-engineering-&-infrastructure-as-code_2.jpg
 backgroundColorClass: "bg-red" 
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 2
+weight: 20
 size: small
 ---
 

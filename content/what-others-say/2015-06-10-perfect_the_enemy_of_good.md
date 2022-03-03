@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-06-10 19:14:06
-permalink: /en/echo/2016/01/perfect_the_enemy_of_good/
 locale: en
-image: echo/Logo_manager_magazin.jpg
+image: /img/what-others-say/Logo_manager_magazin.jpg
 tags: [Press, Businesstalk]
 hideHeaderTitle: true
 ---

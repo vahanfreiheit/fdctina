@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-10-02 13:53:32
-permalink: /en/echo/2016/01/business_talk_lars_hinrichs/
 locale: en
-lead_image: echo/Businesstalk_Lars_Hinrichs.jpg
+lead_image: /img/what-others-say/Businesstalk_Lars_Hinrichs.jpg
 tags: [ Events, Businesstalk ]
 hideHeaderTitle: true
 ---

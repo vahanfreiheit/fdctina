@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2005-06-04 14:05:41
-permalink: /en/echo/2016/01/survival_of_the_fittest/
 locale: en
-image: echo/logo_linuxtag.jpg
+image: /img/what-others-say/logo_linuxtag.jpg
 tags: [ Events ]
 hideHeaderTitle: true
 ---

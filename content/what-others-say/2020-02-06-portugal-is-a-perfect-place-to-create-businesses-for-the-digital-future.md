@@ -1,18 +1,15 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2020/02/portugal-is-a-perfect-place-to-create-businesses-for-the-digital-future/
-locale: en
 date: 2020-02-06 17:03:05
-title: 
 headline1: Portugal is a perfect place to create businesses for the digital future
-headline2: Claudia Dietze gave an interview to PC Guia in the section "IT-Girl".
-teaser: Claudia Dietze, Co-Founder of freiheit.com technologies gave an interview to PC Guia in the section "IT-Girl" and tells why Lisbon waited for freiheit.com and freiheit.com waited for Lisbon and what makes it so special to be a woman in a male dominated industry.
-lead_image:
-image: echo/Claudia_Dietze_High_Tech.jpg
-footer_image:
-vimeo: 
-youtube:
+headline2: Claudia Dietze gave an interview to PC Guia in the section "IT-Girl"
+teaser: Claudia Dietze, Co-Founder of freiheit.com technologies gave an
+  interview to PC Guia in the section "IT-Girl" and tells why Lisbon waited for
+  freiheit.com and freiheit.com waited for Lisbon and what makes it so special
+  to be a woman in a male dominated industry.
+lead_image: null
+image: /img/what-others-say/Claudia_Dietze_High_Tech.jpg
+vimeo: null
+youtube: null
 tags: []
 hideHeaderTitle: true
 ---

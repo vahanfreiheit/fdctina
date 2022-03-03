@@ -1,12 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2014-11-20 14:13:41
-permalink: /en/echo/2016/01/vdz_tech_summit_2014/
 locale: en
-image: echo/vdz_tech_summit_logo.jpg
-image_class: p-8
+image: /img/what-others-say/vdz_tech_summit_logo.jpg
 tags: [ Events ]
 hideHeaderTitle: true
 ---
