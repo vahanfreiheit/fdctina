@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $paginator := .Paginate (where .Data.Pages "Type" "echo") }}
+{{ $paginator := .Paginate .Data.Pages }}
 <div class="fdc-content-layout">
     <section>
         {{ .Content }}
@@ -7,13 +7,13 @@
             <div class="grid xl:grid-cols-2 gap-20 mt-20">
             {{ range $paginator.Pages }}
                 <article>
-                    <div class="bg-white" class="no-underline">
+                    <div class="bg-white no-underline">
                         {{ if or (.Params.Image) (.Params.lead_image) }}
                         <a href="{{ .RelPermalink | absURL }}">
-                            {{ if .Params.Image }}
-                                <img src="/img/what-others-say/{{.Params.Image}}" class="w-full {{ .Params.image_class }}" alt="{{ .Title }}" />
-                            {{ else if .Params.lead_image }}
-                                <img src="/img/what-others-say/{{.Params.lead_image}}" class="w-full {{ .Params.image_class }}" alt="{{ .Title }}" />
+                            {{ if .Params.lead_image }}
+                                <img src="{{.Params.lead_image }}" class="w-full" alt="{{ .Title }}" />
+                            {{ else if .Params.Image }}
+                                <img src="{{.Params.Image }}" class="w-full p-8" alt="{{ .Title }}" />
                             {{ end }}
                         </a>
                         {{ end }}

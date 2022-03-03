@@ -1,16 +1,11 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2017/06/aubrey_de_grey/
 locale: en
 date: 2017-06-02 12:38:38
-title:
 headline1: HackerTalk with Aubrey de Grey
 headline2: "The first human beings who will live to 1,000 years old have already been born"
 teaser: 
 lead_image:
-image: echo/aubrey_de_grey.JPG
-footer_image:
+image: /img/what-others-say/aubrey_de_grey.JPG
 vimeo: 
 youtube:
 tags: [ Businesstalk, Press ]

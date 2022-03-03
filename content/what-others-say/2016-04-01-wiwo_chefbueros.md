@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2016-04-01 15:29:35
-permalink: /en/echo/2016/04/wiwo_chefbueros/
 locale: en
-image: echo/wiwo_Claudia_04_2016.jpg
+image: /img/what-others-say/wiwo_Claudia_04_2016.jpg
 tags: [ Press , Businesstalk ]
 hideHeaderTitle: true
 ---

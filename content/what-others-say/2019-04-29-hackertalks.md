@@ -1,17 +1,12 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2019/04/hackertalks/
 locale: en
 date: 2019-04-29 15:33:47
-title:
 description: Every friday evening we meet for our Hackertalks. They cover a large variety of topics. 
 headline1: Hackertalks
 headline2: Every friday evening we meet for our Hackertalks
 teaser: Hackertalks
 lead_image:
-image: echo/hackertalks.jpg
-footer_image:
+image: /img/what-others-say/hackertalks.jpg
 vimeo: 
 youtube:
 tags: [Events]

@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-08-01 13:56:09
-permalink: /en/echo/2016/01/claudia_charmante_mrs_perfect/
 locale: en
-image: echo/claudia_abendblatt.jpg
+image: /img/what-others-say/claudia_abendblatt.jpg
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

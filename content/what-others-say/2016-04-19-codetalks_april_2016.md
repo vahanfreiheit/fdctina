@@ -1,11 +1,8 @@
 ---
-layout: article
-type: echo
-title: METRO goes Microservices
+headline1: METRO goes Microservices
 date: 2016-04-19 18:57:33
-permalink: /en/echo/2016/04/codetalks_april_2016/
 locale: en
-lead_image: echo/ct-commercespecial.jpg
+lead_image: /img/what-others-say/ct-commercespecial.jpg
 tags: [ Events , code.talks ]
 hideHeaderTitle: true
 ---

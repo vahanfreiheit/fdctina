@@ -1,14 +1,9 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2016/11/rowhow-sponsor/
 locale: en
 date: 2016-11-24 16:45:48
-title: 
 teaser: 
-lead_image: echo/RoHOW_logo.jpg
-image: echo/RoHOW_logo.jpg
-footer_image:
+lead_image: /img/what-others-say/RoHOW_logo.jpg
+image: /img/what-others-say/RoHOW_logo.jpg
 vimeo: 
 youtube:
 tags: [ Events, Hulks ]

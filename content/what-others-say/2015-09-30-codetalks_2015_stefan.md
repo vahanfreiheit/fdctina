@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-09-30 19:20:07
-permalink: /en/echo/2016/01/codetalks_2015_stefan/
 locale: en
-lead_image: echo/Codetalks_Stefan.jpg
+lead_image: /img/what-others-say/Codetalks_Stefan.jpg
 tags: [ Events, code.talks ]
 hideHeaderTitle: true
 ---

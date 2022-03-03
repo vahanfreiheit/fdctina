@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2016-03-11 15:29:01
-permalink: /en/echo/2016/04/businesstalk_kirschner_fsfe/
 locale: en
-image: echo/stefan_kirschner_fsfe.jpg
+image: /img/what-others-say/stefan_kirschner_fsfe.jpg
 tags: [Businesstalk , Events]
 hideHeaderTitle: true
 ---

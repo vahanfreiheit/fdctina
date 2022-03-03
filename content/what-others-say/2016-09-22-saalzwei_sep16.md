@@ -1,14 +1,9 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2016/09/saalzwei_sep16/
 locale: en
 date: 2016-09-22 21:01:37
-title: 
 teaser: 
 lead_image:
-image: echo/logo_saalzwei_weiß.jpg
-footer_image:
+image: /img/what-others-say/logo_saalzwei_weiß.jpg
 vimeo: 
 youtube:
 tags: [ Press, Businesstalk ]

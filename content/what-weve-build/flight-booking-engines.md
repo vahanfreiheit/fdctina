@@ -1,11 +1,11 @@
 ---
 title: "Flight Booking Engines"
-image: flight-booking-engines_2.jpg
+image: /img/what-weve-build/flight-booking-engines_2.jpg
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 6
+weight: 60
 size: small
 ---
 

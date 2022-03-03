@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2016-04-26 14:16:36
-permalink: /en/echo/2016/01/saal_zwei/
 locale: en
-image: echo/logo_saalzwei_weiß.jpg
+image: /img/what-others-say/logo_saalzwei_weiß.jpg
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

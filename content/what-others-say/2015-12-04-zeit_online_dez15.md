@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-12-04 19:23:30
-permalink: /en/echo/2016/01/zeit_online_dez15/
 locale: en
-lead_image: echo/Claudia_im_buero.jpg
+lead_image: /img/what-others-say/Claudia_im_buero.jpg
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

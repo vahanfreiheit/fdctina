@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2010-02-02 13:44:43
-permalink: /en/echo/2016/01/clojure_pet_project/
 locale: en
-lead_image: echo/stefan_vor_wired.jpg
+lead_image: /img/what-others-say/stefan_vor_wired.jpg
 tags:
 hideHeaderTitle: true
 ---

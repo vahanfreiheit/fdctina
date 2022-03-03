@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-06-16 13:41:04
-permalink: /en/echo/2016/01/tag_der_offenen_tuer_2015/
 locale: en
-image: echo/open_house_fdc.jpg
+image: /img/what-others-say/open_house_fdc.jpg
 tags: [ Events, life@freiheit.com ]
 hideHeaderTitle: true
 ---

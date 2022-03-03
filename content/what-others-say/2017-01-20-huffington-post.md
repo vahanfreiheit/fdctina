@@ -1,15 +1,9 @@
 ---
-layout: article
-type: echo
-permalink: /en/echo/2017/01/huffington-post/
 locale: en
 date: 2017-01-20 11:43:57
-title: 
 teaser: 
 lead_image: 
-image: echo/The_Huffington_Post_logo.svg.png
-image_class: p-8
-footer_image:
+image: /img/what-others-say/The_Huffington_Post_logo.svg.png
 vimeo: 
 youtube:
 tags: [ Press ]

@@ -1,11 +1,7 @@
 ---
-layout: article
-type: echo
-title:
 date: 2015-10-15 18:00:08
-permalink: /en/echo/2016/04/saalzwei_wer_braucht_manager/
 locale: en
-image: echo/logo_saalzwei_weiß.jpg
+image: /img/what-others-say/logo_saalzwei_weiß.jpg
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---
