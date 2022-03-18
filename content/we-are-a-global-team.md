@@ -18,7 +18,7 @@ We have adapted well to working completely remotely and enjoy many of its benefi
 
 We will continue to maintain an office space, so that in the future we will be able to build the personal relationships and sense of community that come from working closely together.
 
-However, we see a great value in remote work too, and we will continue to open up more opportunities for remote workers to join our teams.
+However, we see a great value in remote work too and we will continue to open up more opportunities for remote workers to join our teams.
 
 We are pretty sure that the office of the future will look different than it did before COVID-19. It will probably look more like a club with teams doing intense creative work that needs personal interaction. Our vision for a post-COVID office is a place focused on human connection and belonging.
 

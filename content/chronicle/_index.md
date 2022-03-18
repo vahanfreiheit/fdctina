@@ -12,5 +12,5 @@ menu:
 
 ### Meet Humans in Tech.
 
-Listen to our brand new webcast, hosted by freiheit founder Stefan and featuring the boldest voices in tech today.
+Listen to our brand new webcast, hosted by freiheit.com founder Stefan and featuring the boldest voices in tech today.
 

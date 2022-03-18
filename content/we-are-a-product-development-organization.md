@@ -10,7 +10,7 @@ contentTheme: black
 
 Our teams develop strategically important products and we use the same organizational principles and team structures that were shaped and pioneered by successful Silicon Valley product companies like Google or Apple.
 
-Our teams are deeply involved in the creation of the product, from the first idea to the final rollout and even continuing on with long-term product management.
+Our teams are deeply involved in the creation of the product from the first idea to the final rollout and even continuing on with long-term product management.
 
 {{< content-grid-images >}}
   <!-- <div class="fdc-scroll fdc-scroll--slide-left">

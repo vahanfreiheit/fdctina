@@ -15,7 +15,7 @@ Simple is not easy.
 
 Becoming a well-rounded software engineer is a long journey that takes many years of hard work and learning. Technology never rests. And neither do we.
 
-We are for engineers, by engineers.
+A software company built for engineers by engineers.
 
 
 {{< content-images >}}

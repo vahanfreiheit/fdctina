@@ -11,7 +11,7 @@ weight: 7
 
 “Great” means that we are building scalable systems that can be used, extended and maintained for decades to come.
 
-Most large-scale systems are in production for over a decade and most of them even longer. Because they are important investments.
+Most large-scale systems are in operation for over a decade and most of them even longer. Because they are important investments.
 
 {{< content-images >}}
   {{< image src="/img/who-we-are/we-ship-great-products-1.jpg" alt="freiheit.com employees at a meeting" class="fdc-scroll fdc-scroll--slide-left" >}}

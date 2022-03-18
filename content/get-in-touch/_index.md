@@ -14,7 +14,7 @@ menu:
 ## Get in touch with our team {.text-yellow}
 
 
-We always love to hear from interesting people and about exciting projects. Whether you’re looking to join our team, or tackle a digital project with us, one email is all it takes to get the ball rolling.
+We always love to hear from interesting people and about exciting projects. Whether you’re looking to join our team or tackle a digital project with us, one email is all it takes to get the ball rolling.
 
 [kontakt@freiheit.com](mailto:kontakt@freiheit.com)
 

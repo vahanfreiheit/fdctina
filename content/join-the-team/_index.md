@@ -1,13 +1,13 @@
 ---
-title: "Join the team"
+title: "Join us"
 date: 2021-04-24T15:55:09+02:00
 draft: false
-headerHeadline: Join the team
+headerHeadline: Join us
 headerTheme: pale-green
 menu:
   main:
-    name: Join the team
+    name: Join us
     weight: 3
 ---
 
-### Interested in working with us?
+### Interested in Working With Us?

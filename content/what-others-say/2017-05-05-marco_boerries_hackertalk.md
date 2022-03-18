@@ -2,7 +2,7 @@
 locale: en
 date: 2017-05-05 14:28:18
 headline1: HackerTalk with Marco Börries
-headline2: "Make small business work in a complex world"
+headline2: "Make small business work in a complex world."
 teaser:
 lead_image:
 image: /img/what-others-say/marco_boerries_freiheitc.com.jpg

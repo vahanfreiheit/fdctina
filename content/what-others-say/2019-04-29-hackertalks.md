@@ -1,10 +1,10 @@
 ---
 locale: en
 date: 2019-04-29 15:33:47
-description: Every friday evening we meet for our Hackertalks. They cover a large variety of topics. 
-headline1: Hackertalks
-headline2: Every friday evening we meet for our Hackertalks
-teaser: Hackertalks
+description: Every friday evening we meet for our HackerTalks. They cover a large variety of topics. 
+headline1: HackerTalks
+headline2: Every Friday evening we meet for our HackerTalks
+teaser: HackerTalks
 lead_image:
 image: /img/what-others-say/hackertalks.jpg
 vimeo: 

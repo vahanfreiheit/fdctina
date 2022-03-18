@@ -108,7 +108,7 @@ and the privacy policy:
 [http://www.google.de/intl/de/policies/privacy](http://www.google.de/intl/de/policies/privacy).
 
 
-## Plugin Youtube
+## Plugin YouTube
 
 Videos on YouTube.com are integrated on our website.
 This is a service provided by YouTube LLC, 901 Cherry Avenue, San Bruno, CA 94066, USA, represented by Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("YouTube").

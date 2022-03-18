@@ -4,7 +4,7 @@ date: 2022-02-04
 draft: false
 weight: 5
 ---
-### We are Efficient, Productive and Successful.
+### We Are Efficient, Productive and Successful.
 
 To be successful, you need to be productive. To be productive, you need to be efficient.
 

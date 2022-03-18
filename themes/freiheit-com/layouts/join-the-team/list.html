@@ -14,7 +14,7 @@
     {{ with .Content }}
 
      <!-- This HTML will be used to render each job -->
-     <div id="job_template" class="flex flex-col bg-white p-8 hidden">
+     <div id="job_template" class="flex flex-col bg-white border-t-4 border-transparent p-8 hidden">
         <div class="flex justify-between text-sm items-center">
             <div class="flex items-center">
                 <span class="mr-1"><img src="{{site.BaseURL}}/svg/location.svg" alt=""></span>
@@ -60,7 +60,9 @@
             return response.json();
         }).then(function(jobs) {
             jobs.forEach(function(job) {
-                let jobHtml = jobTemplate.replace("p-8 hidden", "p-8");
+                const styleTeam = job.categories.team === 'Engineers' ? 'team__engineers border-green' : 'border-pink'
+                const containerStyle = "p-8 location__" + job.categories.location + ' ' + styleTeam
+                let jobHtml = jobTemplate.replace("p-8 hidden", containerStyle);
                 jobHtml = jobHtml.replace("#Title", job.text);
                 jobHtml = jobHtml.replace("#Team", job.categories.team);
                 jobHtml = jobHtml.replace("#Commitment", job.categories.commitment);
