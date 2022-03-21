@@ -6,28 +6,29 @@
 {{ if eq .Params.headerTheme "black"}}
     {{ $backgroundClasses = "bg-black text-light-grey"}}
     {{ $logo = $logo_white }}
-{{ else if eq .Params.headerTheme "footer-green"}}
-    {{ $backgroundClasses = "bg-green text-black"}}
+{{ else if eq .Params.headerTheme "homepage"}}
+    {{ $backgroundClasses = "absolute top-0 left-0 text-white"}}
+    {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "green" }}
     {{ $backgroundImage = resources.GetMatch "image/header_green.png" }}
-    {{ $backgroundClasses = "bg-green text-black"}}
+    {{ $backgroundClasses = "relative bg-green text-black"}}
 {{ else if eq .Params.headerTheme "yellow" }}
     {{ $backgroundImage = resources.GetMatch "image/header_yellow.png" }}
-    {{ $backgroundClasses = "bg-yellow text-black"}}
+    {{ $backgroundClasses = "relative bg-yellow text-black"}}
 {{ else if eq .Params.headerTheme "pale-green" }}
     {{ $backgroundImage = resources.GetMatch "image/header_pale-green.png" }}
-    {{ $backgroundClasses = "bg-pale-green text-black"}}
+    {{ $backgroundClasses = "relative bg-pale-green text-black"}}
 {{ else if eq .Params.headerTheme "alabaster" }}
     {{ $backgroundImage = resources.GetMatch "image/header_alabaster.png" }}
-    {{ $backgroundClasses = "bg-alabaster text-black"}}
+    {{ $backgroundClasses = "relative bg-alabaster text-black"}}
 {{ else if eq .Params.headerTheme "pale-purple" }}
     {{ $backgroundImage = resources.GetMatch "image/header_pale-purple.png" }}
-    {{ $backgroundClasses = "bg-pale-purple text-black"}}
+    {{ $backgroundClasses = "relative bg-pale-purple text-black"}}
 {{ else if eq .Params.headerTheme "video" }}
-    {{ $backgroundClasses = "text-light-grey bg-transparent"}}
+    {{ $backgroundClasses = "relative text-light-grey bg-transparent"}}
     {{ $logo = $logo_white }}
 {{ end }}
-<header class="relative z-40 p-5 xl:p-12 relative w-full
+<header class="z-40 p-5 xl:p-12 w-full
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"
     >
@@ -43,32 +44,6 @@
             bg-contain bg-right-bottom bg-no-repeat"
             {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}
         ></div>
-        <!-- <div class="
-            absolute
-            -bottom-4
-            -right-8
-            z-20
-            opacity-40
-            w-full
-            h-full
-            animation-delay-1000
-            animate-headerBackground
-            bg-contain bg-right-bottom bg-no-repeat"
-            {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}
-        ></div>
-        <div class="
-            absolute
-            -bottom-8
-            -right-12
-            z-10
-            opacity-30
-            w-full
-            h-full
-            animation-delay-3000
-            animate-headerBackground
-            bg-cover bg-right-bottom bg-no-repeat"
-            {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}
-        ></div> -->
     </div>
 
     <nav class="relative z-40 flex items-center justify-between space" id="navigation">
