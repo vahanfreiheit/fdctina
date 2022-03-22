@@ -2,7 +2,7 @@
 headline1: METRO goes Microservices
 date: 2016-04-19 18:57:33
 locale: en
-lead_image: /img/what-others-say/ct-commercespecial.jpg
+lead_image: /img/what-others-say/ct-commercespecial.jpg.webp
 tags: [ Events , code.talks ]
 hideHeaderTitle: true
 ---

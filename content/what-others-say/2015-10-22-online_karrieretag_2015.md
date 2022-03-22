@@ -1,7 +1,7 @@
 ---
 date: 2015-10-22 14:03:31
 locale: en
-/img/uploads/: echo/Onl_KT_2015_Logo.jpg
+/img/uploads/: echo/Onl_KT_2015_Logo.jpg.webp
 tags: [ Events ]
 hideHeaderTitle: true
 ---

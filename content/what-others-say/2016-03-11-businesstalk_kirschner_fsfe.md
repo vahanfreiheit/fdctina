@@ -1,7 +1,7 @@
 ---
 date: 2016-03-11 15:29:01
 locale: en
-image: /img/what-others-say/stefan_kirschner_fsfe.jpg
+image: /img/what-others-say/stefan_kirschner_fsfe.jpg.webp
 tags: [Businesstalk , Events]
 hideHeaderTitle: true
 ---

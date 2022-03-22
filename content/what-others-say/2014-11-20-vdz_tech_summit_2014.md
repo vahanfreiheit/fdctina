@@ -1,7 +1,7 @@
 ---
 date: 2014-11-20 14:13:41
 locale: en
-image: /img/what-others-say/vdz_tech_summit_logo.jpg
+image: /img/what-others-say/vdz_tech_summit_logo.png.webp
 tags: [ Events ]
 hideHeaderTitle: true
 ---

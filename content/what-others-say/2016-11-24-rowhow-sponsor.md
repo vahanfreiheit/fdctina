@@ -2,8 +2,8 @@
 locale: en
 date: 2016-11-24 16:45:48
 teaser: 
-lead_image: /img/what-others-say/RoHOW_logo.jpg
-image: /img/what-others-say/RoHOW_logo.jpg
+lead_image: /img/what-others-say/RoHOW_logo.jpg.webp
+image: /img/what-others-say/RoHOW_logo.jpg.webp
 vimeo: 
 youtube:
 tags: [ Events, Hulks ]

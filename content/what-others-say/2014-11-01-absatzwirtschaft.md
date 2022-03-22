@@ -1,7 +1,7 @@
 ---
 date: 2014-11-01 19:05:43
 locale: en
-image: /img/what-others-say/absatzw_logo.jpg
+image: /img/what-others-say/absatzw_logo.jpg.webp
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2015-10-02 13:53:32
 locale: en
-lead_image: /img/what-others-say/Businesstalk_Lars_Hinrichs.jpg
+lead_image: /img/what-others-say/Businesstalk_Lars_Hinrichs.jpg.webp
 tags: [ Events, Businesstalk ]
 hideHeaderTitle: true
 ---

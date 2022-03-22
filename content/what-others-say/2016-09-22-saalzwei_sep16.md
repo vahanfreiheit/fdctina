@@ -3,7 +3,7 @@ locale: en
 date: 2016-09-22 21:01:37
 teaser: 
 lead_image:
-image: /img/what-others-say/logo_saalzwei_weiß.jpg
+image: /img/what-others-say/logo_saalzwei_weiß.jpg.webp
 vimeo: 
 youtube:
 tags: [ Press, Businesstalk ]

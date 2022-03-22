@@ -1,7 +1,7 @@
 ---
 date: 2015-12-04 19:23:30
 locale: en
-lead_image: /img/what-others-say/Claudia_im_buero.jpg
+lead_image: /img/what-others-say/Claudia_im_buero.jpg.webp
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

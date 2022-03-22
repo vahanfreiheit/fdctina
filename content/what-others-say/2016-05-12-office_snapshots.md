@@ -1,7 +1,7 @@
 ---
 date: 2016-05-18 16:33:11
 locale: en
-lead_image: /img/what-others-say/office_snapshots.jpg
+lead_image: /img/what-others-say/office_snapshots.jpg.webp
 tags: [Press]
 hideHeaderTitle: true
 ---

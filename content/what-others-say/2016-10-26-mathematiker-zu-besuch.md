@@ -4,7 +4,7 @@ date: 2016-10-26 11:56:01
 
 teaser: 
 lead_image:
-image: /img/what-others-say/Lothar_Collatz_School.jpg
+image: /img/what-others-say/Lothar_Collatz_School.jpg.webp
 vimeo: 
 youtube:
 tags: [ Events ]

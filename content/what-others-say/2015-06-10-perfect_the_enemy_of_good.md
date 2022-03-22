@@ -1,7 +1,7 @@
 ---
 date: 2015-06-10 19:14:06
 locale: en
-image: /img/what-others-say/Logo_manager_magazin.jpg
+image: /img/what-others-say/Logo_manager_magazin.jpg.webp
 tags: [Press, Businesstalk]
 hideHeaderTitle: true
 ---

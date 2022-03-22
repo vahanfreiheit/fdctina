@@ -1,7 +1,7 @@
 ---
 date: 2014-06-06 13:58:38
 locale: en
-image: /img/what-others-say/db_foto.jpg
+image: /img/what-others-say/db_foto.jpg.webp
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

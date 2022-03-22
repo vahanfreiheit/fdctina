@@ -3,7 +3,7 @@ locale: en
 date: 2017-01-20 11:43:57
 teaser: 
 lead_image: 
-image: /img/what-others-say/The_Huffington_Post_logo.svg.png
+image: /img/what-others-say/The_Huffington_Post_logo.svg.png.webp
 vimeo: 
 youtube:
 tags: [ Press ]

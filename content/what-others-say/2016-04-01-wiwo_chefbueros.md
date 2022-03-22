@@ -1,7 +1,7 @@
 ---
 date: 2016-04-01 15:29:35
 locale: en
-image: /img/what-others-say/wiwo_Claudia_04_2016.jpg
+image: /img/what-others-say/wiwo_Claudia_04_2016.jpg.webp
 tags: [ Press , Businesstalk ]
 hideHeaderTitle: true
 ---

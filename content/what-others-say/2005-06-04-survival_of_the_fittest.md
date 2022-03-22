@@ -1,7 +1,7 @@
 ---
 date: 2005-06-04 14:05:41
 locale: en
-image: /img/what-others-say/logo_linuxtag.jpg
+image: /img/what-others-say/logo_linuxtag.jpg.webp
 tags: [ Events ]
 hideHeaderTitle: true
 ---

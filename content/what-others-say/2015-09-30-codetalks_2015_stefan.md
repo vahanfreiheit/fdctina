@@ -1,7 +1,7 @@
 ---
 date: 2015-09-30 19:20:07
 locale: en
-lead_image: /img/what-others-say/Codetalks_Stefan.jpg
+lead_image: /img/what-others-say/Codetalks_Stefan.jpg.webp
 tags: [ Events, code.talks ]
 hideHeaderTitle: true
 ---

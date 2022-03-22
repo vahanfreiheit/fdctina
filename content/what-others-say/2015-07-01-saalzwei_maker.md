@@ -1,7 +1,7 @@
 ---
 date: 2015-07-01 18:03:14
 locale: en
-image: /img/what-others-say/logo_saalzwei_weiß.jpg
+image: /img/what-others-say/logo_saalzwei_weiß.jpg.webp
 tags: [ Press, Businesstalk]
 hideHeaderTitle: true
 ---

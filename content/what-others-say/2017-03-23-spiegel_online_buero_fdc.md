@@ -5,7 +5,7 @@ teaser:
 headline1: SPIEGEL ONLINE compares top 17 offices
 headline2: Where would you like to work?
 lead_image:
-image: /img/what-others-say/Spiegel_Online_logo.svg.png
+image: /img/what-others-say/Spiegel_Online_logo.svg.png.webp
 vimeo: 
 youtube:
 tags: [ Press ]

@@ -1,7 +1,7 @@
 ---
 date: 2015-08-01 13:56:09
 locale: en
-image: /img/what-others-say/claudia_abendblatt.jpg
+image: /img/what-others-say/claudia_abendblatt.jpg.webp
 tags: [ Press, Businesstalk ]
 hideHeaderTitle: true
 ---

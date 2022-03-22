@@ -6,7 +6,7 @@ headline1: HackerTalks
 headline2: Every Friday evening we meet for our HackerTalks
 teaser: HackerTalks
 lead_image:
-image: /img/what-others-say/hackertalks.jpg
+image: /img/what-others-say/hackertalks.jpg.webp
 vimeo: 
 youtube:
 tags: [Events]

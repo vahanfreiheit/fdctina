@@ -1,7 +1,7 @@
 ---
 date: 2016-04-22 18:26:14
 locale: en
-image: /img/what-others-say/meetup_logo_3.jpg
+image: /img/what-others-say/meetup_logo_3.jpg.webp
 tags: [ Events, Meetup ]
 hideHeaderTitle: true
 ---
