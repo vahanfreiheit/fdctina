@@ -3,6 +3,7 @@
 {{ $background := resources.GetMatch "image/video_background.png.webp" }}
 {{ $poster := resources.GetMatch "image/poster.jpg.webp" }}
 {{ $video := resources.GetMatch "video/video.mp4" }}
+{{ $video_mobile := resources.GetMatch "video/video_mobile.mp4" }}
 <div class="homepage-video w-full mb-12 relative">
   <div
     class="homepage-video__patern absolute top-0 left-0 w-full h-full z-20" 
@@ -19,15 +20,24 @@
     playsinline
     preload="auto"
     poster="{{ $poster.Permalink }}"
-    class="w-full h-full absolute z-10 top-0 left-0 object-cover"
-    id="welcomeVideo"
+    class="block xl:hidden w-full h-full absolute z-10 top-0 left-0 object-cover"
+  >
+    <source src="{{ $video_mobile.Permalink }}" type="video/mp4">
+  </video>
+  <video
+          loop
+          muted
+          autoplay
+          playsinline
+          preload="auto"
+          poster="{{ $poster.Permalink }}"
+          class="hidden xl:block w-full h-full absolute z-10 top-0 left-0 object-cover"
+          id="welcomeVideo"
   >
     <source src="{{ $video.Permalink }}" type="video/mp4">
-    Sorry your browsers doesn't support video
   </video>
   <div class="relative w-full h-full z-30 flex flex-col items-center justify-center xl:justify-end text-white md:px-8 md:px-24 text-center xl:pb-32">
-    <div id="videoSound" class="soundVibes absolute bottom-24 md:bottom-32 top-auto right-16 md:right-24 cursor-pointer flex items-center">
-      <!-- <div>Vibes ON</div> -->
+    <div id="videoSound" class="hidden xl:flex soundVibes absolute bottom-24 md:bottom-32 top-auto right-16 md:right-24 cursor-pointer items-center">
       <div class="soundVibes-eq">
         <span></span>
         <span></span>
