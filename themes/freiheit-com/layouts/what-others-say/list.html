@@ -17,7 +17,7 @@
                             {{ end }}
                         </a>
                         {{ end }}
-                        <div class="flex justify-between px-8 pt-8">
+                        <div class="flex justify-between px-8 {{ if .Params.lead_image }} pt-8 {{ end }}">
                             <div class="text-sm">{{ if (.Params.tags ) }}{{ .Params.tags }} {{ end }}</div>
                             <div class="text-sm">{{ .Params.date.Format "January 2, 2006" }}</div>
                         </div>
@@ -40,7 +40,7 @@
                             {{ end }}
                             <!-- end if -->
                             <a href="{{ .RelPermalink | absURL }}"
-                                class="inline-block leading-none ursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
+                                class="inline-block leading-none cursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
                                 Read →
                             </a>
                         </div>

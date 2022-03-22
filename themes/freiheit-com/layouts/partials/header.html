@@ -4,7 +4,7 @@
 {{ $logo_white := resources.GetMatch "image/logo_white.svg" }}
 {{ $logo := $logo_black }}
 {{ if eq .Params.headerTheme "black"}}
-    {{ $backgroundClasses = "bg-black text-light-grey"}}
+    {{ $backgroundClasses = "relative bg-black text-light-grey"}}
     {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "homepage"}}
     {{ $backgroundClasses = "absolute top-0 left-0 text-white"}}
@@ -31,21 +31,8 @@
 <header class="z-40 p-5 xl:p-12 w-full
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"
+    {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}
     >
-
-    <div class="absolute z-10 w-full h-full bottom-0 right-0 overflow-hidden">
-        <div class="
-            absolute
-            bottom-0
-            -right-4
-            z-30
-            w-full
-            h-full
-            bg-contain bg-right-bottom bg-no-repeat"
-            {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage.Permalink }}');" {{ end }}
-        ></div>
-    </div>
-
     <nav class="relative z-40 flex items-center justify-between space" id="navigation">
         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo.Permalink }}" alt="freiheit logo" /></a>
         <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
@@ -95,7 +82,7 @@
             </span>
         </label>
         {{ if or (.Params.headerHeadline) (.Params.headerSubline) (eq .Params.layout "article") }}
-        <ul class="hidden xl:flex flex-wrap items-centertext-navigation font-light w-100">
+        <ul class="hidden xl:flex flex-wrap font-light w-100">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
                 {{ if .HasChildren }}

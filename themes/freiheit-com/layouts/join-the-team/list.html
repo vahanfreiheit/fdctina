@@ -51,12 +51,11 @@
 <script>
     let template = document.getElementById('job_template').outerHTML;
     let target = document.getElementById('jobs');
-    if (Date.now() < localStorage.getItem("jobsDate") + (1000 * 60 * 60 * 24)) {
+    if (Date.now() < parseInt(localStorage.getItem("jobsDate")) + (1000 * 60 * 60 * 24)) {
         target.innerHTML = localStorage.getItem("jobsHtml");
     } else {
         let jobTemplate = template;
-    fetch("https://api.lever.co/v0/postings/freiheit-2?mode=json")
-        .then(function(response) {
+        fetch("https://api.lever.co/v0/postings/freiheit-2?mode=json").then(function(response) {
             return response.json();
         }).then(function(jobs) {
             jobs.forEach(function(job) {

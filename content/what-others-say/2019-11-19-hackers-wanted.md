@@ -30,8 +30,8 @@ We hire the top ranking students directly from university or from their first wo
 
 [Join us!](/join-the-team/)
 
-{{< image src="/img/what-others-say/hackers-wanted-street.jpg/" alt="" class="mt-12" >}}
-{{< image src="/img/what-others-say/hackers-wanted-andre.jpg/" alt="" class="mt-4" >}}
+{{< image src="/img/what-others-say/hackers-wanted-street.jpg" alt="" class="mt-12" >}}
+{{< image src="/img/what-others-say/hackers-wanted-andre.jpg" alt="" class="mt-4" >}}
 
 
 

@@ -6,6 +6,9 @@
 
 <head>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2d18d293-255a-4ad2-a363-53ba7ffb8919" data-blockingmode="auto" type="text/javascript" defer></script>
+    {{ if .Site.GoogleAnalytics}}
+        {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
