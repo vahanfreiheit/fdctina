@@ -33,6 +33,9 @@ Put this into your .zshrc or .bashrc:
 
 ### Publish
 
+First you have to start your docker machine with `vagrant up` (see `INSTALL_DOCKER.md`)
+Then you can publish the website with this command, executed in the root of this repo:
+    
     $ act --secret GITHUB_TOKEN=$GITHUB_TOKEN deploy
 
 You have to select the medium installation on the first execution of `act`.
