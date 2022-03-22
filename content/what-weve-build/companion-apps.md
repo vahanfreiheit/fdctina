@@ -1,6 +1,6 @@
 ---
 title: "Companion Apps"
-image: /img/what-weve-build/companion-apps.jpg
+image: /img/what-weve-build/companion-apps.jpg.webp
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: true

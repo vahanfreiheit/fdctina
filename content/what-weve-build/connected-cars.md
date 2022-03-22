@@ -1,6 +1,6 @@
 ---
 title: "Connected Cars & Companion Apps"
-image: /img/what-weve-build/connected-cars_2.jpg
+image: /img/what-weve-build/connected-cars_2.jpg.webp
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false

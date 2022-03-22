@@ -10,19 +10,19 @@
     {{ $backgroundClasses = "absolute top-0 left-0 text-white"}}
     {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "green" }}
-    {{ $backgroundImage = resources.GetMatch "image/header_green.png" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_green.png.webp" }}
     {{ $backgroundClasses = "relative bg-green text-black"}}
 {{ else if eq .Params.headerTheme "yellow" }}
-    {{ $backgroundImage = resources.GetMatch "image/header_yellow.png" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_yellow.png.webp" }}
     {{ $backgroundClasses = "relative bg-yellow text-black"}}
 {{ else if eq .Params.headerTheme "pale-green" }}
-    {{ $backgroundImage = resources.GetMatch "image/header_pale-green.png" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_pale-green.png.webp" }}
     {{ $backgroundClasses = "relative bg-pale-green text-black"}}
 {{ else if eq .Params.headerTheme "alabaster" }}
-    {{ $backgroundImage = resources.GetMatch "image/header_alabaster.png" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_alabaster.png.webp" }}
     {{ $backgroundClasses = "relative bg-alabaster text-black"}}
 {{ else if eq .Params.headerTheme "pale-purple" }}
-    {{ $backgroundImage = resources.GetMatch "image/header_pale-purple.png" }}
+    {{ $backgroundImage = resources.GetMatch "image/header_pale-purple.png.webp" }}
     {{ $backgroundClasses = "relative bg-pale-purple text-black"}}
 {{ else if eq .Params.headerTheme "video" }}
     {{ $backgroundClasses = "relative text-light-grey bg-transparent"}}
@@ -39,7 +39,7 @@
             <div class="xl:hidden checkbox-content transition duration-200 ease-in-out">
                 <div
                         class="bg-right bg-contain bg-no-repeat flex flex-col xl:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey"
-                        style="background-image: url('{{ (resources.GetMatch "image/mobile-navigation_background.png").Permalink }}');">
+                        style="background-image: url('{{ (resources.GetMatch "image/mobile-navigation_background.png.webp").Permalink }}');">
                     <div class="flex items-center justify-between space">
                         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" /></a>
                         <span class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">

@@ -14,10 +14,10 @@
                         {{ $scrollClass = "fdc-scroll fdc-scroll--fade-in" }}
                     {{ end }}
                     {{ $bgColor := "bg-yellow" }}
-                    {{ $bgImage := resources.GetMatch "image/chronical_group_1.png" }}
+                    {{ $bgImage := resources.GetMatch "image/chronical_group_1.png.webp" }}
                     {{ if eq .Params.Group "Why Agile Is Not Enough" }}
                         {{ $bgColor = "bg-pink" }}
-                        {{ $bgImage = resources.GetMatch "image/chronical_group_2.png" }}
+                        {{ $bgImage = resources.GetMatch "image/chronical_group_2.png.webp" }}
                     {{ end }}
                     <article class="bg-white flex flex-col {{ $scrollClass }}">
                         <div class="grid grid-cols-7">

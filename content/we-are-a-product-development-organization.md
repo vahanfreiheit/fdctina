@@ -16,7 +16,7 @@ Our teams are deeply involved in the creation of the product from the first idea
   <!-- <div class="fdc-scroll fdc-scroll--slide-left">
     {{< youtube DMNt1re-kRY >}}
   </div> -->
-  <!-- {{< image src="/img/who-we-are/we-are-a-product-development-organization-2.jpg" alt="freiheit.com foyer" class="fdc-scroll fdc-scroll--slide-right" >}} -->
-  {{< image src="/img/who-we-are/freiheit.com_HackerX.jpg" alt="freiheit.com foyer" class="fdc-scroll fdc-scroll--slide-left" >}}
-  {{< image src="/img/who-we-are/we-are-a-product-development-organization-3.jpg" alt="freiheit.com employees" class="fdc-scroll  fdc-scroll--slide-right" >}}
+  <!-- {{< image src="/img/who-we-are/we-are-a-product-development-organization-2.jpg.webp" alt="freiheit.com foyer" class="fdc-scroll fdc-scroll--slide-right" >}} -->
+  {{< image src="/img/who-we-are/freiheit.com_HackerX.jpg.webp" alt="freiheit.com foyer" class="fdc-scroll fdc-scroll--slide-left" >}}
+  {{< image src="/img/who-we-are/we-are-a-product-development-organization-3.jpg.webp" alt="freiheit.com employees" class="fdc-scroll  fdc-scroll--slide-right" >}}
 {{< /content-grid-images>}}

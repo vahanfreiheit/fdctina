@@ -1,6 +1,6 @@
 ---
 title: "3D Rendering in the Cloud"
-image: /img/what-weve-build/3d-rendering-in-the-cloud.jpg
+image: /img/what-weve-build/3d-rendering-in-the-cloud.jpg.webp
 backgroundColorClass: "bg-red" 
 date: 2022-02-02
 draft: false

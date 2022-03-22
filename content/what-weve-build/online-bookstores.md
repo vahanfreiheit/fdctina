@@ -1,6 +1,6 @@
 ---
 title: "Online Bookstores"
-image: /img/what-weve-build/online-bookstores_2.jpg
+image: /img/what-weve-build/online-bookstores_2.jpg.webp
 backgroundColorClass: "bg-red"
 date: 2022-02-02
 draft: false

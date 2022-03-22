@@ -1,6 +1,6 @@
 ---
 title: "Global B2B Retail Platform"
-image: /img/what-weve-build/global-b2b-retail-platform_2.jpg
+image: /img/what-weve-build/global-b2b-retail-platform_2.jpg.webp
 backgroundColorClass: "bg-red" 
 date: 2022-02-02
 draft: false

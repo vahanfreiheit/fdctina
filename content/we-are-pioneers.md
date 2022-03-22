@@ -15,5 +15,5 @@ Large-scale means: millions of users, queries, transactions and billions of reve
 From e-commerce to connected cars. Retail, healthcare, mobility, logistics and many more industries. Cloud computing, microservices, artificial intelligence and machine learning platforms. Multi-country, multi-continental. Multi-data center.
 
 {{< content-images >}}
-    {{< image src="/img/who-we-are/we-are-pioneers-1.jpg" alt="freiheit.com employees at work" class="fdc-scroll fdc-scroll--slide-left">}}
+    {{< image src="/img/who-we-are/we-are-pioneers-1.jpg.webp" alt="freiheit.com employees at work" class="fdc-scroll fdc-scroll--slide-left">}}
 {{< /content-images >}}

@@ -1,6 +1,6 @@
 ---
 title: "Site Reliability Engineering & Infrastructure as Code"
-image: /img/what-weve-build/site-reliability-engineering-&-infrastructure-as-code_2.jpg
+image: /img/what-weve-build/site-reliability-engineering-&-infrastructure-as-code_2.jpg.webp
 backgroundColorClass: "bg-red" 
 date: 2022-02-02
 draft: false
