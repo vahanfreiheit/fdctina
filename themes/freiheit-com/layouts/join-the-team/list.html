@@ -51,13 +51,16 @@
 <script>
     let template = document.getElementById('job_template').outerHTML;
     let target = document.getElementById('jobs');
-    if (Date.now() < parseInt(localStorage.getItem("jobsDate")) + (1000 * 60 * 60 * 24)) {
+    if (Date.now() > parseInt(localStorage.getItem("jobsDate")) + (1000 * 60 * 60 * 24)) {
         target.innerHTML = localStorage.getItem("jobsHtml");
     } else {
         let jobTemplate = template;
         fetch("https://api.lever.co/v0/postings/freiheit-2?mode=json").then(function(response) {
             return response.json();
         }).then(function(jobs) {
+            // sort jobs by category (engineers first)
+            // jobs = jobs.sort((a, b) => a.categories.team < b.categories.team ? -1 : 1);
+            // jobs = jobs.sort((a, b) => a.categories.location < b.categories.location ? -1 : 1);
             jobs.forEach(function(job) {
                 const styleTeam = job.categories.team === 'Engineers' ? 'team__engineers border-green' : 'border-pink'
                 const containerStyle = "p-8 location__" + job.categories.location + ' ' + styleTeam
