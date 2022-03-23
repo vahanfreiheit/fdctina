@@ -5,3 +5,4 @@ languageCode: en-us
 defaultContentLanguage: en
 relativeURLs: true
 paginate: 10
+enableRobotsTXT: true
