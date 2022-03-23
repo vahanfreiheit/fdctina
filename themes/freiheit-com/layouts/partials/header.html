@@ -38,7 +38,7 @@
         <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
             <div class="xl:hidden checkbox-content transition duration-200 ease-in-out">
                 <div
-                        class="bg-right bg-contain bg-no-repeat flex flex-col xl:hidden fixed top-0 left-0 w-full h-screen p-5 md:p-12 bg-black text-light-grey"
+                        class="bg-right bg-contain bg-no-repeat flex flex-col xl:hidden fixed top-0 left-0 w-full h-screen p-5 bg-black text-light-grey"
                         style="background-image: url('{{ (resources.GetMatch "image/mobile-navigation_background.png.webp").Permalink }}');">
                     <div class="flex items-center justify-between space">
                         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo_white.Permalink }}" alt="freiheit logo" width="188" height="32" /></a>
@@ -48,7 +48,7 @@
                             </svg>
                         </span>
                     </div>
-                    <ul class="mt-20 flex-1">
+                    <ul class="mt-20 md:pl-12 md:pr-12 flex-1">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
                         <li class="pb-5 md:pb-10">
