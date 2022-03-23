@@ -9,7 +9,7 @@
     $ hugo server -D --disableFastRender
 
 ### build
-    $ hugo --minify --baseURL=https://freiheit.com -e production
+    $ hugo -e production
 
 ## Deployment
 
