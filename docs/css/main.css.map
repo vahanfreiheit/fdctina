@@ -1,19 +1,19 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/vahanmnatsakanyan/Projects/freiheit/website/freiheit-com.github.io",
+	"sourceRoot": "/Users/maikploigt/Projects/freiheit/freiheit-com.github.io",
 	"sources": [
-		"themes/freiheit-com/assets/sass/main.scss",
+		"assets/sass/main.scss",
 		"node_modules/tailwindcss/base.css",
 		"node_modules/tailwindcss/components.css",
 		"node_modules/tailwindcss/utilities.css",
-		"themes/freiheit-com/assets/sass/_typography.scss",
-		"themes/freiheit-com/assets/sass/_menu.scss",
-		"themes/freiheit-com/assets/sass/_components.scss",
-		"themes/freiheit-com/assets/sass/_cookiebot.scss",
-		"themes/freiheit-com/assets/sass/_scroll.scss",
-		"themes/freiheit-com/assets/sass/_theme.scss",
-		"themes/freiheit-com/assets/sass/_homepage-video.scss"
+		"assets/sass/_typography.scss",
+		"assets/sass/_menu.scss",
+		"assets/sass/_components.scss",
+		"assets/sass/_cookiebot.scss",
+		"assets/sass/_scroll.scss",
+		"assets/sass/_theme.scss",
+		"assets/sass/_homepage-video.scss"
 	],
 	"sourcesContent": [
 		"/// include tailwindcss\n@import \"node_modules/tailwindcss/base\";\n@import \"node_modules/tailwindcss/components\";\n@import \"node_modules/tailwindcss/utilities\";\n@import \"_typography\";\n@import \"_menu\";\n@import \"_components\";\n@import \"_cookiebot\";\n@import \"_scroll\";\n@import \"_theme\";\n@import \"_homepage-video\";\n\nhtml {\n  scroll-behavior: smooth;\n  scroll-padding-top: 4rem;\n}\n\n@layer utilities {\n  .animation-delay-1000 {\n    animation-delay: 1s;\n  }\n  .animation-delay-2000 {\n    animation-delay: 2s;\n  }\n  .animation-delay-3000 {\n    animation-delay: 3s;\n  }\n  .animation-delay-4000 {\n    animation-delay: 4s;\n  }\n}",
