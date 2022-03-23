@@ -32,8 +32,15 @@ The content is delivered directly via the github pages with cloudflare CDN in fr
 
 ### Settings on github
 
-The locally generated pages are committed to the git master branch.
+The locally generated pages in the directory `/docs` are committed to the git main branch.
 Its content is then delivered as a github page.
+
+The settings for Github pages at
+https://github.com/freiheit-com/freiheit-com.github.io/settings/pages are
+blocked. It actually looks like Github pages are not active for the repository.
+If changes need to be done, an organization admin has to grant the privilege
+"Pages creation > Public" at
+https://github.com/organizations/freiheit-com/settings/member_privileges.
 
 For the pages to be delivered under their own domain, a file named CNAME must be created in the
 repository in the toplevel with the name CNAME, which contains the external
