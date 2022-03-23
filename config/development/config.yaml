@@ -1,5 +1,6 @@
-publishDir: "public"
+publishDir: "docs"
+baseURL: "https://mploigt.github.io"
 buildDrafts: true
-minify: false
+minify: true
 params:
   DebugMenu: true
