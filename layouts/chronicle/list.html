@@ -7,17 +7,16 @@
     <section class="w-full flex flex-col items-center">
         <div class="w-full p-12 max-w-screen-xl">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10">
-                {{ $logo := resources.GetMatch "image/symbol.svg" }}
                 {{ $scrollClass := "" }}
                 {{ range $index, $value := (.Pages.ByWeight.Reverse).ByParam "group" }}
                     {{ if gt $index 1 }}
                         {{ $scrollClass = "fdc-scroll fdc-scroll--fade-in" }}
                     {{ end }}
                     {{ $bgColor := "bg-yellow" }}
-                    {{ $bgImage := resources.GetMatch "image/chronical_group_1.png.webp" }}
+                    {{ $bgImage := "/img/chronical_group_1.png.webp" }}
                     {{ if eq .Params.Group "Why Agile Is Not Enough" }}
                         {{ $bgColor = "bg-pink" }}
-                        {{ $bgImage = resources.GetMatch "image/chronical_group_2.png.webp" }}
+                        {{ $bgImage = "/img/chronical_group_2.png.webp" }}
                     {{ end }}
                     <article class="bg-white flex flex-col {{ $scrollClass }}">
                         <div class="grid grid-cols-7">
@@ -25,23 +24,18 @@
                                 <h3 class="text-white">
                                     {{ .Params.podcastTitle }}
                                 </h3>
-                                <!-- <img src="{{ $logo.Permalink }}" alt="freiheit logo" class="m-10" /> -->
                             </div>
                             <div class="{{ $bgColor }} col-span-2 flex justify-center items-end">
                                 <h2>{{ printf "%02d" .Params.weight }}</h2>
                             </div>
                         </div>
-                        <div class="w-full h-28 md:h-36 bg-cover" style="background-image: url('{{ $bgImage.Permalink }}');"></div>
+                        <div class="w-full h-28 md:h-36 bg-cover" style="background-image: url({{ $bgImage }});"></div>
                         <div class="p-5 lg:p-10 flex flex-col flex-1">
                             <div class="flex mb-10 font-light">
                                 <div class="flex-1">Podcast</div>
                                 <div>{{ .PublishDate.Format "January 2, 2006" }}</div>
                             </div>
                             <div class="flex-1">
-                                <!-- <h3 class="mb-0">
-                                    {{ .Params.Group }}:<br />
-                                    {{ .Title }}
-                                </h3> -->
                                 {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
                             </div>
                             <div class="mt-10 flex flex-col sm:flex-row items-center">
