@@ -7,5 +7,5 @@ weight: 1
 
 ### Follow us { .text-yellow }
 
-[Youtube](https://www.youtube.com/channel/UCouXbAqEDBOuiSYUWxSIoNw)
+[YouTube](https://www.youtube.com/channel/UCouXbAqEDBOuiSYUWxSIoNw)
 [LinkedIn](https://www.linkedin.com/company/freiheit-com-technologies-gmbh/)
