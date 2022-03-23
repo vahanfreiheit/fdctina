@@ -1,3 +1,4 @@
+publishDir: "public"
 buildDrafts: true
 minify: false
 params:

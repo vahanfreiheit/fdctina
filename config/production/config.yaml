@@ -1,4 +1,5 @@
 baseURL: https://freiheit.com/freiheit-com-hugo/
+publishDir: "docs"
 enableRobotsTXT: true
 minify: true
 googleAnalytics: "G-GEWFW0RHME"
