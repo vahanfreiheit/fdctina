@@ -34,6 +34,4 @@ The answer is as simple as it is clear: Lisbon waited for freiheit.com and freih
 
 Don’t think too much! There is no difference. The difference is only in people’s heads because everybody told you so. Jump into the adventure and enjoy every moment of it! If you are authentic, you can’t be wrong. Maybe the reason why freiheit.com as a tech company has such a strong family culture with open communication and one of the nicest offices on earth - is because a woman is leading it. I love to pay attention to details -:)
 
-<!-- https://freiheit.com/assets/pdf/191217_18-HIGHTECHGIRL.pdf[Download the original article,window="_blank"] -->
-<!-- <a href="https://freiheit.com/assets/pdf/191217_18-HIGHTECHGIRL.pdf" target="_blank">Download the original article</a> -->
-[Download the original article](https://freiheit.com/assets/pdf/191217_18-HIGHTECHGIRL.pdf)
+[Download the original article](/pdf/191217_18-HIGHTECHGIRL.pdf)
