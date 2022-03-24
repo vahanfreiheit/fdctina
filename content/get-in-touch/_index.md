@@ -6,6 +6,11 @@ headerHeadline: Get in touch.
 headerTheme: black
 hideFooter: true
 hideHeaderTitle: true
+aliases:
+  - /contact/
+  - /de/kontact/
+  - /en/contact/
+  - /pt/contact/
 menu:
   main:
     name: Get in touch
