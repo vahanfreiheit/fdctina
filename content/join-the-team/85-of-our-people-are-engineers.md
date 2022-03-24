@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-### 85 % of Our People Are Engineer.
+### 85 % of Our People Are Engineers.
 
 At heart we are an unusual, innovative and bold engineering company. 85 % of our people are engineers with backgrounds in computer science, physics or mathematics, many also with strong machine learning backgrounds.
 
