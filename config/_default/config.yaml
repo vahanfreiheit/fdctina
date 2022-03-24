@@ -2,6 +2,6 @@ baseURL: http://localhost
 title: freiheit.com
 languageCode: en-us
 defaultContentLanguage: en
-relativeURLs: true
+relativeURLs: false
 paginate: 10
 enableRobotsTXT: true
