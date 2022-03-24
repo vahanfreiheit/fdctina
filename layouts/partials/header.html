@@ -28,6 +28,12 @@
     {{ $backgroundClasses = "relative text-light-grey bg-transparent"}}
     {{ $logo = $logo_white }}
 {{ end }}
+{{ if .Site.Params.GoogleTagManager }}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.GoogleTagManager }}"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{ end }}
 <header class="z-40 p-5 xl:p-12 w-full
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"

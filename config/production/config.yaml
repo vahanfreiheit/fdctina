@@ -2,4 +2,3 @@ baseURL: "https://freiheit.com"
 publishDir: "docs"
 buildDrafts: false
 minify: true
-googleAnalytics: "G-GEWFW0RHME"
