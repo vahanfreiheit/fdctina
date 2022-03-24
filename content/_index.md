@@ -5,6 +5,10 @@ draft: false
 headerHeadline: Building Large-Scale Software Since 1999
 hideHeaderTitle: true
 headerTheme: homepage
+aliases:
+  - /en/
+  - /pt/
+  - /de/
 menu:
   main:
     name: Who we are 
