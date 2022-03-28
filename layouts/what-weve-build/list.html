@@ -13,9 +13,9 @@
             {{ end }}
             <article class="{{ $sizeClass }}">
                 <div class="mb-12 md:mr-8 md:mb-8 lg:mr-16 lg:mb-16 {{ $colorClass }}">
-                    <img src="{{.Params.Image}}" class="w-full" alt="{{ .Title }}"/>
+                    <img src="{{ .Params.Image }}" class="w-full" alt="{{ .Title }}"/>
                     <div class="p-5">
-                        <h5 class="mt-0 text-body-xl">{{.Title}}</h5>
+                        <h5 class="mt-0 text-body-xl">{{ .Title }}</h5>
                         <p class="text-body-lg">
                             {{.Content | plainify }}
                         </p>

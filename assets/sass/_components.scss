@@ -20,7 +20,7 @@
       }
     }
   &:first-child {
-    > section {
+    > section:not(.article-content) {
       @apply pt-8 md:pt-24;
     }
   }

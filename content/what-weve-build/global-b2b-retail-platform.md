@@ -6,6 +6,7 @@ date: 2022-02-02
 draft: false
 tags: [case study]
 weight: 10
+hideHeaderTitle: true
 size: big
 ---
 
