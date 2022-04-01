@@ -12,71 +12,26 @@
     {{ end }}
 
     {{ with .Content }}
-
-     <!-- This HTML will be used to render each job -->
-     <div id="job_template" class="flex flex-col bg-white border-t-4 border-transparent p-8 hidden">
-        <div class="flex justify-between text-sm items-center">
-            <div class="flex items-center">
-                <span class="mr-1"><img src="/img/location.svg" alt=""></span>
-                <span>#Location</span>
-            </div>
-            <div>#Commitment</div>
-        </div>
-        <div class="mt-6 flex-1">
-            <a href="#Url" target="_blank" class="text-head-sm md:text-head-md font-serif no-underline hover:text-red">
-                #Title
-            </a>
-            <div class="mt-4">#Team</div>
-        </div>
-        <div class="md:mt-8 mt-4 job-url">
-            {{ partial "btn-link.html" (dict
-            "linkUrl" "#Url"
-            "linkText" "Apply Now"
-            "color" "red"
-            "target" "_blank"
-            ) }}
-        </div>
-    </div>
-
     <div class="fdc-content-layout bg-alabaster">
         <section>
+
             {{ . }}
-            <div id="jobs" class="grid xl:grid-cols-3 md:grid-cols-2 gap-8 my-8"></div>
+
+            {{ $data := $.Site.Data.lever.jobs6f3d3f829b0fc329e3a602fb9cc51ca4 }}
+            {{ if eq $data "" }}
+                {{ $data = getJSON "https://api.lever.co/v0/postings/freiheit-2?mode=json&distributionChannel=public&state=published&group=location" }}
+            {{ end }}
+            {{ range $data }}
+            <h4>In {{ .title }}</h4>
+            <div class="grid xl:grid-cols-3 md:grid-cols-2 gap-8 my-8">
+                    {{ range .postings }}
+                        {{ partial "job.html" . }}
+                    {{ end }}
+                </div>
+            {{ end }}
+
         </section>
     </div>
     {{ end }}
 
 {{ end }}
-
-{{ define "page_script" }}
-<script data-cookieconsent="necessary">
-    let template = document.getElementById('job_template').outerHTML;
-    let target = document.getElementById('jobs');
-    if (Date.now() < parseInt(localStorage.getItem("jobsDate")) + (1000 * 60 * 60 * 24)) {
-        target.innerHTML = localStorage.getItem("jobsHtml");
-    } else {
-        let jobTemplate = template;
-        fetch("https://api.lever.co/v0/postings/freiheit-2?mode=json").then(function(response) {
-            return response.json();
-        }).then(function(jobs) {
-            // sort jobs by category (engineers first)
-            jobs = jobs.sort((a, b) => a.categories.location < b.categories.location ? -1 : 1);
-            jobs = jobs.sort((a, b) => a.categories.team < b.categories.team ? -1 : 1);
-            jobs.forEach(function(job) {
-                const styleTeam = job.categories.team === 'Engineers' ? 'team__engineers border-green' : 'border-pink'
-                const containerStyle = "p-8 location__" + job.categories.location + ' ' + styleTeam
-                let jobHtml = jobTemplate.replace("p-8 hidden", containerStyle);
-                jobHtml = jobHtml.replace("#Title", job.text);
-                jobHtml = jobHtml.replace("#Team", job.categories.team);
-                jobHtml = jobHtml.replace("#Commitment", job.categories.commitment);
-                jobHtml = jobHtml.replace("#Location", job.categories.location);
-                jobHtml = jobHtml.replaceAll("#Url", job.hostedUrl);
-                target.innerHTML += jobHtml;
-            });
-            localStorage.setItem("jobsDate", Date.now().toString());
-            localStorage.setItem("jobsHtml", target.innerHTML);
-        });
-    }
-</script>
-{{ end }}
-
