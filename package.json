@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "freiheit website based on hugo",
   "dependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss-cli": "^9.0.2",
+    "autoprefixer": "^10.4.4",
+    "postcss-cli": "^9.1.0",
     "tailwindcss": "^2.2.19"
   }
 }

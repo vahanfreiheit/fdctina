@@ -3,12 +3,14 @@
 ## Local development
 
 ### installing
-    $ npm install
+
+- Install HUGO locally (https://gohugo.io/getting-started/installing/)
+- Execute `npm install` in the root of this repository:
 
 ### run locally
-    $ hugo server -D --disableFastRender
+    $ hugo server
 
-### build
+### build live site
     $ hugo -e production
 
 ## Deployment
@@ -18,7 +20,7 @@ The files will be created inside the `docs` folder which is set as the root of t
 
 Just build the files and commit them to the master branch to deploy the new site.
 
-### Netlify CMS
+### Netlify CMS (not yet implemented)
 
 #### running locally
 
