@@ -1,8 +1,8 @@
 {{ $sass := resources.Get "sass/main.scss" }}
-{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := $sass | resources.ToCSS $options | resources.PostCSS | resources.Fingerprint }}
+{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
+{{ $style := $sass | resources.ToCSS $options | resources.PostCSS | resources.Fingerprint "md5"}}
 
-{{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | resources.Fingerprint }}
+{{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | resources.Fingerprint "md5" }}
 
 <head>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2d18d293-255a-4ad2-a363-53ba7ffb8919" data-blockingmode="auto" type="text/javascript" defer></script>
