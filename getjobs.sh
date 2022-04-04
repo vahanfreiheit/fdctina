@@ -11,7 +11,7 @@ FILE='./data/lever/jobs.json'
 curl "https://api.lever.co/v0/postings/freiheit-2?mode=json&distributionChannel=public&state=published&group=location" > $FILE
 
 # create md5
-MD5=$(echo FILE | md5)
+MD5=$(cat $FILE | md5sum | awk '{print $1}')
 
 # rename downloaded file to md5 hash
 NEWFILE=${FILE//"jobs"/"jobs$MD5"}
