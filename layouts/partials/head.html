@@ -1,8 +1,11 @@
 {{ $sass := resources.Get "sass/main.scss" }}
-{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
-{{ $style := $sass | resources.ToCSS $options | resources.PostCSS | resources.Fingerprint "md5"}}
+{{ $sass_hash := $sass | md5 }}
+{{ $options := (dict "targetPath" (printf "%s%s%s" "css/main." $sass_hash ".css") "outputStyle" "compressed" "enableSourceMap" false) }}
+{{ $style := $sass | resources.ToCSS $options | resources.PostCSS }}
 
-{{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | resources.Fingerprint "md5" }}
+{{ $js := resources.Get "js/main.js" }}
+{{ $js_hash := $js | md5 }}
+{{ $mainJs := $js | js.Build (printf "%s%s%s" "main." $js_hash ".js") }}
 
 <head>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2d18d293-255a-4ad2-a363-53ba7ffb8919" data-blockingmode="auto" type="text/javascript" defer></script>
