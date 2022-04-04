@@ -24,7 +24,7 @@ sed -i '' "s/\$\.Site\.Data\.lever\.jobs[0-9a-z]*/$REPLACE/" ./layouts/join-the-
 # check if there are changes in git, create new jobs page with hugo and commit the changes
 if [[ $(git status --porcelain) ]]; then
   hugo -e production
-  # git add .
-  # git commit -m "update jobs"
-  # git push
+  git add .
+  git commit -m "update jobs"
+  git push
 fi
