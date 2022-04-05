@@ -3,7 +3,7 @@ title: "Companion Apps"
 image: /img/what-weve-build/companion-apps.jpg.webp
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
-draft: false
+draft: true
 tags: [case study]
 weight: 80
 hideHeaderTitle: true
