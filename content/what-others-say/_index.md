@@ -1,5 +1,5 @@
 ---
-title: "freiheit.com"
+title: "What others say"
 date: 2022-02-20
 draft: false
 headerHeadline: Read what others have to say
