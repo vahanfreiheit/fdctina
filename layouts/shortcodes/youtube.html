@@ -1,0 +1,45 @@
+{{/*
+
+Shortcode to embed youtube videos and prevent youtube cookie setting.
+
+This shortcode first renders only an image of the youtube video taken from
+https://img.youtube.com/vi/[youtube_id]/0.jpg with a youtube play button in the middle.
+
+On click it replaces this with the actual youtube embed iframe.
+
+*/}}
+
+{{ $id := printf "%s_%s" "youtube" (index .Params 0) }}
+
+<div id="{{ $id }}_container" class="relative h-0 overflow-hidden" style="padding-bottom: 56.25%;">
+    <div id="{{ $id }}_iframe"></div>
+    <div id="{{ $id }}_image" class="absolute top-0 left-0 w-full h-full border-0 flex justify-center items-center cursor-pointer">
+        <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="https://img.youtube.com/vi/{{ index .Params 0 }}/0.jpg"
+             alt="YouTube video {{ index .Params 0 }}">
+        <img id="{{ $id }}_image__button" class="absolute w-1/6 lg:w-24" src="/img/youtube_play_button.svg" title="Click to load video" alt="Click to load video"/>
+        <img id="{{ $id }}_image__button--hover" class="absolute w-1/6 lg:w-24 hidden" src="/img/youtube_play_button_hover.svg" title="Click to load video" alt="Click to load video"/>
+    </div>
+</div>
+<script>
+    let iframe = document.createElement('iframe');
+    iframe.setAttribute('id', '{{ $id }}_iframe');
+    iframe.setAttribute('class', 'absolute top-0 left-0 w-full h-full border-0');
+    iframe.setAttribute('src', 'https://www.youtube-nocookie.com/embed/{{ index .Params 0 }}');
+    iframe.setAttribute('id', '{{ $id }}_iframe');
+    iframe.setAttribute('allowFullscreen', '');
+    iframe.setAttribute('title', 'YouTube Video {{ index .Params 0 }}');
+    document.addEventListener("click", function () {
+        document.getElementById('{{ $id }}_image').remove();
+        document.getElementById('{{ $id }}_iframe').replaceWith(iframe);
+    })
+</script>
+<style>
+
+    #{{ $id }}_image:hover #{{ $id }}_image__button {
+        display: none;
+    }
+
+    #{{ $id }}_image:hover #{{ $id }}_image__button--hover {
+        display: block;
+    }
+</style>
