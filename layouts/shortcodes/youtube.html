@@ -11,7 +11,7 @@ On click it replaces this with the actual youtube embed iframe.
 
 {{ $id := printf "%s_%s" "youtube" (index .Params 0) }}
 
-<div id="{{ $id }}_container" class="relative h-0 overflow-hidden" style="padding-bottom: 56.25%;">
+<div id="{{ $id }}_container" class="relative h-0">
     <div id="{{ $id }}_iframe"></div>
     <div id="{{ $id }}_image" class="absolute top-0 left-0 w-full h-full border-0 flex justify-center items-center cursor-pointer">
         <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="https://img.youtube.com/vi/{{ index .Params 0 }}/0.jpg"
@@ -34,7 +34,11 @@ On click it replaces this with the actual youtube embed iframe.
     })
 </script>
 <style>
-    #{{ $id }}_container, #{{ $id }}_image {
+    #{{ $id }}_container {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+    }
+    #{{ $id }}_image {
         overflow: hidden;
     }
     #{{ $id }}_image__button, #{{ $id }}_image__button--hover {
