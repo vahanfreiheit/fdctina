@@ -34,7 +34,9 @@ On click it replaces this with the actual youtube embed iframe.
     })
 </script>
 <style>
-
+    #{{ $id }}_container, #{{ $id }}_image {
+        overflow: hidden;
+    }
     #{{ $id }}_image__button, #{{ $id }}_image__button--hover {
         width: 100px;
     }
