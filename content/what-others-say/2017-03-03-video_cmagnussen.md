@@ -15,8 +15,9 @@ hideHeaderTitle: true
 
 [Christoph Magnussen](http://christophmagnussen.com/) and Stefan Richter met for a quick talk about the fear of many companies to utilize their data and the state of security when using cloud. Hope it's useful to you guys!
 
-{{< youtube 76gs8VC7c2M>}}
+Read full article to watch the video:
 <!--more-->
+{{< youtube 76gs8VC7c2M>}}
 
 
 
