@@ -8,7 +8,11 @@
         <div class="w-full p-12 max-w-screen-xl">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10">
                 {{ $scrollClass := "" }}
-                {{ range $index, $value := (.Pages.ByWeight.Reverse).ByParam "group" }}
+                {{ range $index, $value := (.Pages.ByWeight).ByParam "group" }}
+                    {{ $buttonText := "Watch Now" }}
+                    {{ if (ne .Params.buttonText nil) }}
+                        {{ $buttonText = .Params.buttonText }}
+                    {{ end }}
                     {{ if gt $index 1 }}
                         {{ $scrollClass = "fdc-scroll fdc-scroll--fade-in" }}
                     {{ end }}
@@ -42,7 +46,7 @@
                                 <div class="flex-1">
                                     {{ partial "btn-link.html" (dict
                                         "linkUrl" (printf "%s%s" "https://www.youtube.com/watch?v=" .Params.youtube)
-                                        "linkText" "Watch Now"
+                                        "linkText" $buttonText
                                         "color" "red"
                                         "target" "_blank"
                                     ) }}
