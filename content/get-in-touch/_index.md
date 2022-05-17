@@ -14,7 +14,7 @@ aliases:
 menu:
   main:
     name: Get in touch
-    weight: 6
+    weight: 7
 ---
 ## Get in touch with our team {.text-yellow}
 

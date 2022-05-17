@@ -1,0 +1,20 @@
+{{ define "main" }}
+    {{ with .Content }}
+        <div class="fdc-content-layout">
+            <section>
+                {{ . }}
+            </section>
+        </div>
+    {{ end }}
+    {{ range .Pages }}
+        {{ $themeClasses := "fdc-content-layout" }}
+        {{ if eq .Params.contentTheme "video" }}
+            {{ $themeClasses = "" }}
+        {{ end }}
+        <div class="{{ $themeClasses }}">
+            <section>
+                {{ partial "content-margin" . }}
+            </section>
+        </div>
+    {{ end }}
+{{ end }}

@@ -10,15 +10,29 @@
 ### run locally
     $ hugo server
 
-### build live site
+
+## Live Deployment
+
+Build the live site with the command
+
     $ hugo -e production
 
-## Deployment
-
-Build the live site with the build command mentioned above.
 The files will be created inside the `docs` folder which is set as the root of the github pages root directory for hosing the site.
 
 Just build the files and commit them to the master branch to deploy the new site.
+
+
+## Test Deployment to staging
+
+Build the site with the command
+
+    $ hugo -e staging
+
+The files will be created inside the `docs/staging` folder of the life site.
+
+Just build the files and commit them to the master branch to deploy.
+
+The staging page can be accessed on https://freheit.com/staging
 
 ### Netlify CMS (not yet implemented)
 
@@ -79,3 +93,20 @@ Cloudflare https://www.cloudflare.com is as reverse proxy cache in front of the 
 
     CNAME freiheit.com is an alias of freiheit-com.github.io
     CNAME www is an alias of freiheit-com.github.io
+
+
+### convert images to webp
+
+Install webp
+    
+    brew install webp
+
+resize images
+
+    convert -resize 50% *.jpg
+    
+    for file in * ; do convert -resize 50% "$file" ; done
+
+convert images
+
+    for file in * ; do cwebp "$file" -o "${file}.webp" ; done
