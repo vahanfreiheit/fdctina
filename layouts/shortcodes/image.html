@@ -4,7 +4,7 @@
       <img
           width="{{ $img.Width }}"
           height="{{ $img.Height }}"
-          src="{{ .Get "src" }}"
+          src="{{site.BaseURL}}{{ .Get "src" }}"
         {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }}
         {{ with .Get "class" }}class="fdc-image {{.}}"{{ end }} />
   {{ if .Get "link" }}</a>{{ end }}
