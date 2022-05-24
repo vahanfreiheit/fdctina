@@ -29,7 +29,8 @@ On click it replaces this with the actual youtube embed iframe.
     iframe.setAttribute('id', '{{ $id }}_iframe');
     iframe.setAttribute('allowFullscreen', '');
     iframe.setAttribute('title', 'YouTube Video {{ index .Params 0 }}');
-    document.addEventListener("click", function () {
+    let div = document.getElementById("{{ $id }}_image");
+    div.addEventListener("click", function () {
         document.getElementById('{{ $id }}_image').remove();
         document.getElementById('{{ $id }}_iframe').replaceWith(iframe);
     })
