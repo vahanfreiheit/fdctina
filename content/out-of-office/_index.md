@@ -10,4 +10,4 @@ menu:
     weight: 6
 ---
 
-We are a community of hackers from different countries and cultures all over the world. During work hours, we build software. After work, we build relationships – from informal gatherings after work to community events with the entire team and everything in between. Read more about what we do to have fun out of the office.
+We are a community of engineers from different countries and cultures all over the world. During work hours, we build software. After work, we build friendships – from informal gatherings after work to community events with the entire team and everything in between. Read more about what we do to have fun out of the office.

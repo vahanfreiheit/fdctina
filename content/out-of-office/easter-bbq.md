@@ -2,11 +2,11 @@
 title: "Easter BBQ"
 date: 2022-05-19
 draft: false
-weight: 6
+weight: 8
 ---
 
 ### Easter BBQ
 
-For Easter 2022, we invited the entire Hamburg team to our Easter BBQ. The support team prepared meat, vegetarian/vegan and halal options, sides and cocktails for everyone.
+For Easter 2022, we invited the Lisbon and Hamburg teams to have dinner together. In Hamburg, the support team hosted a BBQ with meat, vegetarian/vegan and halal options, sides and cocktails for everyone
 
-{{< youtube 8WG_MoGooWY >}}
+{{< youtube U6pYRh-e1vk >}}

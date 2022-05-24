@@ -98,14 +98,14 @@ Cloudflare https://www.cloudflare.com is as reverse proxy cache in front of the 
 ### convert images to webp
 
 Install webp
-    
+
     brew install webp
 
 resize images
 
-    convert -resize 50% *.jpg
-    
-    for file in * ; do convert -resize 50% "$file" ; done
+    (if you don't have install the imagemagick: brew install imagemagick)
+
+    for file in * ; do convert -resize 50% "$file" "$file" ; done
 
 convert images
 
