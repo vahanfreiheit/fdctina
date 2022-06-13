@@ -21,6 +21,7 @@ The files will be created inside the `docs` folder which is set as the root of t
 
 Just build the files and commit them to the master branch to deploy the new site.
 
+IMPORTANT: Remember to set all files that you want to generate to `draft: false` in the head of a `.md` file
 
 ## Test Deployment to staging
 
