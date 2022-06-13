@@ -32,7 +32,7 @@ The files will be created inside the `docs/staging` folder of the life site.
 
 Just build the files and commit them to the master branch to deploy.
 
-The staging page can be accessed on https://freheit.com/staging
+The staging page can be accessed on https://freiheit.com/staging
 
 ### Netlify CMS (not yet implemented)
 
