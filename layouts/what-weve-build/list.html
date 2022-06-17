@@ -16,9 +16,7 @@
                     <img src="{{ .Params.Image }}" class="w-full" alt="{{ .Title }}"/>
                     <div class="p-5">
                         <h5 class="mt-0 text-body-xl">{{ .Title }}</h5>
-                        <p class="text-body-lg">
-                            {{.Content | plainify }}
-                        </p>
+                        {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
                     </div>
                 </div>
             </article>

@@ -8,3 +8,12 @@
     }
   }
 }
+
+.bg-red {
+  a {
+    &:hover {
+      @apply text-white;
+    }
+  }
+}
+
