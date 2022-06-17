@@ -1,6 +1,6 @@
 ---
 title: "AI, Data Science & Machine Learning"
-image: /img/what-weve-build/ai-data-science-machine-learning_2.jpg.webp
+image: what-weve-build/ai-data-science-machine-learning_2.jpg.webp
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false

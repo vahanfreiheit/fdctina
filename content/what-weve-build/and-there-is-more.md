@@ -1,6 +1,6 @@
 ---
 title: "And There Is More"
-image: /img/what-weve-build/and-there-is-more_2.jpg.webp
+image: what-weve-build/and-there-is-more_2.jpg.webp
 backgroundColorClass: "bg-pale-purple" 
 date: 2022-02-02
 draft: false

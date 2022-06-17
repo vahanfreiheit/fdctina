@@ -1,6 +1,6 @@
 ---
 title: "Flight Booking Engines"
-image: /img/what-weve-build/flight-booking-engines_2.jpg.webp
+image: what-weve-build/flight-booking-engines_2.jpg.webp
 backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false
