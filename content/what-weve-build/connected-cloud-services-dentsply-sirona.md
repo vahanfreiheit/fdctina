@@ -5,7 +5,7 @@ backgroundColorClass: "bg-red"
 date: 2022-06-28
 draft: false
 tags: [case study]
-weight: 90
+weight: 50
 hideHeaderTitle: true
 size: big
 ---

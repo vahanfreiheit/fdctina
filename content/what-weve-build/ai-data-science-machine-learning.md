@@ -5,7 +5,7 @@ backgroundColorClass: "bg-pale-purple"
 date: 2022-02-02
 draft: false
 tags: [case study]
-weight: 50
+weight: 90
 hideHeaderTitle: true
 size: big
 ---
