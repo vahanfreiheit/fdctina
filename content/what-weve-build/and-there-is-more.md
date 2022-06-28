@@ -7,7 +7,7 @@ draft: false
 tags: [case study]
 weight: 1000
 hideHeaderTitle: true
-size: big
+size: small
 ---
 
 We have built lottery platforms (business model: selling random numbers) and dating platforms (business model: selling contacts between customers). The internet is full of interesting new ideas and we are sure that this is still just the beginning.
