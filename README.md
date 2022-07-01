@@ -111,3 +111,7 @@ resize images
 convert images
 
     for file in * ; do cwebp "$file" -o "${file}.webp" ; done
+
+convert and resize with cwebp excluding the image file extension:
+
+    for file in * ; do cwebp "$file" -resize 1000 0 -o "${file%%.*}.webp" ; done
