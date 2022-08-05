@@ -32,6 +32,10 @@
     {{ $backgroundColor = "bg-pale-purple"}}
     {{ $backgroundImage = "/img/header_pale-purple.png.webp" }}
     {{ $backgroundClasses = "relative bg-pale-purple text-black"}}
+{{ else if eq .Params.headerTheme "red" }}
+    {{ $backgroundColor = "bg-transparent"}}
+    {{ $backgroundImage = "/img/header_grey.webp" }}
+    {{ $backgroundClasses = "relative bg-red text-black"}}
 {{ end }}
 {{ if .Site.Params.GoogleTagManager }}
 <!-- Google Tag Manager (noscript) -->
