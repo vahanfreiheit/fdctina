@@ -14,27 +14,27 @@
     {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "green" }}
     {{ $backgroundColor = "bg-green"}}
-    {{ $backgroundImage = "/img/header_green.png.webp" }}
+    {{ $backgroundImage = "img/header_green.png.webp" }}
     {{ $backgroundClasses = "relative bg-green text-black"}}
 {{ else if eq .Params.headerTheme "yellow" }}
     {{ $backgroundColor = "bg-yellow"}}
-    {{ $backgroundImage = "/img/header_yellow.png.webp" }}
+    {{ $backgroundImage = "img/header_yellow.png.webp" }}
     {{ $backgroundClasses = "relative bg-yellow text-black"}}
 {{ else if eq .Params.headerTheme "pale-green" }}
     {{ $backgroundColor = "bg-pale-green"}}
-    {{ $backgroundImage = "/img/header_pale-green.png.webp" }}
+    {{ $backgroundImage = "img/header_pale-green.png.webp" }}
     {{ $backgroundClasses = "relative bg-pale-green text-black"}}
 {{ else if eq .Params.headerTheme "alabaster" }}
     {{ $backgroundColor = "bg-alabaster"}}
-    {{ $backgroundImage = "/img/header_alabaster.png.webp" }}
+    {{ $backgroundImage = "img/header_alabaster.png.webp" }}
     {{ $backgroundClasses = "relative bg-alabaster text-black"}}
 {{ else if eq .Params.headerTheme "pale-purple" }}
     {{ $backgroundColor = "bg-pale-purple"}}
-    {{ $backgroundImage = "/img/header_pale-purple.png.webp" }}
+    {{ $backgroundImage = "img/header_pale-purple.png.webp" }}
     {{ $backgroundClasses = "relative bg-pale-purple text-black"}}
 {{ else if eq .Params.headerTheme "red" }}
     {{ $backgroundColor = "bg-transparent"}}
-    {{ $backgroundImage = "/img/header_grey.webp" }}
+    {{ $backgroundImage = "img/header_grey.webp" }}
     {{ $backgroundClasses = "relative bg-red text-black"}}
 {{ end }}
 {{ if .Site.Params.GoogleTagManager }}
@@ -46,7 +46,7 @@
 <header class="z-40 p-5 xl:p-12 w-full
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"
-    {{ if ne $backgroundImage "" }} style="background-image: url('{{ $backgroundImage }}');" {{ end }}
+    {{ if ne $backgroundImage "" }} style="background-image: url('{{site.BaseURL}}{{ $backgroundImage }}');" {{ end }}
     >
     <nav class="relative z-40 flex items-center justify-between space" id="navigation">
         <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{ $logo }}" alt="freiheit logo" width="188" height="32" /></a>
