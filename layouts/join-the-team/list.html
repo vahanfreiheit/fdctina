@@ -17,7 +17,7 @@
 
             {{ . }}
 
-            {{ $data := $.Site.Data.lever.jobs73208f575f72976b7c70e93fa0d92d77 }}
+            {{ $data := $.Site.Data.lever.jobscea77d646b7492a3cae50bf0ac92b834 }}
             {{ if eq $data "" }}
                 {{ $data = getJSON "https://api.lever.co/v0/postings/freiheit-2?mode=json&distributionChannel=public&state=published&group=location" }}
             {{ end }}
