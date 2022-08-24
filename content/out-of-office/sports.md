@@ -9,6 +9,6 @@ weight: 3
 If you can name a sport, there’s probably a freiheit.com member who likes it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg. 
 
 {{< content-images >}}
-  {{< image src="/img/out-of-office/Sports_r.webp" alt="Sports: Running, Biking, Bouldering, Soccer and More" class="fdc-scroll fdc-scroll--slide-left">}}
-  {{< image src="/img/out-of-office/Sports_l.webp" alt="Sports: Running, Biking, Bouldering, Soccer and More" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
+  {{< image src="/img/out-of-office/Sports_l_s.webp" alt="Sports: Running, Biking, Bouldering, Soccer and More" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
+  {{< image src="/img/out-of-office/Sports_r_s.webp" alt="Sports: Running, Biking, Bouldering, Soccer and More" class="fdc-scroll fdc-scroll--slide-right">}}
 {{< /content-images >}}
