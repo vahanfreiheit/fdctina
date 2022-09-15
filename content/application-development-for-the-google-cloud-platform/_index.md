@@ -2,6 +2,8 @@
 title: "Application Development for the Google Cloud Platform"
 date: 2022-08-04
 draft: true
+list: false
+render: false
 headerHeadline: Application Development for the Google Cloud Platform
 headerTheme: red
 ---
