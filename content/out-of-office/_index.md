@@ -1,7 +1,7 @@
 ---
 title: "Out of office"
 date: 2022-02-20
-draft: true
+draft: false
 headerHeadline: Out of office
 headerTheme: green
 menu:
