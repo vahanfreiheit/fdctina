@@ -12,6 +12,10 @@
     {{ $backgroundColor = ""}}
     {{ $backgroundClasses = "absolute top-0 left-0 text-white"}}
     {{ $logo = $logo_white }}
+{{ else if eq .Params.headerTheme "out-of-office-dev"}}
+    {{ $backgroundColor = "bg-white opacity-70"}}
+    {{ $backgroundClasses = "absolute top-0 left-0 text-black"}}
+    {{ $logo = $logo_black }}
 {{ else if eq .Params.headerTheme "green" }}
     {{ $backgroundColor = "bg-green"}}
     {{ $backgroundImage = "img/header_green.png.webp" }}
