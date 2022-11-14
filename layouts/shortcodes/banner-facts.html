@@ -6,6 +6,11 @@
         <div class="font-fdc text-yellow my-8 md:my-16 text-numbers-xs sm:text-numbers-sm md:text-numbers-md lg:text-numbers-lg">{{ .Get "numbers" }}</div>
       </div>
       {{ end }}
+      {{ if isset .Params "numbers-sm" }}
+      <div class="col-span-3 flex flex-1 justify-center bg-black">
+        <div class="font-fdc text-yellow my-8 md:my-16 text-3xl md:text-6xl">{{ .Get "numbers-sm" }}</div>
+      </div>
+      {{ end }}
       <div class="items-center flex justify-center col-span-2 bg-yellow">
         {{ if isset .Params "title" }}
         <span class="text-lg md:text-4xl md:py-24 md:px-12 py-12 px-8 text-center">{{ .Get "title" }}</span>
