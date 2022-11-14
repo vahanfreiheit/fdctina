@@ -66,20 +66,21 @@
   let vibes = document.getElementById('videoSound');
   let video = document.getElementById('welcomeVideo');
   let source = document.createElement("source");
-  if (getWidth() < 768) {
-    source.src = "/video/video_mobile.mp4";
-    source.type = "video/mp4";
-  } else {
-    source.src = "/video/video.mp4";
-    source.type = "video/mp4";
+  if (video && source) {
+    if (getWidth() < 768) {
+      source.src = "/video/video_mobile.mp4";
+      source.type = "video/mp4";
+    } else {
+      source.src = "/video/video.mp4";
+      source.type = "video/mp4";
+    }
+    video.append(source);
+    video.play();
+    vibes.addEventListener('click', function () {
+      let mute = video.muted
+      vibes.classList.toggle("music-on")
+      video.muted=!mute
+    })
   }
-  video.append(source);
-  video.play();
-  vibes.addEventListener('click', function () {
-    let mute = video.muted
-    vibes.classList.toggle("music-on")
-    video.muted=!mute
-  })
-  
 </script>
 {{ end }}
