@@ -1,11 +1,11 @@
 <div class="homepage-video w-full mb-12 relative">
   <div
     class="homepage-video__patern absolute top-0 left-0 w-full h-full z-20" 
-    style="background-image: url(/img/video_texture.png.webp); background-color: rgba(41, 44, 53, 0.5)">
+    style="background-image: url({{site.BaseURL}}/img/video_texture.png.webp); background-color: rgba(41, 44, 53, 0.5)">
   </div>
   <div
     class="absolute w-full h-full z-20 opacity-30 bg-no-repeat bg-right bg-cover"
-    style="background-image: url(/img/video_background.png.webp);">
+    style="background-image: url({{site.BaseURL}}/img/video_background.png.webp);">
   </div>
   <video
           loop
@@ -13,7 +13,7 @@
           autoplay
           playsinline
           preload="auto"
-          poster="/img/poster.jpg.webp"
+          poster="{{site.BaseURL}}/img/poster.jpg.webp"
           class="w-full h-full absolute z-10 top-0 left-0 object-cover"
           id="welcomeVideo"
   >
@@ -29,7 +29,7 @@
       </div>
     </div>
     <section class="flex flex-col items-center max-w-screen-3xl">
-      <div class="hidden xl:block"><img src="/img/symbol.svg" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
+      <div class="hidden xl:block"><img src="{{site.BaseURL}}/img/symbol.svg" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
       {{ if isset .Params "title" }}
         <div class="text-white font-serif text-head-lg lg:text-head-xl px-8">{{ .Get "title" }} </div>
       {{ end }}
@@ -38,7 +38,7 @@
       {{ end }}
       <div class="mt-4 md:mt-8">
         <a href="#we-are-pioneers">
-          <img src="/img/blank.png.webp" alt="scroll down" width="1" height="1"/>
+          <img src="{{site.BaseURL}}/img/blank.png.webp" alt="scroll down" width="1" height="1"/>
           <div class="mouse_scroll">
             <div class="homepage-video__arrows">
               <span class="homepage-video__arrow"></span>
@@ -68,10 +68,10 @@
   let source = document.createElement("source");
   if (video && source) {
     if (getWidth() < 768) {
-      source.src = "/video/video_mobile.mp4";
+      source.src = "{{site.BaseURL}}/video/video_mobile.mp4";
       source.type = "video/mp4";
     } else {
-      source.src = "/video/video.mp4";
+      source.src = "{{site.BaseURL}}/video/video.mp4";
       source.type = "video/mp4";
     }
     video.append(source);

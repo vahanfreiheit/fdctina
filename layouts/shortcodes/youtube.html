@@ -16,8 +16,8 @@ On click it replaces this with the actual youtube embed iframe.
     <div id="{{ $id }}_image" class="absolute top-0 left-0 w-full h-full border-0 flex justify-center items-center cursor-pointer">
         <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="https://img.youtube.com/vi/{{ index .Params 0 }}/0.jpg"
              alt="YouTube video {{ index .Params 0 }}">
-        <img id="{{ $id }}_image__button" class="absolute" src="/img/youtube_play_button.svg" title="Click to load video" alt="Click to load video"/>
-        <img id="{{ $id }}_image__button--hover" class="absolute hidden" src="/img/youtube_play_button_hover.svg" title="Click to load video" alt="Click to load video"/>
+        <img id="{{ $id }}_image__button" class="absolute" src="{{site.BaseURL}}/img/youtube_play_button.svg" title="Click to load video" alt="Click to load video"/>
+        <img id="{{ $id }}_image__button--hover" class="absolute hidden" src="{{site.BaseURL}}/img/youtube_play_button_hover.svg" title="Click to load video" alt="Click to load video"/>
     </div>
 </div>
 <script>
