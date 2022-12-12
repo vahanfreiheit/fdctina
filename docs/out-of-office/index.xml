@@ -1,1 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Out of office on freiheit.com</title><link>https://mploigt.github.io/freiheit/out-of-office/</link><description>Recent content in Out of office on freiheit.com</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mploigt.github.io/freiheit/out-of-office/index.xml" rel="self" type="application/rss+xml"/><item><title>Fun in Hamburg and Lisbon</title><link>https://mploigt.github.io/freiheit/out-of-office/fun-in-hamburg-and-lisbon/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/fun-in-hamburg-and-lisbon/</guid><description>Fun in Hamburg and Lisbon Our members regularly travel between our engineering hubs in Hamburg and Lisbon – like the newbies from Lisbon who come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don&amp;rsquo;t just come to work. Having fun with colleagues and exploring Hamburg is always a popular part of the trip. Most recently, our local members gave them a tour of the city on the beautiful Alster river.</description></item><item><title>Cultural Nights</title><link>https://mploigt.github.io/freiheit/out-of-office/cultural-nights/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/cultural-nights/</guid><description>Cultural Nights As a cosmopolitan community, a lot of our members are not native to Germany. We regularly host cultural nights with food and drinks from their native countries – whether it’s Syria, Slavic countries, USA, Turkey or Egypt. At our most recent Portugal x Germany Cultural Night, we served Portuguese pastéis de bacalhau and German pretzels.</description></item><item><title>Sports: Running, Biking, Bouldering, Soccer and More</title><link>https://mploigt.github.io/freiheit/out-of-office/sports/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/sports/</guid><description>Sports: Running, Biking, Bouldering, Soccer and More If you can name a sport, there’s probably a freiheit.com member who likes it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg.</description></item><item><title>Hackertalks</title><link>https://mploigt.github.io/freiheit/out-of-office/hackertalks/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/hackertalks/</guid><description>Hackertalks We pride ourselves on the training and the personal development of our members. That’s why this list wouldn&amp;rsquo;t be complete without hackertalks, which of course take place during work hours. Every week, engineers at freiheit.com get together to share insights into projects, discover new technologies and discuss ideas. Since they take place on Friday nights, some members enjoy a drink afterwards in our lounge on the 6th floor with a view over the port of Hamburg.</description></item><item><title>Hash Code Coding Challenge</title><link>https://mploigt.github.io/freiheit/out-of-office/hash-code-coding-challenge/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/hash-code-coding-challenge/</guid><description>Hash Code Coding Challenge Every year, freiheit.com members form teams to participate in Hash Code, Google’s annual team programming competition. Find out more or solve past challenges on the Hash Code website&amp;nbsp;→.</description></item><item><title>Board Game Nights</title><link>https://mploigt.github.io/freiheit/out-of-office/board-game-nights/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/board-game-nights/</guid><description>Board Game Nights Our engineering teams love tackling complex problems. That&amp;rsquo;s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.</description></item><item><title>Barbecues and Team Events in our Rooftop Lounge above St. Pauli</title><link>https://mploigt.github.io/freiheit/out-of-office/barbecues/</link><pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate><guid>https://mploigt.github.io/freiheit/out-of-office/barbecues/</guid><description>Barbecues and Team Events in our Rooftop Lounge above St. Pauli Above the roof of the vibrant neighborhood of St. Pauli in Hamburg, freiheit.com members come together in our Rooftop Lounge we call 6forward. That’s where we host barbecues, celebrate Christmas or just casually hang out after work. For Easter 2022, the support team hosted a barbecue with meat, vegetarian/vegan and halal options, sides and cocktails for everyone.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Out of office on freiheit.com</title>
+    <link>https://mploigt.github.io/freiheit/out-of-office/</link>
+    <description>Recent content in Out of office on freiheit.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mploigt.github.io/freiheit/out-of-office/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun in Hamburg and Lisbon</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/fun-in-hamburg-and-lisbon/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/fun-in-hamburg-and-lisbon/</guid>
+      <description>Fun in Hamburg and Lisbon Our members regularly travel between our engineering hubs in Hamburg and Lisbon – like the newbies from Lisbon who come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don&amp;rsquo;t just come to work. Having fun with colleagues and exploring Hamburg is always a popular part of the trip. Most recently, our local members gave them a tour of the city on the beautiful Alster river.</description>
+    </item>
+    
+    <item>
+      <title>Cultural Nights</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/cultural-nights/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/cultural-nights/</guid>
+      <description>Cultural Nights As a cosmopolitan community, a lot of our members are not native to Germany. We regularly host cultural nights with food and drinks from their native countries – whether it’s Syria, Slavic countries, USA, Turkey or Egypt. At our most recent Portugal x Germany Cultural Night, we served Portuguese pastéis de bacalhau and German pretzels.</description>
+    </item>
+    
+    <item>
+      <title>Sports: Running, Biking, Bouldering, Soccer and More</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/sports/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/sports/</guid>
+      <description>Sports: Running, Biking, Bouldering, Soccer and More If you can name a sport, there’s probably a freiheit.com member who likes it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg.</description>
+    </item>
+    
+    <item>
+      <title>Hackertalks</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/hackertalks/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/hackertalks/</guid>
+      <description>Hackertalks We pride ourselves on the training and the personal development of our members. That’s why this list wouldn&amp;rsquo;t be complete without hackertalks, which of course take place during work hours. Every week, engineers at freiheit.com get together to share insights into projects, discover new technologies and discuss ideas. Since they take place on Friday nights, some members enjoy a drink afterwards in our lounge on the 6th floor with a view over the port of Hamburg.</description>
+    </item>
+    
+    <item>
+      <title>Hash Code Coding Challenge</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/hash-code-coding-challenge/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/hash-code-coding-challenge/</guid>
+      <description>Hash Code Coding Challenge Every year, freiheit.com members form teams to participate in Hash Code, Google’s annual team programming competition. Find out more or solve past challenges on the Hash Code website&amp;nbsp;→.</description>
+    </item>
+    
+    <item>
+      <title>Board Game Nights</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/board-game-nights/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/board-game-nights/</guid>
+      <description>Board Game Nights Our engineering teams love tackling complex problems. That&amp;rsquo;s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.</description>
+    </item>
+    
+    <item>
+      <title>Barbecues and Team Events in our Rooftop Lounge above St. Pauli</title>
+      <link>https://mploigt.github.io/freiheit/out-of-office/barbecues/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mploigt.github.io/freiheit/out-of-office/barbecues/</guid>
+      <description>Barbecues and Team Events in our Rooftop Lounge above St. Pauli Above the roof of the vibrant neighborhood of St. Pauli in Hamburg, freiheit.com members come together in our Rooftop Lounge we call 6forward. That’s where we host barbecues, celebrate Christmas or just casually hang out after work. For Easter 2022, the support team hosted a barbecue with meat, vegetarian/vegan and halal options, sides and cocktails for everyone.</description>
+    </item>
+    
+  </channel>
+</rss>
