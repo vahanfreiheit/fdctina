@@ -1,4 +1,4 @@
-baseURL: "https://freiheit.com/staging"
-publishDir: "docs/staging"
+baseURL: "https://mploigt.github.io/freiheit"
+publishDir: "docs"
 buildDrafts: true
 minify: true
