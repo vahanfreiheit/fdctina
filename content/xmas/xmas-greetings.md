@@ -10,4 +10,7 @@ As our Xmas greeting, we decided to go the traditional route and recite the famo
 
 Watch your favorite project team recite the famous poem “Knecht Ruprecht” by Theodor Storm!
 
-{{< youtube zMYdK3sEcm4 >}}
+{{< container class="md:mx-16 lg:mx-32 xl:mx-64" >}}
+    {{< youtube zMYdK3sEcm4 >}}
+{{< /container >}}
+
