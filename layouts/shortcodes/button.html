@@ -1,9 +1,1 @@
-<a
-        href="{{ .Get "linkUrl" }}"
-{{ if isset .Params "target" }}
-target="{{ .Get "target" }}"
-{{ end }}
-class="inline-block leading-none border rounded-full cursor-pointer
-py-4 px-8 no-underline font-serif bg-{{ .Get "background" }} hover:text-{{ .Get "color" }} hover:border-{{ .Get "color" }} filter hover:brightness-90">
-<span class="inline-block" style="margin-top: 3px">{{ .Get "linkText" }} →</span>
-</a>
+<a href="{{ .Get "linkUrl" }}" {{ if isset .Params "target" }}target="{{ .Get "target" }}"{{ end }} class="inline-block leading-none border rounded-full cursor-pointer py-4 px-8 no-underline font-serif bg-{{ .Get "background" }} hover:text-{{ .Get "color" }} hover:border-{{ .Get "color" }} filter hover:brightness-90"><span class="inline-block text-lg" style="margin-top: 3px">{{ .Get "linkText" }} →</span></a>
