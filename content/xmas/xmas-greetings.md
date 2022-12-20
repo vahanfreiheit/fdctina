@@ -3,7 +3,7 @@ title: "Merry Xmas"
 date: 2022-20-12
 draft: true
 weight: 2
-contentTheme: green
+contentTheme: red
 ---
 ### Merry Christmas
 
