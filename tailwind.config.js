@@ -148,6 +148,7 @@ module.exports = {
     extend: {
       borderWidth: ['hover'],
       borderColor: ['hover'],
+      brightness: ['hover'],
     }
   },
   plugins: [],
