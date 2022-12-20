@@ -209,7 +209,7 @@
         </div>
     </div>
     <script>
-        window.onload=function() {
+        window.addEventListener("load",function() {
             let iframe = document.createElement('iframe');
             iframe.setAttribute('id', 'youtube_DMNt1re-kRY_iframe');
             iframe.setAttribute('class', 'absolute top-0 left-0 w-full h-full border-0');
@@ -222,7 +222,7 @@
                 document.getElementById('youtube_DMNt1re-kRY_image').remove();
                 document.getElementById('youtube_DMNt1re-kRY_iframe').replaceWith(iframe);
             });
-        }
+        });
     </script>
     <style>
         #youtube_DMNt1re-kRY_container {
