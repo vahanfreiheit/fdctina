@@ -16,5 +16,5 @@ Every year, freiheit.com donates a considerable sum of money to charity. When we
 </div>
 
 {{< container class="mb-24 md:mx-16 lg:mx-32 xl:mx-64" >}}
-    {{< youtube MoOB7iagEI8 >}}
+    {{< youtube 5aVuNyfOVsE >}}
 {{< /container >}}
