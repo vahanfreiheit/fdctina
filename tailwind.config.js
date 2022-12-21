@@ -2,7 +2,6 @@ module.exports = {
   purge: {
     enabled: process.env.HUGO_ENVIRONMENT === "production",
     content: [
-      "./themes/freiheit-com/layouts/**/*.html",
       "./layouts/**/*.html",
       "./content/**/*.md",
       "./content/**/*.html"],

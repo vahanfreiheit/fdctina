@@ -15,6 +15,6 @@ Every year, freiheit.com donates a considerable sum of money to charity. When we
 {{< button linkUrl="https://www.hawar.help/de/spenden/" target="_blank" linkText="Donate Now" color="black" background="green">}}
 </div>
 
-{{< container class="mb-24 md:mx-16 lg:mx-32 xl:mx-64" >}}
+{{< container class="mb-24" >}}
     {{< youtube 5aVuNyfOVsE >}}
 {{< /container >}}
