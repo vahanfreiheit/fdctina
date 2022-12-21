@@ -1,7 +1,7 @@
 ---
 title: "Merry Xmas"
 date: 2022-20-12
-draft: true
+draft: false
 weight: 2
 contentTheme: red
 ---
