@@ -1,0 +1,29 @@
+{{ define "main" }}
+    {{ with .Content }}
+        <div class="fdc-content-layout">
+            <section>
+                {{ . }}
+            </section>
+        </div>
+    {{ end }}
+    {{ range .Pages }}
+        {{ $themeClasses := "fdc-content-layout" }}
+        {{ if eq .Params.contentTheme "black" }}
+            {{ $themeClasses = "fdc-content-layout bg-black text-light-grey" }}
+        {{ end }}
+        {{ if eq .Params.contentTheme "red" }}
+            {{ $themeClasses = "fdc-content-layout bg-red text-white" }}
+        {{ end }}
+        {{ if eq .Params.contentTheme "red" }}
+            {{ $themeClasses = "fdc-content-layout bg-green text-black" }}
+        {{ end }}
+        {{ if eq .Params.contentTheme "video" }}
+            {{ $themeClasses = "" }}
+        {{ end }}
+        <div class="{{ $themeClasses }}">
+            <section>
+                {{ partial "content-margin" . }}
+            </section>
+        </div>
+    {{ end }}
+{{ end }}

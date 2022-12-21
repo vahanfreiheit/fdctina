@@ -1,4 +1,4 @@
 baseURL: "https://mploigt.github.io/freiheit"
 publishDir: "docs"
 buildDrafts: true
-minify: true
+minify: false
