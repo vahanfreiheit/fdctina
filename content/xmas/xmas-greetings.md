@@ -9,8 +9,6 @@ contentTheme: red
 
 As our Xmas greeting, we decided to go the traditional route and recite the famous German poem Knecht Ruprecht by Theodor Storm. All of our members learned their lines and put on their ugliest sweater to wish you and your loved ones a Merry Xmas, Happy Holidays and a Happy New Year!
 
-Watch your favorite project team recite the famous poem “Knecht Ruprecht” by Theodor Storm!
-
 {{< container class="md:mx-16 lg:mx-32 xl:mx-64" >}}
     {{< youtube zMYdK3sEcm4 >}}
 {{< /container >}}
