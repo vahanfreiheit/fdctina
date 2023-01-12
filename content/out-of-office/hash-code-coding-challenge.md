@@ -1,8 +1,8 @@
 ---
 title: "Hash Code Coding Challenge"
-date: 2022-05-19
+date: 2022-11-12
 draft: false
-weight: 6
+weight: 4
 ---
 ### Hash Code Coding Challenge
 

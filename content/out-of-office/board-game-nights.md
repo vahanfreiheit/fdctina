@@ -1,8 +1,8 @@
 ---
 title: "Board Game Nights"
-date: 2022-05-19
+date: 2022-11-12
 draft: false
-weight: 7
+weight: 5
 ---
 
 ### Board Game Nights
