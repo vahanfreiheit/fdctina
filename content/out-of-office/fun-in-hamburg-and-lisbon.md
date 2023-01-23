@@ -1,12 +1,12 @@
 ---
 title: "Fun in Hamburg and Lisbon"
-date: 2022-11-12
+date: 2023-01-23
 draft: false
-weight: 7
+weight: 5
 ---
 ### Fun in Hamburg and Lisbon
 
-Our members regularly travel between our engineering hubs in Hamburg and Lisbon – like the newbies from Lisbon who come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don't just come to work. Having fun with colleagues and exploring Hamburg is always a popular part of the trip. Every year, the whole company meets for our Summer and Christmas Events.
+Our members regularly travel between our engineering hubs in Hamburg and Lisbon – like the newbies from Lisbon who come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don’t just come to work. Having fun with colleagues and exploring Hamburg is always a popular part of the trip. Every year, the whole company meets for our Summer and Christmas Events.
 
 {{< youtube wBUB60na8mw >}}
 
