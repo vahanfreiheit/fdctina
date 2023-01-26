@@ -5,6 +5,7 @@ draft: false
 headerHeadline: Join us
 headerTheme: pale-green
 aliases:
+  - /join-the-team/
   - /jobs/
   - /de/jobs/
   - /en/jobs/
