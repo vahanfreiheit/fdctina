@@ -26,5 +26,5 @@ if [[ $(git status --porcelain) ]]; then
   hugo -e production
   git add .
   git commit -m "update jobs"
-  git push
+  git push live HEAD:main
 fi
