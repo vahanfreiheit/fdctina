@@ -8,7 +8,6 @@
 {{ $mainJs := $js | js.Build (printf "%s%s%s" "main." $js_hash ".js") }}
 
 <head>
-    <!--script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2d18d293-255a-4ad2-a363-53ba7ffb8919" data-blockingmode="auto" type="text/javascript" defer></script-->
     {{ if .Site.Params.GoogleTagManager }}
     <!-- Google Tag Manager (also loads analytics) -->
     <script data-cookieconsent="statistics">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
