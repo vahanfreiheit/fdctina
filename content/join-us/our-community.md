@@ -1,11 +1,11 @@
 ---
-title: "Our Community"
-date: 2022-02-04
+title: "We Are a Global Team"
+date: 2023-01-31
 draft: false
 weight: 1
 ---
 
-### Our Community.
+### We Are a Global Team.
 
 In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world, different cultures, colors, languages, genders and lifestyles. We celebrate diversity and openness.
 
