@@ -4,6 +4,8 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: Things we've built
 headerTheme: yellow
+aliases:
+  - /what-weve-build/
 menu:
   main:
     name: Things we've built

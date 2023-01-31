@@ -6,44 +6,40 @@
 {{ $logo := $logo_black }}
 {{ if eq .Params.headerTheme "black"}}
     {{ $backgroundColor = "bg-black"}}
-    {{ $backgroundClasses = "relative bg-black text-light-grey"}}
+    {{ $backgroundClasses = "bg-black text-light-grey"}}
     {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "homepage"}}
     {{ $backgroundColor = ""}}
-    {{ $backgroundClasses = "absolute top-0 left-0 text-white"}}
+    {{ $backgroundClasses = "fixed top-0 left-0 w-full h-12 text-white"}}
     {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "xmas"}}
     {{ $backgroundColor = "bg-transparent text-white"}}
     {{ $backgroundImage = "img/xmas/header_background.webp" }}
     {{ $logo = $logo_white }}
-{{ else if eq .Params.headerTheme "out-of-office"}}
-    {{ $backgroundColor = "bg-white opacity-70"}}
-    {{ $backgroundClasses = "absolute top-0 left-0 text-black"}}
-    {{ $logo = $logo_black }}
 {{ else if eq .Params.headerTheme "green" }}
     {{ $backgroundColor = "bg-green"}}
     {{ $backgroundImage = "img/header_green.png.webp" }}
-    {{ $backgroundClasses = "relative bg-green text-black bg-top"}}
+    {{ $backgroundClasses = "bg-green text-black bg-top"}}
 {{ else if eq .Params.headerTheme "yellow" }}
     {{ $backgroundColor = "bg-yellow"}}
     {{ $backgroundImage = "img/header_yellow.png.webp" }}
-    {{ $backgroundClasses = "relative bg-yellow text-black"}}
+    {{ $backgroundClasses = "bg-yellow text-black"}}
 {{ else if eq .Params.headerTheme "pale-green" }}
     {{ $backgroundColor = "bg-pale-green"}}
     {{ $backgroundImage = "img/header_pale-green.png.webp" }}
-    {{ $backgroundClasses = "relative bg-pale-green text-black"}}
+    {{ $backgroundClasses = "bg-pale-green text-black"}}
 {{ else if eq .Params.headerTheme "alabaster" }}
     {{ $backgroundColor = "bg-alabaster"}}
     {{ $backgroundImage = "img/header_alabaster.png.webp" }}
-    {{ $backgroundClasses = "relative bg-alabaster text-black"}}
+    {{ $backgroundClasses = "bg-alabaster text-black"}}
 {{ else if eq .Params.headerTheme "pale-purple" }}
     {{ $backgroundColor = "bg-pale-purple"}}
     {{ $backgroundImage = "img/header_pale-purple.png.webp" }}
-    {{ $backgroundClasses = "relative bg-pale-purple text-black"}}
+    {{ $backgroundClasses = "bg-pale-purple text-black"}}
 {{ else if eq .Params.headerTheme "red" }}
     {{ $backgroundColor = "bg-transparent"}}
     {{ $backgroundImage = "img/header_grey.webp" }}
-    {{ $backgroundClasses = "relative bg-red text-black"}}
+    {{ $backgroundClasses = "bg-red text-black"}}
 {{ end }}
 {{ if .Site.Params.GoogleTagManager }}
 <!-- Google Tag Manager (noscript) -->
@@ -51,88 +47,91 @@
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {{ end }}
-<header class="z-40 p-5 xl:p-12 w-full
+<header class="z-40 w-full transition-colors duration-500
+    {{ $backgroundColor }}
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"
     {{ if ne $backgroundImage "" }} data-id="background-image" style="background-image: url('{{site.BaseURL}}/{{ $backgroundImage }}')" {{ end }}
     >
-    <nav class="relative z-40 flex items-center justify-between space" id="navigation">
-        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{site.BaseURL}}{{ $logo }}" alt="freiheit logo" width="188" height="32" /></a>
-        <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
-            <div class="xl:hidden checkbox-content transition duration-200 ease-in-out">
-                <div
-                        class="bg-right bg-contain bg-no-repeat flex flex-col xl:hidden fixed top-0 left-0 w-full h-screen p-5 bg-black text-light-grey"
-                        style="background-image: url({{site.BaseURL}}/img/mobile-navigation_background.png.webp);">
-                    <div class="flex items-center justify-between space">
-                        <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{site.BaseURL}}{{ $logo_white }}" alt="freiheit logo" width="188" height="32" /></a>
-                        <span class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
-                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5,6 L19,17.9845516 M5,18 L19,6"/>
-                            </svg>
-                        </span>
-                    </div>
-                    <ul class="mt-20 md:pl-12 md:pr-12 flex-1">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.main }}
-                        <li class="pb-5 md:pb-10">
-                            <a href="{{ .URL | absLangURL }}" class="inline-block no-underline py-1
-                                {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-                                    text-white border-white border-b-2 hover:border-b-2
-                                {{else}}
-                                    text-light-grey hover:text-white
-                                {{end}}">
-                                {{ .Pre }}
-                                <h3 class="mb-0">{{ .Name }}</h3>
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <div class="">
-                        {{- partial "footer-legal.html" . -}}
+    <nav class="z-40 h-11 fixed top-0 left-0 w-full  {{ $backgroundClasses }}" id="navigation">
+        <div class="px-4 xl:px-12 py-1 max-w-screen-3xl w-full mx-auto flex items-center justify-between space">
+            <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{site.BaseURL}}{{ $logo }}" alt="freiheit logo" width="188" height="32" /></a>
+            <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">
+                <div class="xl:hidden checkbox-content transition duration-200 ease-in-out">
+                    <div
+                            class="bg-right bg-contain bg-no-repeat flex flex-col xl:hidden fixed top-0 left-0 w-full h-screen p-5 bg-black text-light-grey"
+                            style="background-image: url({{site.BaseURL}}/img/mobile-navigation_background.png.webp);">
+                        <div class="flex items-center justify-between space">
+                            <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{site.BaseURL}}{{ $logo_white }}" alt="freiheit logo" width="188" height="32" /></a>
+                            <span class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none" id="navigation_close">
+                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5,6 L19,17.9845516 M5,18 L19,6"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <ul class="mt-20 md:pl-12 md:pr-12 flex-1">
+                            {{ $currentPage := . }}
+                            {{ range .Site.Menus.main }}
+                            <li class="pb-5 md:pb-10">
+                                <a href="{{ .URL | absLangURL }}" class="inline-block no-underline py-1
+                                    {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                                        text-white border-white border-b-2 hover:border-b-2
+                                    {{else}}
+                                        text-light-grey hover:text-white
+                                    {{end}}">
+                                    {{ .Pre }}
+                                    <h3 class="mb-0">{{ .Name }}</h3>
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <div class="">
+                            {{- partial "footer-legal.html" . -}}
+                        </div>
                     </div>
                 </div>
-            </div>
-        </input>
-        <label for="open-menu-checkbox" class="xl:hidden">
-            <span 
-                class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none"
-                aria-expanded="false">
-                <span class="sr-only">Open menu</span>
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                    aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </span>
-        </label>
-        {{ if or (.Params.headerHeadline) (.Params.headerSubline) (eq .Params.layout "article") }}
-        <ul class="hidden xl:flex flex-wrap font-light w-100 p-2 {{ $backgroundColor }}">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                {{ if .HasChildren }}
-                    <li class="px-3">
-                        <a href="#" class="no-underline font-thin py-1 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}font-bold border-b-2{{else}}hover:border-b{{end}}">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
-                    <ul class="sub-menu">
-                        {{ range .Children }}
+            </input>
+            <label for="open-menu-checkbox" class="xl:hidden">
+                <span
+                    class="cursor-pointer inline-flex xl:hidden p-2 items-center justify-center transform hover:scale-125 focus:outline-none"
+                    aria-expanded="false">
+                    <span class="sr-only">Open menu</span>
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </span>
+            </label>
+            {{ if or (.Params.headerHeadline) (.Params.headerSubline) (eq .Params.layout "article") }}
+            <ul class="hidden xl:flex flex-wrap font-light w-100 p-2 {{ $backgroundColor }}">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
                         <li class="px-3">
-                            <a href="{{ .URL | absLangURL }}" class="no-underline font-thin py-1 {{ if $currentPage.IsMenuCurrent " main" . }}font-bold border-b-2{{else}}hover:border-b{{end}}">{{ .Name }}</a>
+                            <a href="#" class="no-underline font-thin py-1 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}font-bold border-b-2{{else}}hover:border-b{{end}}">
+                                {{ .Pre }}
+                                <span>{{ .Name }}</span>
+                            </a>
                         </li>
-                        {{ end }}
-                    </ul>
-                {{ else }}
-                    <li class="px-3">
-                        <a href="{{ .URL | absLangURL }}"  class="no-underline font-thin py-1 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}font-bold border-b-2{{else}}hover:border-b{{end}}">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
+                        <ul class="sub-menu">
+                            {{ range .Children }}
+                            <li class="px-3">
+                                <a href="{{ .URL | absLangURL }}" class="no-underline font-thin py-1 {{ if $currentPage.IsMenuCurrent " main" . }}font-bold border-b-2{{else}}hover:border-b{{end}}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    {{ else }}
+                        <li class="px-3">
+                            <a href="{{ .URL | absLangURL }}"  class="no-underline font-thin py-1 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}font-bold border-b-2{{else}}hover:border-b{{end}}">
+                                {{ .Pre }}
+                                <span>{{ .Name }}</span>
+                            </a>
+                        </li>
+                    {{ end }}
                 {{ end }}
+            </ul>
             {{ end }}
-        </ul>
-        {{ end }}
+        </div>
     </nav>
 
     <!-- header title -->

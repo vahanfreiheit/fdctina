@@ -7,7 +7,7 @@
         </div>
         <article>
             <h3>{{ .Params.title }}</h3>
-            <img src="{{ .Params.image }}" class="w-full my-8" alt="{{ .Params.title }}"/>
+            <img src="{{site.BaseURL}}{{ .Params.image }}" class="w-full my-8" alt="{{ .Params.title }}"/>
             <p>{{ .Content }}</p>
         </article>
     </section>

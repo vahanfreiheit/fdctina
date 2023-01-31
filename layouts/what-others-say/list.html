@@ -11,9 +11,9 @@
                         {{ if or (.Params.Image) (.Params.lead_image) }}
                         <a href="{{ .RelPermalink | absURL }}">
                             {{ if .Params.lead_image }}
-                                <img src="{{.Params.lead_image }}" class="w-full" alt="{{ .Title }}" />
+                                <img src="{{site.BaseURL}}{{.Params.lead_image }}" class="w-full" alt="{{ .Title }}" />
                             {{ else if .Params.Image }}
-                                <img src="{{.Params.Image }}" class="w-full p-8" alt="{{ .Title }}" />
+                                <img src="{{site.BaseURL}}{{.Params.Image }}" class="w-full p-8" alt="{{ .Title }}" />
                             {{ end }}
                         </a>
                         {{ end }}

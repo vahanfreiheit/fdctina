@@ -2,18 +2,21 @@
 <div class="fdc-content-layout">
     <section>
         {{ partial "content-margin" . }}
-        {{ with .Pages }}
+        {{ with .Pages.ByDate.Reverse.ByWeight }}
         <div class="flex flex-wrap my-12">
+        {{ $.Scratch.Set "displayAsSmall" (slice 2 3) }}
+        {{ $.Scratch.Set "counter" 0 }}
         {{ range . }}
-            {{ $sizeClass := "md:w-1/3 lg:w-2/5" }}
-            {{ $colorClass := "bg-pale-purple" }}
-            {{ if eq .Params.size "big" }}
-                {{ $sizeClass = "md:w-2/3 lg:w-3/5" }}
-                {{ $colorClass = "bg-red" }}
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+            {{ $sizeClass := "md:w-2/3 lg:w-3/5" }}
+            {{ $colorClass := "bg-red" }}
+            {{ if (mod ($.Scratch.Get "counter") 4) | in ($.Scratch.Get "displayAsSmall") }}
+                {{ $sizeClass = "md:w-1/3 lg:w-2/5" }}
+                {{ $colorClass = "bg-pale-purple" }}
             {{ end }}
             <article class="{{ $sizeClass }}">
                 <div class="mb-12 md:mr-8 md:mb-8 lg:mr-16 lg:mb-16 {{ $colorClass }}">
-                    <img src="{{site.BaseURL}}/img/{{ .Params.Image }}" class="w-full" alt="{{ .Title }}"/>
+                    <img src="{{site.BaseURL}}{{ .Params.Image }}" class="w-full" alt="{{ .Title }}"/>
                     <div class="p-5">
                         <h5 class="mt-0 text-body-xl">{{ .Title }}</h5>
                         {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
