@@ -47,13 +47,13 @@
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {{ end }}
-<header class="z-40 w-full transition-colors duration-500
+<header class="z-40 w-full
     {{ $backgroundColor }}
     bg-cover bg-right-bottom bg-no-repeat
     {{ $backgroundClasses }}"
     {{ if ne $backgroundImage "" }} data-id="background-image" style="background-image: url('{{site.BaseURL}}/{{ $backgroundImage }}')" {{ end }}
     >
-    <nav class="z-40 h-11 fixed top-0 left-0 w-full  {{ $backgroundClasses }}" id="navigation">
+    <nav class="z-40 h-11 fixed top-0 left-0 w-full  transition-colors duration-500 {{ $backgroundClasses }}" id="navigation">
         <div class="px-4 xl:px-12 py-1 max-w-screen-3xl w-full mx-auto flex items-center justify-between space">
             <a href="{{site.BaseURL}}"><img class="h-8 object-scale-down" src="{{site.BaseURL}}{{ $logo }}" alt="freiheit logo" width="188" height="32" /></a>
             <input type="checkbox" class="hidden checkbox" id="open-menu-checkbox">

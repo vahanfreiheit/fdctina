@@ -22,14 +22,14 @@ document.getElementById('navigation_close').addEventListener("click", function (
 /* set header background on home page to make it visible after header video */
 let isOnTop = false;
 const onScroll = function () {
-    const header = document.getElementsByTagName('header')[0];
+    const navigation = document.getElementsByTagName('nav')[0];
     const firstContentItemTop = document.getElementsByClassName('fdc-content-layout')[0].getBoundingClientRect().top;
     const scrollPosition = window.scrollY;
     if (!isOnTop && (scrollPosition > firstContentItemTop)) {
-        header.classList.add( 'bg-black');
+        navigation.classList.add( 'bg-black');
         isOnTop = true;
     } else if (scrollPosition <= firstContentItemTop) {
-        header.classList.remove( 'bg-black');
+        navigation.classList.remove( 'bg-black');
         isOnTop = false;
     }
 }
