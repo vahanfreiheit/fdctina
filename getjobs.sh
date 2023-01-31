@@ -19,7 +19,7 @@ mv $FILE $NEWFILE
 
 # change the file name in the jobs page
 REPLACE="$.Site.Data.lever.jobs$MD5"
-sed -i '' "s/\$\.Site\.Data\.lever\.jobs[0-9a-z]*/$REPLACE/" ./layouts/join-the-team/list.html
+sed -i '' "s/\$\.Site\.Data\.lever\.jobs[0-9a-z]*/$REPLACE/" ./layouts/join-us/list.html
 
 # check if there are changes in git, create new jobs page with hugo and commit the changes
 if [[ $(git status --porcelain) ]]; then
