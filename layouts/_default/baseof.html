@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{- partial "head.html" . -}}
-
-{{ $current := index (split .RelPermalink "/") 1 }}
+{{ $current := "" }}
+{{ if strings.Contains $.Site.BaseURL "mploigt" }}
+    {{ $current = index (split .RelPermalink "/") 2 }}
+{{ else }}
+    {{ $current = index (split .RelPermalink "/") 1 }}
+{{ end }}
 {{ $padding := "pt-11" }}
 {{ if eq $current "" }}
     {{ $current = "home" }}
