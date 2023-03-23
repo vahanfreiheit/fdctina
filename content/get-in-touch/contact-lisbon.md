@@ -9,7 +9,7 @@ weight: 3
 
 <!-- [lisbon@freiheit.com](mailto:lisbon@freiheit.com) -->
 
-Edificio LACS 
-Rocha Conde de Óbidos 
-1350-352 Lisbon 
+Edificio Heden Rossio
+Largo do Duque de Cadaval 17 Fracção I
+1200-610 Lisbon
 Portugal
