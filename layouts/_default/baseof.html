@@ -7,12 +7,34 @@
 {{ else }}
     {{ $current = index (split .RelPermalink "/") 1 }}
 {{ end }}
-{{ $padding := "pt-11" }}
+{{ $padding := "h-11" }}
 {{ if eq $current "" }}
     {{ $current = "home" }}
-    {{ $padding = "" }}
+    {{ $padding = "h-0" }}
 {{ end }}
-<body id="page__{{ $current }}" class="page__{{ $current }} {{ $padding }} flex flex-col min-h-screen justify-between bg-light-grey text-black font-sans text-body-md items-center">
+
+{{ $backgroundColor := "" }}
+{{ if eq .Params.headerTheme "black"}}
+   {{ $backgroundColor = "bg-black"}}
+{{ else if eq .Params.headerTheme "homepage"}}
+    {{ $backgroundColor = "bg-light-grey"}}
+{{ else if eq .Params.headerTheme "xmas"}}
+    {{ $backgroundColor = "bg-transparent text-white"}}
+{{ else if eq .Params.headerTheme "green" }}
+    {{ $backgroundColor = "bg-green"}}
+{{ else if eq .Params.headerTheme "yellow" }}
+    {{ $backgroundColor = "bg-yellow"}}
+{{ else if eq .Params.headerTheme "pale-green" }}
+    {{ $backgroundColor = "bg-pale-green"}}
+{{ else if eq .Params.headerTheme "alabaster" }}
+    {{ $backgroundColor = "bg-alabaster"}}
+{{ else if eq .Params.headerTheme "pale-purple" }}
+    {{ $backgroundColor = "bg-pale-purple"}}
+{{ else if eq .Params.headerTheme "red" }}
+    {{ $backgroundColor = "bg-transparent"}}
+{{ end }}
+<body id="page__{{ $current }}" class="page__{{ $current }} flex flex-col min-h-screen justify-between text-black font-sans text-body-md items-center">
+    <div class="{{ $padding }}{{ $backgroundColor }}"></div>
     {{- partial "header.html" . -}}
     <main class="flex flex-col h-full w-full flex-1">
     {{- block "main" . }}{{- end }}
