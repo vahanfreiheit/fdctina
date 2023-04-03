@@ -208,15 +208,14 @@ These security measures are adapted to the current state of technology.
 
 If you have any questions about our data protection declaration or about data protection at our company, please contact our data protection officer:
 
-Sebastian Mangels
-freiheit.com technologies gmbh
-Budapester Strasse 45
-20359 Hamburg
+Niklas Hanitsch
+c/o secjur GmbH
+Steinhöft 9
+20459 Hamburg
 Germany
 
-Phone: <a href="tel:0049408905840">+49 40 890584 0</a>
-E-mail: <a href="mailto:kontakt@freiheit.com">kontakt@freiheit.com</a>
-Website: https://www.freiheit.com
+Phone: <a href="tel:004940228599520">+49 40 228 599 520</a>
+E-mail: <a href="mailto:dsb@secjur.com">dsb@secjur.com</a>
 
 ## Responsible {#Verantwortlich}
 
