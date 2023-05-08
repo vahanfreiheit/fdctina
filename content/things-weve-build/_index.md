@@ -6,6 +6,16 @@ headerHeadline: Things we've built
 headerTheme: yellow
 aliases:
   - /what-weve-build/
+  - /what-weve-build/and-there-is-more/
+  - /what-weve-build/ai-data-science-machine-learning/
+  - /what-weve-build/application-development-for-the-google-cloud-platform/
+  - /what-weve-build/connected-cars/
+  - /what-weve-build/connected-cloud-services-dentsply-sirona/
+  - /what-weve-build/flight-booking-engines/
+  - /what-weve-build/global-b2b-retail-platform/
+  - /what-weve-build/hyper-scalable-e-commerce-system/
+  - /what-weve-build/online-bookstores/
+  - /what-weve-build/site-reliability-engineering-&-infrastructure-as-code/
 menu:
   main:
     name: Things we've built
