@@ -1,11 +1,9 @@
 ---
 title: "Hyper-Scalable E-Commerce System"
 image: /img/things-weve-build/hyper-scalable-e-commerce-system.png.webp
-backgroundColorClass: "bg-red"
-date: 2022-02-02
+date: 2022-02-08
 draft: false
 tags: [case study]
-weight: 80
 hideHeaderTitle: true
 ---
 

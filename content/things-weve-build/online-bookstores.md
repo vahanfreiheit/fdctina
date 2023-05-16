@@ -1,11 +1,9 @@
 ---
 title: "Online Bookstores"
 image: /img/things-weve-build/online-bookstores_2.jpg.webp
-backgroundColorClass: "bg-red"
-date: 2022-02-02
+date: 2022-02-07
 draft: false
 tags: [case study]
-weight: 70
 hideHeaderTitle: true
 ---
 

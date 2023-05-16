@@ -1,11 +1,9 @@
 ---
 title: "Application Development for the Google Cloud Platform"
 image: /img/things-weve-build/application-development-for-the-google-cloud-platform.webp
-backgroundColorClass: "bg-pale-purple"
-date: 2022-02-02
+date: 2022-02-09
 draft: true
 tags: [case study]
-weight: 999
 hideHeaderTitle: true
 ---
 

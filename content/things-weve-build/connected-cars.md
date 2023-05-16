@@ -1,11 +1,9 @@
 ---
 title: "Connected Cars & Companion Apps"
 image: /img/things-weve-build/connected-cars_2.jpg.webp
-backgroundColorClass: "bg-pale-purple"
-date: 2022-02-02
+date: 2022-02-04
 draft: false
 tags: [case study]
-weight: 40
 hideHeaderTitle: true
 ---
 

@@ -1,11 +1,9 @@
 ---
 title: "And There Is More"
 image: /img/things-weve-build/and-there-is-more_2.jpg.webp
-backgroundColorClass: "bg-pale-purple" 
-date: 2022-02-02
+date: 2000-01-01
 draft: false
 tags: [case study]
-weight: 1000
 hideHeaderTitle: true
 ---
 

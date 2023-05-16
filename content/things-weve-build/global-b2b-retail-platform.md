@@ -1,11 +1,9 @@
 ---
 title: "Global B2B Retail Platform"
 image: /img/things-weve-build/global-b2b-retail-platform_2.jpg.webp
-backgroundColorClass: "bg-red" 
-date: 2022-02-02
+date: 2022-02-01
 draft: false
 tags: [case study]
-weight: 10
 hideHeaderTitle: true
 ---
 
