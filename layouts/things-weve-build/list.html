@@ -3,23 +3,20 @@
     <section>
         {{ partial "content-margin" . }}
         {{ with .Pages.ByDate.Reverse.ByWeight }}
-        <div class="flex flex-wrap my-12">
-        {{ $.Scratch.Set "displayAsSmall" (slice 2 3) }}
+        <div class="my-12 columns-1 lg:columns-2">
         {{ $.Scratch.Set "counter" 0 }}
         {{ range . }}
             {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-            {{ $sizeClass := "md:w-2/3 lg:w-3/5" }}
             {{ $colorClass := "bg-red" }}
-            {{ if (mod ($.Scratch.Get "counter") 4) | in ($.Scratch.Get "displayAsSmall") }}
-                {{ $sizeClass = "md:w-1/3 lg:w-2/5" }}
+            {{ if eq (mod ($.Scratch.Get "counter") 2) 0 }}
                 {{ $colorClass = "bg-pale-purple" }}
             {{ end }}
-            <article class="{{ $sizeClass }}">
+            <article class="inline-block">
                 <div class="mb-12 md:mr-8 md:mb-8 lg:mr-16 lg:mb-16 {{ $colorClass }}">
                     <img src="{{site.BaseURL}}{{ .Params.Image }}" class="w-full" alt="{{ .Title }}"/>
                     <div class="p-5">
-                        <h5 class="mt-0 text-body-xl">{{ .Title }}</h5>
-                        {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
+                        <h5 class="mt-0 text-body-xl break-words">{{ .Title }}</h5>
+                        {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg break-words\">" | safeHTML }}
                     </div>
                 </div>
             </article>

@@ -1,7 +1,7 @@
 ---
 title: "Connected Cloud Services for Dentsply Sirona"
 image: /img/things-weve-build/DS_PrimeSolutions_2072_1.webp
-date: 2022-06-05
+date: 2023-05-15
 draft: false
 tags: [case study]
 hideHeaderTitle: true
