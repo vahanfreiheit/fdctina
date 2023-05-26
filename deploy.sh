@@ -6,25 +6,28 @@ C_0='\033[0m' # no Color
 # removed and generated docs directory
 # and pushes the changes to production/staging
 
-while true
-do  
-  prompt=
-  echo -e "${C_R}Do you want to deploy to [l]ive or [s]taging?${C_0}"
-  read -n1 char
-  case "$char" in
-      [Ll])
-          ENV='production'
-          break
-          ;;
-      [Ss])
-          ENV='staging'
-          break
-          ;;
-      *)
-          echo -e "${C_R}Wrong input: '$char'.\nPlease only enter l or s.${C_0}"
-          continue
-    esac
-done
+<<for-now-we-only-use-staging
+  while true
+  do  
+    prompt=
+    echo -e "${C_R}Do you want to deploy to [l]ive or [s]taging?${C_0}"
+    read -n1 char
+    case "$char" in
+        [Ll])
+            ENV='production'
+            break
+            ;;
+        [Ss])
+            ENV='staging'
+            break
+            ;;
+        *)
+            echo -e "${C_R}Wrong input: '$char'.\nPlease only enter l or s.${C_0}"
+            continue
+      esac
+  done
+for-now-we-only-use-staging
+ENV='staging'
 
 echo -e "\n${C_R}What changes have you made?${C_0}"
 while true; do
@@ -36,7 +39,16 @@ while true; do
     fi
 done
 
-BRANCH_NAME=$(date +"%Y%m%d_%H%M%S")
+# Get the current date and time in the desired format
+current_date=$(date +"%Y%m%d_%H%M%S")
+
+# Remove characters that are not letters, numbers, or spaces and convert spaces to dashes
+filtered_commit_message=$(echo "$commit_message"|tr -cd '[:alnum:][:space:]'|tr ' ' '-')
+
+echo $filtered_commit_message
+
+# create branch name
+BRANCH_NAME="${current_date}-${filtered_commit_message}"
 
 # create new branch with current date and time as name
 echo -e "\n${C_R}Creating new branch...${C_0}"
