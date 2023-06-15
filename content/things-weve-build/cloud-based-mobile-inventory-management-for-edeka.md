@@ -5,6 +5,7 @@ date: 2023-05-16
 draft: false
 tags: [case study]
 hideHeaderTitle: true
+weight: 10
 ---
 
 Over 30 months, four teams developed a flutter-based solution connected to an Azure backend in the cloud, that is currently used by more than 200 stores of EDEKA – the largest German supermarket corporation. More retail stores from the EDEKA group are to follow.
