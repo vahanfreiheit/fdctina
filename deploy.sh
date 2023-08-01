@@ -6,28 +6,25 @@ C_0='\033[0m' # no Color
 # removed and generated docs directory
 # and pushes the changes to production/staging
 
-<<for-now-we-only-use-staging
-  while true
-  do  
-    prompt=
-    echo -e "${C_R}Do you want to deploy to [l]ive or [s]taging?${C_0}"
-    read -n1 char
-    case "$char" in
-        [Ll])
-            ENV='production'
-            break
-            ;;
-        [Ss])
-            ENV='staging'
-            break
-            ;;
-        *)
-            echo -e "${C_R}Wrong input: '$char'.\nPlease only enter l or s.${C_0}"
-            continue
-      esac
-  done
-for-now-we-only-use-staging
-ENV='staging'
+while true
+do  
+  prompt=
+  echo -e "${C_R}Do you want to deploy to [l]ive or [s]taging?${C_0}"
+  read -n1 char
+  case "$char" in
+      [Ll])
+          ENV='production'
+          break
+          ;;
+      [Ss])
+          ENV='staging'
+          break
+          ;;
+      *)
+          echo -e "${C_R}Wrong input: '$char'.\nPlease only enter l or s.${C_0}"
+          continue
+    esac
+done
 
 echo -e "\n${C_R}What changes have you made?${C_0}"
 while true; do

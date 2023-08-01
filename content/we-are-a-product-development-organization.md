@@ -2,7 +2,7 @@
 title: "We Are a Product Development Organization"
 date: 2022-02-04
 draft: false
-weight: 9
+weight: 90
 contentTheme: black
 summary: Our teams develop strategically important products and we use the same organizational principles and team structures that were shaped and pioneered by successful Silicon Valley product companies like Google or Apple. Our teams are deeply involved in the creation of the product from the first idea to the final rollout and even continuing on with long-term product management.
 ---
