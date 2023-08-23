@@ -233,7 +233,7 @@ You can find further information on Lever regarding the data protection law:
 
 [Lever Privacy Policy](https://www.lever.co/privacy-notice/)
 
-All data that you send us about your application will be processed and stored at Lever. Regular applicant data from pro-active applications are automatically deleted after 1 year if an application is rejected.
+All data that you send us about your application will be processed and stored at Lever to process your application and carry out the application procedure. Regular applicant data from pro-active applications are automatically deleted after 1 year if an application is rejected, in case you give us your consent.
 
 If you would like us to delete your data before the end of this period or if you would like information about your data stored at freiheit.com, please contact us by e-mail: [jobs@freiheit.com](mailto:jobs@freiheit.com)
 
