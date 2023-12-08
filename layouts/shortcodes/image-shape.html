@@ -1,0 +1,8 @@
+{{ $img := imageConfig (add "/static" (.Get "src")) }}
+<img
+    style="shape-outside: url('{{site.BaseURL}}{{ .Get "src" }}'); shape-margin: .5em; float:right;"
+    width="{{ $img.Width }}"
+    height="{{ $img.Height }}"
+    src="{{site.BaseURL}}{{ .Get "src" }}"
+  {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }}
+  {{ with .Get "class" }}class="fdc-image {{.}}"{{ end }} />

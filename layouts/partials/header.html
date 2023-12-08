@@ -3,6 +3,7 @@
 {{ $backgroundClasses := "" }}
 {{ $logo_black := "/img/logo.svg" }}
 {{ $logo_white := "/img/logo_white.svg" }}
+{{ $logo_alabaster := "/img/logo_alabaster.svg" }}
 {{ $logo := $logo_black }}
 {{ if eq .Params.headerTheme "black"}}
     {{ $backgroundColor = "bg-black"}}
@@ -13,9 +14,9 @@
     {{ $backgroundClasses = "fixed top-0 left-0 w-full h-12 text-white"}}
     {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "xmas"}}
-    {{ $backgroundColor = "bg-transparent text-white"}}
-    {{ $backgroundImage = "img/xmas/header_background.webp" }}
-    {{ $logo = $logo_white }}
+    {{ $logo = $logo_alabaster }}
+    {{ $backgroundColor = "bg-xmas-green text-alabaster"}}
+    {{ $backgroundClasses = "bg-xmas-green text-alabaster"}}
 {{ else if eq .Params.headerTheme "green" }}
     {{ $backgroundColor = "bg-green"}}
     {{ $backgroundImage = "img/header_green.png.webp" }}

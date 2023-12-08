@@ -1,0 +1,178 @@
+<style lang="css">
+  @-webkit-keyframes light {
+    from {
+      opacity: 1;
+    }
+
+    20% {
+      opacity: 0.9;
+    }
+
+    40% {
+      opacity: 0.8;
+    }
+
+    60% {
+      opacity: 0.7;
+    }
+
+    80% {
+      opacity: 0.8;
+    }
+
+    to {
+      opacity: 0.9;
+    }
+  }
+
+  @keyframes snow {
+    0% {
+      background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    100% {
+      background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    position: absolute;
+    height: 700px;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+
+  .header-back {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #899C8C;
+    background-image:
+      url('{{site.BaseURL}}/img/xmas/snow1.png'),
+      url('{{site.BaseURL}}/img/xmas/snow2.png'),
+      url('{{site.BaseURL}}/img/xmas/snow3.png');
+    animation: snow 25s linear infinite;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+  }
+  
+  .header-text .glow {
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .light {
+    animation: light 3s linear infinite;
+    width: 80dvw;
+    max-width: 600px;
+    position: absolute;
+    left: -130px;
+    top: -50px;
+  }
+
+  .tree {
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    right: -300px;
+    bottom: 0px;
+    top: 50px;    
+  }
+  
+  .floor {
+    width: 100%;
+    position: absolute;
+    top: 510px;
+    left: 0;
+    right: 0;
+    height: 180px;
+    background-image: url({{site.BaseURL}}/img/xmas/floor.svg);
+    background-size: contain;
+    background-repeat: repeat-x;
+  }
+  .text-head-lg {
+    font-size: clamp(2.8rem, 5vw + 1rem, 5rem) !important;
+  }
+  .mouse_scroll {
+    margin: 2rem auto 0 auto;
+    width: 20px;
+    cursor: pointer;
+  }
+  .homepage-video__arrow {
+    border-color: rgba(217, 56, 48);
+  }
+
+  @media (max-width: 411px) {
+    .tree {
+      display: none;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .tree {
+      top: 40px;
+      right: -200px;
+    }
+    .light {
+      top: -100px;
+    }
+    .floor {
+      top: 490px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mouse_scroll {
+      display: none;
+    }
+    .tree {
+      right: 0px;
+    }
+  }
+
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+      const mouseScrollElement = document.getElementById("mouse_scroll");
+      mouseScrollElement.addEventListener("click", () => {
+        window.scrollTo(0, window.innerHeight - 50);
+      });
+      mouseScrollElement.addEventListener('touchstart', () => {
+        window.scrollTo(0, window.innerHeight - 50);
+      });
+    });
+</script>
+<div class="header">
+  <div class="header-back">
+    <img src="{{site.BaseURL}}/img/xmas/lights.svg" class="light" />
+    <div class="floor">&nbsp;</div>
+    <img src="{{site.BaseURL}}/img/xmas/tree.png" class="tree" />
+  </div>
+  <div class="header-text">
+    <div class="pl-4 sm:pt-12 lg:pl-20 xl:pl-40">
+      <div class="glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0 md:mt-10" style="line-height: 0.8em; ">MERRY CHRISTMAS</div>
+      <div class="text-head-md md:text-head-md font-serif m-0 mb-12 text-alabaster">AND A HAPPY NEW YEAR!</div>
+      <div class="glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0" style="line-height: 0.8em;">FELIZ NATAL</div>
+      <div class="text-head-md md:text-head-md font-serif m-0 mb-0 text-alabaster">E PROSPERO ANO NOVA!</div>
+    </div>
+    <div class="mouse_scroll" id="mouse_scroll">
+      <div class="homepage-video__arrows">
+        <span class="homepage-video__arrow"></span>
+        <span class="homepage-video__arrow"></span>
+        <span class="homepage-video__arrow"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="height: 550px"></div>

@@ -140,6 +140,8 @@ module.exports = {
       'alabaster': '#E6DFCA',
       'pale-purple': '#E4D1E8',
       'black-rgba': '#990000',
+      'xmas-green': '#899c8c',
+      'xmas-red': '#D93830',
     },
     fill: theme => theme('colors'),
   },
