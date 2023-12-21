@@ -1,7 +1,7 @@
 {{ $sass := resources.Get "sass/main.scss" }}
 {{ $sass_hash := sha1 $sass }}
 {{ $options := (dict "targetPath" (printf "%s%s%s" "css/main." $sass_hash ".css") "outputStyle" "compressed" "enableSourceMap" false) }}
-{{ $style := $sass | resources.ToCSS $options | resources.PostCSS }}
+{{ $style := $sass | resources.ToCSS $options | resources.PostCSS | resources.Fingerprint }}
 
 {{ $js := resources.Get "js/main.js" }}
 {{ $js_hash := sha1 $js }}
