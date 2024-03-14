@@ -11,6 +11,15 @@
         {{ if eq .Params.contentTheme "black" }}
             {{ $themeClasses = "fdc-content-layout bg-black text-light-grey" }}
         {{ end }}
+        {{ if eq .Params.contentTheme "alabaster" }}
+            {{ $themeClasses = "fdc-content-layout bg-alabaster text-black" }}
+        {{ end }}
+        {{ if eq .Params.contentTheme "red" }}
+            {{ $themeClasses = "fdc-content-layout bg-red text-white" }}
+        {{ end }}
+        {{ if eq .Params.contentTheme "xmas-green" }}
+            {{ $themeClasses = "fdc-content-layout bg-xmas-green text-white" }}
+        {{ end }}
         {{ if eq .Params.contentTheme "video" }}
             {{ $themeClasses = "" }}
         {{ end }}

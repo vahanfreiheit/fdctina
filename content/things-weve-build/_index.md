@@ -4,6 +4,7 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: Things we've built
 headerTheme: yellow
+footerImage: footer_things_we_build.jpg
 aliases:
   - /what-weve-build/
   - /what-weve-build/and-there-is-more/

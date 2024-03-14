@@ -99,3 +99,11 @@ h1,h2,h3,h4,h5,h6 {
 a {
   @apply underline;
 }
+article ul li {
+  @apply mb-4 text-body-lg font-light;
+  @screen md {
+    @apply text-body-xl;
+  }
+  list-style-type: disc;
+  margin-left: 1em;
+}

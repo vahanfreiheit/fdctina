@@ -11,7 +11,22 @@ module.exports = {
     corePlugins: {
       lineHeight: false,
     },
+    minHeight: {
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/5': '60%',
+      '3/4': '75%',
+      'full': '100%',
+    },
     extend: {
+      transitionProperty: {
+        'navigation': 'background-color, color, padding',
+      },
+      gridTemplateColumns: {
+        'numbers-1': '1fr',
+        'numbers-2': 'repeat(2, min-content)',
+      },
       fontSize: {
         'label': ['14px', {
           lineHeight: '22px',
@@ -23,6 +38,14 @@ module.exports = {
           fontFamily: 'NB-International-Pro',
         }],
         // body text
+        'body-xxxs': ['8px', {
+          lineHeight: '15.6px',
+          fontFamily: 'Work Sans',
+        }],
+        'body-xxs': ['10px', {
+          lineHeight: '15.6px',
+          fontFamily: 'Work Sans',
+        }],
         'body-xs': ['12px', {
           lineHeight: '15.6px',
           fontFamily: 'Work Sans',
@@ -128,13 +151,18 @@ module.exports = {
       '4xl': '1920px',
     },
     colors: {
+      'transparent': 'rgba(0,0,0,0)',
       'black': '#292C35',
+      'black-nav': '#292C35',
       'light-grey': '#EAEAEA',
+      'grey': '#999999',
       'white': '#FFFFFF',
+      'white-nav': '#EAEAEA',
       'yellow': '#D3FF19',
       'green': '#34B255',
       'pink': '#FF19FF',
-      'red': '#FF5B40',
+      'pale-pink': '#FFD1FF',
+      'red': '#FF7C66',
       'pale-green': '#899C8C',
       'honeydew': '#DFEFDA',
       'alabaster': '#E6DFCA',

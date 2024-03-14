@@ -1,6 +1,8 @@
 {{ if not .Page.Params.hideFooter }}
-<footer class="w-full flex flex-col items-center
-    {{ if .IsHome }} bg-green text-black{{ else }} bg-black text-light-grey{{ end }}">
+    {{ if .Page.Params.footerImage }}
+        <img src="{{site.BaseURL}}/img/{{.Page.Params.footerImage}}" />
+    {{ end }}
+<footer class="w-full flex flex-col items-center bg-black text-light-grey">
     <div class="max-w-screen-xl text-lg w-full p-12">
         <div class="grid md:grid-cols-2 md:gap-x-36">
             <div class="pb-8 md:w-full">

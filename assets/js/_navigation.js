@@ -9,17 +9,21 @@ document.getElementById('navigation_close').addEventListener("click", function (
 let isOnTop = false;
 const onScroll = function () {
     const navigation = document.getElementsByTagName('nav')[0];
-    const firstContentItemTop = document.getElementsByClassName('fdc-content-layout')[0].getBoundingClientRect().top;
-    const scrollPosition = window.scrollY;
-    if (!isOnTop && (scrollPosition > firstContentItemTop)) {
-        navigation.classList.add( 'bg-black');
+    const firstContentItemTop = document.querySelectorAll('main > .fdc-content-layout')[0].getBoundingClientRect().top;
+    console.log(firstContentItemTop)
+    if (!isOnTop && (firstContentItemTop < 65)) {
+        navigation.classList.add('bg-black-nav');
+        navigation.classList.add('text-white-nav');
+        navigation.classList.remove('md:pt-6');
+        navigation.classList.remove('bg-transparent');
         isOnTop = true;
-    } else if (scrollPosition <= firstContentItemTop) {
-        navigation.classList.remove( 'bg-black');
+    } else if (firstContentItemTop > 65) {
+        navigation.classList.remove('bg-black-nav');
+        navigation.classList.remove('text-white-nav');
+        navigation.classList.add('md:pt-6');
+        navigation.classList.add('bg-transparent');
         isOnTop = false;
     }
 }
 onScroll();
-if (document.getElementsByClassName('homepage-video').length > 0) {
-    window.addEventListener('scroll', onScroll, { passive: true })
-}
+window.addEventListener('scroll', onScroll, { passive: true })

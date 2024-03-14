@@ -32,8 +32,10 @@
     {{ $backgroundColor = "bg-pale-purple"}}
 {{ else if eq .Params.headerTheme "red" }}
     {{ $backgroundColor = "bg-transparent"}}
+{{ else  }}
+    {{ $backgroundColor = "bg-pale-purple"}}
 {{ end }}
-<body id="page__{{ $current }}" class="page__{{ $current }} flex flex-col min-h-screen justify-between text-black font-sans text-body-md items-center">
+<body id="page__{{ $current }}" class="page__{{ $current }} bg-light-grey flex flex-col min-h-screen justify-between text-black font-sans text-body-md items-center">
     <div class="{{ $padding }}{{ $backgroundColor }}"></div>
     {{- partial "header.html" . -}}
     <main class="flex flex-col h-full w-full flex-1">

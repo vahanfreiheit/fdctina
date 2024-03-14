@@ -1,33 +1,16 @@
 <div class="homepage-video w-full relative">
-  <div
-    class="homepage-video__patern absolute top-0 left-0 w-full h-full z-20" 
-    style="background-image: url({{site.BaseURL}}/img/video_texture.png.webp); background-color: rgba(41, 44, 53, 0.5)">
-  </div>
-  <div
-    class="absolute w-full h-full z-20 opacity-30 bg-no-repeat bg-right bg-cover"
-    style="background-image: url({{site.BaseURL}}/img/video_background.png.webp);">
-  </div>
   <video
           loop
           muted
           autoplay
           playsinline
           preload="auto"
-          poster="{{site.BaseURL}}/img/poster.jpg.webp"
+          poster="{{site.BaseURL}}/video/poster.jpg.webp"
           class="w-full h-full absolute z-10 top-0 left-0 object-cover"
           id="welcomeVideo"
   >
   </video>
   <div class="relative w-full h-full z-30 flex flex-col items-center justify-end pb-16 md:pb-32 text-white md:px-8 md:px-24 text-center">
-    <div id="videoSound" class="hidden md:flex soundVibes absolute bottom-24 md:bottom-32 top-auto right-16 md:right-24 cursor-pointer items-center">
-      <div class="soundVibes-eq">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
     <section class="flex flex-col items-center max-w-screen-3xl">
       <div class="hidden xl:block"><img src="{{site.BaseURL}}/img/symbol.svg" alt="freiheit logo" class="mb-8 h-16 w-16" /></div>
       {{ if isset .Params "title" }}
@@ -63,7 +46,6 @@
       document.documentElement.clientWidth
     );
   }
-  let vibes = document.getElementById('videoSound');
   let video = document.getElementById('welcomeVideo');
   let source = document.createElement("source");
   if (video && source) {
@@ -76,11 +58,6 @@
     }
     video.append(source);
     video.play();
-    vibes.addEventListener('click', function () {
-      let mute = video.muted
-      vibes.classList.toggle("music-on")
-      video.muted=!mute
-    })
   }
 </script>
 {{ end }}

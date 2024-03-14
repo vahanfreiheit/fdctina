@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 143">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 0 4 4;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_2-2" data-name="Ebene 2">
+    <path class="cls-1" d="m90.61,60.84c-13.29-.16-29.67,7.1-30,16-.33,8.86,15.31,17.83,29,18,14.22.18,30.34-9.06,30-18-.33-8.69-16.16-15.85-29-16Z"/>
+    <line class="cls-2" x1="90.11" y1="102.34" x2="90.11" y2="94.84"/>
+    <line class="cls-2" x1="90.11" y1="60.84" x2="90.11" y2="53.34"/>
+    <path class="cls-1" d="m.5,27.5h169.31c4.8,0,8.69,3.89,8.69,8.69v96.62c0,4.8-3.89,8.69-8.69,8.69H10.19c-4.8,0-8.69-3.89-8.69-8.69V7.52C1.5,4.2,4.2,1.5,7.52,1.5h33.06c3.79,0,7.43,1.51,10.11,4.19l7.31,7.31h98.81c4.8,0,8.69,3.89,8.69,8.69v5.81"/>
+    <line class="cls-3" x1="165.33" y1="30.98" x2="165.33" y2="131.98"/>
+    <line class="cls-3" x1="159.35" y1="128.98" x2="3.12" y2="128.98"/>
+  </g>
+</svg>

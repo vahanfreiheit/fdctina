@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
+{{ $taxonomy := "tags" }}
+{{- partial "tag-list.html" . -}}
+<div class="fdc-content-layout">
+    <section>
+        <a class="px-8 font-serif no-underline hover:text-red block mb-6" href="{{site.BaseURL}}/newsroom" rel="noopener">&larr;&nbsp;back</a>
+        <div class="flex flex-wrap lg:flex-nowrap gap-20 mt-2">
+            <div class="w-full">
+                {{ $counter := 0}}
+                {{ range $paginator.Pages }}
+                    {{ if eq (mod $counter 2) 0 }}
+                        {{ if eq .Params.type "podcast" }}
+                            {{- partial "newsroom-podcast-article.html" . -}}
+                        {{ else }}
+                            {{- partial "newsroom-article.html" . -}}
+                        {{ end }}
+                    {{ end }}
+                    {{ $counter = add $counter 1 }}
+                {{ end }}
+            </div>
+            <div class="w-full">
+                {{ $counter := 0}}
+                {{ range $paginator.Pages }}
+                    {{ if ne (mod $counter 2) 0 }}
+                        {{ if eq .Params.type "podcast" }}
+                            {{- partial "newsroom-podcast-article.html" . -}}
+                        {{ else }}
+                            {{- partial "newsroom-article.html" . -}}
+                        {{ end }}
+                    {{ end }}
+                    {{ $counter = add $counter 1 }}
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <div class="mb-12">
+        <ul class="flex gap-2 items-center text-lg">
+            {{ if $paginator.HasPrev }}
+                <li class="mr-2">
+                    <a href="{{ $paginator.Prev.URL | absURL }}" class="no-underline text-2xl font-serif hover:text-red">←</a>
+                </li>
+            {{ end }}
+            {{ range $paginator.Pagers }}
+            <li class="">
+              <a
+                href="{{ .URL | absURL }}"
+                class="echo_pagination border-b-4 border-white {{ if eq . $paginator }} border-red {{end}}">
+                <span>{{ .PageNumber }}</span>
+              </a>
+            </li>
+            {{ end }}
+            {{ if $paginator.HasNext }}
+                <li class="ml-2">
+                    <a href="{{ $paginator.Next.URL | absURL }}" class="no-underline text-2xl font-serif hover:text-red">→</a>
+                </li>
+            {{ end }}
+          </ul>
+    </div>
+</div>
+{{ end }}

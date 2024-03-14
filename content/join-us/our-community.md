@@ -20,5 +20,4 @@ Of course we have a beautiful office in a very nice area of each city, a place t
 
 P.S. Although we visit our clients regularly, all team members are working mainly from Hamburg or Lisbon and not on the clients’ premises.
 
-
-
+{{< graphic-box graphic="/img/join-the-team/85-of-our-people-are-engineers.png.webp" text="At heart we are an unusual, innovative and bold engineering company. 85 % of our people are engineers with backgrounds in computer science, physics or mathematics, many also with strong machine learning backgrounds." >}}

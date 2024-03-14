@@ -5,7 +5,6 @@ defaultContentLanguage: en
 relativeURLs: false
 paginate: 10
 enableRobotsTXT: true
-disableKinds: ["taxonomy", "term"]
 taxonomies:
   category: "categories"
   tag: "tags"

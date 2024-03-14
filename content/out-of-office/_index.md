@@ -1,12 +1,13 @@
 ---
-title: "Out of office"
+title: "Our Community"
 date: 2023-01-23
 draft: false
-headerHeadline: Out of office
+headerHeadline: Our Community
 headerTheme: green
+footerImage: footer_community.jpg
 menu:
   main:
-    name: Out of office
+    name: Our Community
     weight: 6
 ---
 <p class=" md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96">

@@ -1,0 +1,25 @@
+{{ $taxonomy := "tags" }}
+{{ $bgColor := "bg-yellow" }}
+{{ $bgColorImage := "bg-pale-green" }}
+{{ $bgImage := "header_pale-green.png.webp" }}
+{{ if eq .Params.Group "Why Agile Is Not Enough" }}
+    {{ $bgColor = "bg-pink" }}
+    {{ $bgColorImage = "bg-alabaster" }}
+    {{ $bgImage = "header_alabaster.png.webp" }}
+{{ end }}
+<a href='{{ (printf "%s%s" "https://www.youtube.com/watch?v=" .Params.youtube) }}' target="_blank" class="no-underline">
+<div class="h-80 overflow-hidden flex flex-col">
+    <div class="grid grid-cols-7 min-h-3/5">
+        <div class="bg-black text-white col-span-5 flex justify-center items-end px-5 pt-5">
+            <h4 class="text-white" style="word-break: break-word;">
+                {{ .Params.headline1 }}
+            </h4>
+        </div>
+        <div class="{{ $bgColor }} col-span-2 flex justify-center items-end">
+            <h2>{{ printf "%02d" .Params.weight }}</h2>
+        </div>
+    </div>
+    <div class="w-full h-full bg-cover bg-right-bottom {{ $bgColorImage }}"
+        style="background-image: url({{site.BaseURL}}/img/{{$bgImage}});"></div>
+</div>
+</a>

@@ -4,6 +4,7 @@ date: 2021-04-24T15:55:09+02:00
 draft: false
 headerHeadline: Join us
 headerTheme: pale-green
+footerImage: footer_join_us.jpg
 aliases:
   - /join-the-team/
   - /jobs/

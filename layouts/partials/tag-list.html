@@ -1,0 +1,22 @@
+<div class="bg-light-grey">
+    <div class="bg-alabaster mt-2">
+        <ul class="flex gap-12 py-4 px-4 md:px-12 lg:px-12 max-w-screen-3xl m-auto overflow-hidden">
+            {{$cLink := .Permalink}}
+            {{ range .Site.Taxonomies.tags.Alphabetical }}
+                {{ if (ne .Page.Title "case study") }}
+                    <li class="inline-block">
+                        <span class="flex">
+                            <a href="{{ .Page.Permalink }}" class="inline-block no-underline whitespace-nowrap text-sm border-b hover:border-black capitalize {{ if (eq .Page.Permalink $cLink) }}text-black border-b-2 hover:border-b-2{{ else }}border-transparent{{ end }} ">{{ strings.Title .Page.Title }}</a>
+                        </span>
+                    </li>
+                {{ end }}
+            {{ end }}
+            <li class="inline-block">
+                <span class="flex">
+                    <a href="{{site.BaseURL}}/newsroom/#Downloads"
+                        class="inline-block no-underline whitespace-nowrap text-sm border-b hover:border-white border-transparent">Downloads</a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>

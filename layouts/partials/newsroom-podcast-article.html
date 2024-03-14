@@ -1,0 +1,49 @@
+{{ $taxonomy := "tags" }}
+{{ $buttonText := "Watch Now" }}
+{{ if (ne .Params.buttonText nil) }}
+    {{ $buttonText = .Params.buttonText }}
+{{ end }}
+{{ $bgColor := "bg-yellow" }}
+{{ $bgColorImage := "bg-pale-green" }}
+{{ $bgImage := "header_pale-green.png.webp" }}
+{{ if eq .Params.Group "Why Agile Is Not Enough" }}
+    {{ $bgColor = "bg-pink" }}
+    {{ $bgColorImage = "bg-alabaster" }}
+    {{ $bgImage = "header_alabaster.png.webp" }}
+{{ end }}
+<article class="flex-1 mb-20">
+    <div class="bg-white no-underline">
+        <a href='{{ (printf "%s%s" "https://www.youtube.com/watch?v=" .Params.youtube) }}' target="_blank" class="no-underline">
+            <div class="h-96 overflow-hidden flex flex-col">
+                <div class="grid grid-cols-7 min-h-3/5">
+                    <div class="bg-black text-white col-span-5 flex justify-center items-end px-5 pt-5">
+                        <h4 class="text-white" style="word-break: break-word;">
+                            {{ .Params.headline1 }}
+                        </h4>
+                    </div>
+                    <div class="{{ $bgColor }} col-span-2 flex justify-center items-end">
+                        <h2>{{ printf "%02d" .Params.weight }}</h2>
+                    </div>
+                </div>
+                <div class="w-full h-full bg-cover bg-right-bottom {{ $bgColorImage }}"
+                    style="background-image: url({{site.BaseURL}}/img/{{$bgImage}});"></div>
+            </div>
+        </a> 
+        <div class="p-5 lg:p-10 flex flex-col flex-1" style="height: 400px; overflow: hidden;">
+            <div class="flex-1">
+                {{ .Content | replaceRE "<p>" "<p class=\"text-body-lg\">" | safeHTML }}
+            </div>
+            <div class="mt-10 flex flex-col sm:flex-row items-center">
+                <div class="flex-1">
+                    {{ partial "btn-link.html" (dict
+                    "linkUrl" (printf "%s%s" "https://www.youtube.com/watch?v=" .Params.youtube)
+                    "linkText" $buttonText
+                    "color" "red"
+                    "target" "_blank"
+                    ) }}
+                </div>
+                <div class="my-4 sm:my-0">{{ .Params.minutes }} mins</div>
+            </div>
+        </div>
+    </div>
+</article>

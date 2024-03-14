@@ -28,7 +28,7 @@ For the food giant METRO we have built a large-scale e-commerce platform and rol
 size="big"
 title="Connected Cloud Services for Dentsply Sirona"
 image="things-weve-build/DS_PrimeSolutions_2072_1.webp">}}
-With one of the world’s largest manufacturers of professional dental products and technologies, we have built a cloud ecosystem that lets dentists collect and process 3D image data in the cloud right from their scanning device. The service enables real-time cloud collaboration between specialists and ordering 3D printed oral appliances with strict GDPR compliance. This first-of-its-kind solution not only gives our client a competitive advantage, but also streamlines healthcare services for millions of patients around the globe. [Read More](/pdf/Connecting_Dental_Clinics_to_the_Cloud_Dentsply_Sirona.pdf)
+With one of the world’s largest manufacturers of professional dental products and technologies, we have built a cloud ecosystem that lets dentists collect and process 3D image data in the cloud right from their scanning device. The service enables real-time cloud collaboration between specialists and ordering 3D printed oral appliances with strict GDPR compliance. This first-of-its-kind solution not only gives our client a competitive advantage, but also streamlines healthcare services for millions of patients around the globe. [Read More](/downloads/Connecting_Dental_Clinics_to_the_Cloud_Dentsply_Sirona.pdf)
 {{< /things-we-have-built-tile >}}
 
 {{< things-we-have-built-tile
