@@ -11,5 +11,5 @@ weight: 3
 
 Edificio Heden Rossio
 Largo do Duque de Cadaval 17 Fracção I
-1200-610 Lisbon
+1200-160 Lisbon
 Portugal

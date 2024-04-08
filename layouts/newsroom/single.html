@@ -4,7 +4,7 @@
         <article>
             <div class="flex justify-between">
                 <a class="self-start font-serif no-underline hover:text-red block mb-6" href="{{site.BaseURL}}/newsroom" rel="noopener">&larr;&nbsp;back</a>
-                <p class="self-end text-body-lg">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</p>
+                <!--p class="self-end text-body-lg">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</!--p-->
             </div>
             {{ if or (.Params.headline1) (.Params.headline) (.Params.teaser) }}
                 {{ if .Params.headline1 }}<h1>{{ .Params.headline1 }}</h1>{{ end }}
