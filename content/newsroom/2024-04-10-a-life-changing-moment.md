@@ -1,5 +1,5 @@
 ---
-date: 2023-11-29 17:03:05
+date: 2024-04-10 17:03:05
 headline1: A life-changing moment
 headline2: 
 teaser: 
@@ -40,7 +40,7 @@ To ensure a smooth handover, I will stay with the company until the end of 2024.
 
 Stefan will continue to be responsible for the whole of engineering, and Christopher will take over the business side. As they have been for the last 25 years, both roles are on the same level to ensure that neither business nor engineering takes the upper hand. This ensures we remain profitable and always deliver software products of exceptional quality.
 
-The last 25 years have been exciting, groundbreaking, exhausting, emotional, inspiring, unforgettable, and unforgettable, and full of incredibly admirable people, ideas and moments, and I don’t want to miss a second of it. 
+The last 25 years have been exciting, groundbreaking, exhausting, emotional, inspiring, unforgettable, and full of incredibly admirable people, ideas and moments, and I don’t want to miss a second of it. 
 
 Of course I get goosebumps just thinking about the moment when I leave the company at the end of the year … but it is absolutely the right time.
 
