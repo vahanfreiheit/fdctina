@@ -52,3 +52,4 @@ Many became friends for life. This will stay!
 
 And for sure, next year will be very exciting for all of us. 💗 
 
+Claudia
