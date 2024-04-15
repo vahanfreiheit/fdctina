@@ -20,7 +20,7 @@ T +49 40 890584 0
 F +49 40 890584 20
 
 Managing Directors:
-Claudia Dietze, Stefan Richter
+Claudia Dietze, Stefan Richter, Christopher Schorling
 
 Register Court: Amtsgericht Hamburg
 Registration Number: Hamburg HRB 70814
