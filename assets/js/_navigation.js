@@ -10,7 +10,6 @@ let isOnTop = false;
 const onScroll = function () {
     const navigation = document.getElementsByTagName('nav')[0];
     const firstContentItemTop = document.querySelectorAll('main > .fdc-content-layout')[0].getBoundingClientRect().top;
-    console.log(firstContentItemTop)
     if (!isOnTop && (firstContentItemTop < 65)) {
         navigation.classList.add('bg-black-nav');
         navigation.classList.add('text-white-nav');

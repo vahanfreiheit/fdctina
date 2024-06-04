@@ -20,12 +20,23 @@ module.exports = {
       'full': '100%',
     },
     extend: {
+      borderWidth: {
+        '6': '6px',
+      },
+      margin: {
+        'center': '0 auto',
+      },
+      width: {
+        '90/100': '90%',
+        '95/100': '95%',
+      },
       transitionProperty: {
         'navigation': 'background-color, color, padding',
       },
       gridTemplateColumns: {
         'numbers-1': '1fr',
         'numbers-2': 'repeat(2, min-content)',
+        'quote': '80px 1fr 80px',
       },
       fontSize: {
         'label': ['14px', {
@@ -154,6 +165,7 @@ module.exports = {
       'transparent': 'rgba(0,0,0,0)',
       'black': '#292C35',
       'black-nav': '#292C35',
+      'pale-grey': '#F9F9F9',
       'light-grey': '#EAEAEA',
       'grey': '#999999',
       'white': '#FFFFFF',

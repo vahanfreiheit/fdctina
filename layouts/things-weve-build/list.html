@@ -2,7 +2,7 @@
 <div class="fdc-content-layout">
     <section>
         {{ partial "content-margin" . }}
-        {{ with .Pages.ByDate.Reverse.ByWeight }}
+        {{ with .Pages.ByDate.Reverse }}
         <div class="my-12 columns-1 lg:columns-2">
         {{ $.Scratch.Set "counter" 0 }}
         {{ range . }}

@@ -2,8 +2,8 @@
 <figure {{ with .Get "class" }}class="fdc-figure {{.}}"{{else}}class="fdc-figure"{{ end }}>
   {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
       <img
-          width="{{ $img.Width }}"
-          height="{{ $img.Height }}"
+          {{ if (.Get "width") }}width="{{ .Get "width" }}"{{ else }}width="{{ $img.Width }}"{{ end }}
+          {{ if (.Get "height") }}height="{{ .Get "height" }}"{{ else }}height="{{ $img.Height }}"{{ end }}
           src="{{site.BaseURL}}{{ .Get "src" }}"
         {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }}
         {{ with .Get "class" }}class="fdc-image {{.}}"{{ end }} />

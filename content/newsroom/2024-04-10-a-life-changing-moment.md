@@ -20,9 +20,9 @@ Stefan started as the first software engineer and employee no. 1 in October 1998
 
 I took over the business part, and he took over the engineering part.
 
-Over a quarter of a century, we created the most profitable and most successful software development company in Europe. Every project we started since then has been delivered successfully. 
+Over a quarter of a century, we created the most profitable and most successful software development company in Europe. Every project we started since then has been delivered successfully.
 
-Never late. Never failed. 
+Never late. Never failed.
 
 Today we are working on some of the largest software projects in the world.
 
@@ -40,16 +40,16 @@ To ensure a smooth handover, I will stay with the company until the end of 2024.
 
 Stefan will continue to be responsible for the whole of engineering, and Christopher will take over the business side. As they have been for the last 25 years, both roles are on the same level to ensure that neither business nor engineering takes the upper hand. This ensures we remain profitable and always deliver software products of exceptional quality.
 
-The last 25 years have been exciting, groundbreaking, exhausting, emotional, inspiring, unforgettable, and full of incredibly admirable people, ideas and moments, and I don’t want to miss a second of it. 
+The last 25 years have been exciting, groundbreaking, exhausting, emotional, inspiring, unforgettable, and full of incredibly admirable people, ideas and moments, and I don’t want to miss a second of it.
 
 Of course I get goosebumps just thinking about the moment when I leave the company at the end of the year … but it is absolutely the right time.
 
 I am grateful for this experience. I built a company from scratch and led it through difficult times: the dot-com bubble of 2000, the financial crisis in 2008 and the pandemic in 2020. Hardships make you stronger. We never faltered. With every challenge, we came out stronger and forged a great team and a unique working environment that creates some of the best software engineers on this planet.
 
-And I am grateful to all of you who I have met and for all the wonderful memories, conversations and insights you have given me. The people I worked with side-by-side. The partners and clients who have entrusted us with their most important projects. 
+And I am grateful to all of you who I have met and for all the wonderful memories, conversations and insights you have given me. The people I worked with side-by-side. The partners and clients who have entrusted us with their most important projects.
 
-Many became friends for life. This will stay! 
+Many became friends for life. This will stay!
 
-And for sure, next year will be very exciting for all of us. 💗 
+And for sure, next year will be very exciting for all of us. 💗
 
 Claudia
