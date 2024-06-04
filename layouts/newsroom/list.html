@@ -30,6 +30,20 @@
                 see more →
             </a>
         </div>
+
+        <h4 class="mt-20">Case Studies</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "CaseStudy") }}
+            {{ range first 3 $p }}
+                {{- partial "newsroom-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/casestudy"
+                class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+                see more →
+            </a>
+        </div>
     </section>
 </div>
 <div class="w-full mt-10">

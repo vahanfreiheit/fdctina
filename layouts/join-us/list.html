@@ -14,24 +14,52 @@
     {{ with .Content }}
     <div class="fdc-content-layout bg-alabaster">
         <section>
-
             {{ . }}
-
-            {{ $data := $.Site.Data.lever.jobs7881c6ddf653f507926575b192fe2be1 }}
-            {{ if eq $data "" }}
-                {{ $data = getJSON "https://api.lever.co/v0/postings/freiheit-2?mode=json&distributionChannel=public&state=published&group=location" }}
-            {{ end }}
-            {{ range $data }}
-            <h4>In {{ .title }}</h4>
-            <div class="grid xl:grid-cols-3 md:grid-cols-2 gap-8 my-8">
-                    {{ range .postings }}
-                        {{ partial "job.html" . }}
-                    {{ end }}
-                </div>
-            {{ end }}
-
+            <div id="job-postings"></div>
         </section>
     </div>
     {{ end }}
 
+    <script type="text/javascript">
+
+        async function getJobPostings() {
+            const url = "https://api.lever.co/v0/postings/freiheit-2?mode=json&distributionChannel=public&state=published&group=location";
+            const response = await fetch(url);
+            const data = await response.json();
+            const locationList = document.getElementById("job-postings"); // Replace with your desired element ID
+
+            data.forEach((location) => {
+                const locationItem = document.createElement("h4");
+                locationItem.textContent = 'In ' + location.title;
+                locationList.appendChild(locationItem);
+
+                const postingList = document.createElement("div");
+                postingList.classList.add("grid", "xl:grid-cols-3", "md:grid-cols-2", "gap-8", "my-8");
+
+                location.postings.forEach((posting) => {
+                    const template = '<div class="flex justify-between text-sm items-center"><div class="flex items-center"><span class="mr-1"><img src="https://freiheit.com/img/location.svg" alt=""></span><span>{title}</span></div><div>{commitment}</div></div><div class="mt-6 flex-1"><a href="{applyUrl}" target="_blank" class="text-head-sm md:text-head-md font-serif no-underline hover:text-red">{text}</a><div class="mt-4">{team}</div></div><div class="md:mt-8 mt-4 job-url"><a href="{applyUrl}" target="_blank" class="inline-flex align-center text-body-lg gap-2 border rounded-full cursor-pointer pb-2 pt-3 pl-8 pr-7 no-underline font-serif hover:text-red hover:border-red"><div>Apply Now</div><div style="margin-top:-1px;font-size:120%">→</div></a></div>';
+
+                    const html = template
+                    .replace(/\{title\}/g, location.title)
+                    .replace(/\{text\}/g, posting.text)
+                    .replace(/\{applyUrl\}/g, posting.applyUrl)
+                    .replace(/\{commitment\}/g, posting.categories.commitment)
+                    .replace(/\{team\}/g, posting.categories.team);
+
+                    const postingItem = document.createElement("div");
+                    const styleTeam = posting.categories.team === "Engineers" ? "team__engineers" : "";
+                    const styleBorder = posting.categories.team === "Engineers" ? "border-green" : "border-pink";
+
+
+                    const classList = `flex flex-col bg-white border-t-4 border-transparent p-8 location__${location.title} ${posting.categories.team === "Engineers" ? "team__engineers border-green" : "border-pink" }`;
+                    postingItem.classList.add(...classList.split(" "));
+                    postingItem.innerHTML = html;
+                    postingList.appendChild(postingItem);
+                });
+
+                locationList.appendChild(postingList);
+            });
+        }
+        document.addEventListener("DOMContentLoaded", getJobPostings);
+    </script>
 {{ end }}

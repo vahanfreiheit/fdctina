@@ -1,0 +1,6 @@
+<div class="flex gap-10">
+  <div class="hidden md:block md:w-1/4 bg-black bg-bottom bg-cover" style="background-image: url({{site.BaseURL}}/img/{{ .Get "image" }})"></div>
+  <div class="md:w-3/4">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

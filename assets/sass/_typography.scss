@@ -89,8 +89,14 @@
       @apply text-head-sm;
     }
   }
+  h6 {
+    @apply mb-4 text-body-lg font-bold;
+    @screen md {
+      @apply text-body-xl;
+    }
+  }
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
   @apply font-serif font-bold mt-12 mb-4;
   &:first-child {
     @apply mt-0;
@@ -99,11 +105,17 @@ h1,h2,h3,h4,h5,h6 {
 a {
   @apply underline;
 }
-article ul li {
-  @apply mb-4 text-body-lg font-light;
-  @screen md {
-    @apply text-body-xl;
+article ul {
+  li {
+    @apply mb-4 text-body-lg font-light;
+    @screen md {
+      @apply text-body-xl;
+    }
+    list-style-type: "\2014";
+    margin-left: 1em;
+    padding-left: 0.5em;
+    ul {
+      @apply mt-4;
+    }
   }
-  list-style-type: disc;
-  margin-left: 1em;
 }

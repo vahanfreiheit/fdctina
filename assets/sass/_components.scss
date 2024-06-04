@@ -8,7 +8,7 @@
       w-full
       px-4
       md:px-12
-      lg:px-12
+      lg:px-20
       pt-8
       md:pt-16
       lg:pt-32
@@ -16,7 +16,7 @@
       max-w-screen-3xl;
       // article page content
       &.article-content {
-        @apply max-w-screen-lg;
+        @apply max-w-screen-xl;
       }
     }
   &:first-child {
@@ -57,4 +57,10 @@
 .echo_pagination {
   @apply flex justify-center items-center no-underline pb-1 pt-2 px-1 bg-white hover:text-red ;
   min-width: 40px;
+}
+
+.article-content {
+  b, strong {
+    font-weight: 500;
+  }
 }

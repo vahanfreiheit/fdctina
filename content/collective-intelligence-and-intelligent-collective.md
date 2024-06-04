@@ -17,4 +17,4 @@ This process allows us to take full advantage of the collective intelligence of 
 {{< content-grid-images >}}
   {{< image src="/img/who-we-are/collective-intelligence-and-intelligent-collective-1.jpg.webp" alt="freiheit.com office view" class="fdc-scroll fdc-scroll--slide-left" >}}
   {{< image src="/img/who-we-are/collective-intelligence-and-intelligent-collective-2.jpg.webp" alt="freiheit.com employees at work" class="fdc-scroll fdc-scroll--slide-right" >}}
-{{< /content-grid-images>}}
+{{< /content-grid-images >}}
