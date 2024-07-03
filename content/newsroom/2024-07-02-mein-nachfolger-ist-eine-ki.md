@@ -1,10 +1,10 @@
 ---
-date: 2024-07-02 00:00:05
+date: 2024-07-02
 headline1: Mein Nachfolger ist eine KI
 headline2: 
 teaser: 
 lead_image: null
-image: /img/newsroom/2024-07-03_Fachartikel_Unternehmeredition_010724.webp
+image: /img/newsroom/2024-07-02_Fachartikel_Unternehmeredition_010724.webp
 imageText: Fachartikel Unternehmeredition Juni 2024 - Autor Stefan Richter 
 vimeo: null
 youtube: null
