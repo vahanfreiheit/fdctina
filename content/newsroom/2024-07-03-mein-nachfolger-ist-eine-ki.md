@@ -1,5 +1,5 @@
 ---
-date: 2024-07-03 00:00:05
+date: 2024-07-02 00:00:05
 headline1: Mein Nachfolger ist eine KI
 headline2: 
 teaser: 
