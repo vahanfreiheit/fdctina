@@ -1,7 +1,7 @@
 ---
 date: 2024-07-02
-headline1: Mein Nachfolger ist eine KI
-headline2: 
+headline1: Mein Nachfolger ist eine KI!
+headline2: Erfolgreiche Unternehmer verfügen über implizites Wissen, das nur schwer zu übertragen ist. 
 teaser: 
 lead_image: null
 image: /img/newsroom/2024-07-02_Fachartikel_Unternehmeredition_010724.webp
@@ -11,6 +11,8 @@ youtube: null
 tags: [Press]
 hideHeaderTitle: true
 ---
+
+<span class="text-lg">[Download PDF](/downloads/Fachartikel_Unternehmeredition0624_freiheit.com)</span>
 
 *Jeder, der selbst ein Unternehmen gegründet und groß gemacht hat, weiß etwas, was andere nicht wissen, und macht Dinge, die andere nicht machen. Darum war das Unternehmen erfolgreich. Wie kann KI helfen, dieses implizite Wissen an die Nachfolgegeneration zu übertragen?*
 
@@ -73,5 +75,3 @@ Und damit das morgen Wirklichkeit wird, muss man heute damit beginnen.
 Willkommen in der Zukunft.
 
 [Originalartikel in der Fachzeitschrift Unternehmeredition auf Seite 28](https://www.google.com/url?q=https://www.unternehmeredition.de/wp-content/uploads/_EPAPER_/epaper-Unternehmeredition-2-2024/&sa=D&source=docs&ust=1720003036185118&usg=AOvVaw31iXHcd0FDbZCn3ALm7g1s)
-
-[Download PDF](/downloads/Fachartikel_Unternehmeredition0624_freiheit.com)
