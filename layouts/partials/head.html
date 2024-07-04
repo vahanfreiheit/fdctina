@@ -31,7 +31,7 @@
     <meta name="description" content="{{ .Params.Description | default .Site.Params.description }}">
     <meta name="author" content="{{ .Site.Author.name }}">
     {{- end }}
-    {{ if .Site.IsServer }}
+    {{ if hugo.IsServer }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
         <script type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
     {{ else }}
