@@ -74,4 +74,4 @@ Und damit das morgen Wirklichkeit wird, muss man heute damit beginnen.
 
 Willkommen in der Zukunft.
 
-[Originalartikel in der Fachzeitschrift Unternehmeredition auf Seite 28](https://www.unternehmeredition.de/wp-content/uploads/_EPAPER_/epaper-Unternehmeredition-2-2024)
+[Originalartikel in der Fachzeitschrift Unternehmeredition auf Seite 28](https://www.unternehmeredition.de/wp-content/uploads/_EPAPER_/epaper-Unternehmeredition-2-2024/#28)
