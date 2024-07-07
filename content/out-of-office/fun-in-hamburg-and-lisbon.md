@@ -1,7 +1,7 @@
 ---
 title: "Fun in Hamburg and Lisbon"
 date: 2023-01-23
-draft: false
+draft: true
 weight: 5
 ---
 ### Fun in Hamburg and Lisbon

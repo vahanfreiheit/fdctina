@@ -1,0 +1,9 @@
+<div class="
+  grid
+  {{ with .Get "cols" }}md:grid-cols-{{ . }}{{ else }}md:grid-cols-1{{ end }}
+  gap-y-4
+  md:gap-8
+  pt-4
+">
+  {{ .Inner }}
+</div>
