@@ -12,6 +12,7 @@ aliases:
   - /de/
 menu:
   main:
-    name: Who we are 
+    name: Who we are
     weight: 1
 ---
+
