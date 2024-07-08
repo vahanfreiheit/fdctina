@@ -17,9 +17,9 @@ Keep an eye on our LinkedIn page → to join for a public hackertalk.
 
 
 {{< grid-images cols="2">}}
-    {{< image src="/img/out-of-office/hackertalks_1.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-top">}}
-    {{< image src="/img/out-of-office/hackertalks_2.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-top">}}
+    {{< image src="/img/our-community/hackertalks_1.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-top">}}
+    {{< image src="/img/our-community/hackertalks_2.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-top">}}
 {{< /grid-images >}}
 {{< grid-images>}}
-    {{< image src="/img/out-of-office/hackertalks_3.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
+    {{< image src="/img/our-community/hackertalks_3.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
 {{< /grid-images >}}

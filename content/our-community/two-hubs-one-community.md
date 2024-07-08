@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-### Two hubs, one community 
+### Two hubs, one community
 
 freiheit.com was founded in Hamburg, but it has grown far beyond that. In 2018 we opened our second engineering hub in Lisbon. 
 
@@ -15,10 +15,10 @@ Additionally, our members regularly travel between our engineering hubs. The new
 
 
 {{< grid-images cols="2">}}
-    {{< image src="/img/out-of-office/two-hubs-one-community_1.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-top">}}
-    {{< image src="/img/out-of-office/two-hubs-one-community_2.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-top">}}
+    {{< image src="/img/our-community/two-hubs-one-community_1.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-top">}}
+    {{< image src="/img/our-community/two-hubs-one-community_2.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-top">}}
 {{< /grid-images >}}
 {{< grid-images cols="2">}}
-    {{< image src="/img/out-of-office/two-hubs-one-community_3.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
-    {{< image src="/img/out-of-office/two-hubs-one-community_4.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
+    {{< image src="/img/our-community/two-hubs-one-community_3.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
+    {{< image src="/img/our-community/two-hubs-one-community_4.webp" alt="freiheit.com two-hubs-one-community" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
 {{< /grid-images >}}
