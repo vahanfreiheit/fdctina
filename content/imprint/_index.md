@@ -27,3 +27,5 @@ Registration Number: Hamburg HRB 70814
 
 VAT-Identification Number:
 DE 200476487
+
+<span class="grid-cols-4 hidden"></span>
