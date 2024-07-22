@@ -15,9 +15,17 @@
     <div class="fdc-content-layout bg-alabaster">
         <section>
             {{ . }}
-            <div id="job-postings"></div>
+            <div id="job-postings">
+                <h4 style="opacity: 1; animation: fade 2s linear infinite;">Loading job listings...</h4>
+            </div>
         </section>
     </div>
+    <style>
+        @keyframes fade {
+            0%,100% { opacity: 0.25 }
+            50% { opacity: 1 }
+          }
+    </style>
     {{ end }}
 
     <script type="text/javascript">
@@ -27,6 +35,7 @@
             const response = await fetch(url);
             const data = await response.json();
             const locationList = document.getElementById("job-postings"); // Replace with your desired element ID
+            locationList.innerHTML = "";
 
             data.forEach((location) => {
                 const locationItem = document.createElement("h4");
