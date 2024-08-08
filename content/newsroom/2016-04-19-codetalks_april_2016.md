@@ -3,7 +3,7 @@ headline1: METRO goes Microservices
 date: 2016-04-19 18:57:33
 locale: en
 lead_image: /img/newsroom/ct-commercespecial.jpg.webp
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

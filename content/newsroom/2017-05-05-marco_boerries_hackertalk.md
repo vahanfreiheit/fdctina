@@ -6,9 +6,9 @@ headline2: "Make small business work in a complex world."
 teaser:
 lead_image:
 image: /img/newsroom/marco_boerries_freiheitc.com.jpg.webp
-vimeo: 
+vimeo:
 youtube:
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

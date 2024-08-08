@@ -2,7 +2,7 @@
 date: 2015-06-10 19:14:06
 locale: en
 image: /img/newsroom/Logo_manager_magazin.jpg.webp
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

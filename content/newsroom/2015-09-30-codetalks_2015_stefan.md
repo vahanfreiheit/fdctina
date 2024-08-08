@@ -2,7 +2,7 @@
 date: 2015-09-30 19:20:07
 locale: en
 lead_image: /img/newsroom/Codetalks_Stefan.jpg.webp
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 summary: Can we build an intelligent software agent, who portrays a perfect project manager? A bot who delivers information in the right time to the right people and who is both analyzer and messenger as well as helpful assistant at the same time? In September 2015, Stefan Richter speaks at the fifth code.talks conference about the usage of intelligent agents within software development.
 ---

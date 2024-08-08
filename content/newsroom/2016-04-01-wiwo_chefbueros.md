@@ -2,7 +2,7 @@
 date: 2016-04-01 15:29:35
 locale: en
 image: /img/newsroom/wiwo_Claudia_04_2016.jpg.webp
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

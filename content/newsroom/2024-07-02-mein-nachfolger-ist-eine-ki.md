@@ -8,7 +8,7 @@ image: /img/newsroom/2024-07-02_Fachartikel_Unternehmeredition_010724.webp
 imageText: Fachartikel Unternehmeredition Juni 2024 - Autor Stefan Richter
 vimeo: null
 youtube: null
-tags: [Press]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

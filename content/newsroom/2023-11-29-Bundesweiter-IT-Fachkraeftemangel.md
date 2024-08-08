@@ -2,12 +2,12 @@
 date: 2023-11-29 17:03:05
 headline1: Bundesweiter IT-Fachkräftemangel
 headline2: Wie die erfolgreiche Software Company freiheit.com Talente gewinnt und zu Europas Top-Engineers entwickelt.
-teaser: 
+teaser:
 lead_image: null
 image: /img/newsroom/2023-11-29-Bundesweiter-IT-Fachkraeftemangel.jpg
 vimeo: null
 youtube: null
-tags: [Press]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

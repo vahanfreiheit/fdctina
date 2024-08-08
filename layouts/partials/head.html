@@ -24,7 +24,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ .Site.Title }}{{ if not .IsHome }} - {{ .Title }}{{ end }}</title>
+    <title>{{ .Site.Title }}{{ if not .IsHome }} - {{ .Title }} {{ .Params.headline1 }}{{ end }}</title>
     {{- if eq .Kind "page" }}
     <meta name="author" content="{{ .Params.Author | default .Site.Author.name }}">
     {{- else }}

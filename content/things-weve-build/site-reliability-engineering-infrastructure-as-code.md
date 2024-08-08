@@ -3,7 +3,7 @@ title: "Site Reliability Engineering & Infrastructure as Code"
 image: /img/things-weve-build/site-reliability-engineering-&-infrastructure-as-code_2.jpg.webp
 date: 2024-05-14
 draft: false
-tags: [case study]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

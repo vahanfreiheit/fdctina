@@ -8,7 +8,7 @@ lead_image: /img/newsroom/hackers-wanted-4-devs.jpg.webp
 image: /img/newsroom/hackers-wanted-4-devs.jpg.webp
 vimeo:
 youtube:
-tags: [Press]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

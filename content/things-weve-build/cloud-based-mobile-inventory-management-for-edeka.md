@@ -3,7 +3,7 @@ title: "Cloud-Based Mobile Inventory Management for EDEKA"
 image: /img/things-weve-build/EDEKA.png
 date: 2024-05-20
 draft: false
-tags: [case study]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

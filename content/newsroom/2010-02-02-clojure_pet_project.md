@@ -2,7 +2,7 @@
 date: 2010-02-02 13:44:43
 locale: en
 lead_image: /img/newsroom/stefan_vor_wired.jpg.webp
-tags: [ press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

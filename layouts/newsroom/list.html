@@ -10,22 +10,22 @@
             <div>Download press kit</div>
             <div style="margin-top: -1px; font-size: 120%">→</div>
         </a>
-        
+
         {{ partial "btn-link.html" (dict
         "linkUrl" "mailto:<kontakt@freiheit.com>"
         "linkText" "Get in touch"
         "color" "red"
         ) }}
         </div>
-        <h4 class="mt-20">Press releases</h4>
+        <h4 class="mt-20">News</h4>
         <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
-            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "Press") }}
-            {{ range first 3 $p }}
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "news") }}
+            {{ range first 6 $p }}
                 {{- partial "newsroom-article-teaser.html" . -}}
             {{ end }}
         </div>
         <div class="mt-8 mb-10">
-            <a href="{{site.BaseURL}}/tags/press"
+            <a href="{{site.BaseURL}}/tags/News"
                 class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
                 see more →
             </a>
@@ -33,13 +33,13 @@
 
         <h4 class="mt-20">Case Studies</h4>
         <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
-            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "CaseStudy") }}
-            {{ range first 3 $p }}
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "case-studies") }}
+            {{ range first 6 $p }}
                 {{- partial "newsroom-article-teaser.html" . -}}
             {{ end }}
         </div>
         <div class="mt-8 mb-10">
-            <a href="{{site.BaseURL}}/tags/casestudy"
+            <a href="{{site.BaseURL}}/tags/case-studies"
                 class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
                 see more →
             </a>
@@ -66,25 +66,21 @@
     </div>
 </div>
 <div class="fdc-content-layout">
-    {{ range .Site.Taxonomies.tags.Alphabetical}}
-        {{ if eq .Page.Title "Archive" }}
-            <section style="padding-top: 6rem;">
-                <h4>{{ .Page.Title }}</h4>
-                <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap-10 lg:gap-20 mt-2">
-                    {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice .Page.Title) }}
-                    {{ range first 3 $p }}
-                    {{- partial "newsroom-article-teaser.html" . -}}
-                    {{ end }}
-                </div>
-                <div class="mt-8 mb-10">
-                    <a href="{{ .Page.Permalink }}"
-                        class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
-                        see more →
-                    </a>
-                </div>
-            </section>
-        {{ end }}
-    {{ end }}
+    <section>
+        <h4 class="mt-20">Archive</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "archive") }}
+            {{ range first 3 $p }}
+                {{- partial "newsroom-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/archive"
+                class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+                see more →
+            </a>
+        </div>
+    </section>
 </div>
 
 {{ end }}

@@ -1,14 +1,14 @@
 ---
 locale: en
 date: 2017-03-23 14:57:28
-teaser: 
+teaser:
 headline1: SPIEGEL ONLINE compares top 17 offices
 headline2: Where would you like to work?
 lead_image:
 image: /img/newsroom/Spiegel_Online_logo.svg.png.webp
-vimeo: 
+vimeo:
 youtube:
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

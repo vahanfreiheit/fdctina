@@ -3,7 +3,7 @@ title: "Flight Booking Engines"
 image: /img/things-weve-build/flight-booking-engines_2.jpg.webp
 date: 2024-05-13
 draft: false
-tags: [case study]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

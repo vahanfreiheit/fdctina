@@ -3,7 +3,7 @@ title: "And There Is More"
 image: /img/things-weve-build/and-there-is-more_2.jpg.webp
 date: 2000-01-01
 draft: false
-tags: [case study]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

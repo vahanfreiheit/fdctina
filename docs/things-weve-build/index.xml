@@ -1,2 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Things we've build on freiheit.com</title><link>https://freiheit.com/things-weve-build/</link><description>Recent content in Things we've build on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/things-weve-build/index.xml" rel="self" type="application/rss+xml"/><item><title>Building the fastest beauty mobile shop in the industry for 80+ countries</title><link>https://freiheit.com/things-weve-build/building-the-fastest-beauty-mobile-shop/</link><pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/building-the-fastest-beauty-mobile-shop/</guid><description>We helped cosnova bring best-in-class user experience to their customers by rebuilding the two webshops for their brands Catrice and essence, delivering on a tight deadline. The webpages were rolled out in over 80 countries worldwide and provide high performance using the Next JS framework. The page scored &amp;ldquo;green&amp;rdquo; on Google&amp;rsquo;s Lighthouse test, indicating low page load times and a short time to be interactive for the page’s users. We rebuilt the UI Component Library using React and (S)CSS to optimize the user experience on both webshops across multiple devices.</description></item><item><title>Cloud-Based Mobile Inventory Management for EDEKA</title><link>https://freiheit.com/things-weve-build/cloud-based-mobile-inventory-management-for-edeka/</link><pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/cloud-based-mobile-inventory-management-for-edeka/</guid><description>Over 30 months, four teams developed a flutter-based solution connected to an Azure backend in the cloud, that is currently used by more than 200 stores of EDEKA – the largest German supermarket corporation. More retail stores from the EDEKA group are to follow.
-Together with EDEKA DIGITAL, the IT subsidiary of EDEKA headquarters, we designed and implemented a new mobile inventory management solution (Warenwirtschaftssystem) to support all processes in their supermarkets.</description></item><item><title>Connected Cloud Services for Dentsply Sirona</title><link>https://freiheit.com/things-weve-build/connected-cloud-services-dentsply-sirona/</link><pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/connected-cloud-services-dentsply-sirona/</guid><description>With one of the world’s largest manufacturers of professional dental products and technologies, we have built a cloud ecosystem that lets dentists collect and process 3D image data in the cloud right from their scanning device. The service enables real-time cloud collaboration between specialists and ordering 3D printed oral appliances with strict GDPR compliance. This first-of-its-kind solution not only gives our client a competitive advantage, but also streamlines healthcare services for millions of patients around the globe.</description></item><item><title>Using Machine Learning Algorithms to Fulfil Physical Order Slips for BA.Unternehmensgruppe</title><link>https://freiheit.com/things-weve-build/ai-data-science-machine-learning/</link><pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/ai-data-science-machine-learning/</guid><description>To relieve workload from skilled professionals, our engineers set out to make the processing of physical order slips 10x more efficient. They built a system that processes complex image data to extract and categorize information using machine learning algorithms. This significantly reduced workload from specialists and freed up time for more demanding tasks.</description></item><item><title>Connected Cars &amp; Companion Apps</title><link>https://freiheit.com/things-weve-build/connected-cars/</link><pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/connected-cars/</guid><description>We have been working with German car manufactures, building cloud back-ends and head unit integration for new cars coming out over the next few years. Our music streaming, mobile office and notification applications are currently running in production in data centers around the world. Also we have built a new core app (and its cloud back-ends), which is the main app for all new owners of the recently launched electric cars.</description></item><item><title>Global B2B Retail Platform</title><link>https://freiheit.com/things-weve-build/global-b2b-retail-platform/</link><pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/global-b2b-retail-platform/</guid><description>For the food giant METRO we have built a large-scale e-commerce platform and rolled it out to 20+ countries. After just under five years, the system now generates over 4 billion euros per year and has become one of the largest Google Cloud&amp;nbsp;→ customers in Europe.</description></item><item><title>Hyper-Scalable E-Commerce System</title><link>https://freiheit.com/things-weve-build/hyper-scalable-e-commerce-system/</link><pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/hyper-scalable-e-commerce-system/</guid><description>We helped the coffee house and seasonal retailer Tchibo to revolutionize its multinational e-commerce website. Going from on-premises to Google Cloud Platform&amp;nbsp;→ relieved the company’s IT-professionals and made it possible to break down the system’s monolithic core into microservices. Our engineers integrated dozens of interfaces to legacy-backend systems with zero downtime of the shop, minimizing impact on customer service and business transactions.</description></item><item><title>Site Reliability Engineering &amp; Infrastructure as Code</title><link>https://freiheit.com/things-weve-build/site-reliability-engineering-infrastructure-as-code/</link><pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/site-reliability-engineering-infrastructure-as-code/</guid><description>We started to build our own site reliability engineering team in 2016. If you are interested in learning how to plan, automate, observe and scale large platforms, you should check out our SRE group!</description></item><item><title>Building the future of Omnichannel Retail Platforms</title><link>https://freiheit.com/things-weve-build/building-the-future-of-omnichannel-retail-platforms/</link><pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/building-the-future-of-omnichannel-retail-platforms/</guid><description>freiheit.com enabled Peek &amp;amp; Cloppenburg Düsseldorf to create a seamless omnichannel platform using Google Cloud&amp;nbsp;→. With 160 stores in 16 countries and multiple international online shops, Peek &amp;amp; Cloppenburg Düsseldorf fashion group sells high-grade fashion for all ages. Together with P&amp;amp;C, we built a scalable system for personalized shopping experiences based on customer interests and purchase history. The retail platform drives sales performance by connecting online and in-store shopping experiences.</description></item><item><title>Flight Booking Engines</title><link>https://freiheit.com/things-weve-build/flight-booking-engines/</link><pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/flight-booking-engines/</guid><description>Way back in 1999, we were among the first to build travel and booking systems that connected the giant computer reservation systems (CRS) of Amadeus and Sabre to the internet. We were the first to show only the available flights, filtering out unhelpful unavailable flights, long before sites like Expedia even existed.</description></item><item><title>Online Bookstores</title><link>https://freiheit.com/things-weve-build/online-bookstores/</link><pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/online-bookstores/</guid><description>We have been building many of the e-commerce platforms for the competitors of Amazon in the German and European book industry. Online bookstores were quite difficult to build in the times before the cloud, because they have staggeringly large assortments, often over 20 million individual articles, which change daily. That’s a lot of data to process! On top of that it is very satisfying to work for the “underdogs” and help them to compete with industry giants like Amazon.</description></item><item><title>And There Is More</title><link>https://freiheit.com/things-weve-build/and-there-is-more/</link><pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate><guid>https://freiheit.com/things-weve-build/and-there-is-more/</guid><description>We have built lottery platforms (business model: selling random numbers) and dating platforms (business model: selling contacts between customers). The internet is full of interesting new ideas and we are sure that this is still just the beginning.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Things we&#39;ve build on freiheit.com</title>
+    <link>https://mploigt.github.io/freiheit/things-weve-build/</link>
+    <description>Recent content in Things we&#39;ve build on freiheit.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mploigt.github.io/freiheit/things-weve-build/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building the fastest beauty mobile shop in the industry for 80&#43; countries</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/building-the-fastest-beauty-mobile-shop/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/building-the-fastest-beauty-mobile-shop/</guid>
+      <description>We helped cosnova bring best-in-class user experience to their customers by rebuilding the two webshops for their brands Catrice and essence, delivering on a tight deadline. The webpages were rolled out in over 80 countries worldwide and provide high performance using the Next JS framework. The page scored &amp;ldquo;green&amp;rdquo; on Google&amp;rsquo;s Lighthouse test, indicating low page load times and a short time to be interactive for the page’s users. We rebuilt the UI Component Library using React and (S)CSS to optimize the user experience on both webshops across multiple devices.</description>
+    </item>
+    <item>
+      <title>Cloud-Based Mobile Inventory Management for EDEKA</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/cloud-based-mobile-inventory-management-for-edeka/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/cloud-based-mobile-inventory-management-for-edeka/</guid>
+      <description>Over 30 months, four teams developed a flutter-based solution connected to an Azure backend in the cloud, that is currently used by more than 200 stores of EDEKA – the largest German supermarket corporation. More retail stores from the EDEKA group are to follow.&#xA;Together with EDEKA DIGITAL, the IT subsidiary of EDEKA headquarters, we designed and implemented a new mobile inventory management solution (Warenwirtschaftssystem) to support all processes in their supermarkets.</description>
+    </item>
+    <item>
+      <title>Connected Cloud Services for Dentsply Sirona</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/connected-cloud-services-dentsply-sirona/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/connected-cloud-services-dentsply-sirona/</guid>
+      <description>With one of the world’s largest manufacturers of professional dental products and technologies, we have built a cloud ecosystem that lets dentists collect and process 3D image data in the cloud right from their scanning device. The service enables real-time cloud collaboration between specialists and ordering 3D printed oral appliances with strict GDPR compliance. This first-of-its-kind solution not only gives our client a competitive advantage, but also streamlines healthcare services for millions of patients around the globe.</description>
+    </item>
+    <item>
+      <title>Using Machine Learning Algorithms to Fulfil Physical Order Slips for BA.Unternehmensgruppe</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/ai-data-science-machine-learning/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/ai-data-science-machine-learning/</guid>
+      <description>To relieve workload from skilled professionals, our engineers set out to make the processing of physical order slips 10x more efficient. They built a system that processes complex image data to extract and categorize information using machine learning algorithms. This significantly reduced workload from specialists and freed up time for more demanding tasks.</description>
+    </item>
+    <item>
+      <title>Connected Cars &amp; Companion Apps</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/connected-cars/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/connected-cars/</guid>
+      <description>We have been working with German car manufactures, building cloud back-ends and head unit integration for new cars coming out over the next few years. Our music streaming, mobile office and notification applications are currently running in production in data centers around the world. Also we have built a new core app (and its cloud back-ends), which is the main app for all new owners of the recently launched electric cars.</description>
+    </item>
+    <item>
+      <title>Global B2B Retail Platform</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/global-b2b-retail-platform/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/global-b2b-retail-platform/</guid>
+      <description>For the food giant METRO we have built a large-scale e-commerce platform and rolled it out to 20+ countries. After just under five years, the system now generates over 4 billion euros per year and has become one of the largest Google Cloud&amp;nbsp;→ customers in Europe.</description>
+    </item>
+    <item>
+      <title>Hyper-Scalable E-Commerce System</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/hyper-scalable-e-commerce-system/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/hyper-scalable-e-commerce-system/</guid>
+      <description>We helped the coffee house and seasonal retailer Tchibo to revolutionize its multinational e-commerce website. Going from on-premises to Google Cloud Platform&amp;nbsp;→ relieved the company’s IT-professionals and made it possible to break down the system’s monolithic core into microservices. Our engineers integrated dozens of interfaces to legacy-backend systems with zero downtime of the shop, minimizing impact on customer service and business transactions.</description>
+    </item>
+    <item>
+      <title>Site Reliability Engineering &amp; Infrastructure as Code</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/site-reliability-engineering-infrastructure-as-code/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/site-reliability-engineering-infrastructure-as-code/</guid>
+      <description>We started to build our own site reliability engineering team in 2016. If you are interested in learning how to plan, automate, observe and scale large platforms, you should check out our SRE group!</description>
+    </item>
+    <item>
+      <title>Building the future of Omnichannel Retail Platforms</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/building-the-future-of-omnichannel-retail-platforms/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/building-the-future-of-omnichannel-retail-platforms/</guid>
+      <description>freiheit.com enabled Peek &amp;amp; Cloppenburg Düsseldorf to create a seamless omnichannel platform using Google Cloud&amp;nbsp;→. With 160 stores in 16 countries and multiple international online shops, Peek &amp;amp; Cloppenburg Düsseldorf fashion group sells high-grade fashion for all ages. Together with P&amp;amp;C, we built a scalable system for personalized shopping experiences based on customer interests and purchase history. The retail platform drives sales performance by connecting online and in-store shopping experiences.</description>
+    </item>
+    <item>
+      <title>Flight Booking Engines</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/flight-booking-engines/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/flight-booking-engines/</guid>
+      <description>Way back in 1999, we were among the first to build travel and booking systems that connected the giant computer reservation systems (CRS) of Amadeus and Sabre to the internet. We were the first to show only the available flights, filtering out unhelpful unavailable flights, long before sites like Expedia even existed.</description>
+    </item>
+    <item>
+      <title>Online Bookstores</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/online-bookstores/</link>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/online-bookstores/</guid>
+      <description>We have been building many of the e-commerce platforms for the competitors of Amazon in the German and European book industry. Online bookstores were quite difficult to build in the times before the cloud, because they have staggeringly large assortments, often over 20 million individual articles, which change daily. That’s a lot of data to process! On top of that it is very satisfying to work for the “underdogs” and help them to compete with industry giants like Amazon.</description>
+    </item>
+    <item>
+      <title>And There Is More</title>
+      <link>https://mploigt.github.io/freiheit/things-weve-build/and-there-is-more/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/things-weve-build/and-there-is-more/</guid>
+      <description>We have built lottery platforms (business model: selling random numbers) and dating platforms (business model: selling contacts between customers). The internet is full of interesting new ideas and we are sure that this is still just the beginning.</description>
+    </item>
+  </channel>
+</rss>

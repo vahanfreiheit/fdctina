@@ -2,7 +2,7 @@
 date: 2014-11-01 19:05:43
 locale: en
 image: /img/newsroom/absatzw_logo.jpg.webp
-tags: [ Archive ]
+tags: [ archive ]
 hideHeaderTitle: true
 ---
 

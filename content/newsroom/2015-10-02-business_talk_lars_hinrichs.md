@@ -2,7 +2,7 @@
 date: 2015-10-02 13:53:32
 locale: en
 lead_image: /img/newsroom/Businesstalk_Lars_Hinrichs.jpg.webp
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

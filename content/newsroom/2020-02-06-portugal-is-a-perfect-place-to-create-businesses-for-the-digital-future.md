@@ -10,7 +10,7 @@ lead_image: null
 image: /img/newsroom/Claudia_Dietze_High_Tech.jpg.webp
 vimeo: null
 youtube: null
-tags: [Press]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

@@ -1,13 +1,13 @@
 ---
 locale: en
 date: 2017-03-03 17:19:20
-headline1: 
-teaser: 
+headline1:
+teaser:
 lead_image:
 image:
-vimeo: 
+vimeo:
 youtube:
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

@@ -170,7 +170,7 @@
         <section>
             <div class="py-5 md:py-24 w-3/4">
                 {{ if strings.Contains .Page.RelPermalink "/tags/" }}
-                    <h1>Newsroom - {{ .Page.Title }}</h1>
+                    <h1>{{ .Page.Title }}</h1>
                 {{ end }}
                 {{ if and (.Params.headerHeadline) (not .Params.hideHeaderTitleText) }}
                 <h1>
@@ -184,6 +184,6 @@
                 {{ end }}
             </div>
         </section>
-    </div>  
+    </div>
     {{ end }}
 </header>

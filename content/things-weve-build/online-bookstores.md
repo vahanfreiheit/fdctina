@@ -3,7 +3,7 @@ title: "Online Bookstores"
 image: /img/things-weve-build/online-bookstores_2.jpg.webp
 date: 2024-05-12
 draft: false
-tags: [case study]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

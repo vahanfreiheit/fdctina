@@ -3,7 +3,7 @@ title: "Connected Cars & Companion Apps"
 image: /img/things-weve-build/connected-cars_2.jpg.webp
 date: 2024-05-17
 draft: false
-tags: [case study]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

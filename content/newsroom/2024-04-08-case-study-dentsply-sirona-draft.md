@@ -7,7 +7,7 @@ lead_image: null
 image: /img/newsroom/2024-04-08-case-study-dentsply-sirona-title-image.jpg
 vimeo: null
 youtube: vyCRTlugecM
-tags: [CaseStudy]
+tags: [ case-studies ]
 hideHeaderTitle: true
 download: /downloads/Case_Study_Dentsply_Sirona_freiheit-com.pdf
 draft: true

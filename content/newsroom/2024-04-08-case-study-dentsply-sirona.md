@@ -7,7 +7,7 @@ lead_image: null
 image: /img/newsroom/2024-04-08-case-study-dentsply-sirona-title-image.jpg
 vimeo: null
 youtube: null
-tags: [CaseStudy]
+tags: [ case-studies ]
 hideHeaderTitle: true
 ---
 

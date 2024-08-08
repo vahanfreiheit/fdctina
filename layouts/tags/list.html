@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
 {{ $taxonomy := "tags" }}
-{{- partial "tag-list.html" . -}}
+
 <div class="fdc-content-layout">
     <section>
-        <a class="px-8 font-serif no-underline hover:text-red block mb-6" href="{{site.BaseURL}}/newsroom" rel="noopener">&larr;&nbsp;back</a>
+        <a class="px-8 font-serif no-underline hover:text-red block mb-6 text-xl" href="{{site.BaseURL}}/newsroom" rel="noopener">&larr;&nbsp;back</a>
         <div class="flex flex-wrap lg:flex-nowrap gap-20 mt-2">
             <div class="w-full">
                 {{ $counter := 0}}
@@ -45,7 +45,7 @@
             <li class="">
               <a
                 href="{{ .URL | absURL }}"
-                class="echo_pagination border-b-4 border-white {{ if eq . $paginator }} border-red {{end}}">
+                class="echo_pagination border-b-4 {{ if eq . $paginator }}border-red{{ else }}border-white{{end}}">
                 <span>{{ .PageNumber }}</span>
               </a>
             </li>

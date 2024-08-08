@@ -1,12 +1,12 @@
 ---
 locale: en
 date: 2017-01-20 11:43:57
-teaser: 
-lead_image: 
+teaser:
+lead_image:
 image: /img/newsroom/The_Huffington_Post_logo.svg.png.webp
-vimeo: 
+vimeo:
 youtube:
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

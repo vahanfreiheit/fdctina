@@ -2,7 +2,7 @@
 date: 2016-04-22 18:26:14
 locale: en
 image: /img/newsroom/meetup_logo_3.jpg.webp
-tags: [ Press ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

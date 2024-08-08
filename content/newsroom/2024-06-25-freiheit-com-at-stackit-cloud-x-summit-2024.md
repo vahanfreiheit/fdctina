@@ -1,14 +1,14 @@
 ---
 date: 2024-06-25 00:00:05
 headline1: freiheit.com @ STACKIT Cloud x Summit 2024
-headline2: 
-teaser: 
+headline2:
+teaser:
 lead_image: null
 image: /img/newsroom/2024-06-25-freiheit-at-stackit.webp
 imageText: freiheit.com @ STACKIT Cloud x Summit 2024
 vimeo: null
 youtube: null
-tags: [Press]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 
