@@ -1,8 +1,8 @@
 ---
-title: "Welcome to our newsroom"
+title: "Welcome to our Newsroom"
 date: 2022-02-20
 draft: false
-headerHeadline: Welcome to our newsroom
+headerHeadline: Welcome to our Newsroom
 headerTheme: alabaster
 aliases:
   - /what-others-say/

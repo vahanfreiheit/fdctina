@@ -3,14 +3,16 @@ date: 2024-08-07
 headline1: California Night 2024
 headline2: In July 2024, we celebrated summer in our wonderful Hamburg Hub!
 teaser:
-lead_image: null
-image:
+lead_image:
+image: /img/newsroom/2024-08-07-california-night-2024.jpg
 imageText: California Night 2024 at freiheit.com
 vimeo: null
-youtube: null
+youtube: cLcasJULjls
 tags: [ news ]
 hideHeaderTitle: true
 ---
+
+{{< youtube cLcasJULjls "/img/newsroom/2024-08-07-california-night-2024.jpg" >}}
 
 This years motto: it’s all about California 🎉
 Our founders Claudia Dietze and Stefan Richter fell in love with California a long time ago and like to bring the spirit back to Germany. 🌴
