@@ -1,47 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Our Community on freiheit.com</title>
-    <link>https://mploigt.github.io/freiheit/our-community/</link>
-    <description>Recent content in Our Community on freiheit.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mploigt.github.io/freiheit/our-community/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Two hubs, one community </title>
-      <link>https://mploigt.github.io/freiheit/our-community/two-hubs-one-community/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/two-hubs-one-community/</guid>
-      <description>Two hubs, one community freiheit.com was founded in Hamburg, but it has grown far beyond that. In 2018 we opened our second engineering hub in Lisbon.&#xA;Our hub in Lisbon operates under the same organizational principles and team structures as our headquarters in Hamburg. The engineering members work together seamlessly and often in mixed teams between the two hubs, sharing knowledge and expertise across borders. Additionally, our members regularly travel between our engineering hubs.</description>
-    </item>
-    <item>
-      <title>Culture Nights</title>
-      <link>https://mploigt.github.io/freiheit/our-community/culture-nights/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/culture-nights/</guid>
-      <description>Culture Nights Because there are so many nations present within the freiheit.com community, we host culture nights.&#xA;Each month one or a group of members presents their culture - cook their traditional food, show their traditional music and tell us about their traditional customs. Our members baked Polish pastries, taught the others Egyptian dances, made Indian samosas, gave the best French wine tasting… the list goes on.</description>
-    </item>
-    <item>
-      <title>Board Game Nights</title>
-      <link>https://mploigt.github.io/freiheit/our-community/board-game-nights/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/board-game-nights/</guid>
-      <description>Board Game Nights Our engineering teams love tackling complex problems. That’s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.</description>
-    </item>
-    <item>
-      <title>Hackertalks</title>
-      <link>https://mploigt.github.io/freiheit/our-community/hackertalks/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/hackertalks/</guid>
-      <description>Hackertalks Every Friday, our engineering members organize a Hackertalk.&#xA;We are an engineering organization. 85% of our members are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong machine learning backgrounds. We tackle new and interesting problems all the time and very often create things that nobody has built before.&#xA;That’s why our freiheit.com engineers meet for Hackertalks every Friday. Some members enjoy a drink afterward in our community area on the 6th floor, overlooking the port of Hamburg.</description>
-    </item>
-    <item>
-      <title>Sports: Running, Biking, Bouldering, Soccer and More</title>
-      <link>https://mploigt.github.io/freiheit/our-community/sports/</link>
-      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/sports/</guid>
-      <description>Sports: Running, Biking, Bouldering, Soccer and More If you can name a sport, there’s probably freiheit.com members who like it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg. Multiple times a month our members organize a yoga session in our office.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Our Community on freiheit.com</title><link>https://freiheit.com/our-community/</link><description>Recent content in Our Community on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/our-community/index.xml" rel="self" type="application/rss+xml"/><item><title>Two hubs, one community</title><link>https://freiheit.com/our-community/two-hubs-one-community/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/two-hubs-one-community/</guid><description>Two hubs, one community freiheit.com was founded in Hamburg, but it has grown far beyond that. In 2018 we opened our second engineering hub in Lisbon.
+Our hub in Lisbon operates under the same organizational principles and team structures as our headquarters in Hamburg. The engineering members work together seamlessly and often in mixed teams between the two hubs, sharing knowledge and expertise across borders. Additionally, our members regularly travel between our engineering hubs.</description></item><item><title>Culture Nights</title><link>https://freiheit.com/our-community/culture-nights/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/culture-nights/</guid><description>Culture Nights Because there are so many nations present within the freiheit.com community, we host culture nights.
+Each month one or a group of members presents their culture - cook their traditional food, show their traditional music and tell us about their traditional customs. Our members baked Polish pastries, taught the others Egyptian dances, made Indian samosas, gave the best French wine tasting… the list goes on.</description></item><item><title>Board Game Nights</title><link>https://freiheit.com/our-community/board-game-nights/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/board-game-nights/</guid><description>Board Game Nights Our engineering teams love tackling complex problems. That’s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.</description></item><item><title>Hackertalks</title><link>https://freiheit.com/our-community/hackertalks/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/hackertalks/</guid><description>Hackertalks Every Friday, our engineering members organize a Hackertalk.
+We are an engineering organization. 85% of our members are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong machine learning backgrounds. We tackle new and interesting problems all the time and very often create things that nobody has built before.
+That’s why our freiheit.com engineers meet for Hackertalks every Friday. Some members enjoy a drink afterward in our community area on the 6th floor, overlooking the port of Hamburg.</description></item><item><title>Sports: Running, Biking, Bouldering, Soccer and More</title><link>https://freiheit.com/our-community/sports/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/sports/</guid><description>Sports: Running, Biking, Bouldering, Soccer and More If you can name a sport, there’s probably freiheit.com members who like it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg. Multiple times a month our members organize a yoga session in our office.</description></item></channel></rss>
