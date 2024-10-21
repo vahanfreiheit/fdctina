@@ -1,7 +1,7 @@
 ---
 date: 2024-10-16
 headline1: Lisbon Summer Event 2024
-headline2: 🌞We just wrapped up summer at our engineering hub in Lisbon! 🌊
+headline2: We just wrapped up summer at our engineering hub in Lisbon!
 teaser:
 lead_image:
 image: /img/newsroom/freiheit-lisbon-summer-event.webp
