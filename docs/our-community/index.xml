@@ -1,47 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Our Community on freiheit.com</title>
-    <link>https://mploigt.github.io/freiheit/our-community/</link>
-    <description>Recent content in Our Community on freiheit.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mploigt.github.io/freiheit/our-community/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Two hubs, one community </title>
-      <link>https://mploigt.github.io/freiheit/our-community/two-hubs-one-community/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/two-hubs-one-community/</guid>
-      <description>&lt;h3 id=&#34;two-hubs-one-community&#34;&gt;Two hubs, one community&lt;/h3&gt;&#xA;&lt;p&gt;freiheit.com was founded in Hamburg, but it has grown far beyond that. In 2018 we opened our second engineering hub in Lisbon.&lt;/p&gt;&#xA;&lt;p&gt;Our hub in Lisbon operates under the same organizational principles and team structures as our headquarters in Hamburg. The engineering members work together seamlessly and often in mixed teams between the two hubs, sharing knowledge and expertise across borders. &lt;/p&gt;&#xA;&lt;p&gt;Additionally, our members regularly travel between our engineering hubs. The newbies from Lisbon come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don’t just come to work. A big part of the trip is exploring Hamburg and enjoying time with their new colleagues. Every year, the whole company meets for our Summer and Christmas Events.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Culture Nights</title>
-      <link>https://mploigt.github.io/freiheit/our-community/culture-nights/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/culture-nights/</guid>
-      <description>&lt;h3 id=&#34;culture-nights&#34;&gt;Culture Nights&lt;/h3&gt;&#xA;&lt;p&gt;Because there are so many nations present within the freiheit.com community, we host culture nights.&lt;/p&gt;&#xA;&lt;p&gt;Each month one or a group of members presents their culture - cook their traditional food, show their traditional music and tell us about their traditional customs. Our members baked Polish pastries, taught the others Egyptian dances, made Indian samosas, gave the best French wine tasting… the list goes on.&lt;/p&gt;&#xA;&lt;p&gt;&lt;div class=&#34;&#xA;  grid&#xA;  md:grid-cols-4&#xA;  gap-y-4&#xA;  md:gap-8&#xA;  pt-4&#xA;&#34;&gt;&#xA;  &#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-left&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;570&#34;&#xA;              height=&#34;760&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/culture_night_1.webp&#34;&#xA;            alt=&#34;freiheit.com culture night&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-left&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-left&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;570&#34;&#xA;              height=&#34;760&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/culture_night_2.webp&#34;&#xA;            alt=&#34;freiheit.com culture night&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-left&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-right&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;570&#34;&#xA;              height=&#34;760&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/culture_night_3.webp&#34;&#xA;            alt=&#34;freiheit.com culture night&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-right&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-right&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;570&#34;&#xA;              height=&#34;760&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/culture_night_4.webp&#34;&#xA;            alt=&#34;freiheit.com culture night&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-right&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&lt;br&gt;&#xA;&lt;div class=&#34;&#xA;  grid&#xA;  md:grid-cols-1&#xA;  gap-y-4&#xA;  md:gap-8&#xA;  pt-4&#xA;&#34;&gt;&#xA;  &#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--fade-in-bottom&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;1600&#34;&#xA;              height=&#34;735&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/culture_night_5.webp&#34;&#xA;            alt=&#34;freiheit.com culture night&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--fade-in-bottom&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Board Game Nights</title>
-      <link>https://mploigt.github.io/freiheit/our-community/board-game-nights/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/board-game-nights/</guid>
-      <description>&lt;h3 id=&#34;board-game-nights&#34;&gt;Board Game Nights&lt;/h3&gt;&#xA;&lt;p&gt;Our engineering teams love tackling complex problems. That’s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.&lt;/p&gt;&#xA;&lt;div class=&#34;&#xA;  grid&#xA;  md:grid-cols-2&#xA;  gap-y-4&#xA;  md:gap-8&#xA;  pt-4&#xA;&#34;&gt;&#xA;  &#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-left&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;1114&#34;&#xA;              height=&#34;834&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/board_games_nights_1.webp&#34;&#xA;            alt=&#34;freiheit.com board games nights&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-left&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-right&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;1114&#34;&#xA;              height=&#34;834&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/board_games_nights_2.webp&#34;&#xA;            alt=&#34;freiheit.com board games nights&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-right&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Hackertalks</title>
-      <link>https://mploigt.github.io/freiheit/our-community/hackertalks/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/hackertalks/</guid>
-      <description>&lt;h3 id=&#34;hackertalks&#34;&gt;Hackertalks&lt;/h3&gt;&#xA;&lt;p&gt;Every Friday, our engineering members organize a Hackertalk.&lt;/p&gt;&#xA;&lt;p&gt;We are an engineering organization. 85% of our members are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong machine learning backgrounds. We tackle new and interesting problems all the time and very often create things that nobody has built before.&lt;/p&gt;&#xA;&lt;p&gt;That’s why our freiheit.com engineers meet for Hackertalks every Friday. Some members enjoy a drink afterward in our community area on the 6th floor, overlooking the port of Hamburg. Each week, one member shares insights into current projects or discusses new technologies.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sports: Running, Biking, Bouldering, Soccer and More</title>
-      <link>https://mploigt.github.io/freiheit/our-community/sports/</link>
-      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/our-community/sports/</guid>
-      <description>&lt;h3 id=&#34;sports-running-biking-bouldering-soccer-and-more&#34;&gt;Sports: Running, Biking, Bouldering, Soccer and More&lt;/h3&gt;&#xA;&lt;p&gt;If you can name a sport, there’s probably freiheit.com members who like it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg. Multiple times a month our members organize a yoga session in our office.&lt;/p&gt;&#xA;&lt;div class=&#34;pb-36&#34;&gt;&#xA;&lt;div class=&#34;&#xA;  grid&#xA;  md:grid-cols-2&#xA;  gap-y-4&#xA;  md:gap-8&#xA;  pt-4&#xA;&#34;&gt;&#xA;  &#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-left&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;1128&#34;&#xA;              height=&#34;706&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/sport_1.webp&#34;&#xA;            alt=&#34;freiheit.com sport&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-left&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;    &#xA;    &lt;figure class=&#34;fdc-figure fdc-scroll fdc-scroll--slide-right&#34;&gt;&#xA;      &#xA;          &lt;img&#xA;              width=&#34;1128&#34;&#xA;              height=&#34;706&#34;&#xA;              src=&#34;https://mploigt.github.io/freiheit//img/our-community/sport_2.webp&#34;&#xA;            alt=&#34;freiheit.com sport&#34;&#xA;            class=&#34;fdc-image fdc-scroll fdc-scroll--slide-right&#34; /&gt;&#xA;      &#xA;      &#xA;    &lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Our Community on freiheit.com</title><link>https://freiheit.com/our-community/</link><description>Recent content in Our Community on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/our-community/index.xml" rel="self" type="application/rss+xml"/><item><title>Two hubs, one community</title><link>https://freiheit.com/our-community/two-hubs-one-community/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/two-hubs-one-community/</guid><description>&lt;h3 id="two-hubs-one-community">Two hubs, one community&lt;/h3>
+&lt;p>freiheit.com was founded in Hamburg, but it has grown far beyond that. In 2018 we opened our second engineering hub in Lisbon.&lt;/p>
+&lt;p>Our hub in Lisbon operates under the same organizational principles and team structures as our headquarters in Hamburg. The engineering members work together seamlessly and often in mixed teams between the two hubs, sharing knowledge and expertise across borders. &lt;/p>
+&lt;p>Additionally, our members regularly travel between our engineering hubs. The newbies from Lisbon come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don’t just come to work. A big part of the trip is exploring Hamburg and enjoying time with their new colleagues. Every year, the whole company meets for our Summer and Christmas Events.&lt;/p></description></item><item><title>Culture Nights</title><link>https://freiheit.com/our-community/culture-nights/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/culture-nights/</guid><description>&lt;h3 id="culture-nights">Culture Nights&lt;/h3>
+&lt;p>Because there are so many nations present within the freiheit.com community, we host culture nights.&lt;/p>
+&lt;p>Each month one or a group of members presents their culture - cook their traditional food, show their traditional music and tell us about their traditional customs. Our members baked Polish pastries, taught the others Egyptian dances, made Indian samosas, gave the best French wine tasting… the list goes on.&lt;/p>
+&lt;p>&lt;div class="
+ grid
+ md:grid-cols-4
+ gap-y-4
+ md:gap-8
+ pt-4
+">
+ 
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-left">
+ 
+ &lt;img
+ width="570"
+ height="760"
+ src="https://freiheit.com//img/our-community/culture_night_1.webp"
+ alt="freiheit.com culture night"
+ class="fdc-image fdc-scroll fdc-scroll--slide-left" />
+ 
+ 
+ &lt;/figure>
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-left">
+ 
+ &lt;img
+ width="570"
+ height="760"
+ src="https://freiheit.com//img/our-community/culture_night_2.webp"
+ alt="freiheit.com culture night"
+ class="fdc-image fdc-scroll fdc-scroll--slide-left" />
+ 
+ 
+ &lt;/figure>
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-right">
+ 
+ &lt;img
+ width="570"
+ height="760"
+ src="https://freiheit.com//img/our-community/culture_night_3.webp"
+ alt="freiheit.com culture night"
+ class="fdc-image fdc-scroll fdc-scroll--slide-right" />
+ 
+ 
+ &lt;/figure>
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-right">
+ 
+ &lt;img
+ width="570"
+ height="760"
+ src="https://freiheit.com//img/our-community/culture_night_4.webp"
+ alt="freiheit.com culture night"
+ class="fdc-image fdc-scroll fdc-scroll--slide-right" />
+ 
+ 
+ &lt;/figure>
+
+&lt;/div>&lt;br>
+&lt;div class="
+ grid
+ md:grid-cols-1
+ gap-y-4
+ md:gap-8
+ pt-4
+">
+ 
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--fade-in-bottom">
+ 
+ &lt;img
+ width="1600"
+ height="735"
+ src="https://freiheit.com//img/our-community/culture_night_5.webp"
+ alt="freiheit.com culture night"
+ class="fdc-image fdc-scroll fdc-scroll--fade-in-bottom" />
+ 
+ 
+ &lt;/figure>
+
+&lt;/div>&lt;/p></description></item><item><title>Board Game Nights</title><link>https://freiheit.com/our-community/board-game-nights/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/board-game-nights/</guid><description>&lt;h3 id="board-game-nights">Board Game Nights&lt;/h3>
+&lt;p>Our engineering teams love tackling complex problems. That’s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.&lt;/p>
+&lt;div class="
+ grid
+ md:grid-cols-2
+ gap-y-4
+ md:gap-8
+ pt-4
+">
+ 
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-left">
+ 
+ &lt;img
+ width="1114"
+ height="834"
+ src="https://freiheit.com//img/our-community/board_games_nights_1.webp"
+ alt="freiheit.com board games nights"
+ class="fdc-image fdc-scroll fdc-scroll--slide-left" />
+ 
+ 
+ &lt;/figure>
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-right">
+ 
+ &lt;img
+ width="1114"
+ height="834"
+ src="https://freiheit.com//img/our-community/board_games_nights_2.webp"
+ alt="freiheit.com board games nights"
+ class="fdc-image fdc-scroll fdc-scroll--slide-right" />
+ 
+ 
+ &lt;/figure>
+
+&lt;/div></description></item><item><title>Hackertalks</title><link>https://freiheit.com/our-community/hackertalks/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/hackertalks/</guid><description>&lt;h3 id="hackertalks">Hackertalks&lt;/h3>
+&lt;p>Every Friday, our engineering members organize a Hackertalk.&lt;/p>
+&lt;p>We are an engineering organization. 85% of our members are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong machine learning backgrounds. We tackle new and interesting problems all the time and very often create things that nobody has built before.&lt;/p>
+&lt;p>That’s why our freiheit.com engineers meet for Hackertalks every Friday. Some members enjoy a drink afterward in our community area on the 6th floor, overlooking the port of Hamburg. Each week, one member shares insights into current projects or discusses new technologies.&lt;/p></description></item><item><title>Sports: Running, Biking, Bouldering, Soccer and More</title><link>https://freiheit.com/our-community/sports/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/our-community/sports/</guid><description>&lt;h3 id="sports-running-biking-bouldering-soccer-and-more">Sports: Running, Biking, Bouldering, Soccer and More&lt;/h3>
+&lt;p>If you can name a sport, there’s probably freiheit.com members who like it. We have several groups who organize regular bike trips, play soccer or even train for and run the yearly Haspa Marathon in Hamburg. Multiple times a month our members organize a yoga session in our office.&lt;/p>
+&lt;div class="pb-36">
+&lt;div class="
+ grid
+ md:grid-cols-2
+ gap-y-4
+ md:gap-8
+ pt-4
+">
+ 
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-left">
+ 
+ &lt;img
+ width="1128"
+ height="706"
+ src="https://freiheit.com//img/our-community/sport_1.webp"
+ alt="freiheit.com sport"
+ class="fdc-image fdc-scroll fdc-scroll--slide-left" />
+ 
+ 
+ &lt;/figure>
+ 
+ &lt;figure class="fdc-figure fdc-scroll fdc-scroll--slide-right">
+ 
+ &lt;img
+ width="1128"
+ height="706"
+ src="https://freiheit.com//img/our-community/sport_2.webp"
+ alt="freiheit.com sport"
+ class="fdc-image fdc-scroll fdc-scroll--slide-right" />
+ 
+ 
+ &lt;/figure>
+
+&lt;/div>
+&lt;/div></description></item></channel></rss>

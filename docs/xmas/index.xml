@@ -1,26 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Merry Christmas 2023 on freiheit.com</title>
-    <link>https://mploigt.github.io/freiheit/xmas/</link>
-    <description>Recent content in Merry Christmas 2023 on freiheit.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 24 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mploigt.github.io/freiheit/xmas/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Merry Christmas</title>
-      <link>https://mploigt.github.io/freiheit/xmas/1/</link>
-      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/xmas/1/</guid>
-      <description>&lt;style lang=&#34;css&#34;&gt;&#xA;  @-webkit-keyframes light {&#xA;    from {&#xA;      opacity: 1;&#xA;    }&#xA;&#xA;    20% {&#xA;      opacity: 0.9;&#xA;    }&#xA;&#xA;    40% {&#xA;      opacity: 0.8;&#xA;    }&#xA;&#xA;    60% {&#xA;      opacity: 0.7;&#xA;    }&#xA;&#xA;    80% {&#xA;      opacity: 0.8;&#xA;    }&#xA;&#xA;    to {&#xA;      opacity: 0.9;&#xA;    }&#xA;  }&#xA;&#xA;  @keyframes snow {&#xA;    0% {&#xA;      background-position: 0px 0px, 0px 0px, 0px 0px;&#xA;    }&#xA;&#xA;    100% {&#xA;      background-position: 500px 1000px, 400px 400px, 300px 300px;&#xA;    }&#xA;  }&#xA;&#xA;  body {&#xA;    margin: 0;&#xA;    padding: 0;&#xA;  }&#xA;&#xA;  .header {&#xA;    position: absolute;&#xA;    height: 700px;&#xA;    top: 0;&#xA;    right: 0;&#xA;    left: 0;&#xA;    overflow-x: hidden;&#xA;  }&#xA;&#xA;  .header-back {&#xA;    position: relative;&#xA;    width: 100%;&#xA;    height: 500px;&#xA;    background-color: #899C8C;&#xA;    background-image:&#xA;      url(&#39;https://mploigt.github.io/freiheit//img/xmas/snow1.png&#39;),&#xA;      url(&#39;https://mploigt.github.io/freiheit//img/xmas/snow2.png&#39;),&#xA;      url(&#39;https://mploigt.github.io/freiheit//img/xmas/snow3.png&#39;);&#xA;    animation: snow 25s linear infinite;&#xA;  }&#xA;&#xA;  .header-text {&#xA;    position: absolute;&#xA;    top: 100px;&#xA;    right: 0;&#xA;    left: 0;&#xA;  }&#xA;  &#xA;  .header-text .glow {&#xA;    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);&#xA;  }&#xA;&#xA;  .light {&#xA;    animation: light 3s linear infinite;&#xA;    width: 80dvw;&#xA;    max-width: 600px;&#xA;    position: absolute;&#xA;    left: -130px;&#xA;    top: -50px;&#xA;  }&#xA;&#xA;  .tree {&#xA;    height: 100%;&#xA;    object-fit: contain;&#xA;    position: absolute;&#xA;    right: -300px;&#xA;    bottom: 0px;&#xA;    top: 50px;    &#xA;  }&#xA;  &#xA;  .floor {&#xA;    width: 100%;&#xA;    position: absolute;&#xA;    top: 510px;&#xA;    left: 0;&#xA;    right: 0;&#xA;    height: 180px;&#xA;    background-image: url(https://mploigt.github.io/freiheit//img/xmas/floor.svg);&#xA;    background-size: contain;&#xA;    background-repeat: repeat-x;&#xA;  }&#xA;  .text-head-lg {&#xA;    font-size: clamp(2.8rem, 5vw + 1rem, 5rem) !important;&#xA;  }&#xA;  .mouse_scroll {&#xA;    margin: 2rem auto 0 auto;&#xA;    width: 20px;&#xA;    cursor: pointer;&#xA;  }&#xA;  .homepage-video__arrow {&#xA;    border-color: rgba(217, 56, 48);&#xA;  }&#xA;&#xA;  @media (max-width: 411px) {&#xA;    .tree {&#xA;      display: none;&#xA;    }&#xA;  }&#xA;&#xA;  @media (min-width: 576px) {&#xA;    .tree {&#xA;      top: 40px;&#xA;      right: -200px;&#xA;    }&#xA;    .light {&#xA;      top: -100px;&#xA;    }&#xA;    .floor {&#xA;      top: 490px;&#xA;    }&#xA;  }&#xA;&#xA;  @media (min-width: 768px) {&#xA;    .tree {&#xA;      right: 0px;&#xA;    }&#xA;  }&#xA;&#xA;&lt;/style&gt;&#xA;&lt;script&gt;&#xA;  document.addEventListener(&#34;DOMContentLoaded&#34;, () =&gt; {&#xA;      const mouseScrollElement = document.getElementById(&#34;mouse_scroll&#34;);&#xA;      mouseScrollElement.addEventListener(&#34;click&#34;, () =&gt; {&#xA;        window.scrollTo(0, window.innerHeight - 50);&#xA;      });&#xA;      mouseScrollElement.addEventListener(&#39;touchstart&#39;, () =&gt; {&#xA;        window.scrollTo(0, window.innerHeight - 50);&#xA;      });&#xA;    });&#xA;&lt;/script&gt;&#xA;&lt;div class=&#34;header&#34;&gt;&#xA;  &lt;div class=&#34;header-back&#34;&gt;&#xA;    &lt;img src=&#34;https://mploigt.github.io/freiheit//img/xmas/lights.svg&#34; class=&#34;light&#34; /&gt;&#xA;    &lt;div class=&#34;floor&#34;&gt;&amp;nbsp;&lt;/div&gt;&#xA;    &lt;img src=&#34;https://mploigt.github.io/freiheit//img/xmas/tree.png&#34; class=&#34;tree&#34; /&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;header-text&#34;&gt;&#xA;    &lt;div class=&#34;pl-4 sm:pt-12 lg:pl-20 xl:pl-40&#34;&gt;&#xA;      &lt;div class=&#34;glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0 md:mt-10&#34; style=&#34;line-height: 0.8em; &#34;&gt;MERRY CHRISTMAS&lt;/div&gt;&#xA;      &lt;div class=&#34;text-head-md md:text-head-md font-serif m-0 mb-12 text-alabaster&#34;&gt;AND A HAPPY NEW YEAR!&lt;/div&gt;&#xA;      &lt;div class=&#34;glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0&#34; style=&#34;line-height: 0.8em;&#34;&gt;FELIZ NATAL&lt;/div&gt;&#xA;      &lt;div class=&#34;text-head-md md:text-head-md font-serif m-0 mb-0 text-alabaster&#34;&gt;E PROSPERO ANO NOVA!&lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;mouse_scroll&#34; id=&#34;mouse_scroll&#34;&gt;&#xA;      &lt;div class=&#34;homepage-video__arrows&#34;&gt;&#xA;        &lt;span class=&#34;homepage-video__arrow&#34;&gt;&lt;/span&gt;&#xA;        &lt;span class=&#34;homepage-video__arrow&#34;&gt;&lt;/span&gt;&#xA;        &lt;span class=&#34;homepage-video__arrow&#34;&gt;&lt;/span&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div style=&#34;height: 550px&#34;&gt;&lt;/div&gt;&#xA;&lt;h3 id=&#34;merry-christmas&#34;&gt;Merry Christmas&lt;/h3&gt;&#xA;&lt;p&gt;In 2023, our teams finished over 38000 user stories in more than 10 large-scale software projects of the highest strategic importance for our worldwide clients.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Merry Christmas</title>
-      <link>https://mploigt.github.io/freiheit/xmas/2/</link>
-      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/xmas/2/</guid>
-      <description>&lt;div class=&#34;ml-4 mb-4 w-auto sm:w-1/2 md:w-1/3 float-right&#34;&gt;&#xA;&#xA;&lt;img&#xA;    style=&#34;shape-outside: url(&#39;https://mploigt.github.io/freiheit//img/xmas/photo.jpg&#39;); shape-margin: .5em; float:right;&#34;&#xA;    width=&#34;600&#34;&#xA;    height=&#34;804&#34;&#xA;    src=&#34;https://mploigt.github.io/freiheit//img/xmas/photo.jpg&#34;&#xA;  alt=&#34;Kiezhelden&#34;&#xA;   /&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;This year, we&amp;rsquo;ve chosen to support our neighbors: Kiezhelden represents the social commitment of FC St. Pauli. Many individuals and groups from the fan scene and club departments are deeply involved in social areas, shaping the club&amp;rsquo;s image. FC St. Pauli itself takes responsibility for society, undertaking social and sociopolitical projects and events or providing support for them.&lt;/p&gt;&#xA;&lt;p&gt;Our neighborhood often takes center stage, but some projects also extend beyond the borders of St. Pauli and Hamburg. It&amp;rsquo;s always crucial for Kiezhelden to consolidate efforts and, together with like-minded individuals, achieve the best possible solutions for and with those affected.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Merry Christmas 2023 on freiheit.com</title><link>https://freiheit.com/xmas/</link><description>Recent content in Merry Christmas 2023 on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/xmas/index.xml" rel="self" type="application/rss+xml"/><item><title>Merry Christmas</title><link>https://freiheit.com/xmas/1/</link><pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/xmas/1/</guid><description>&lt;style lang="css">
+ @-webkit-keyframes light {
+ from {
+ opacity: 1;
+ }
+
+ 20% {
+ opacity: 0.9;
+ }
+
+ 40% {
+ opacity: 0.8;
+ }
+
+ 60% {
+ opacity: 0.7;
+ }
+
+ 80% {
+ opacity: 0.8;
+ }
+
+ to {
+ opacity: 0.9;
+ }
+ }
+
+ @keyframes snow {
+ 0% {
+ background-position: 0px 0px, 0px 0px, 0px 0px;
+ }
+
+ 100% {
+ background-position: 500px 1000px, 400px 400px, 300px 300px;
+ }
+ }
+
+ body {
+ margin: 0;
+ padding: 0;
+ }
+
+ .header {
+ position: absolute;
+ height: 700px;
+ top: 0;
+ right: 0;
+ left: 0;
+ overflow-x: hidden;
+ }
+
+ .header-back {
+ position: relative;
+ width: 100%;
+ height: 500px;
+ background-color: #899C8C;
+ background-image:
+ url('https://freiheit.com//img/xmas/snow1.png'),
+ url('https://freiheit.com//img/xmas/snow2.png'),
+ url('https://freiheit.com//img/xmas/snow3.png');
+ animation: snow 25s linear infinite;
+ }
+
+ .header-text {
+ position: absolute;
+ top: 100px;
+ right: 0;
+ left: 0;
+ }
+ 
+ .header-text .glow {
+ text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+ }
+
+ .light {
+ animation: light 3s linear infinite;
+ width: 80dvw;
+ max-width: 600px;
+ position: absolute;
+ left: -130px;
+ top: -50px;
+ }
+
+ .tree {
+ height: 100%;
+ object-fit: contain;
+ position: absolute;
+ right: -300px;
+ bottom: 0px;
+ top: 50px; 
+ }
+ 
+ .floor {
+ width: 100%;
+ position: absolute;
+ top: 510px;
+ left: 0;
+ right: 0;
+ height: 180px;
+ background-image: url(https://freiheit.com//img/xmas/floor.svg);
+ background-size: contain;
+ background-repeat: repeat-x;
+ }
+ .text-head-lg {
+ font-size: clamp(2.8rem, 5vw + 1rem, 5rem) !important;
+ }
+ .mouse_scroll {
+ margin: 2rem auto 0 auto;
+ width: 20px;
+ cursor: pointer;
+ }
+ .homepage-video__arrow {
+ border-color: rgba(217, 56, 48);
+ }
+
+ @media (max-width: 411px) {
+ .tree {
+ display: none;
+ }
+ }
+
+ @media (min-width: 576px) {
+ .tree {
+ top: 40px;
+ right: -200px;
+ }
+ .light {
+ top: -100px;
+ }
+ .floor {
+ top: 490px;
+ }
+ }
+
+ @media (min-width: 768px) {
+ .tree {
+ right: 0px;
+ }
+ }
+
+&lt;/style>
+&lt;script>
+ document.addEventListener("DOMContentLoaded", () => {
+ const mouseScrollElement = document.getElementById("mouse_scroll");
+ mouseScrollElement.addEventListener("click", () => {
+ window.scrollTo(0, window.innerHeight - 50);
+ });
+ mouseScrollElement.addEventListener('touchstart', () => {
+ window.scrollTo(0, window.innerHeight - 50);
+ });
+ });
+&lt;/script>
+&lt;div class="header">
+ &lt;div class="header-back">
+ &lt;img src="https://freiheit.com//img/xmas/lights.svg" class="light" />
+ &lt;div class="floor">&amp;nbsp;&lt;/div>
+ &lt;img src="https://freiheit.com//img/xmas/tree.png" class="tree" />
+ &lt;/div>
+ &lt;div class="header-text">
+ &lt;div class="pl-4 sm:pt-12 lg:pl-20 xl:pl-40">
+ &lt;div class="glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0 md:mt-10" style="line-height: 0.8em; ">MERRY CHRISTMAS&lt;/div>
+ &lt;div class="text-head-md md:text-head-md font-serif m-0 mb-12 text-alabaster">AND A HAPPY NEW YEAR!&lt;/div>
+ &lt;div class="glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0" style="line-height: 0.8em;">FELIZ NATAL&lt;/div>
+ &lt;div class="text-head-md md:text-head-md font-serif m-0 mb-0 text-alabaster">E PROSPERO ANO NOVA!&lt;/div>
+ &lt;/div>
+ &lt;div class="mouse_scroll" id="mouse_scroll">
+ &lt;div class="homepage-video__arrows">
+ &lt;span class="homepage-video__arrow">&lt;/span>
+ &lt;span class="homepage-video__arrow">&lt;/span>
+ &lt;span class="homepage-video__arrow">&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;div style="height: 550px">&lt;/div>
+&lt;h3 id="merry-christmas">Merry Christmas&lt;/h3>
+&lt;p>In 2023, our teams finished over 38000 user stories in more than 10 large-scale software projects of the highest strategic importance for our worldwide clients.&lt;/p></description></item><item><title>Merry Christmas</title><link>https://freiheit.com/xmas/2/</link><pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/xmas/2/</guid><description>&lt;div class="ml-4 mb-4 w-auto sm:w-1/2 md:w-1/3 float-right">
+
+&lt;img
+ style="shape-outside: url('https://freiheit.com//img/xmas/photo.jpg'); shape-margin: .5em; float:right;"
+ width="600"
+ height="804"
+ src="https://freiheit.com//img/xmas/photo.jpg"
+ alt="Kiezhelden"
+ />
+&lt;/div>
+&lt;p>This year, we&amp;rsquo;ve chosen to support our neighbors: Kiezhelden represents the social commitment of FC St. Pauli. Many individuals and groups from the fan scene and club departments are deeply involved in social areas, shaping the club&amp;rsquo;s image. FC St. Pauli itself takes responsibility for society, undertaking social and sociopolitical projects and events or providing support for them.&lt;/p>
+&lt;p>Our neighborhood often takes center stage, but some projects also extend beyond the borders of St. Pauli and Hamburg. It&amp;rsquo;s always crucial for Kiezhelden to consolidate efforts and, together with like-minded individuals, achieve the best possible solutions for and with those affected.&lt;/p></description></item></channel></rss>

@@ -1,33 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Get in touch on freiheit.com</title>
-    <link>https://mploigt.github.io/freiheit/get-in-touch/</link>
-    <description>Recent content in Get in touch on freiheit.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mploigt.github.io/freiheit/get-in-touch/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Follow us</title>
-      <link>https://mploigt.github.io/freiheit/get-in-touch/contact-followus/</link>
-      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/get-in-touch/contact-followus/</guid>
-      <description>&lt;h3 class=&#34;text-yellow&#34; id=&#34;follow-us&#34;&gt;Follow us&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;font-serif no-underline hover:text-red&#34; href=&#34;https://www.youtube.com/channel/UCouXbAqEDBOuiSYUWxSIoNw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube&amp;nbsp;→&lt;/a&gt;&lt;br&gt;&#xA;&lt;a class=&#34;font-serif no-underline hover:text-red&#34; href=&#34;https://www.linkedin.com/company/freiheit-com-technologies-gmbh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&amp;nbsp;→&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hamburg</title>
-      <link>https://mploigt.github.io/freiheit/get-in-touch/contact-hamburg/</link>
-      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/get-in-touch/contact-hamburg/</guid>
-      <description>&lt;h3 class=&#34;text-yellow&#34; id=&#34;hamburg&#34;&gt;Hamburg&lt;/h3&gt;&#xA;&lt;!-- [hamburg@freiheit.com](mailto:hamburg@freiheit.com) --&gt;&#xA;&lt;p&gt;Budapester Str. 45&lt;br&gt;&#xA;20359 Hamburg&lt;br&gt;&#xA;Germany&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lisbon</title>
-      <link>https://mploigt.github.io/freiheit/get-in-touch/contact-lisbon/</link>
-      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/get-in-touch/contact-lisbon/</guid>
-      <description>&lt;h3 class=&#34;text-yellow&#34; id=&#34;lisbon&#34;&gt;Lisbon&lt;/h3&gt;&#xA;&lt;!-- [lisbon@freiheit.com](mailto:lisbon@freiheit.com) --&gt;&#xA;&lt;p&gt;Edificio Heden Rossio&lt;br&gt;&#xA;Largo do Duque de Cadaval 17 Fracção I&lt;br&gt;&#xA;1200-160 Lisbon&lt;br&gt;&#xA;Portugal&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Get in touch on freiheit.com</title><link>https://freiheit.com/get-in-touch/</link><description>Recent content in Get in touch on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/get-in-touch/index.xml" rel="self" type="application/rss+xml"/><item><title>Follow us</title><link>https://freiheit.com/get-in-touch/contact-followus/</link><pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate><guid>https://freiheit.com/get-in-touch/contact-followus/</guid><description>&lt;h3 class="text-yellow" id="follow-us">Follow us&lt;/h3>
+&lt;p>&lt;a class="font-serif no-underline hover:text-red" href="https://www.youtube.com/channel/UCouXbAqEDBOuiSYUWxSIoNw" target="_blank" rel="noopener">YouTube&amp;nbsp;→&lt;/a>&lt;br>
+&lt;a class="font-serif no-underline hover:text-red" href="https://www.linkedin.com/company/freiheit-com-technologies-gmbh/" target="_blank" rel="noopener">LinkedIn&amp;nbsp;→&lt;/a>&lt;/p></description></item><item><title>Hamburg</title><link>https://freiheit.com/get-in-touch/contact-hamburg/</link><pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate><guid>https://freiheit.com/get-in-touch/contact-hamburg/</guid><description>&lt;h3 class="text-yellow" id="hamburg">Hamburg&lt;/h3>
+&lt;!-- [hamburg@freiheit.com](mailto:hamburg@freiheit.com) -->
+&lt;p>Budapester Str. 45&lt;br>
+20359 Hamburg&lt;br>
+Germany&lt;/p></description></item><item><title>Lisbon</title><link>https://freiheit.com/get-in-touch/contact-lisbon/</link><pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate><guid>https://freiheit.com/get-in-touch/contact-lisbon/</guid><description>&lt;h3 class="text-yellow" id="lisbon">Lisbon&lt;/h3>
+&lt;!-- [lisbon@freiheit.com](mailto:lisbon@freiheit.com) -->
+&lt;p>Edificio Heden Rossio&lt;br>
+Largo do Duque de Cadaval 17 Fracção I&lt;br>
+1200-160 Lisbon&lt;br>
+Portugal&lt;/p></description></item></channel></rss>
