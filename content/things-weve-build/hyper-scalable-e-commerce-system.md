@@ -2,7 +2,7 @@
 title: "Hyper-Scalable E-Commerce System"
 image: /img/things-weve-build/hyper-scalable-e-commerce-system.png.webp
 date: 2024-05-15
-draft: false
+draft: true
 tags: [ case-studies ]
 hideHeaderTitle: true
 ---
