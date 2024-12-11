@@ -1,0 +1,19 @@
+<!--
+  This shortcode generates a YouTube video thumbnail with a link to the video.
+  - The "id" parameter is required and represents the YouTube video ID.
+  - The "alt" parameter is used for the alt attribute of the image.
+  - The "res" parameter is optional and specifies the resolution of the youtube thumbnail image.
+    If not provided, it defaults to "mqdefault".
+    Available values for "res" are:
+      - "default": 120x90
+      - "mqdefault": 320x180
+      - "hqdefault": 480x360
+      - "sddefault": 640x480
+      - "maxresdefault": 1280x720
+-->
+<div class="{{ .Get "class" }}">
+  <a href="https://www.youtube.com/watch?v={{ .Get "id" }}" target="_blank" >
+    <img src="https://img.youtube.com/vi_webp/{{ .Get "id" }}/{{ if .Params.res }}{{ .Params.res }}{{ else }}maxresdefault{{ end }}.webp" alt="{{ .Get "alt" }}" class="w-full">
+  </a>
+</div>
+ 

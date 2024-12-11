@@ -4,16 +4,16 @@
 
 <div class="fdc-content-layout">
     <section>
-        <a class="px-8 font-serif no-underline hover:text-red block mb-6 text-xl" href="{{site.BaseURL}}/newsroom" rel="noopener">&larr;&nbsp;back</a>
+        <a class="px-8 font-serif no-underline hover:text-red block mb-6 text-xl" href="{{site.BaseURL}}/chronicle" rel="noopener">&larr;&nbsp;back</a>
         <div class="flex flex-wrap lg:flex-nowrap gap-20 mt-2">
             <div class="w-full">
                 {{ $counter := 0}}
                 {{ range $paginator.Pages }}
                     {{ if eq (mod $counter 2) 0 }}
                         {{ if eq .Params.type "podcast" }}
-                            {{- partial "newsroom-podcast-article.html" . -}}
+                            {{- partial "chronicle-podcast-article.html" . -}}
                         {{ else }}
-                            {{- partial "newsroom-article.html" . -}}
+                            {{- partial "chronicle-article.html" . -}}
                         {{ end }}
                     {{ end }}
                     {{ $counter = add $counter 1 }}
@@ -24,9 +24,9 @@
                 {{ range $paginator.Pages }}
                     {{ if ne (mod $counter 2) 0 }}
                         {{ if eq .Params.type "podcast" }}
-                            {{- partial "newsroom-podcast-article.html" . -}}
+                            {{- partial "chronicle-podcast-article.html" . -}}
                         {{ else }}
-                            {{- partial "newsroom-article.html" . -}}
+                            {{- partial "chronicle-article.html" . -}}
                         {{ end }}
                     {{ end }}
                     {{ $counter = add $counter 1 }}

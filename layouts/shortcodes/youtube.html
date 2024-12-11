@@ -3,7 +3,7 @@
 Shortcode to embed youtube videos and prevent youtube cookie setting.
 
 This shortcode first renders only an image of the youtube video taken from
-https://img.youtube.com/vi/[youtube_id]/0.jpg with a youtube play button in the middle.
+https://img.youtube.com/vi_webp/[youtube_id]/hqdefault.jpg with a youtube play button in the middle.
 
 On click it replaces this with the actual youtube embed iframe.
 
@@ -14,7 +14,7 @@ On click it replaces this with the actual youtube embed iframe.
 <div id="{{ $id }}_container" class="relative h-0 my-12">
     <div id="{{ $id }}_iframe"></div>
     <div id="{{ $id }}_image" class="absolute top-0 left-0 w-full h-full border-0 flex justify-center items-center cursor-pointer">
-        <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="{{ if isset .Params 1 }}{{ site.BaseURL }}{{ index .Params 1 }}{{ else }}https://img.youtube.com/vi/{{ index .Params 0 }}/0.jpg{{ end }}"
+        <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="{{ if isset .Params 1 }}{{ site.BaseURL }}{{ index .Params 1 }}{{ else }}https://img.youtube.com/vi_webp/{{ index .Params 0 }}/hqdefault.webp{{ end }}"
              alt="YouTube video {{ index .Params 0 }}">
         <img id="{{ $id }}_image__button" class="absolute" src="{{site.BaseURL}}/img/youtube_play_button.svg" title="Click to load video" alt="Click to load video"/>
         <img id="{{ $id }}_image__button--hover" class="absolute hidden" src="{{site.BaseURL}}/img/youtube_play_button_hover.svg" title="Click to load video" alt="Click to load video"/>

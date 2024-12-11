@@ -8,6 +8,9 @@
     {{ end }}
     {{ range where .Data.Pages "Type" "page" }}
         {{ $themeClasses := "fdc-content-layout" }}
+        {{ if eq .Params.contentTheme "white" }}
+            {{ $themeClasses = "fdc-content-layout bg-white text-black" }}
+        {{ end }}
         {{ if eq .Params.contentTheme "black" }}
             {{ $themeClasses = "fdc-content-layout bg-black text-light-grey" }}
         {{ end }}

@@ -1,0 +1,102 @@
+{{ define "main" }}
+{{ $taxonomy := "tags" }}
+<div class="fdc-content-layout">
+    <section>
+        <div class="md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96">
+            {{ .Content }}
+        </div>
+        <!-- <div class="flex gap-8 mt-8">
+            <a href="{{site.BaseURL}}/downloads/freiheit-com-press-kit.zip" target="_blank" class="inline-flex align-center text-body-lg gap-2 border rounded-full cursor-pointer pb-2 pt-3 pl-8 pr-7 no-underline font-serif hover:text-red hover:border-red">
+                <div>Download press kit</div>
+                <div style="margin-top: -1px; font-size: 120%">→</div>
+            </a>
+
+            {{ partial "btn-link.html" (dict
+            "linkUrl" "mailto:<kontakt@freiheit.com>"
+            "linkText" "Get in touch"
+            "color" "red"
+            ) }}
+        </div> -->
+        <h4 class="mt-20">News</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "news") }}
+            {{ range first 3 $p }}
+                {{- partial "chronicle-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/news"
+                class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+                see more →
+            </a>
+        </div>
+
+        <h4 class="mt-20">Showroom</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "showroom") }}
+            {{ range first 3 $p }}
+                {{- partial "chronicle-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        {{ if gt (len $p) 3 }}
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/showroom"
+            class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+            see more →
+            </a>
+        </div>
+        {{ end }}
+
+        <h4 class="mt-20">Case Studies</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "case-studies") }}
+            {{ range first 6 $p }}
+                {{- partial "chronicle-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/case-studies"
+                class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+                see more →
+            </a>
+        </div>
+    </section>
+</div>
+<div class="w-full mt-10">
+    <div class="fdc-content-layout bg-alabaster">
+        <section>
+            <h4 class="mt-20">Podcasts</h4>
+            <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+                {{ $p := where ((.Pages.ByWeight).ByParam "group") "Params.tags" "intersect" (slice "Podcast") }}
+                {{ range first 3 $p }}
+                {{- partial "chronicle-podcast-teaser.html" . -}}
+                {{ end }}
+            </div>
+            <div class="mt-8 mb-10">
+                <a href="{{site.BaseURL}}/tags/podcast"
+                    class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+                    see more →
+                </a>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="fdc-content-layout">
+    <section>
+        <h4 class="mt-20">Archive</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "archive") }}
+            {{ range first 3 $p }}
+                {{- partial "chronicle-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/archive"
+                class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+                see more →
+            </a>
+        </div>
+    </section>
+</div>
+
+{{ end }}

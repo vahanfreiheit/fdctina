@@ -11,16 +11,23 @@
     {{ $backgroundColor = "bg-black"}}
     {{ $backgroundClasses = "bg-black text-light-grey"}}
     {{ $logo = $logo_white }}
+{{ else if eq .Params.headerTheme "white"}}
+    {{ $navigationTextColor = "text-black"}}
+    {{ $backgroundColor = "bg-white"}}
+    {{ $backgroundClasses = "bg-white text-black"}}
+    {{ $backgroundImage = "img/header_alabaster.png.webp" }}
+    {{ $logo = $logo_white }}
+{{ else if eq .Params.headerTheme "black-with-image"}}
+    {{ $navigationTextColor = "text-light-grey"}}
+    {{ $backgroundColor = "bg-black"}}
+    {{ $backgroundClasses = "bg-black text-light-grey"}}
+    {{ $backgroundImage = "img/header_pale-green.png.webp" }}
+    {{ $logo = $logo_white }}
 {{ else if eq .Params.headerTheme "homepage"}}
     {{ $navigationTextColor = "text-white"}}
     {{ $backgroundColor = ""}}
     {{ $backgroundClasses = "fixed top-0 left-0 w-full h-12 text-white"}}
     {{ $logo = $logo_white }}
-{{ else if eq .Params.headerTheme "xmas"}}
-    {{ $navigationTextColor = "text-alabaster"}}
-    {{ $logo = $logo_alabaster }}
-    {{ $backgroundColor = "bg-xmas-green text-alabaster"}}
-    {{ $backgroundClasses = "bg-xmas-green text-alabaster"}}
 {{ else if eq .Params.headerTheme "green" }}
     {{ $navigationTextColor = "text-black"}}
     {{ $backgroundColor = "bg-green"}}
@@ -152,7 +159,7 @@
                         </ul>
                     {{ else }}
                         <li class="px-3">
-                            <a href="{{ .URL | absLangURL }}"  class="no-underline font-thin py-1 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (in $currentPage.RelPermalink "/tags/") (eq .Name "Newsroom")) }} border-b-2{{else}}hover:border-b{{end}}">
+                            <a href="{{ .URL | absLangURL }}"  class="no-underline font-thin py-1 {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (and (in $currentPage.RelPermalink "/tags/") (eq .Name "Chronicle")) }} border-b-2{{else}}hover:border-b{{end}}">
                                 {{ .Pre }}
                                 <span>{{ .Name }}</span>
                             </a>

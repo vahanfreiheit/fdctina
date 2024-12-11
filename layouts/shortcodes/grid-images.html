@@ -2,7 +2,8 @@
   grid
   {{ with .Get "cols" }}md:grid-cols-{{ . }}{{ else }}md:grid-cols-1{{ end }}
   gap-y-4
-  md:gap-8
+  
+  {{ with .Get "gap" }}md:gap-{{ . }}{{ else }}md:gap-8{{ end }}
   pt-4
 ">
   {{ .Inner }}

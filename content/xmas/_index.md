@@ -5,5 +5,6 @@ draft: false
 headerHeadline: Merry Xmas 2023
 hideHeaderTitle: true
 hideHeaderTitleText: true
-headerTheme: xmas
+headerTheme: white
+showFooterSnow: true
 ---

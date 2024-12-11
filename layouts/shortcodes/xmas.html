@@ -34,6 +34,9 @@
       background-position: 500px 1000px, 400px 400px, 300px 300px;
     }
   }
+  :root {
+    --headerHeight: 550px;
+  }
 
   body {
     margin: 0;
@@ -42,18 +45,18 @@
 
   .header {
     position: absolute;
-    height: 700px;
+    height: var(--headerHeight);
     top: 0;
     right: 0;
     left: 0;
     overflow-x: hidden;
+    z-index: 2;
   }
 
   .header-back {
     position: relative;
     width: 100%;
-    height: 500px;
-    background-color: #899C8C;
+    height: calc(var(--headerHeight) - 150px);
     background-image:
       url('{{site.BaseURL}}/img/xmas/snow1.png'),
       url('{{site.BaseURL}}/img/xmas/snow2.png'),
@@ -67,109 +70,109 @@
     right: 0;
     left: 0;
   }
-  
+
   .header-text .glow {
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
   }
 
-  .light {
-    animation: light 3s linear infinite;
-    width: 80dvw;
-    max-width: 600px;
-    position: absolute;
-    left: -130px;
-    top: -50px;
-  }
-
-  .tree {
-    height: 100%;
-    object-fit: contain;
-    position: absolute;
-    right: -300px;
-    bottom: 0px;
-    top: 50px;    
-  }
-  
   .floor {
     width: 100%;
     position: absolute;
-    top: 510px;
+    top: calc(var(--headerHeight) - 174px);
     left: 0;
     right: 0;
-    height: 180px;
-    background-image: url({{site.BaseURL}}/img/xmas/floor.svg);
+    height: 174px;
+    background-image: url({{site.BaseURL}}/img/xmas/divider-snow-3.svg);
     background-size: contain;
     background-repeat: repeat-x;
   }
   .text-head-lg {
     font-size: clamp(2.8rem, 5vw + 1rem, 5rem) !important;
   }
-  .mouse_scroll {
-    margin: 2rem auto 0 auto;
-    width: 20px;
-    cursor: pointer;
+  .homepage-video {
+    height: calc(var(--headerHeight) - 150px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
   }
-  .homepage-video__arrow {
-    border-color: rgba(217, 56, 48);
-  }
-
-  @media (max-width: 411px) {
-    .tree {
-      display: none;
-    }
+  .content-spacer {
+    height: calc(var(--headerHeight) - 100px);
   }
 
   @media (min-width: 576px) {
-    .tree {
-      top: 40px;
-      right: -200px;
+    :root {
+      --headerHeight: 650px;
     }
-    .light {
-      top: -100px;
+    .header {
+      height: var(--headerHeight);
+    }
+    .header-back {
+      height: calc(var(--headerHeight) - 150px);
     }
     .floor {
-      top: 490px;
+      top: calc(var(--headerHeight) - 190px);
     }
-  }
-
-  @media (min-width: 768px) {
-    .tree {
-      right: 0px;
+    .homepage-video {
+      height: calc(var(--headerHeight) - 150px);
+    }
+    .content-spacer {
+      height: calc(var(--headerHeight) - 100px);
     }
   }
 
 </style>
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-      const mouseScrollElement = document.getElementById("mouse_scroll");
-      mouseScrollElement.addEventListener("click", () => {
-        window.scrollTo(0, window.innerHeight - 50);
-      });
-      mouseScrollElement.addEventListener('touchstart', () => {
-        window.scrollTo(0, window.innerHeight - 50);
-      });
-    });
+
+  window.onload = function(e){
+    function getWidth() {
+      return Math.max(
+        document.body.scrollWidth,
+        document.documentElement.scrollWidth,
+        document.body.offsetWidth,
+        document.documentElement.offsetWidth,
+        document.documentElement.clientWidth
+      );
+    }
+    let video = document.getElementById('xmasVideo');
+    let source = document.createElement("source");
+    if (video && source) {
+      if (getWidth() < 768) {
+        source.src = "{{site.BaseURL}}/video/xmas2024_mobile.mp4";
+        source.type = "video/mp4";
+      } else {
+        source.src = "{{site.BaseURL}}/video/xmas2024_desktop.mp4";
+        source.type = "video/mp4";
+      }
+      video.append(source);
+      video.play();
+    }
+  }
 </script>
 <div class="header">
   <div class="header-back">
-    <img src="{{site.BaseURL}}/img/xmas/lights.svg" class="light" />
     <div class="floor">&nbsp;</div>
-    <img src="{{site.BaseURL}}/img/xmas/tree.png" class="tree" />
   </div>
   <div class="header-text">
     <div class="pl-4 sm:pt-12 lg:pl-20 xl:pl-40">
-      <div class="glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0 md:mt-10" style="line-height: 0.8em; ">MERRY CHRISTMAS</div>
-      <div class="text-head-md md:text-head-md font-serif m-0 mb-12 text-alabaster">AND A HAPPY NEW YEAR!</div>
-      <div class="glow text-head-lg md:text-head-xl font-serif text-xmas-red m-0 mb-0" style="line-height: 0.8em;">FELIZ NATAL</div>
-      <div class="text-head-md md:text-head-md font-serif m-0 mb-0 text-alabaster">E PROSPERO ANO NOVA!</div>
-    </div>
-    <div class="mouse_scroll" id="mouse_scroll">
-      <div class="homepage-video__arrows">
-        <span class="homepage-video__arrow"></span>
-        <span class="homepage-video__arrow"></span>
-        <span class="homepage-video__arrow"></span>
-      </div>
+      <div class="glow text-head-lg md:text-head-xl font-serif m-0 mb-0 md:mt-10 text-white" style="line-height: 0.8em; ">MERRY CHRISTMAS</div>
+      <div class="text-head-md md:text-head-md font-serif m-0 mb-12 text-white">AND A HAPPY NEW YEAR!</div>
+      <div class="glow text-head-lg md:text-head-xl font-serif m-0 mb-0 text-white" style="line-height: 0.8em;">FELIZ NATAL</div>
+      <div class="text-head-md md:text-head-md font-serif m-0 mb-0 text-white">E UM PRÓSPERO ANO NOVA!</div>
     </div>
   </div>
 </div>
-<div style="height: 550px"></div>
+<div class="content-spacer"></div>
+<div class="homepage-video w-full relative">
+  <video
+          loop
+          muted
+          autoplay
+          playsinline
+          preload="auto"
+          poster="{{site.BaseURL}}/video/xmas2024_poster.jpg"
+          class="w-full h-full absolute z-10 top-0 left-0 object-cover"
+          id="xmasVideo"
+  >
+  </video>
+</div>

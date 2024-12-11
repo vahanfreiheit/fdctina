@@ -1,8 +1,39 @@
+{{ if .Page.Params.showFooterSnow }}
+<style>
+    .xmas-snow-footer {
+        width: 100%;
+        position: absolute;
+        top: -24px;
+        left: 0;
+        right: 0;
+        height: 174px;
+        background: url({{site.BaseURL}}/img/xmas/divider-snow-3.svg);
+        background-size: contain;
+        background-repeat: repeat-x;
+      }
+      @media (min-width: 576px) {
+        .xmas-snow-footer {
+          top: -40px;
+        }
+      }
+      footer {
+        padding-top: 20px;
+      }
+      @media (min-width: 576px) {
+        footer {
+            padding-top: 80px;
+        }
+      }
+</style>
+{{ end }}
 {{ if not .Page.Params.hideFooter }}
     {{ if .Page.Params.footerImage }}
         <img src="{{site.BaseURL}}/img/{{.Page.Params.footerImage}}" />
     {{ end }}
-<footer class="w-full flex flex-col items-center bg-black text-light-grey">
+<footer class="relative w-full flex flex-col items-center bg-black text-light-grey z-0">
+    {{ if .Page.Params.showFooterSnow }}
+        <div class="xmas-snow-footer">&nbsp;</div>
+    {{ end }}
     <div class="max-w-screen-xl text-lg w-full p-12">
         <div class="grid md:grid-cols-2 md:gap-x-36">
             <div class="pb-8 md:w-full">

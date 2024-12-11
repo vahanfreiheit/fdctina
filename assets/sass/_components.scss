@@ -2,7 +2,7 @@
 
 // layout
 .fdc-content-layout {
-  @apply w-full flex flex-col flex-1 items-center overflow-hidden;
+  @apply w-full flex flex-col flex-1 items-center overflow-hidden relative;
   > section {
     @apply
       w-full
@@ -28,6 +28,9 @@
     > section {
       @apply pb-12 md:pb-16;
     }
+  }
+  &:has(.xmas-snow) {
+    overflow: visible;
   }
 }
 
