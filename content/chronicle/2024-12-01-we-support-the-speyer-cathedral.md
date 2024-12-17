@@ -32,5 +32,5 @@ And:
 With the permission of the cathedral chapter, Horst Hamann had access to all areas for his work at all times, including the attics and all towers.
 
 We believe that cultural monuments like this must be preserved. That is why we have decided to support this project.
-
+<div class="mt-8"></div>
 {{< button linkUrl="https://www.dom-zu-speyer.de/news/nachrichten-detailseite/?tx_ttnews%5Btt_news%5D=41625&cHash=840e0a6730b7173fd9271f67d35ae83b" target="_blank" linkText="Discover the project" color="white" background="xmas-green">}}
