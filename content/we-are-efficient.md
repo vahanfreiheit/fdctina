@@ -1,18 +1,27 @@
 ---
-title: "We are efficient, productive and successful"
+title: "We are efficient and successful"
 date: 2022-02-04
 draft: false
-weight: 50
+weight: 20
 ---
-### We are efficient, productive and successful.
+### We are efficient and successful.
 
-To be successful, you need to be productive. To be productive, you need to be efficient.
+Our teams work data-driven to constantly optimize their own productivity by removing friction from their work.
 
-Our teams work data-driven and use metrics to constantly optimize efficiency and productivity.
+We have capable people on every level of our engineering organization.
+Nothing that is of any value can be accomplished without dedication and hard work. This is why we give the best we can in any situation.
 
-We are using our own project management tool called Revolution. It was built to make it easy to supply our teams with all the data and metrics they need to get a clear picture of the current project status. And the teams use it to predict future project outcomes based on past progress.
+Technology never rests. And neither do we.
+
+85% of our members are engineers with backgrounds in computer science, physics, mathematics. Many of them with a PhD.
+
+We believe that only someone who truly understands what the teams are working on can coordinate between teams and make them efficient.
+
+This is why we eliminate unnecessary management positions and put engineers in charge. We move fast and work in small and efficient teams. Everybody acts like an owner of their projects and takes end-to-end responsibility.
+
+So we don’t take anything lightly. We are relentless. But we do everything with love.
 
 {{< content-images >}}
-  {{< image src="/img/who-we-are/we-are-efficient-1.jpg.webp" alt="freiheit.com offine view" class="fdc-scroll fdc-scroll--slide-left" >}}
-  {{< image src="/img/who-we-are/we-are-efficient-2.jpg.webp" alt="freiheit.com employee at work" class="fdc-scroll fdc-scroll--slide-right" >}}
+  {{< image src="/img/who-we-are/we-are-efficient-1.jpg.webp" alt="freiheit.com engineers are working efficiently and productively in the Hamburg office." class="fdc-scroll fdc-scroll--slide-left" >}}
+  {{< image src="/img/who-we-are/we-are-efficient-2.jpg.webp" alt="A freiheit.com member uses their own project management tool to plan and work data driven." class="fdc-scroll fdc-scroll--slide-right" >}}
 {{< /content-images >}}
