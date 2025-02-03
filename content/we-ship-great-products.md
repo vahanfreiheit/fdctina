@@ -1,11 +1,11 @@
 ---
-title: "We Ship Great Products"
+title: "We ship great products"
 date: 2022-02-04
 draft: false
 weight: 70
 ---
 
-### We Ship Great Products.
+### We ship great products.
 
 “Ship” means that we deliver. Fast and in daily increments. To achieve goals.
 

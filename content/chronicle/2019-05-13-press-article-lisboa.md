@@ -31,5 +31,3 @@ Planning on further investments, Claudia Dietze stresses: “High-end quality, e
 [www.dn.pt](https://www.dn.pt/dinheiro/interior/freitheit-tech-alema-contrata-30-pessoas-para-portugal-quer-chegar-as-150-10872068.html)
 
 [www.jornaldenegocios.pt](https://www.jornaldenegocios.pt/empresas/tecnologias/detalhe/alema-freiheitcom-apaixona-se-por-lisboa-e-quer-contratar-150-engenheiros?ref=DET_maislidas)
-
-

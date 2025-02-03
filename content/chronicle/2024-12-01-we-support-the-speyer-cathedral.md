@@ -18,7 +18,6 @@ The German photographer shows us a new perspective of the monument through his c
     {{< image src="/img/chronicle/2024-12-01-we-support-the-speyer-cathedral.png" alt="Images from the inside of the Speyer Cathedral">}}
 {{< /content-images >}}
 
-
 Horst Hamann, who grew up in Mannheim, has been impressed by the Romanesque cathedral since childhood. It was a fascinating challenge for him to be able to explore the cathedral extensively in the light of the changing seasons and from many different perspectives.
 
 He himself says:

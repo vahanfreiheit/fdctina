@@ -1,11 +1,11 @@
 ---
-title: "Board Game Nights"
+title: "Board game nights"
 date: 2024-07-05
 draft: false
 weight: 3
 ---
 
-### Board Game Nights
+### Board game nights
 
 Our engineering teams love tackling complex problems. That’s why strategy games like Yggdrasil Chronicles and Mansions of Madness are the most popular at our regular board game nights in Lisbon and Hamburg.
 

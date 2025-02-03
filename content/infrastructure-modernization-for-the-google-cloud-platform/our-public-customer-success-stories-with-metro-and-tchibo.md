@@ -1,11 +1,11 @@
 ---
-title: "Our Public Customer Success Stories with Metro and Tchibo"
+title: "Our public customer success stories"
 date: 2024-11-01
 draft: false
 weight: 3
 contentTheme: black
 ---
-### Our Public Customer Success Stories
+### Our public customer success stories
 
 Using the Google Cloud Platform, we successfully migrated many of our clients to the cloud. With two of them we have published success stories to which you can find more information below. Many more are to come.
 
@@ -27,7 +27,6 @@ download="Success_Story_Bauhaus.pdf">}}
 freiheit.com transformed Bauhaus’ legacy SAP Hybris shop into a containerized setup, running on GKE. The gained insights were used to create a comprehensive overview of the steps needed to move the legacy webshop to the cloud.
 {{< /google-pages-tile >}}
 
-
 {{< google-pages-tile
 color="purple"
 title="Peek & Cloppenburg"
@@ -43,6 +42,5 @@ image="things-weve-build/DS_PrimeSolutions_2072_1.webp"
 download="Success_Story_Dentsply_Sirona.pdf">}}
 With one of the world’s largest manufacturers of professional dental products and technologies, we have built a cloud ecosystem that lets dentists collect and process 3D image data in the cloud right from their scanning device. The service enables real-time cloud collaboration between specialists and ordering 3D printed oral appliances with strict GDPR compliance. This first-of-its-kind solution not only gives our client a competitive advantage, but also streamlines healthcare services for millions of patients around the globe.
 {{< /google-pages-tile >}}
-
 
 {{< /container >}}

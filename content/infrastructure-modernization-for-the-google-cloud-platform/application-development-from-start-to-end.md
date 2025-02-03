@@ -1,11 +1,11 @@
 ---
-title: "Infrastructure Modernization from Start to End"
+title: "Infrastructure modernization from start to end"
 date: 2024-11-01
 draft: false
 weight: 3
 contentTheme: black
 ---
-### Infrastructure Modernization from Start to End
+### Infrastructure modernization from start to end
 
 To understand the client’s requirements and goals and align our ways of working, we set up a series of workshops with our new clients covering:
 
@@ -20,7 +20,7 @@ Every team has a long-term view of each project and plans based on daily real-ti
 Each challenge of the client is approached individually, but the methodology is the same. As shown in the figure below, our teams work iteration driven in an agile way.
 
 {{< content-images >}}
-{{< image src="/img/application-development-for-the-google-cloud-platform/application-development-from-start-to-end.webp" alt="Infrastructure Modernization from Start to End" class="fdc-scroll fdc-scroll--fade-in-bottom" >}}
+{{< image src="/img/application-development-for-the-google-cloud-platform/application-development-from-start-to-end.webp" alt="Infrastructure modernization from start to end" class="fdc-scroll fdc-scroll--fade-in-bottom" >}}
 {{< /content-images >}}
 
 To make sure client requirements and constraints are regularly evaluated and impediments mitigated, the complete prioritization of the backlog is carried out by the Product Owner of the client’s organization. All technologies are selected based on technical design requirements together with the Product Owner.

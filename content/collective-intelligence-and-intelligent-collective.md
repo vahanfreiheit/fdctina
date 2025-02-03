@@ -1,12 +1,12 @@
 ---
-title: "Collective Intelligence and Intelligent Collective"
+title: "Collective intelligence and intelligent collective"
 date: 2022-02-04
 draft: false
 weight: 80
 contentTheme: alabaster
 ---
 
-### Collective Intelligence and Intelligent Collective.
+### Collective intelligence and intelligent collective.
 
 As engineers, we strive to distribute our knowledge and best practices to everyone within our company. Our goal is to make sure all team members "know what the company knows." This reduces our reliance on individual experts and also helps us avoid making the same mistakes twice.
 

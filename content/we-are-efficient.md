@@ -1,10 +1,10 @@
 ---
-title: "We are Efficient, Productive and Successful"
+title: "We are efficient, productive and successful"
 date: 2022-02-04
 draft: false
 weight: 50
 ---
-### We Are Efficient, Productive and Successful.
+### We are efficient, productive and successful.
 
 To be successful, you need to be productive. To be productive, you need to be efficient.
 

@@ -1,11 +1,11 @@
 ---
-title: "We Are Problem Solvers"
+title: "We are problem solvers"
 date: 2022-02-04
 draft: false
 weight: 60
 ---
 
-### We Are Problem Solvers.
+### We are problem solvers.
 
 We love taking on difficult and ambitious missions and solving challenging problems. We believe that nothing is impossible.
 

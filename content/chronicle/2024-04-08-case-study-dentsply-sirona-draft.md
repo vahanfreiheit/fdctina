@@ -40,7 +40,7 @@ With an ongoing **global digitalisation** across all industries, Dentsply Sirona
 
 <br />
 
-###### The Challenge
+###### The challenge
 
 To bring the vision of DS Core to life, Dentsply Sirona and freiheit.com defined the following challenges:
 
@@ -64,7 +64,7 @@ To bring the vision of DS Core to life, Dentsply Sirona and freiheit.com defined
 
 ### Meeting the key players
 
-Before going into depth about the roll-out of the collaboration between Dentsply Sirona and freiheit.com, it is of essence to take a look at the two companies that came together to build something revolutionary. 
+Before going into depth about the roll-out of the collaboration between Dentsply Sirona and freiheit.com, it is of essence to take a look at the two companies that came together to build something revolutionary.
 
 <br />
 
@@ -76,7 +76,7 @@ Dentsply Sirona is the largest manufacturer of professional dental products and 
     {{< image src="/img/chronicle/2024-04-08-case-study-dentsply-sirona-building.jpg" alt="" width="100%" >}}
 {{< /full-width >}}
 
-Dentists are one of the few medical professionals that diagnose their patients and also directly offer procedures  within the same facility. The dental industry is also one of the only ones that has successfully digitized its entire process, from diagnosis to finished dental product. 
+Dentists are one of the few medical professionals that diagnose their patients and also directly offer procedures  within the same facility. The dental industry is also one of the only ones that has successfully digitized its entire process, from diagnosis to finished dental product.
 
 However, before DS Core was brought to life, the collaboration between dentists and laboratories was time consuming and complicated, meaning that each dental practice had its own hardware and software that wasn’t connected to each other. To place an order for a dental product, the dentist had to communicate with the laboratories using his own software as there was no platform to combine it all.
 
@@ -94,11 +94,11 @@ Failure is not an option. freiheit.com is known for their high reputation on the
 
 For over a quarter of a century, they have been working for the “Who's Who” of German and European industrial and commercial companies – across all sectors: healthcare, trade, automotive, e-commerce, and more.
 
-### Accomplishing Milestones
+### Accomplishing milestones
 
 <br />
 
-###### One PoC, 3 Engineers, 3 Weeks, 3D Rendering in GCP, Seamless Switch Load/Cloud
+###### One PoC, 3 engineers, 3 weeks, 3D rendering in GCP, seamless switch load/cloud
 
 <br />
 
@@ -112,7 +112,7 @@ Google recommended freiheit.com to Dentsply Sirona during the PoC. freiheit.com 
 
 freiheit.com selected the most challenging one, the 3D Rendering.
 
-In only 3 weeks and with a small team of 3 engineers, freiheit.com accomplished a Proof of Concept for a software that enables dentists to stream 3D renderings in the cloud and edit them directly in the browser. 
+In only 3 weeks and with a small team of 3 engineers, freiheit.com accomplished a Proof of Concept for a software that enables dentists to stream 3D renderings in the cloud and edit them directly in the browser.
 
 <br />
 
@@ -135,7 +135,7 @@ From PoC to first clinical application:
 
 {{< quote text="Within 3 weeks, the freiheit.com team showed that a seamless transition between local and cloud rendering was possible. We wanted to show that we could render 3D scans like jawbones in the cloud and stream it in the browser of the user. We wanted to bring video gaming technology to the dental practice." source="Stefan Richter - CTO & Co-Founder - freiheit.com technologies" >}}
 
-### Overview Proof of Concept
+### Overview proof of concept
 
 {{< svg src="/img/chronicle/2024-04-08-case-study-dentsply-sirona-overview-proof-of-concept.svg" >}}
 
@@ -145,7 +145,7 @@ From PoC to first clinical application:
 
 ###### Deep Dive
 
-### 3D Rendering in the cloud
+### 3D rendering in the cloud
 
 The initial proof-of-concept aimed to demonstrate the technical feasibility of cloud-based 3D rendering in a time- and cost-effective manner.
 
@@ -201,7 +201,6 @@ All of these features, but also the benefit of having the possibility to use a 
 
 ### Presentation of DS Core at DS World in Las Vegas
 
-
 10 months later
 
 As the next step within the process, Dentsply Sirona presented **DS Core** at the **Dentsply Sirona World in Las Vegas in 2022** which is their **flagship clinical education event** where all the new dental technology is presented. It is a meeting point for sales and key opinion leaders within the industry. **freiheit.com** accompanied Dentsply Sirona to assure a **frictionless presentation** of the DS Core cloud solution which was the focal point of the entire event.
@@ -224,7 +223,7 @@ Dentsply Sirona and freiheit.com officially brought the first clinical applicati
 
 - Dentists can upload 2D and 3D X-ray scan files from Dentsply Sirona devices automatically to DS Core. In addition, they can manually upload third-party scans to their library.
 - Digital impressions speed up the scanning process, reducing the chair time by handling full arch scans in under a minute.
-- Each patient data is stored in the cloud in the patient library in accordance with GDPR/HIPAA. All the data can be accessed from anywhere via a web browser, enabling seamless sharing with laboratories and patients. 
+- Each patient data is stored in the cloud in the patient library in accordance with GDPR/HIPAA. All the data can be accessed from anywhere via a web browser, enabling seamless sharing with laboratories and patients.
 - The Communication Canvas connects patients to their dentists and allows for a digital conversation with the experts.
 - The Labflow is the central platform that enables dentists to communicate with the laboratories directly, send out orders with indications and exchange patient records.
 {{< /image-box >}}

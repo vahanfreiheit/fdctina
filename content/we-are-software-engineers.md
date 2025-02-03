@@ -1,11 +1,11 @@
 ---
-title: "We Are Software Engineers"
+title: "We are software engineers"
 date: 2022-02-04
 draft: false
 weight: 30
 ---
 
-### We Are Software Engineers.
+### We are software engineers.
 
 We see software development as an engineering discipline. We focus on simplicity, lean and iterative engineering - and fast delivery processes since our foundation and long before “agile” became a buzzword.
 
@@ -16,7 +16,6 @@ Simple is not easy.
 Becoming a well-rounded software engineer is a long journey that takes many years of hard work and learning. Technology never rests. And neither do we.
 
 A software company built for engineers by engineers.
-
 
 {{< content-images >}}
   {{< image src="/img/who-we-are/We_Are_Software_Engineers_lt_sm4.webp" alt="freiheit.com employees at a meeting" class="fdc-scroll fdc-scroll--slide-left">}}

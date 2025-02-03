@@ -1,11 +1,11 @@
 ---
-title: "Culture Nights"
+title: "Culture nights"
 date: 2024-07-05
 draft: false
 weight: 2
 ---
 
-### Culture Nights
+### Culture nights
 
 Because there are so many nations present within the freiheit.com community, we host culture nights.
 

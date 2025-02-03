@@ -1,18 +1,19 @@
 ---
-title: "Our Public Customer Success Stories with Metro and Tchibo"
+title: "Our public customer success stories"
 date: 2022-08-04
 draft: false
 weight: 3
 contentTheme: black
 ---
-### Our Public Customer Success Stories
+### Our public customer success stories
+
 Using the Google Cloud Platform, we successfully migrated many of our clients to the cloud. With two of them we have published success stories to which you can find more information below. Many more are to come.
 
 {{< container class="flex flex-wrap my-12" >}}
 
 {{< things-we-have-built-tile
 size="small"
-title="Hyper-Scalable E-Commerce System" 
+title="Hyper-Scalable E-Commerce System"
 image="things-weve-build/hyper-scalable-e-commerce-system.png.webp">}}
 We helped the coffee house and seasonal retailer Tchibo to revolutionize its multinational e-commerce website. Going from on-premises to [Google Cloud Platform](https://cloud.google.com/customers/tchibo) relieved the company’s IT-professionals and made it possible to break down the system’s monolithic core into microservices. Our engineers integrated dozens of interfaces to legacy-backend systems with zero downtime of the shop, minimizing impact on customer service and business transactions.
 {{< /things-we-have-built-tile >}}

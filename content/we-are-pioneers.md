@@ -5,7 +5,8 @@ draft: false
 weight: 20
 ---
 
-### We Are Pioneers.
+### We are pioneers.
+
 freiheit.com technologies was founded in 1999 in the midst of the first internet boom.
 
 Since then, we've been building custom software platforms and helping our clients to create their future business models based on software.
