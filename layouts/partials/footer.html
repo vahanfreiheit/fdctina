@@ -28,7 +28,7 @@
 {{ end }}
 {{ if not .Page.Params.hideFooter }}
     {{ if .Page.Params.footerImage }}
-        <img src="{{site.BaseURL}}/img/{{.Page.Params.footerImage}}" />
+        <img src="{{site.BaseURL}}/img/{{.Page.Params.footerImage}}" alt="{{ .Page.Params.footerImageAlt }}"/>
     {{ end }}
 <footer class="relative w-full flex flex-col items-center bg-black text-light-grey z-0">
     {{ if .Page.Params.showFooterSnow }}

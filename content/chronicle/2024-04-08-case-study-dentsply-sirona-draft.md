@@ -4,7 +4,7 @@ headline1: Revolutionizing the dental industry
 headline2: Dentsply Sirona and freiheit.com move 100.000 dentists into the cloud
 teaser:
 lead_image: null
-image: /img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.jpg
+image: /img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.webp
 vimeo: null
 youtube: vyCRTlugecM
 tags: [ case-studies ]
@@ -12,7 +12,7 @@ hideHeaderTitle: true
 download: /downloads/Case_Study_Dentsply_Sirona_freiheit-com.pdf
 draft: true
 ---
-{{< youtube vyCRTlugecM "/img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.jpg" >}}
+{{< youtube vyCRTlugecM "/img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.webp" >}}
 
 **Dentsply Sirona had a vision.** To make the workflow of dental practices around the world efficient, fast and seamless. To give dentists time to focus on what’s really important, the well-being of the patients.
 
