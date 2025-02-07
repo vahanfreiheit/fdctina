@@ -5,18 +5,6 @@
         <div class="md:pr-48 lg:pr-72 xl:pr-80 xxl:pr-96">
             {{ .Content }}
         </div>
-        <!-- <div class="flex gap-8 mt-8">
-            <a href="{{site.BaseURL}}/downloads/freiheit-com-press-kit.zip" target="_blank" class="inline-flex align-center text-body-lg gap-2 border rounded-full cursor-pointer pb-2 pt-3 pl-8 pr-7 no-underline font-serif hover:text-red hover:border-red">
-                <div>Download press kit</div>
-                <div style="margin-top: -1px; font-size: 120%">→</div>
-            </a>
-
-            {{ partial "btn-link.html" (dict
-            "linkUrl" "mailto:<kontakt@freiheit.com>"
-            "linkText" "Get in touch"
-            "color" "red"
-            ) }}
-        </div> -->
         <h4 class="mt-20">News</h4>
         <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
             {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "news") }}

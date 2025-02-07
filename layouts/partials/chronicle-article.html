@@ -10,39 +10,35 @@
             {{ end }}
         </a>
         {{ end }}
-        <div class="flex justify-between px-8 {{ if .Params.lead_image }} pt-8 {{ end }}">
-            {{/*
-            <div class="text-sm">
-                {{ with .GetTerms $taxonomy }}
-                {{ range $k, $_ := . -}}
-                {{ if $k }}, {{ end }}
-                <a class="underline hover:text-red" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                {{- end }}
-                {{ end }}
-            </div>
-            */}}
-            <div class="text-sm">{{ .Params.date.Format "January 2, 2006" }}</div>
-        </div>
+
         <div class="px-8 pb-8 pt-8">
             <!-- if headlines and teaser-->
             {{ if or (.Params.headline1) (.Params.headline) (.Params.teaser) }}
-            <h3>
-                <a href="{{ .RelPermalink | absURL }}" class="no-underline hover:text-red">{{.Params.headline1}}</a>
-            </h3>
-            <h5>{{.Params.headline2}}</h5>
-            <div class="text-body-lg">
-                <!-- {{.Summary | plainify }} -->
-                {{.Params.teaser | safeHTML }}
-            </div>
+                {{ if (.Params.headline1) }}
+                    <h3>
+                        <a href="{{ .RelPermalink | absURL }}" class="no-underline hover:text-red">{{.Params.headline1}}</a>
+                    </h3>
+                {{ end }}
+                {{ if (.Params.headline2) }}
+                    <h5>{{.Params.headline2}}</h5>
+                {{ end }}
+                {{ if (.Params.teaser) }}
+                    <div class="text-body-lg">
+                        <!-- {{.Summary | plainify }} -->
+                        {{.Params.teaser | safeHTML }}
+                    </div>
+                {{ end }}
             <!-- else -->
             {{ else }}
-            <div class="text-body-lg">
-                {{.Summary }}
-            </div>
+                {{ if (.Summary) }}
+                    <div class="text-body-lg">
+                        {{.Summary }}
+                    </div>
+                {{ end }}
             {{ end }}
             <!-- end if -->
             <a href="{{ .RelPermalink | absURL }}"
-                class="inline-block leading-none cursor-pointer pt-12 text-xl no-underline font-serif hover:text-red">
+                class="inline-block leading-none cursor-pointer pt-8 text-xl no-underline font-serif hover:text-red">
                 Read →
             </a>
         </div>

@@ -1,6 +1,6 @@
 ---
 date: 2024-11-13
-headline1: The Attributes
+headline1: The Attributes | EP01
 headline2:
 teaser:
 lead_image:

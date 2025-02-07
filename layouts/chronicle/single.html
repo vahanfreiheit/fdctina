@@ -13,7 +13,7 @@
                 {{ end }}
             </div>
             {{ if or (.Params.headline1) (.Params.headline) (.Params.teaser) }}
-                {{ if .Params.headline1 }}<h1>{{ .Params.headline1 }}</h1>{{ end }}
+                {{ if .Params.headline1 }}<h2>{{ .Params.headline1 }}</h2>{{ end }}
                 {{ if .Params.headline2 }}<h3>{{ .Params.headline2 }}</h3>{{ end }}
                 {{ if .Params.teaser }}<div class="text-body-lg">{{ .Params.teaser }}</div>{{ end }}
             {{ end }}
