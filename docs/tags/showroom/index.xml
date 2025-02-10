@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Showroom on freiheit.com</title><link>https://freiheit.com/tags/showroom/</link><description>Recent content in Showroom on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/tags/showroom/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://freiheit.com/chronicle/2024-11-13-product-and-systems-engineering-leads/</link><pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-11-13-product-and-systems-engineering-leads/</guid><description>We are a software engineering company - by engineers for engineers. How are we successfully delivering large-scale projects to our clients always on time, on budget, on target and on quality? To deliver the right product, we need to understand the client’s needs, establish the project scope and define the right features. We always ensure that we maintain uniformity and simplicity within the code base throughout the project. Who is responsible for that?</description></item><item><title/><link>https://freiheit.com/chronicle/2024-11-13-the-attributes-series/</link><pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-11-13-the-attributes-series/</guid><description>At freiheit.com we hire only top ranking students. But we know that performance is not only built on skills that are visible to us, that we learned and trained, like coding skills. Instead, performance also builds on hidden qualities that tell us how we show up when things get hard, in situations of stress, challenge or uncertainty. We call them Attributes. They are inherent to our nature and therefore harder but not impossible to develop.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showroom on freiheit.com</title>
+    <link>https://mploigt.github.io/freiheit/tags/showroom/</link>
+    <description>Recent content in Showroom on freiheit.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mploigt.github.io/freiheit/tags/showroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mploigt.github.io/freiheit/chronicle/2024-11-13-product-and-systems-engineering-leads/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/chronicle/2024-11-13-product-and-systems-engineering-leads/</guid>
+      <description>We are a software engineering company - by engineers for engineers. How are we successfully delivering large-scale projects to our clients always on time, on budget, on target and on quality? To deliver the right product, we need to understand the client’s needs, establish the project scope and define the right features. We always ensure that we maintain uniformity and simplicity within the code base throughout the project. Who is responsible for that?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mploigt.github.io/freiheit/chronicle/2024-11-13-the-attributes-series/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/chronicle/2024-11-13-the-attributes-series/</guid>
+      <description>At freiheit.com we hire only top ranking students. But we know that performance is not only built on skills that are visible to us, that we learned and trained, like coding skills. Instead, performance also builds on hidden qualities that tell us how we show up when things get hard, in situations of stress, challenge or uncertainty. We call them Attributes. They are inherent to our nature and therefore harder but not impossible to develop.</description>
+    </item>
+  </channel>
+</rss>
