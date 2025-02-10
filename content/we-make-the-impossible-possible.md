@@ -19,6 +19,4 @@ From e-commerce to connected cars. Retail, healthcare, mobility, logistics and m
 
 We get it done. Never late. Never failed.
 
-[We solve mission impossible projects](/things-weve-build)
-
 {{< banner-facts numbers="350+" title="Over 350 projects shipped on time." graphic="img/who-we-are/we-are-reliable-1.png.webp" class="mt-8 mb-4 md:mt-12 md:mb-8 fdc-scroll fdc-scroll--slide-left" >}}
