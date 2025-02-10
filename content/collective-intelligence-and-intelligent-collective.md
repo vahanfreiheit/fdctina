@@ -14,8 +14,3 @@ To keep our expertise up to date, we have a lean and fast request for comments p
 This process allows us to take full advantage of the collective intelligence of our people and creates a very mature engineering organization that still has the speed and determination of a start-up.
 
 [We don’t just share the knowledge internally, we share it with the world](/chronicle)
-
-{{< content-grid-images >}}
-  {{< image src="/img/who-we-are/collective-intelligence-and-intelligent-collective-1.jpg.webp" alt="A freiheit.com engineer reads a knowledge base article to learn something new about a coding language." class="fdc-scroll fdc-scroll--slide-left" >}}
-  {{< image src="/img/who-we-are/collective-intelligence-and-intelligent-collective-2.jpg.webp" alt="freiheit.com members maintain the freiheit.com knowledge base to make sure every member knows what the company knows." class="fdc-scroll fdc-scroll--slide-right" >}}
-{{< /content-grid-images >}}
