@@ -4,6 +4,7 @@ locale: en
 image: /img/chronicle/db_foto.jpg.webp
 tags: [ archive ]
 hideHeaderTitle: true
+draft: true
 ---
 
 Claudia Dietze speaks of the necessity of transferring standard business models into the digital world and, furthermore, about freiheit.com’s hacker culture. freiheit.com is one of 900.000 mid-sized business customers of Deutsche Bank.
