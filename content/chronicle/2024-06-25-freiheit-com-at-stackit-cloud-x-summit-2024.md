@@ -20,9 +20,9 @@ We at freiheit.com believe it's through data-driven software engineering.
 
 That is what our Head of Engineering  and Co-Founder, Stefan Richter talked about at the STACKIT Cloud x Summit yesterday.
 
-{{< content-images >}}
+{{< flex-images >}}
     {{< image src="/img/chronicle/2024-06-25-freiheit-at-stackit-2.webp" alt="freiheit.com at stackit">}}
     {{< image src="/img/chronicle/2024-06-25-stefan-richter-at-stackit.webp" alt="Stefan Richter at stackit">}}
-{{< /content-images >}}
+{{< /flex-images >}}
 
 Source: [https://www.stackit.de/en/cloudxsummit/#programm](https://www.stackit.de/en/cloudxsummit/#programm)

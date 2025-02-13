@@ -14,6 +14,4 @@ We are known for our deep technical expertise and our track record of delivering
 
 This is why our clients entrust us with their most important projects.
 
-{{< content-images >}}
-  {{< image src="/img/who-we-are/we-are-problem-solvers-1.jpg.webp" alt="A small freiheit.com engineering team discusses a challenging software project. They are problem solvers." class="fdc-scroll fdc-scroll--fade-in-bottom" >}}
-{{< /content-images >}}
+{{< image src="/img/who-we-are/we-are-problem-solvers-1.jpg.webp" alt="A small freiheit.com engineering team discusses a challenging software project. They are problem solvers." >}}

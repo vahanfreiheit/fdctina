@@ -19,7 +19,7 @@ A software company built for engineers by engineers.
 
 We move as fast as technology does. So we use AI to our advantage. For more efficiency, simplicity, uniformity and continuity. But of course, we don’t stop using our brains.
 
-{{< content-images >}}
-  {{< image src="/img/who-we-are/We_Are_Software_Engineers_lt_sm4.webp" alt="freiheit.com engineers on their journey of becoming a well rounded software engineer." class="fdc-scroll fdc-scroll--slide-left">}}
-  {{< image src="/img/who-we-are/We_Are_Software_Engineers_rt4.webp" alt="freiheit.com engineers are working agile and are planning their next iteration." class="fdc-scroll fdc-scroll--slide-right">}}
-{{< /content-images >}}
+{{< flex-images >}}
+  {{< image src="/img/who-we-are/We_Are_Software_Engineers_lt_sm4.webp" alt="freiheit.com engineers on their journey of becoming a well rounded software engineer.">}}
+  {{< image src="/img/who-we-are/We_Are_Software_Engineers_rt4.webp" alt="freiheit.com engineers are working agile and are planning their next iteration.">}}
+{{< /flex-images >}}

@@ -19,9 +19,9 @@ Keep an eye on our [LinkedIn page](https://www.linkedin.com/company/freiheit-com
 
 
 {{< grid-images cols="2">}}
-    {{< image src="/img/our-community/hackertalks_1.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--slide-left">}}
-    {{< image src="/img/our-community/hackertalks_2.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--slide-right">}}
+    {{< image src="/img/our-community/hackertalks_1.webp" alt="freiheit.com hackertalks">}}
+    {{< image src="/img/our-community/hackertalks_2.webp" alt="freiheit.com hackertalks">}}
 {{< /grid-images >}}
 {{< grid-images>}}
-    {{< image src="/img/our-community/hackertalks_3.webp" alt="freiheit.com hackertalks" class="fdc-scroll fdc-scroll--fade-in-bottom">}}
+    {{< image src="/img/our-community/hackertalks_3.webp" alt="freiheit.com hackertalks">}}
 {{< /grid-images >}}

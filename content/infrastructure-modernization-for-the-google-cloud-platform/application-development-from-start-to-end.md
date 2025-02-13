@@ -19,9 +19,9 @@ Every team has a long-term view of each project and plans based on daily real-ti
 
 Each challenge of the client is approached individually, but the methodology is the same. As shown in the figure below, our teams work iteration driven in an agile way.
 
-{{< content-images >}}
-{{< image src="/img/application-development-for-the-google-cloud-platform/application-development-from-start-to-end.webp" alt="Infrastructure modernization from start to end" class="fdc-scroll fdc-scroll--fade-in-bottom" >}}
-{{< /content-images >}}
+{{< flex-images >}}
+{{< image src="/img/application-development-for-the-google-cloud-platform/application-development-from-start-to-end.webp" alt="Infrastructure modernization from start to end" >}}
+{{< /flex-images >}}
 
 To make sure client requirements and constraints are regularly evaluated and impediments mitigated, the complete prioritization of the backlog is carried out by the Product Owner of the client’s organization. All technologies are selected based on technical design requirements together with the Product Owner.
 

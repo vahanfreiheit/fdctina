@@ -21,7 +21,7 @@ This is why we eliminate unnecessary management positions and put engineers in c
 
 So we don’t take anything lightly. We are relentless. But we do everything with love.
 
-{{< content-images >}}
-  {{< image src="/img/who-we-are/we-are-efficient-1.jpg.webp" alt="freiheit.com engineers are working efficiently and productively in the Hamburg office." class="fdc-scroll fdc-scroll--slide-left" >}}
-  {{< image src="/img/who-we-are/we-are-efficient-2.jpg.webp" alt="A freiheit.com member uses their own project management tool to plan and work data driven." class="fdc-scroll fdc-scroll--slide-right" >}}
-{{< /content-images >}}
+{{< flex-images >}}
+  {{< image src="/img/who-we-are/we-are-efficient-1.jpg.webp" alt="freiheit.com engineers are working efficiently and productively in the Hamburg office." >}}
+  {{< image src="/img/who-we-are/we-are-efficient-2.jpg.webp" alt="A freiheit.com member uses their own project management tool to plan and work data driven." >}}
+{{< /flex-images >}}

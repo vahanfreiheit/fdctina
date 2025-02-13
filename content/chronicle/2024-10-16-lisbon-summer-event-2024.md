@@ -25,12 +25,12 @@ This is just the beginning! As more and more new members join, events like these
 
 Thanks to our fantastic team for making the Lisbon hub so special & successful! 🚀
 
-{{< content-images >}}
+{{< flex-images >}}
     {{< image src="/img/chronicle/freiheit-lisbon-summer-event-1.webp" alt="freiheit.com Summer Event in Lisbon">}}
     {{< image src="/img/chronicle/freiheit-lisbon-summer-event-2.webp" alt="freiheit.com Summer Event in Lisbon">}}
-{{< /content-images >}}
-{{< content-images >}}
+{{< /flex-images >}}
+{{< flex-images >}}
     {{< image src="/img/chronicle/freiheit-lisbon-summer-event-3.webp" alt="freiheit.com Summer Event in Lisbon">}}
     {{< image src="/img/chronicle/freiheit-lisbon-summer-event-4.webp" alt="freiheit.com Summer Event in Lisbon">}}
-{{< /content-images >}}
+{{< /flex-images >}}
 

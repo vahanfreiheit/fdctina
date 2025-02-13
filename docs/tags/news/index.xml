@@ -1,285 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>News on freiheit.com</title>
-    <link>https://mploigt.github.io/freiheit/tags/news/</link>
-    <description>Recent content in News on freiheit.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mploigt.github.io/freiheit/tags/news/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2024-10-16-lisbon-summer-event-2024/</link>
-      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2024-10-16-lisbon-summer-event-2024/</guid>
-      <description>September was special for our Lisbon engineering hub — it was our first-ever beach Summer Event. We had an amazing time surfing, playing beach volleyball and having great talks about technology and engineering.&#xA;It was all about having good discussions, lots of fun and creating new memories.&#xA;Our Lisbon hub has come a long way since its start in 2018 when our&#xA;co-founder Claudia Dietze made her dream come true by opening a second hub for freiheit.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2024-08-07-california-night-2024/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2024-08-07-california-night-2024/</guid>
-      <description>This years motto: it’s all about California 🎉&#xA;Our founders Claudia Dietze and Stefan Richter fell in love with California a long time ago and like to bring the spirit back to Germany. 🌴&#xA;Events like this are always a good occasion for all of us to get to know each other more, for senior members to meet the newbies and for everyone to enjoy time and talk about old stories.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2024-07-02-mein-nachfolger-ist-eine-ki/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2024-07-02-mein-nachfolger-ist-eine-ki/</guid>
-      <description>Download PDF&amp;nbsp;→&#xA;Jeder, der selbst ein Unternehmen gegründet und groß gemacht hat, weiß etwas, was andere nicht wissen, und macht Dinge, die andere nicht machen. Darum war das Unternehmen erfolgreich. Wie kann KI helfen, dieses implizite Wissen an die Nachfolgegeneration zu übertragen?&#xA;Ich habe 1983 mein erstes Computerprogramm geschrieben. Zwei Hochschulabschlüsse in Informatik und Systemanalyse später habe ich zusammen mit meiner Co-Gründerin Claudia Dietze vor über einem Vierteljahrhundert meine eigene Softwarefirma freiheit.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2024-06-25-freiheit-com-at-stackit-cloud-x-summit-2024/</link>
-      <pubDate>Tue, 25 Jun 2024 00:00:05 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2024-06-25-freiheit-com-at-stackit-cloud-x-summit-2024/</guid>
-      <description>STACKIT is developing an entire German business cloud. freiheit.com works for and with the Schwarz IT on various internal software products and is also involved in the development of the STACKIT platform. This is a gigantic task.&#xA;How can software engineering be made more effective, efficient and successful?&#xA;We at freiheit.com believe it&amp;rsquo;s through data-driven software engineering.&#xA;That is what our Head of Engineering and Co-Founder, Stefan Richter talked about at the STACKIT Cloud x Summit yesterday.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2024-04-10-a-life-changing-moment/</link>
-      <pubDate>Wed, 10 Apr 2024 00:00:05 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2024-04-10-a-life-changing-moment/</guid>
-      <description>Do you remember a life-changing moment for you? This is mine.&#xA;After 25 years of building and running my company freiheit.com technologies, which I co-founded together with Stefan Richter, as I planned two years ago I am handing over my role as CEO.&#xA;Stefan started as the first software engineer and employee no. 1 in October 1998, and in February 1999 we incorporated our company together.&#xA;I took over the business part, and he took over the engineering part.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2023-11-29-bundesweiter-it-fachkraeftemangel/</link>
-      <pubDate>Wed, 29 Nov 2023 17:03:05 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2023-11-29-bundesweiter-it-fachkraeftemangel/</guid>
-      <description>Bundesweit fehlen rund 68.000 IT-Experten*. Trotzdem gelingt es freiheit.com die Top-5-Prozent der Uni-Absolventen zu finden und für sich zu gewinnen. Tatsächlich stellt freiheit.com nur 2,5 Prozent der Bewerber ein. Das Team aus über 200 Spezialisten baut seit 25 Jahren large-scale Software-Systeme für internationale Unternehmen verschiedener Branchen. Wie gelingt es freiheit.com, in für das Recruiting schwierigen Zeiten die besten Talente auf dem Arbeitsmarkt zu finden, zu rekrutieren und zu halten?&#xA;Ein Software-Unternehmen von &amp;ldquo;Engineers for Engineers&amp;rdquo; freiheit.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2023-09-05-bis-zu-50-prozent-aller-it-projekte/</link>
-      <pubDate>Tue, 05 Sep 2023 17:03:05 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2023-09-05-bis-zu-50-prozent-aller-it-projekte/</guid>
-      <description>freiheit.com zählt zu den führenden Software-Unternehmen in Europa. Das Team aus über 200 Software-Engineers baut seit fast einem Vierteljahrhundert &amp;ldquo;large-scale Software Platforms&amp;rdquo;, große strategische Systeme für internationale Unternehmen mit Millionen von Nutzern und Transaktionen. So können für freiheit.com&amp;rsquo;s Kunden Wettbewerbsvorteile und neue, globale Geschäftsmodelle realisiert werden.&#xA;freiheit.com hat seit 1999 über 350 large-scale Software-Projekte erfolgreich abgeschlossen - immer innerhalb der vereinbarten Zeit und des vereinbarten Kostenrahmens. Die Projekte von freiheit.com ermöglichen den Kunden ihre Umsätze in strategisch wichtigen Bereichen zu steigern oder die Effizienz signifikant zu erhöhen PMI-Studie zeigt: 50 Prozent aller IT-Projekte weltweit überschreiten die Deadline.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2020-02-06-portugal-is-a-perfect-place-to-create-businesses-for-the-digital-future/</link>
-      <pubDate>Thu, 06 Feb 2020 17:03:05 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2020-02-06-portugal-is-a-perfect-place-to-create-businesses-for-the-digital-future/</guid>
-      <description>You and your partner Stefan Richter took a big risk in starting your own tech company from scratch. What led you to it? We didn’t see it as a risk. We still see it as an adventure. We wanted to create the company we had always looked for. A company that is more a community of highly educated, intelligent and ambitious people working in an unconventional way without vanity and politics.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2019-12-20-freiheit.com-supports-the-heroes-of-the-sea/</link>
-      <pubDate>Fri, 20 Dec 2019 17:49:07 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2019-12-20-freiheit.com-supports-the-heroes-of-the-sea/</guid>
-      <description>Hamburg/Lisbon, December 10, 2019 – The German software company freiheit.com has allocated a donation to the actual environmental project of York Hovest. Together with two friends, the photographer and National Geographic book author will cross the Atlantic Ocean in a rowboat – from Gran Canaria to Barbados during a period of over 50 days. York started this journey just ten days ago. The ocean crossing is part of his mission to save the oceans by enhancing the visibility of the “Heroes of the Sea” as he calls the people in his recent book whose activities contribute to saving the oceans.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2019-11-19-hackers-wanted/</link>
-      <pubDate>Tue, 19 Nov 2019 17:13:14 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2019-11-19-hackers-wanted/</guid>
-      <description>Recently, we started a recruiting campaign “Hackers wanted” showing that our highly educated software engineers graduated from the best universities worldwide, such as at the ISCTE Lisboa, IST Lisboa, KIT Karlsruhe, WWU Münster and the ETH Zurich.&#xA;We have a strong engineering culture. 90 % of the team are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong Machine Learning backgrounds.&#xA;As internet pioneers, we have been building large-scale software systems since 1999, when our company was founded in Germany.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2018-10-16-code.talks-2018/</link>
-      <pubDate>Tue, 16 Oct 2018 16:38:23 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2018-10-16-code.talks-2018/</guid>
-      <description>Some people think, that managers are not needed anymore. It is widely believed, that the future belongs to agile, self-organizing teams and emergent behavior. In a world without managers, these teams operate like some kind of swarm intelligence, that always finds the right solution, at the right time, and is constantly creating the highest value for the customer, right?</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2017-06-02-aubrey_de_grey/</link>
-      <pubDate>Fri, 02 Jun 2017 12:38:38 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2017-06-02-aubrey_de_grey/</guid>
-      <description>On June 2, 2017, we got an awesome guest speaker at our HackerTalk - Aubrey de Grey&amp;nbsp;→, the Chief Science Officer and Co-Founder of the SENS Research Foundation&amp;nbsp;→. The foundation&amp;rsquo;s stated goal is to transform the way the world researches and treats age-related disease. Aubrey provocatively proposes that the first human beings who will live to 1,000 years old have already been born.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2017-05-05-marco_boerries_hackertalk/</link>
-      <pubDate>Fri, 05 May 2017 14:28:18 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2017-05-05-marco_boerries_hackertalk/</guid>
-      <description>On May 5, 2017, Marco Börries&amp;nbsp;→ presents his fourth product, NumberFour, or recently branded as enfore&amp;nbsp;→. Marco Börries is a German software engineer, a business friend and partner - and passionate entrepreneur!&#xA;In his talk „Make small business work in a complex world“, he gives us an insight into his current product, his strategy as well as the architecture and technologies.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2017-03-23-spiegel_online_buero_fdc/</link>
-      <pubDate>Thu, 23 Mar 2017 14:57:28 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2017-03-23-spiegel_online_buero_fdc/</guid>
-      <description>SPIEGEL ONLINE compares the top 17 offices worldwide - we are in. According to a study, the productivity of each individual depends on the spatiality of the workplace. Where would you like to work?&#xA;Check it out at SPIEGEL ONLINE&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2017-03-03-video_cmagnussen/</link>
-      <pubDate>Fri, 03 Mar 2017 17:19:20 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2017-03-03-video_cmagnussen/</guid>
-      <description>&lt;h3 id=&#34;why-being-scared-of-machine-learning-will-leave-you-in-the-90s&#34;&gt;Why being scared of machine learning will leave you in the 90s&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;font-serif no-underline hover:text-red&#34; href=&#34;http://christophmagnussen.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christoph Magnussen&amp;nbsp;→&lt;/a&gt; and Stefan Richter met for a quick talk about the fear of many companies to utilize their data and the state of security when using cloud. Hope it&amp;rsquo;s useful to you guys!&lt;/p&gt;&#xA;&lt;p&gt;Read full article to watch the video:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2017-01-20-huffington-post/</link>
-      <pubDate>Fri, 20 Jan 2017 11:43:57 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2017-01-20-huffington-post/</guid>
-      <description>Die Maschine bekommt ein sympathisches Gesicht&amp;nbsp;→, nämlich unseres&amp;nbsp;→&#xA;Even though machines are taking over more jobs that previously have been executed by humans, this development also bears a lot of opportunities for us, because we are still a valuable workforce. Nevertheless, the population declines and becomes increasingly older and many exciting jobs still remain that only someone made out of flesh and blood can do best. At the same time, the human workforce is decreasing.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-11-24-rowhow-sponsor/</link>
-      <pubDate>Thu, 24 Nov 2016 16:45:48 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-11-24-rowhow-sponsor/</guid>
-      <description>From November, 25 to 27, 2016 the third Robotic Hamburg Open Workshop (RoHOW)&amp;nbsp;→ will be held at the Hamburg University of Technology (TUHH).&#xA;The RoHOW is an educational and networking event of students of the Universität Hamburg and the TUHH with students and scientists from all over the world that are active in research on humanoid robots.&#xA;Teams of the standard platform and Humanoid Kid Size League are invited to present their work.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-10-26-mathematiker-zu-besuch/</link>
-      <pubDate>Wed, 26 Oct 2016 11:56:01 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-10-26-mathematiker-zu-besuch/</guid>
-      <description>On October 26, 2016, we hang out with these cool, young mathematicians from Lothar Collatz School&amp;nbsp;→ for Computing in Science, which promotes computational education &amp;amp; research at the interface of Mathematics, Computer Science, and Computational Sciences. It is a pleasure having you, thank you for visiting us!&#xA;Here´s more about the event&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-08-24-code.talks2016/</link>
-      <pubDate>Thu, 22 Sep 2016 12:08:52 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-08-24-code.talks2016/</guid>
-      <description>The code.talks&amp;nbsp;→ meanwhile is one of Europe’s biggest developer’s conference. In 2016, the developer’s bash goes into its sixth round. This time, freiheit.com is platinum sponsor and curators for track New Technology&amp;nbsp;→, Live Coding&amp;nbsp;→, and Big Data &amp;amp; Skalierung&amp;nbsp;→.&#xA;code.talks.de&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-08-24-fsfesummit2016/</link>
-      <pubDate>Wed, 24 Aug 2016 18:35:11 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-08-24-fsfesummit2016/</guid>
-      <description>Imagine the European Union builds its IT infrastructure based on free software. Imagine European member states trade information with the help of open standards and share their software. Imagine municipalities and city councils profit from decentralized and collaborative software based on free software licenses. Imagine Europeans are no longer forced to use proprietary software any longer.&#xA;That is the goal of the FSFE&amp;nbsp;→. The FSFE Summit&amp;nbsp;→ is the general assembly that unites FSFE members and supporters from all over Europe.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-08-24-openpgp206/</link>
-      <pubDate>Wed, 24 Aug 2016 11:44:14 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-08-24-openpgp206/</guid>
-      <description>On September 8 and September 9, 2016, the German Unix User Group in Cologne organizes the OpenPGP.conf&amp;nbsp;→ - the first public conference with main topic OpenPGP. We are supporters because strong encryption is the most important basic technology of a free and digital future society. freiheit.com is proud to support the conference as silver sponsor.&#xA;Here’s more on the conference&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-08-24-typed_clojure/</link>
-      <pubDate>Sun, 24 Apr 2016 21:04:37 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-08-24-typed_clojure/</guid>
-      <description>Ambrose Bonnaire-Sergeant&amp;nbsp;→ starts his campaign named Typed Clojure &amp;amp; clojure.spec: Auto Annotations&amp;nbsp;→. Write tests, receive types! Type comments in Typed Clojure are large and laborious to write manually. This project comprises manufacturing of a tool for the automation of the process based on already written tests. freiheit.com is excited to be part of it as a sponsor!&#xA;Find out more about the campaign&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-04-22-meetup_live_coding/</link>
-      <pubDate>Fri, 22 Apr 2016 18:26:14 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-04-22-meetup_live_coding/</guid>
-      <description>Our founder Stefan Richter organizes the first Live Coding Meetup in Hamburg. On May 9, 2016, we will start off the Meetup with parser combinators in Haskell. Alex Biehl is going to present the basic concept and use of parser combinators and interactively build a JSON parser and develop a personal parser combinators library on the beamer. Parsers are used almost everywhere: HTML pages in browsers, JSON, or other small, self-defined format, which need to be assembled logically for processing, in order to be mapped onto data structures.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-04-19-codetalks_april_2016/</link>
-      <pubDate>Tue, 19 Apr 2016 18:57:33 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-04-19-codetalks_april_2016/</guid>
-      <description>Thomas Storck - CIO METRO Cash &amp;amp; Carry - knows the necessity of the digital transformation. He was the driving force behind building a food delivery software to optimize his customer’s needs. METRO is at the very top of Europe’s online retailers, counting more than 3 billion euros in revenue within the food delivery business of online orders. A strong technology partner stands behind making the first step towards the future.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-04-01-wiwo_chefbueros/</link>
-      <pubDate>Fri, 01 Apr 2016 15:29:35 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-04-01-wiwo_chefbueros/</guid>
-      <description>The slideshow in the series “Chefbüro” of the German magazine “WirtschaftsWoche” (14/2016), offers us a glimpse into the offices of the best managers. Throughout the three open-spaced, modern floors of the software company freiheit.com, located in the vibrant borough St. Pauli, Claudia shows how freiheit.com’s hacker culture comes to life in the office: “German Engineering meets Silicon Valley”. The mechanical model ship displayed on Claudia’s sideboard is a gift given to her by the late NASA pioneer Prof.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2016-03-11-businesstalk_kirschner_fsfe/</link>
-      <pubDate>Fri, 11 Mar 2016 15:29:01 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2016-03-11-businesstalk_kirschner_fsfe/</guid>
-      <description>In his talk - held on March 11, 2016 - our guest speaker Matthias Kirschner, President of the Free Software Foundation Europe (FSFE), discusses the foundation’s activity, successes, and future plans. Since October 2003, bookzilla.de is operated by freiheit.com and is the world’s first online bookstore supporting free software. All proceeds are donated to FSFE by freiheit.com since 2004. The non-profit organization supports the distribution and advancement of open source programs for over 30 years.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-12-04-zeit_online_dez15/</link>
-      <pubDate>Fri, 04 Dec 2015 19:23:30 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-12-04-zeit_online_dez15/</guid>
-      <description>In her interview with ZEIT ONLINE, Claudia Dietze explains why authority and responsibility need ownership, not hierarchy.&#xA;Check out the article&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-10-22-online_karrieretag_2015/</link>
-      <pubDate>Thu, 22 Oct 2015 14:03:31 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-10-22-online_karrieretag_2015/</guid>
-      <description>On October 22, 2015, freiheit.com is a sponsor at the Online-Karrieretag in Hamburg. In his interview by Michael Karasjew (dieBewerbungsExperten.de), Stefan Richter explains what the ideal job candidate looks like.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-10-02-business_talk_lars_hinrichs/</link>
-      <pubDate>Fri, 02 Oct 2015 13:53:32 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-10-02-business_talk_lars_hinrichs/</guid>
-      <description>On October 2, 2015, Lars Hinrichs - Internet pioneer and founder of the career network XING - is our business talk guest and speaks about his latest project: Apartimentum - a smart home located in Hamburg.&#xA;About the project&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-09-30-codetalks_2015_stefan/</link>
-      <pubDate>Wed, 30 Sep 2015 19:20:07 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-09-30-codetalks_2015_stefan/</guid>
-      <description>Can we build an intelligent software agent, who portrays a perfect project manager? A bot who delivers information in the right time to the right people and who is both analyzer and messenger as well as helpful assistant at the same time? In September 2015, Stefan Richter speaks at the fifth code.talks conference about the usage of intelligent agents within software development.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-09-30-codetalks_2015/</link>
-      <pubDate>Wed, 30 Sep 2015 14:01:08 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-09-30-codetalks_2015/</guid>
-      <description>The code.talks have grown to become one of Europe’s biggest developer conferences. In 2015, the developer’s community celebrates their reunion for the fifth time. freiheit.com is gold sponsor, once again. Stefan Richter and Martin Holtschneider are curators for tracks “New Technology” and “Scalability”, respectively.&#xA;Visit code.talks.de&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-09-10-ecml_2015/</link>
-      <pubDate>Thu, 10 Sep 2015 13:51:01 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-09-10-ecml_2015/</guid>
-      <description>In September 2015, freiheit.com sponsors the ECML PKDD in Porto. The ECML is a machine learning conference, which takes place annually in different European locations. Our colleague Michael Großhans is a guest speaker at the conference, presenting the topic “Solving Prediction Games with Parallel Batch Gradient Descent”.&#xA;Paper and abstract&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-08-17-sylt_2015/</link>
-      <pubDate>Mon, 17 Aug 2015 19:17:47 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-08-17-sylt_2015/</guid>
-      <description>A day at sea with freiheit.com. It is a perfect day for a company trip to the beautiful island of Sylt, on this amazing, sunny summer’s day in the month of August, 2015. With plenty of chilled drinks and tasty food, we are spending a relaxed day, playing beach volleyball, trying ourselves at “Viking Chess”, and playing the guitar in the Western part of Kampen.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-08-01-claudia_charmante_mrs_perfect/</link>
-      <pubDate>Sat, 01 Aug 2015 13:56:09 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-08-01-claudia_charmante_mrs_perfect/</guid>
-      <description>In the newspaper series of the Hamburger Abendblatt “Der Rote Faden” (“The Red Thread”), which symbolizes a connection between people who respect and appreciate each other. XING founder Lars Hinrichs has extended the red thread to Claudia Dietze. In the following article, entrepreneur Claudia Dietze explains why to her reason and passion are not contrary to one another.&#xA;Check out the article&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-06-16-tag_der_offenen_tuer_2015/</link>
-      <pubDate>Tue, 16 Jun 2015 13:41:04 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-06-16-tag_der_offenen_tuer_2015/</guid>
-      <description>Open House @ freiheit.com. On June 19, 2015, we are inviting friends and family of our colleagues to freiheit.com’s Open House, showing how exciting the work of a software engineer can be. After a tour through freiheit.com laboratories, we are inviting all of our guests to a summer BBQ on our panoramic rooftop terrace, overlooking St. Pauli.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-06-10-perfect_the_enemy_of_good/</link>
-      <pubDate>Wed, 10 Jun 2015 19:14:06 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-06-10-perfect_the_enemy_of_good/</guid>
-      <description>manager magazin - a German monthly magazine focusing on business, finance and management - publishes a collection of the best advices given in the SAAL ZWEI interview series “3 FRAGEN AN 30 FRAUEN.” (“3 QUESTIONS FOR 30 WOMEN.”). Amongst them, Claudia Dietze’s SAAL ZWEI column “Perfect is the enemy of good” has also been selected.&#xA;Check out the article&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2015-04-26-js_unconf_2015/</link>
-      <pubDate>Sun, 26 Apr 2015 13:35:39 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2015-04-26-js_unconf_2015/</guid>
-      <description>JS Unconf is a non-profit conference of the JavaScript community. In 2015, freiheit.com is one of the sponsors. The audience has chosen our colleague Michael Bohn to speak about “Displaying, Animating, and Comunicating with Ponies in famo.us”. Michael is providing both his presentation and demo app on our GitHub account.&#xA;Click here for the presentation&amp;nbsp;→&#xA;Check out the demo app&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2014-11-20-vdz_tech_summit_2014/</link>
-      <pubDate>Thu, 20 Nov 2014 14:13:41 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2014-11-20-vdz_tech_summit_2014/</guid>
-      <description>Stefan Richter holds his presentation “Von Big Data zum Machine Learning” (“From Big Data to Machine Learning”) during the second VDZ Tech Summit on November 20, 2014. His presentation illustrates how user behavior can be made transparent through data analysis and its evaluation, in order to better understand the client&amp;rsquo;s needs and for automated optimization for processes, products, and services.&#xA;Check out the interview&amp;nbsp;→</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://mploigt.github.io/freiheit/chronicle/2010-02-02-clojure_pet_project/</link>
-      <pubDate>Tue, 02 Feb 2010 13:44:43 +0000</pubDate>
-      <guid>https://mploigt.github.io/freiheit/chronicle/2010-02-02-clojure_pet_project/</guid>
-      <description>Since freiheit.com was founded, we have built our own tools adopting early techniques of AI and Machine Learning, helping us to effectively and efficiently manage software projects: from early XMPP bots over prolog backend and Rete algorithm-based production systems for a rule-based expert system for task management written in Clojure. This even became a small startup project: “How a Clojure pet project turned into a full-blown cloud-computing web app”.&#xA;Check out the event&amp;nbsp;→</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News on freiheit.com</title><link>https://freiheit.com/tags/news/</link><description>Recent content in News on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/tags/news/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://freiheit.com/chronicle/2024-10-16-lisbon-summer-event-2024/</link><pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-10-16-lisbon-summer-event-2024/</guid><description>September was special for our Lisbon engineering hub — it was our first-ever beach Summer Event. We had an amazing time surfing, playing beach volleyball and having great talks about technology and engineering.
+It was all about having good discussions, lots of fun and creating new memories.
+Our Lisbon hub has come a long way since its start in 2018 when our
+co-founder Claudia Dietze made her dream come true by opening a second hub for freiheit.</description></item><item><title/><link>https://freiheit.com/chronicle/2024-08-07-california-night-2024/</link><pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-08-07-california-night-2024/</guid><description>This years motto: it’s all about California 🎉
+Our founders Claudia Dietze and Stefan Richter fell in love with California a long time ago and like to bring the spirit back to Germany. 🌴
+Events like this are always a good occasion for all of us to get to know each other more, for senior members to meet the newbies and for everyone to enjoy time and talk about old stories.</description></item><item><title/><link>https://freiheit.com/chronicle/2024-07-02-mein-nachfolger-ist-eine-ki/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-07-02-mein-nachfolger-ist-eine-ki/</guid><description>Download PDF&amp;nbsp;→
+Jeder, der selbst ein Unternehmen gegründet und groß gemacht hat, weiß etwas, was andere nicht wissen, und macht Dinge, die andere nicht machen. Darum war das Unternehmen erfolgreich. Wie kann KI helfen, dieses implizite Wissen an die Nachfolgegeneration zu übertragen?
+Ich habe 1983 mein erstes Computerprogramm geschrieben. Zwei Hochschulabschlüsse in Informatik und Systemanalyse später habe ich zusammen mit meiner Co-Gründerin Claudia Dietze vor über einem Vierteljahrhundert meine eigene Softwarefirma freiheit.</description></item><item><title/><link>https://freiheit.com/chronicle/2024-06-25-freiheit-com-at-stackit-cloud-x-summit-2024/</link><pubDate>Tue, 25 Jun 2024 00:00:05 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-06-25-freiheit-com-at-stackit-cloud-x-summit-2024/</guid><description>STACKIT is developing an entire German business cloud. freiheit.com works for and with the Schwarz IT on various internal software products and is also involved in the development of the STACKIT platform. This is a gigantic task.
+How can software engineering be made more effective, efficient and successful?
+We at freiheit.com believe it&amp;rsquo;s through data-driven software engineering.
+That is what our Head of Engineering and Co-Founder, Stefan Richter talked about at the STACKIT Cloud x Summit yesterday.</description></item><item><title/><link>https://freiheit.com/chronicle/2024-04-10-a-life-changing-moment/</link><pubDate>Wed, 10 Apr 2024 00:00:05 +0000</pubDate><guid>https://freiheit.com/chronicle/2024-04-10-a-life-changing-moment/</guid><description>Do you remember a life-changing moment for you? This is mine.
+After 25 years of building and running my company freiheit.com technologies, which I co-founded together with Stefan Richter, as I planned two years ago I am handing over my role as CEO.
+Stefan started as the first software engineer and employee no. 1 in October 1998, and in February 1999 we incorporated our company together.
+I took over the business part, and he took over the engineering part.</description></item><item><title/><link>https://freiheit.com/chronicle/2023-11-29-bundesweiter-it-fachkraeftemangel/</link><pubDate>Wed, 29 Nov 2023 17:03:05 +0000</pubDate><guid>https://freiheit.com/chronicle/2023-11-29-bundesweiter-it-fachkraeftemangel/</guid><description>Bundesweit fehlen rund 68.000 IT-Experten*. Trotzdem gelingt es freiheit.com die Top-5-Prozent der Uni-Absolventen zu finden und für sich zu gewinnen. Tatsächlich stellt freiheit.com nur 2,5 Prozent der Bewerber ein. Das Team aus über 200 Spezialisten baut seit 25 Jahren large-scale Software-Systeme für internationale Unternehmen verschiedener Branchen. Wie gelingt es freiheit.com, in für das Recruiting schwierigen Zeiten die besten Talente auf dem Arbeitsmarkt zu finden, zu rekrutieren und zu halten?
+Ein Software-Unternehmen von &amp;ldquo;Engineers for Engineers&amp;rdquo; freiheit.</description></item><item><title/><link>https://freiheit.com/chronicle/2023-09-05-bis-zu-50-prozent-aller-it-projekte/</link><pubDate>Tue, 05 Sep 2023 17:03:05 +0000</pubDate><guid>https://freiheit.com/chronicle/2023-09-05-bis-zu-50-prozent-aller-it-projekte/</guid><description>freiheit.com zählt zu den führenden Software-Unternehmen in Europa. Das Team aus über 200 Software-Engineers baut seit fast einem Vierteljahrhundert &amp;ldquo;large-scale Software Platforms&amp;rdquo;, große strategische Systeme für internationale Unternehmen mit Millionen von Nutzern und Transaktionen. So können für freiheit.com&amp;rsquo;s Kunden Wettbewerbsvorteile und neue, globale Geschäftsmodelle realisiert werden.
+freiheit.com hat seit 1999 über 350 large-scale Software-Projekte erfolgreich abgeschlossen - immer innerhalb der vereinbarten Zeit und des vereinbarten Kostenrahmens. Die Projekte von freiheit.com ermöglichen den Kunden ihre Umsätze in strategisch wichtigen Bereichen zu steigern oder die Effizienz signifikant zu erhöhen PMI-Studie zeigt: 50 Prozent aller IT-Projekte weltweit überschreiten die Deadline.</description></item><item><title/><link>https://freiheit.com/chronicle/2020-02-06-portugal-is-a-perfect-place-to-create-businesses-for-the-digital-future/</link><pubDate>Thu, 06 Feb 2020 17:03:05 +0000</pubDate><guid>https://freiheit.com/chronicle/2020-02-06-portugal-is-a-perfect-place-to-create-businesses-for-the-digital-future/</guid><description>You and your partner Stefan Richter took a big risk in starting your own tech company from scratch. What led you to it? We didn’t see it as a risk. We still see it as an adventure. We wanted to create the company we had always looked for. A company that is more a community of highly educated, intelligent and ambitious people working in an unconventional way without vanity and politics.</description></item><item><title/><link>https://freiheit.com/chronicle/2019-12-20-freiheit.com-supports-the-heroes-of-the-sea/</link><pubDate>Fri, 20 Dec 2019 17:49:07 +0000</pubDate><guid>https://freiheit.com/chronicle/2019-12-20-freiheit.com-supports-the-heroes-of-the-sea/</guid><description>Hamburg/Lisbon, December 10, 2019 – The German software company freiheit.com has allocated a donation to the actual environmental project of York Hovest. Together with two friends, the photographer and National Geographic book author will cross the Atlantic Ocean in a rowboat – from Gran Canaria to Barbados during a period of over 50 days. York started this journey just ten days ago. The ocean crossing is part of his mission to save the oceans by enhancing the visibility of the “Heroes of the Sea” as he calls the people in his recent book whose activities contribute to saving the oceans.</description></item><item><title/><link>https://freiheit.com/chronicle/2019-11-19-hackers-wanted/</link><pubDate>Tue, 19 Nov 2019 17:13:14 +0000</pubDate><guid>https://freiheit.com/chronicle/2019-11-19-hackers-wanted/</guid><description>Recently, we started a recruiting campaign “Hackers wanted” showing that our highly educated software engineers graduated from the best universities worldwide, such as at the ISCTE Lisboa, IST Lisboa, KIT Karlsruhe, WWU Münster and the ETH Zurich.
+We have a strong engineering culture. 90 % of the team are engineers with backgrounds in Computer Science, Physics or Mathematics, many also with strong Machine Learning backgrounds.
+As internet pioneers, we have been building large-scale software systems since 1999, when our company was founded in Germany.</description></item><item><title/><link>https://freiheit.com/chronicle/2018-10-16-code.talks-2018/</link><pubDate>Tue, 16 Oct 2018 16:38:23 +0000</pubDate><guid>https://freiheit.com/chronicle/2018-10-16-code.talks-2018/</guid><description>Some people think, that managers are not needed anymore. It is widely believed, that the future belongs to agile, self-organizing teams and emergent behavior. In a world without managers, these teams operate like some kind of swarm intelligence, that always finds the right solution, at the right time, and is constantly creating the highest value for the customer, right?</description></item><item><title/><link>https://freiheit.com/chronicle/2017-06-02-aubrey_de_grey/</link><pubDate>Fri, 02 Jun 2017 12:38:38 +0000</pubDate><guid>https://freiheit.com/chronicle/2017-06-02-aubrey_de_grey/</guid><description>On June 2, 2017, we got an awesome guest speaker at our HackerTalk - Aubrey de Grey&amp;nbsp;→, the Chief Science Officer and Co-Founder of the SENS Research Foundation&amp;nbsp;→. The foundation&amp;rsquo;s stated goal is to transform the way the world researches and treats age-related disease. Aubrey provocatively proposes that the first human beings who will live to 1,000 years old have already been born.</description></item><item><title/><link>https://freiheit.com/chronicle/2017-05-05-marco_boerries_hackertalk/</link><pubDate>Fri, 05 May 2017 14:28:18 +0000</pubDate><guid>https://freiheit.com/chronicle/2017-05-05-marco_boerries_hackertalk/</guid><description>On May 5, 2017, Marco Börries&amp;nbsp;→ presents his fourth product, NumberFour, or recently branded as enfore&amp;nbsp;→. Marco Börries is a German software engineer, a business friend and partner - and passionate entrepreneur!
+In his talk „Make small business work in a complex world“, he gives us an insight into his current product, his strategy as well as the architecture and technologies.</description></item><item><title/><link>https://freiheit.com/chronicle/2017-03-23-spiegel_online_buero_fdc/</link><pubDate>Thu, 23 Mar 2017 14:57:28 +0000</pubDate><guid>https://freiheit.com/chronicle/2017-03-23-spiegel_online_buero_fdc/</guid><description>SPIEGEL ONLINE compares the top 17 offices worldwide - we are in. According to a study, the productivity of each individual depends on the spatiality of the workplace. Where would you like to work?
+Check it out at SPIEGEL ONLINE&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2017-03-03-video_cmagnussen/</link><pubDate>Fri, 03 Mar 2017 17:19:20 +0000</pubDate><guid>https://freiheit.com/chronicle/2017-03-03-video_cmagnussen/</guid><description>&lt;h3 id="why-being-scared-of-machine-learning-will-leave-you-in-the-90s">Why being scared of machine learning will leave you in the 90s&lt;/h3>
+&lt;p>&lt;a class="font-serif no-underline hover:text-red" href="http://christophmagnussen.com/" target="_blank" rel="noopener">Christoph Magnussen&amp;nbsp;→&lt;/a> and Stefan Richter met for a quick talk about the fear of many companies to utilize their data and the state of security when using cloud. Hope it&amp;rsquo;s useful to you guys!&lt;/p>
+&lt;p>Read full article to watch the video:&lt;/p></description></item><item><title/><link>https://freiheit.com/chronicle/2017-01-20-huffington-post/</link><pubDate>Fri, 20 Jan 2017 11:43:57 +0000</pubDate><guid>https://freiheit.com/chronicle/2017-01-20-huffington-post/</guid><description>Die Maschine bekommt ein sympathisches Gesicht&amp;nbsp;→, nämlich unseres&amp;nbsp;→
+Even though machines are taking over more jobs that previously have been executed by humans, this development also bears a lot of opportunities for us, because we are still a valuable workforce. Nevertheless, the population declines and becomes increasingly older and many exciting jobs still remain that only someone made out of flesh and blood can do best. At the same time, the human workforce is decreasing.</description></item><item><title/><link>https://freiheit.com/chronicle/2016-11-24-rowhow-sponsor/</link><pubDate>Thu, 24 Nov 2016 16:45:48 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-11-24-rowhow-sponsor/</guid><description>From November, 25 to 27, 2016 the third Robotic Hamburg Open Workshop (RoHOW)&amp;nbsp;→ will be held at the Hamburg University of Technology (TUHH).
+The RoHOW is an educational and networking event of students of the Universität Hamburg and the TUHH with students and scientists from all over the world that are active in research on humanoid robots.
+Teams of the standard platform and Humanoid Kid Size League are invited to present their work.</description></item><item><title/><link>https://freiheit.com/chronicle/2016-10-26-mathematiker-zu-besuch/</link><pubDate>Wed, 26 Oct 2016 11:56:01 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-10-26-mathematiker-zu-besuch/</guid><description>On October 26, 2016, we hang out with these cool, young mathematicians from Lothar Collatz School&amp;nbsp;→ for Computing in Science, which promotes computational education &amp;amp; research at the interface of Mathematics, Computer Science, and Computational Sciences. It is a pleasure having you, thank you for visiting us!
+Here´s more about the event&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2016-08-24-code.talks2016/</link><pubDate>Thu, 22 Sep 2016 12:08:52 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-08-24-code.talks2016/</guid><description>The code.talks&amp;nbsp;→ meanwhile is one of Europe’s biggest developer’s conference. In 2016, the developer’s bash goes into its sixth round. This time, freiheit.com is platinum sponsor and curators for track New Technology&amp;nbsp;→, Live Coding&amp;nbsp;→, and Big Data &amp;amp; Skalierung&amp;nbsp;→.
+code.talks.de&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2016-08-24-fsfesummit2016/</link><pubDate>Wed, 24 Aug 2016 18:35:11 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-08-24-fsfesummit2016/</guid><description>Imagine the European Union builds its IT infrastructure based on free software. Imagine European member states trade information with the help of open standards and share their software. Imagine municipalities and city councils profit from decentralized and collaborative software based on free software licenses. Imagine Europeans are no longer forced to use proprietary software any longer.
+That is the goal of the FSFE&amp;nbsp;→. The FSFE Summit&amp;nbsp;→ is the general assembly that unites FSFE members and supporters from all over Europe.</description></item><item><title/><link>https://freiheit.com/chronicle/2016-08-24-openpgp206/</link><pubDate>Wed, 24 Aug 2016 11:44:14 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-08-24-openpgp206/</guid><description>On September 8 and September 9, 2016, the German Unix User Group in Cologne organizes the OpenPGP.conf&amp;nbsp;→ - the first public conference with main topic OpenPGP. We are supporters because strong encryption is the most important basic technology of a free and digital future society. freiheit.com is proud to support the conference as silver sponsor.
+Here’s more on the conference&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2016-08-24-typed_clojure/</link><pubDate>Sun, 24 Apr 2016 21:04:37 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-08-24-typed_clojure/</guid><description>Ambrose Bonnaire-Sergeant&amp;nbsp;→ starts his campaign named Typed Clojure &amp;amp; clojure.spec: Auto Annotations&amp;nbsp;→. Write tests, receive types! Type comments in Typed Clojure are large and laborious to write manually. This project comprises manufacturing of a tool for the automation of the process based on already written tests. freiheit.com is excited to be part of it as a sponsor!
+Find out more about the campaign&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2016-04-22-meetup_live_coding/</link><pubDate>Fri, 22 Apr 2016 18:26:14 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-04-22-meetup_live_coding/</guid><description>Our founder Stefan Richter organizes the first Live Coding Meetup in Hamburg. On May 9, 2016, we will start off the Meetup with parser combinators in Haskell. Alex Biehl is going to present the basic concept and use of parser combinators and interactively build a JSON parser and develop a personal parser combinators library on the beamer. Parsers are used almost everywhere: HTML pages in browsers, JSON, or other small, self-defined format, which need to be assembled logically for processing, in order to be mapped onto data structures.</description></item><item><title/><link>https://freiheit.com/chronicle/2016-04-19-codetalks_april_2016/</link><pubDate>Tue, 19 Apr 2016 18:57:33 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-04-19-codetalks_april_2016/</guid><description>Thomas Storck - CIO METRO Cash &amp;amp; Carry - knows the necessity of the digital transformation. He was the driving force behind building a food delivery software to optimize his customer’s needs. METRO is at the very top of Europe’s online retailers, counting more than 3 billion euros in revenue within the food delivery business of online orders. A strong technology partner stands behind making the first step towards the future.</description></item><item><title/><link>https://freiheit.com/chronicle/2016-04-01-wiwo_chefbueros/</link><pubDate>Fri, 01 Apr 2016 15:29:35 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-04-01-wiwo_chefbueros/</guid><description>The slideshow in the series “Chefbüro” of the German magazine “WirtschaftsWoche” (14/2016), offers us a glimpse into the offices of the best managers. Throughout the three open-spaced, modern floors of the software company freiheit.com, located in the vibrant borough St. Pauli, Claudia shows how freiheit.com’s hacker culture comes to life in the office: “German Engineering meets Silicon Valley”. The mechanical model ship displayed on Claudia’s sideboard is a gift given to her by the late NASA pioneer Prof.</description></item><item><title/><link>https://freiheit.com/chronicle/2016-03-11-businesstalk_kirschner_fsfe/</link><pubDate>Fri, 11 Mar 2016 15:29:01 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-03-11-businesstalk_kirschner_fsfe/</guid><description>In his talk - held on March 11, 2016 - our guest speaker Matthias Kirschner, President of the Free Software Foundation Europe (FSFE), discusses the foundation’s activity, successes, and future plans. Since October 2003, bookzilla.de is operated by freiheit.com and is the world’s first online bookstore supporting free software. All proceeds are donated to FSFE by freiheit.com since 2004. The non-profit organization supports the distribution and advancement of open source programs for over 30 years.</description></item><item><title/><link>https://freiheit.com/chronicle/2015-12-04-zeit_online_dez15/</link><pubDate>Fri, 04 Dec 2015 19:23:30 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-12-04-zeit_online_dez15/</guid><description>In her interview with ZEIT ONLINE, Claudia Dietze explains why authority and responsibility need ownership, not hierarchy.
+Check out the article&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2015-10-22-online_karrieretag_2015/</link><pubDate>Thu, 22 Oct 2015 14:03:31 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-10-22-online_karrieretag_2015/</guid><description>On October 22, 2015, freiheit.com is a sponsor at the Online-Karrieretag in Hamburg. In his interview by Michael Karasjew (dieBewerbungsExperten.de), Stefan Richter explains what the ideal job candidate looks like.</description></item><item><title/><link>https://freiheit.com/chronicle/2015-10-02-business_talk_lars_hinrichs/</link><pubDate>Fri, 02 Oct 2015 13:53:32 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-10-02-business_talk_lars_hinrichs/</guid><description>On October 2, 2015, Lars Hinrichs - Internet pioneer and founder of the career network XING - is our business talk guest and speaks about his latest project: Apartimentum - a smart home located in Hamburg.
+About the project&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2015-09-30-codetalks_2015_stefan/</link><pubDate>Wed, 30 Sep 2015 19:20:07 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-09-30-codetalks_2015_stefan/</guid><description>Can we build an intelligent software agent, who portrays a perfect project manager? A bot who delivers information in the right time to the right people and who is both analyzer and messenger as well as helpful assistant at the same time? In September 2015, Stefan Richter speaks at the fifth code.talks conference about the usage of intelligent agents within software development.</description></item><item><title/><link>https://freiheit.com/chronicle/2015-09-30-codetalks_2015/</link><pubDate>Wed, 30 Sep 2015 14:01:08 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-09-30-codetalks_2015/</guid><description>The code.talks have grown to become one of Europe’s biggest developer conferences. In 2015, the developer’s community celebrates their reunion for the fifth time. freiheit.com is gold sponsor, once again. Stefan Richter and Martin Holtschneider are curators for tracks “New Technology” and “Scalability”, respectively.
+Visit code.talks.de&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2015-09-10-ecml_2015/</link><pubDate>Thu, 10 Sep 2015 13:51:01 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-09-10-ecml_2015/</guid><description>In September 2015, freiheit.com sponsors the ECML PKDD in Porto. The ECML is a machine learning conference, which takes place annually in different European locations. Our colleague Michael Großhans is a guest speaker at the conference, presenting the topic “Solving Prediction Games with Parallel Batch Gradient Descent”.
+Paper and abstract&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2015-08-17-sylt_2015/</link><pubDate>Mon, 17 Aug 2015 19:17:47 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-08-17-sylt_2015/</guid><description>A day at sea with freiheit.com. It is a perfect day for a company trip to the beautiful island of Sylt, on this amazing, sunny summer’s day in the month of August, 2015. With plenty of chilled drinks and tasty food, we are spending a relaxed day, playing beach volleyball, trying ourselves at “Viking Chess”, and playing the guitar in the Western part of Kampen.</description></item><item><title/><link>https://freiheit.com/chronicle/2015-08-01-claudia_charmante_mrs_perfect/</link><pubDate>Sat, 01 Aug 2015 13:56:09 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-08-01-claudia_charmante_mrs_perfect/</guid><description>In the newspaper series of the Hamburger Abendblatt “Der Rote Faden” (“The Red Thread”), which symbolizes a connection between people who respect and appreciate each other. XING founder Lars Hinrichs has extended the red thread to Claudia Dietze. In the following article, entrepreneur Claudia Dietze explains why to her reason and passion are not contrary to one another.
+Check out the article&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2015-06-16-tag_der_offenen_tuer_2015/</link><pubDate>Tue, 16 Jun 2015 13:41:04 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-06-16-tag_der_offenen_tuer_2015/</guid><description>Open House @ freiheit.com. On June 19, 2015, we are inviting friends and family of our colleagues to freiheit.com’s Open House, showing how exciting the work of a software engineer can be. After a tour through freiheit.com laboratories, we are inviting all of our guests to a summer BBQ on our panoramic rooftop terrace, overlooking St. Pauli.</description></item><item><title/><link>https://freiheit.com/chronicle/2015-06-10-perfect_the_enemy_of_good/</link><pubDate>Wed, 10 Jun 2015 19:14:06 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-06-10-perfect_the_enemy_of_good/</guid><description>manager magazin - a German monthly magazine focusing on business, finance and management - publishes a collection of the best advices given in the SAAL ZWEI interview series “3 FRAGEN AN 30 FRAUEN.” (“3 QUESTIONS FOR 30 WOMEN.”). Amongst them, Claudia Dietze’s SAAL ZWEI column “Perfect is the enemy of good” has also been selected.
+Check out the article&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2015-04-26-js_unconf_2015/</link><pubDate>Sun, 26 Apr 2015 13:35:39 +0000</pubDate><guid>https://freiheit.com/chronicle/2015-04-26-js_unconf_2015/</guid><description>JS Unconf is a non-profit conference of the JavaScript community. In 2015, freiheit.com is one of the sponsors. The audience has chosen our colleague Michael Bohn to speak about “Displaying, Animating, and Comunicating with Ponies in famo.us”. Michael is providing both his presentation and demo app on our GitHub account.
+Click here for the presentation&amp;nbsp;→
+Check out the demo app&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2014-11-20-vdz_tech_summit_2014/</link><pubDate>Thu, 20 Nov 2014 14:13:41 +0000</pubDate><guid>https://freiheit.com/chronicle/2014-11-20-vdz_tech_summit_2014/</guid><description>Stefan Richter holds his presentation “Von Big Data zum Machine Learning” (“From Big Data to Machine Learning”) during the second VDZ Tech Summit on November 20, 2014. His presentation illustrates how user behavior can be made transparent through data analysis and its evaluation, in order to better understand the client&amp;rsquo;s needs and for automated optimization for processes, products, and services.
+Check out the interview&amp;nbsp;→</description></item><item><title/><link>https://freiheit.com/chronicle/2010-02-02-clojure_pet_project/</link><pubDate>Tue, 02 Feb 2010 13:44:43 +0000</pubDate><guid>https://freiheit.com/chronicle/2010-02-02-clojure_pet_project/</guid><description>Since freiheit.com was founded, we have built our own tools adopting early techniques of AI and Machine Learning, helping us to effectively and efficiently manage software projects: from early XMPP bots over prolog backend and Rete algorithm-based production systems for a rule-based expert system for task management written in Clojure. This even became a small startup project: “How a Clojure pet project turned into a full-blown cloud-computing web app”.
+Check out the event&amp;nbsp;→</description></item></channel></rss>
