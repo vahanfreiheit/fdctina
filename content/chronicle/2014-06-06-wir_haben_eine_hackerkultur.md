@@ -2,7 +2,7 @@
 date: 2014-06-06 13:58:38
 locale: en
 image: /img/chronicle/db_foto.jpg.webp
-tags: [ archive ]
+tags: [ news ]
 hideHeaderTitle: true
 draft: true
 ---

@@ -8,7 +8,7 @@ lead_image:
 image: /img/chronicle/freiheit_love_lisbon_201905.jpg.webp
 vimeo:
 youtube:
-tags: [ archive ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

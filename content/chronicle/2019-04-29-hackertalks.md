@@ -9,7 +9,7 @@ lead_image:
 image: /img/chronicle/hackertalks.jpg.webp
 vimeo:
 youtube:
-tags: [ archive ]
+tags: [ news ]
 hideHeaderTitle: true
 ---
 

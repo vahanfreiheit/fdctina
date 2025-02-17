@@ -1,9 +1,20 @@
 {{ define "main" }}
+<script>
+    // set back link depending on if we have a browser history
+    document.addEventListener("DOMContentLoaded", function(){
+        let backLink = "{{site.BaseURL}}tags/{{index .Params.Tags 0}}";
+        if(window.history.length > 2) {
+            backLink = "javascript:window.history.back(-1)"
+        }
+        var link = document.getElementById("backLink");
+        link.setAttribute("href", backLink);
+        });
+</script>
 <div class="fdc-content-layout">
     <section class="article-content bg-white mb-24">
         <article>
             <div class="flex justify-between">
-                <a class="self-start font-serif no-underline hover:text-red block md:mb-6 mt-6 md:mt-0 text-lg" href="{{site.BaseURL}}/chronicle" rel="noopener">&larr;&nbsp;back</a>
+                <a id="backLink" class="self-start font-serif no-underline hover:text-red block md:mb-6 mt-6 md:mt-0 text-lg" href="" rel="noopener">&larr;&nbsp;back</a>
                 {{ if .Params.download }}
                     <a
                         href="{{site.BaseURL}}{{ .Params.download }}"
