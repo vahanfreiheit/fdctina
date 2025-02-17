@@ -18,7 +18,7 @@ We are a software engineering company - by engineers for engineers. How are we s
 
 Who is responsible for that? The Product Engineering Leads and Systems Engineering Leads.
 
-{{< youtube 7RXW7BRBRjs "/img/chronicle/2024-11-13-product-and-systems-engineering-leads.webp" >}}
+{{< youtube id="7RXW7BRBRjs" img="/img/chronicle/2024-11-13-product-and-systems-engineering-leads.webp" >}}
 
 These aren’t managers. freiheit.com members that take on these roles started out like every newbie, as associate engineers. They developed their skills through different engineering levels over time. Eventually they became team leads and then took on overarching responsibilities of entire projects, so they know first hand how we work at freiheit.com.
 

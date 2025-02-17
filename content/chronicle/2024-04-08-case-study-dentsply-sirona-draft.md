@@ -12,7 +12,7 @@ hideHeaderTitle: true
 download: /downloads/Case_Study_Dentsply_Sirona_freiheit-com.pdf
 draft: true
 ---
-{{< youtube vyCRTlugecM "/img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.webp" >}}
+{{< youtube id="vyCRTlugecM" img="/img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.webp" >}}
 
 **Dentsply Sirona had a vision.** To make the workflow of dental practices around the world efficient, fast and seamless. To give dentists time to focus on what’s really important, the well-being of the patients.
 

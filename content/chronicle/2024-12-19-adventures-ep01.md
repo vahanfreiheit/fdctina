@@ -19,4 +19,4 @@ Our team knew that they wouldn't leave without fixing it.
 
 In the first episode of our newest series “freiheit.com adventures”, Omar tells the story about how he knew that he was in the right place.
 
-{{< youtube jMZtMhv9X_o "/img/chronicle/2024-12-19-adventures-ep01.jpg" >}}
+{{< youtube id="jMZtMhv9X_o" img="/img/chronicle/2024-12-19-adventures-ep01.jpg" >}}

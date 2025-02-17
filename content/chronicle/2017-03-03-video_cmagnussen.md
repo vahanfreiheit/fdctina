@@ -17,4 +17,4 @@ hideHeaderTitle: true
 
 Read full article to watch the video:
 <!--more-->
-{{< youtube 76gs8VC7c2M>}}
+{{< youtube id="76gs8VC7c2M" >}}

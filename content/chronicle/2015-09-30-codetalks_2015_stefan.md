@@ -9,7 +9,7 @@ summary: Can we build an intelligent software agent, who portrays a perfect proj
 
 Can we build an intelligent software agent, who portrays a perfect project manager? A bot who delivers information in the right time to the right people and who is both analyzer and messenger as well as helpful assistant at the same time? In September 2015, Stefan Richter speaks at the fifth code.talks conference about the usage of intelligent agents within software development.
 
-{{< youtube KtlbooY-AEI >}}
+{{< youtube id="KtlbooY-AEI" >}}
 
 [Check out the presentation](http://de.slideshare.net/AboutYouGmbH/stefan-richter-datadriven-software-development-the-quest-for-the-intelligent-machine-that-manages-software-projects-codetalks-2015?qid=4d2deee1-c3bf-42e1-9b7c-c933d96f60d4&v=qf1&b=&from_search=1)
 

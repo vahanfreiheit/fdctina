@@ -9,13 +9,13 @@ On click it replaces this with the actual youtube embed iframe.
 
 */}}
 
-{{ $id := printf "%s_%s" "youtube" (index .Params 0) }}
-
-<div id="{{ $id }}_container" class="relative h-0 my-12">
+{{ $id := printf "%s_%s" "youtube" (index .Params "id") }}
+{{ $padding := default "my-12" (index .Params "padding") }}
+<div id="{{ $id }}_container" class="relative h-0 {{ $padding }}">
     <div id="{{ $id }}_iframe"></div>
     <div id="{{ $id }}_image" class="absolute top-0 left-0 w-full h-full border-0 flex justify-center items-center cursor-pointer">
-        <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="{{ if isset .Params 1 }}{{ site.BaseURL }}{{ index .Params 1 }}{{ else }}https://img.youtube.com/vi_webp/{{ index .Params 0 }}/hqdefault.webp{{ end }}"
-             alt="YouTube video {{ index .Params 0 }}">
+        <img id="{{ $id }}_image__thumb" class="absolute w-full" loading="lazy" src="{{ if (isset .Params "img") }}{{ site.BaseURL }}{{ index .Params "img" }}{{ else }}https://img.youtube.com/vi_webp/{{ index .Params "id" }}/hqdefault.webp{{ end }}"
+             alt="{{ if isset .Params "alt" }}{{ index .Params "alt" }}{{ else }}youtube video{{ end }}">
         <img id="{{ $id }}_image__button" class="absolute" src="{{site.BaseURL}}/img/youtube_play_button.svg" title="Click to load video" alt="Click to load video"/>
         <img id="{{ $id }}_image__button--hover" class="absolute hidden" src="{{site.BaseURL}}/img/youtube_play_button_hover.svg" title="Click to load video" alt="Click to load video"/>
     </div>
@@ -23,12 +23,12 @@ On click it replaces this with the actual youtube embed iframe.
 <script>
     window.addEventListener("load",function() {
         let iframe = document.createElement('iframe');
-        iframe.setAttribute('id', '{{ $id }}_iframe');
+        iframe.setAttribute("id", '{{ $id }}_iframe');
         iframe.setAttribute('class', 'absolute top-0 left-0 w-full h-full border-0');
         iframe.setAttribute('allow', 'autoplay');
-        iframe.setAttribute('src', 'https://www.youtube-nocookie.com/embed/{{ index .Params 0 }}?enablejsapi=1&autoplay=1&rel=0');
+        iframe.setAttribute('src', 'https://www.youtube-nocookie.com/embed/{{ index .Params "id" }}?enablejsapi=1&autoplay=1&rel=0');
         iframe.setAttribute('allowFullscreen', '');
-        iframe.setAttribute('title', 'YouTube Video {{ index .Params 0 }}');
+        iframe.setAttribute('title', 'YouTube Video {{ index .Params "id" }}');
         let div = document.getElementById("{{ $id }}_image");
         div.addEventListener("click", function () {
             document.getElementById('{{ $id }}_image').remove();

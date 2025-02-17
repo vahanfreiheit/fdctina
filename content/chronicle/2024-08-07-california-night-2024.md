@@ -12,7 +12,7 @@ tags: [ news ]
 hideHeaderTitle: true
 ---
 
-{{< youtube cLcasJULjls "/img/chronicle/2024-08-07-california-night-2024.jpg" >}}
+{{< youtube id="cLcasJULjls" img="/img/chronicle/2024-08-07-california-night-2024.jpg" >}}
 
 This years motto: it’s all about California 🎉
 Our founders Claudia Dietze and Stefan Richter fell in love with California a long time ago and like to bring the spirit back to Germany. 🌴

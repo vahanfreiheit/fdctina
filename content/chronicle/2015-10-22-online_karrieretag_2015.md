@@ -9,4 +9,4 @@ summary: On October 22, 2015, freiheit.com is a sponsor at the Online-Karriereta
 
 On October 22, 2015, freiheit.com is a sponsor at the Online-Karrieretag in Hamburg. In his interview by Michael Karasjew (dieBewerbungsExperten.de), Stefan Richter explains what the ideal job candidate looks like.
 
-{{< youtube kfNMpgfs3Jg >}}
+{{< youtube id="kfNMpgfs3Jg" >}}
