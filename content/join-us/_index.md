@@ -5,6 +5,7 @@ draft: false
 headerHeadline: Join us
 headerTheme: pale-green
 footerImage: footer_join_us.jpg
+footerImageAlt: "freiheit.com members work together in the office to be more efficient and collaborative."
 aliases:
   - /join-the-team/
   - /jobs/
