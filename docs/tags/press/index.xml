@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Press on freiheit.com</title><link>https://freiheit.com/tags/press/</link><description>Recent content in Press on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 Sep 2016 21:01:37 +0000</lastBuildDate><atom:link href="https://freiheit.com/tags/press/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://freiheit.com/chronicle/2016-09-22-saalzwei_sep16/</link><pubDate>Thu, 22 Sep 2016 21:01:37 +0000</pubDate><guid>https://freiheit.com/chronicle/2016-09-22-saalzwei_sep16/</guid><description>Claudia Dietze - columnist for the online magazine SAAL ZWEI - writes exclusively about topics that move her in her daily life as top executive.
-Today: Man muss kein Programmierer sein&amp;nbsp;→, um Software zu entwickeln&amp;nbsp;→.
-Not so long ago, not many job positions were offered for non-engineers in the digital industry. This has changed immensely. More and more jobs are created, where even a university degree in archaeology, history, or philosophy will take you a long way in the digital industry.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Press on freiheit.com</title>
+    <link>https://mploigt.github.io/freiheit/tags/press/</link>
+    <description>Recent content in Press on freiheit.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Sep 2016 21:01:37 +0000</lastBuildDate>
+    <atom:link href="https://mploigt.github.io/freiheit/tags/press/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mploigt.github.io/freiheit/chronicle/2016-09-22-saalzwei_sep16/</link>
+      <pubDate>Thu, 22 Sep 2016 21:01:37 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/chronicle/2016-09-22-saalzwei_sep16/</guid>
+      <description>Claudia Dietze - columnist for the online magazine SAAL ZWEI - writes exclusively about topics that move her in her daily life as top executive.&#xA;Today: Man muss kein Programmierer sein&amp;nbsp;→, um Software zu entwickeln&amp;nbsp;→.&#xA;Not so long ago, not many job positions were offered for non-engineers in the digital industry. This has changed immensely. More and more jobs are created, where even a university degree in archaeology, history, or philosophy will take you a long way in the digital industry.</description>
+    </item>
+  </channel>
+</rss>

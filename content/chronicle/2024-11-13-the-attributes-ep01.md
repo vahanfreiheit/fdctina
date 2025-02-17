@@ -2,7 +2,6 @@
 date: 2024-11-13
 headline1: The Attributes
 headline2:
-teaser:
 lead_image:
 image: /img/chronicle/showroom_thumb_attributes.webp
 imageText: The Attributes Series
