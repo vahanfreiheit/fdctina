@@ -5,6 +5,7 @@ draft: false
 headerHeadline: Our Community
 headerTheme: green
 footerImage: footer_community.jpg
+footerImageAlt: "freiheit.com members are happy to be a part of the freiheit.com community"
 menu:
   main:
     name: Our Community

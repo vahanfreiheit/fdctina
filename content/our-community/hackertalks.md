@@ -19,9 +19,9 @@ Keep an eye on our [LinkedIn page](https://www.linkedin.com/company/freiheit-com
 
 
 {{< grid-images cols="2">}}
-    {{< image src="/img/our-community/hackertalks_1.webp" alt="freiheit.com hackertalks">}}
-    {{< image src="/img/our-community/hackertalks_2.webp" alt="freiheit.com hackertalks">}}
+    {{< image src="/img/our-community/hackertalks_1.webp" alt="A freiheit.com member presents a technical topic to discuss at Hackertalk night.">}}
+    {{< image src="/img/our-community/hackertalks_2.webp" alt="freiheit.com members to discuss technology at Hackertalk.">}}
 {{< /grid-images >}}
 {{< grid-images>}}
-    {{< image src="/img/our-community/hackertalks_3.webp" alt="freiheit.com hackertalks">}}
+    {{< image src="/img/our-community/hackertalks_3.webp" alt="freiheit.com members are interested in discussing interesting technical topics at Hackertalk.">}}
 {{< /grid-images >}}

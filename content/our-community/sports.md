@@ -10,7 +10,7 @@ If you can name a sport, there’s probably freiheit.com members who like it. We
 
 <div class="pb-36">
 {{< grid-images cols="2">}}
-    {{< image src="/img/our-community/sport_1.webp" alt="freiheit.com sport">}}
-    {{< image src="/img/our-community/sport_2.webp" alt="freiheit.com sport">}}
+    {{< image src="/img/our-community/sport_1.webp" alt="freiheit.com members go bouldering in their free time">}}
+    {{< image src="/img/our-community/sport_2.webp" alt="freiheit.com members do yoga sessions in the office as an active break.">}}
 {{< /grid-images >}}
 </div>
