@@ -1,6 +1,7 @@
 ---
 title: "Building the future of Omnichannel Retail Platforms"
 image: /img/things-weve-built/building-the-future-of-omnichannel-retail-platforms.webp
+imageAlt: "freiheit.com built an omnichannel platform with a personalized shopping experience for the fashion retailer Peek & Cloppenburg."
 date: 2024-05-13
 draft: false
 tags: [ case-studies ]

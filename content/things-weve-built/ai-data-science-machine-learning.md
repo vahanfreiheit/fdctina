@@ -1,6 +1,7 @@
 ---
 title: "Using Machine Learning Algorithms to Fulfill Physical Order Slips for BA.Unternehmensgruppe"
 image: /img/things-weve-built/ai-data-science-machine-learning_2.jpg.webp
+imageAlt: "freiheit.com built a machine learning system for the healthcare company BA.Unternehmengruppe to fulfill physical order slips."
 date: 2024-05-18
 draft: false
 tags: [ case-studies ]

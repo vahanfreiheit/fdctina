@@ -5,6 +5,7 @@ draft: false
 headerHeadline: Things we've built
 headerTheme: yellow
 footerImage: footer_things_we_build.jpg
+footerImageAlt: "freiheit.com engineering teams built custom large-scale software."
 aliases:
   - /what-weve-build/
   - /what-weve-build/and-there-is-more/

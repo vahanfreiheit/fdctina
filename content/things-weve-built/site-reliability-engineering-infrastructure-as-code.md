@@ -1,6 +1,7 @@
 ---
 title: "Site Reliability Engineering & Infrastructure as Code"
 image: /img/things-weve-built/site-reliability-engineering-&-infrastructure-as-code_2.jpg.webp
+imageAlt: "freiheit.com has its own site reliability engineering team."
 date: 2024-05-14
 draft: false
 tags: [ case-studies ]
