@@ -38,7 +38,7 @@
         <h4 class="mt-20">Case Studies</h4>
         <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
             {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "case-studies") }}
-            {{ range first 6 $p }}
+            {{ range first 3 $p }}
                 {{- partial "chronicle-article-teaser.html" . -}}
             {{ end }}
         </div>
@@ -46,6 +46,20 @@
             <a href="{{site.BaseURL}}/things-weve-built"
                 class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
                 see more →
+            </a>
+        </div>
+
+        <h4 class="mt-20">We Support</h4>
+        <div class="mt-6 grid grid-cols-1 lg:grid-cols-3 items-start gap:10 lg:gap-20 lg:gap-20 mt-2">
+            {{ $p := where .Pages.ByDate.Reverse "Params.tags" "intersect" (slice "we-support") }}
+            {{ range first 3 $p }}
+                {{- partial "chronicle-article-teaser.html" . -}}
+            {{ end }}
+        </div>
+        <div class="mt-8 mb-10">
+            <a href="{{site.BaseURL}}/tags/we-support"
+            class="inline-block leading-none cursor-pointer text-xl no-underline font-serif hover:text-red">
+            see more →
             </a>
         </div>
     </section>
