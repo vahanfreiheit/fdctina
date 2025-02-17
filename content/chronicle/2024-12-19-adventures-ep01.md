@@ -4,7 +4,7 @@ headline1: freiheit.com adventures | EP01
 headline2:
 teaser:
 image: /img/chronicle/2024-12-19-adventures-ep01.jpg
-imageText: freiheit.com Adventures
+ImageAltText: freiheit.com Adventures
 tags: [ showroom ]
 hideImageOnArticle: true
 ---

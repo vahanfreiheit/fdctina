@@ -1,7 +1,7 @@
 ---
 date: 2024-02-24
 image: /img/chronicle/2024-02-24-freiheit-turns-25-thumbnail.webp
-imageText: Claudia and Stefan
+ImageAltText: Claudia and Stefan
 hideImageOnArticle: true
 tags: [ news ]
 headline1: freiheit.com turns 25!

@@ -19,8 +19,8 @@
             {{ end }}
             {{ if and (not .Params.Youtube) .Params.Image (not .Params.hideImageOnArticle) }}
             <div class="my-8">
-                <img src="{{site.BaseURL}}{{ .Params.Image }}" class="w-full" alt="{{ .Title }}"/>
-                {{ if .Params.ImageText }}<div class="mt-2 text-sm">{{ .Params.ImageText }}</div>{{ end }}
+                <img src="{{site.BaseURL}}{{ .Params.Image }}" class="w-full" alt="{{ .Params.ImageAltText }}"/>
+                {{ if .Params.ImageCaption }}<div class="mt-2 text-sm">{{ .Params.ImageCaption }}</div>{{ end }}
             </div>
             {{ else if and .Params.lead_image (not .Params.hideImageOnArticle) }}
                 <img src="{{site.BaseURL}}{{ .Params.lead_image }}" class="w-full my-8" alt="{{ .Title }}"/>

@@ -5,7 +5,7 @@ headline2:
 teaser:
 lead_image: null
 image: /img/chronicle/2024-06-25-freiheit-at-stackit.webp
-imageText: freiheit.com @ STACKIT Cloud x Summit 2024
+ImageAltText: freiheit.com @ STACKIT Cloud x Summit 2024
 vimeo: null
 youtube: null
 tags: [ news ]

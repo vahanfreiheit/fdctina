@@ -5,7 +5,7 @@ headline2:
 teaser:
 lead_image:
 image: /img/chronicle/2024-11-13-product-and-systems-engineering-leads.webp
-imageText: Product & Systems Engineering Leads
+ImageAltText: Product & Systems Engineering Leads
 hideImage:
 vimeo: null
 youtube: null

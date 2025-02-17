@@ -5,7 +5,7 @@ headline2:
 teaser:
 lead_image: null
 image: /img/chronicle/2024-04-10_131544732.webp
-imageText: Claudia Dietze, Christopher Schorling, Stefan Richter
+ImageAltText: Claudia Dietze, Christopher Schorling, Stefan Richter
 vimeo: null
 youtube: null
 tags: [ news ]

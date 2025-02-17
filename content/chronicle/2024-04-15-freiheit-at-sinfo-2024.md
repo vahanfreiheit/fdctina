@@ -1,7 +1,7 @@
 ---
 date: 2024-04-19
 image: /img/chronicle/2024-04-15-freiheit-at-sinfo-2024-thumbnail.webp
-imageText: freiheit.com members represented our software engineering company at SINFO
+ImageAltText: freiheit.com members represented our software engineering company at SINFO
 hideImageOnArticle: true
 tags: [ news ]
 headline1: freiheit.com at SINFO 2024

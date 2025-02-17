@@ -4,7 +4,7 @@ headline1: The Kudos System
 headline2:
 teaser:
 image: /img/chronicle/2024-10-02-the-freiheit-com-kudos-system.webp
-imageText: The freiheit.com Kudos System
+ImageAltText: The freiheit.com Kudos System
 tags: [ showroom ]
 hideImageOnArticle: true
 ---

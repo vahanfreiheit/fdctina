@@ -4,7 +4,7 @@ headline1: The Attributes
 headline2:
 lead_image:
 image: /img/chronicle/showroom_thumb_attributes.webp
-imageText: The Attributes Series
+ImageAltText: The Attributes Series
 vimeo: null
 youtube: null
 tags: [ showroom ]

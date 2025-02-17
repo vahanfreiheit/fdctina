@@ -5,7 +5,7 @@ headline2: We just wrapped up summer at our engineering hub in Lisbon!
 teaser:
 lead_image:
 image: /img/chronicle/freiheit-lisbon-summer-event.webp
-imageText: Lisbon Summer Event 2024 at freiheit.com
+ImageAltText: Lisbon Summer Event 2024 at freiheit.com
 vimeo: null
 youtube: null
 tags: [ news ]

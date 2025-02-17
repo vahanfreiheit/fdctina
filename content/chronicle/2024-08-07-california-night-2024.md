@@ -5,7 +5,7 @@ headline2: In July 2024, we celebrated summer in our wonderful Hamburg Hub!
 teaser:
 lead_image:
 image: /img/chronicle/2024-08-07-california-night-2024.jpg
-imageText: California Night 2024 at freiheit.com
+ImageAltText: California Night 2024 at freiheit.com
 vimeo: null
 youtube: cLcasJULjls
 tags: [ news ]
