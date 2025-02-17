@@ -14,7 +14,7 @@ hideHeaderTitle: true
 hideImageOnArticle: true
 ---
 
-We are a software engineering company - by engineers for engineers. How are we successfully delivering large-scale projects to our clients always on time, on budget, on target and on quality?  To deliver the right product, we need to understand the client’s needs, establish the project scope and define the right features. We always ensure that we maintain uniformity and simplicity within the code base throughout the project. 
+We are a software engineering company - for engineers by engineers. How are we successfully delivering large-scale projects to our clients always on time, on budget, on target and on quality?  To deliver the right product, we need to understand the client’s needs, establish the project scope and define the right features. We always ensure that we maintain uniformity and simplicity within the code base throughout the project.
 
 Who is responsible for that? The Product Engineering Leads and Systems Engineering Leads.
 

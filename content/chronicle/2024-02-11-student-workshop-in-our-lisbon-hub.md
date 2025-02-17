@@ -19,4 +19,5 @@ Becoming a well-rounded software engineer is a long journey that takes many year
 
 Interested in joining our next workshop?
 
-Stay tuned for more information.Technology never rests. And neither do we.
+Stay tuned for more information.
+Technology never rests. And neither do we.

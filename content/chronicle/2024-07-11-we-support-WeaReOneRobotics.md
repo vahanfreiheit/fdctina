@@ -1,6 +1,6 @@
 ---
 date: 2024-07-11
-image: /img/chronicle/2024-07-11-we-support-WeaReOneRobotics-1.webp
+image: /img/chronicle/2024-07-11-we-support-WeaReOneRobotics-thumbnail.webp
 imageText: freiheit.com supports We aRe oNe Robotics
 hideImageOnArticle: true
 tags: [ we-support ]

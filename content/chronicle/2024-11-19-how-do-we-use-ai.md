@@ -9,7 +9,7 @@ headline2:
 teaser:
 ---
 
-As software engineers, we at freiheit.com technologies aim to ensure everyone “knows what the company knows,” sharing 25+ years of expertise across our teams and clients. Our lean Request for Comments process keeps our Knowledge Base up to date, with thousands of articles added. To make knowledge easier to access, we’ve implemented AI using Google Cloud, allowing teams to find the right information at the right time.
+As software engineers, we at freiheit.com aim to ensure everyone “knows what the company knows,” sharing 25+ years of expertise across our teams and clients. Our lean Request for Comments process keeps our Knowledge Base up to date, with thousands of articles added. To make knowledge easier to access, we’ve implemented AI using Google Cloud, allowing teams to find the right information at the right time.
 
 Knowledge sharing is key for us at freiheit.com as we tackle complex, large-scale software projects. This helps reduce reliance on individual experts and prevent repeated mistakes.
 

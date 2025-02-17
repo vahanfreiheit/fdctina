@@ -17,7 +17,7 @@ It was all about having good discussions, lots of fun and creating new memories.
 
 Our Lisbon hub has come a long way since its start in 2018 when our
 co-founder Claudia Dietze made her dream come true by opening a second hub for freiheit.com technologies.
-From the start, it was important to grow the hub with the same engineering spirit as in Hamburg — built by engineers, for engineers.
+From the start, it was important to grow the hub with the same engineering spirit as in Hamburg — built for engineers by engineers.
 
 Right now, the Lisbon hub has multiple engineering teams who are leading the way on several of the largest and most exciting software engineering projects around Europe.
 

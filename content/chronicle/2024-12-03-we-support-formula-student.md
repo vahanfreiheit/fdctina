@@ -11,7 +11,7 @@ teaser:
 
 We decided to support Formula Student Portugal because we want to encourage future software engineers in their passion to gain technical knowledge.
 
-Formula Student is the biggest university engineering competition in the world. In the 1980s the project originated as an educational concept with the goal to nurture engineering talent. It evolved from being a Society of Automotive Engineers’ student competitions to being an international contest with diverse teams from universities from all over the world participating. Formula Student Portugal is a new event for the Formula Student community in Portugal.
+Formula Student is the biggest university engineering competition in the world. In the 1980s the project originated as an educational concept with the goal to nurture engineering talent. It evolved from being a Society of Automotive Engineers’ student competition to being an international contest with diverse teams of universities from all over the world participating. Formula Student Portugal is a new event for the Formula Student community in Portugal.
 
 {{< grid-images cols="2">}}
 {{< image src="/img/chronicle/2024-12-03-we-support-formula-student-1.webp" alt="freiheit.com supports Formula Student Portugal" >}}

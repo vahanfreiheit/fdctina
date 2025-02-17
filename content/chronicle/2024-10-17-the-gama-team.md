@@ -24,6 +24,6 @@ To achieve this, the Gama team was founded. Vasco da Gama is to Portugal what th
 
 The engineering hub in Lisbon holds the same importance as our hub in Hamburg. We always wanted it to be the same eye level. Now we see they might even grow into a bigger hub than Hamburg. They really can be proud of themselves.
 
-Because of Claudia and the whole Gama Team's commitment and dedication, our hub in Portugal is continuously growing while maintaining our freiheit.com mindset. As always, by engineers, for engineers.
+Because of Claudia and the whole Gama Team's commitment and dedication, our hub in Portugal is continuously growing while maintaining our freiheit.com mindset. As always, for engineers by engineers.
 
 Kudos to them for making freiheit.com successful in Lisbon!
