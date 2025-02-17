@@ -1,6 +1,6 @@
 ---
 title: "Building the Backbone of Tchibo’s digital Business"
-image: /img/things-weve-build/hyper-scalable-e-commerce-system.png.webp
+image: /img/things-weve-built/hyper-scalable-e-commerce-system.png.webp
 date: 2024-05-15
 draft: false
 tags: [ case-studies ]

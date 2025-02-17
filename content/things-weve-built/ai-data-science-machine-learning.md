@@ -1,6 +1,6 @@
 ---
 title: "Using Machine Learning Algorithms to Fulfill Physical Order Slips for BA.Unternehmensgruppe"
-image: /img/things-weve-build/ai-data-science-machine-learning_2.jpg.webp
+image: /img/things-weve-built/ai-data-science-machine-learning_2.jpg.webp
 date: 2024-05-18
 draft: false
 tags: [ case-studies ]

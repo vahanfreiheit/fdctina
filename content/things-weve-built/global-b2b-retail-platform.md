@@ -1,6 +1,6 @@
 ---
 title: "Global B2B Retail Platform"
-image: /img/things-weve-build/global-b2b-retail-platform_2.jpg.webp
+image: /img/things-weve-built/global-b2b-retail-platform_2.jpg.webp
 date: 2024-05-21
 draft: false
 tags: [ case-studies ]
