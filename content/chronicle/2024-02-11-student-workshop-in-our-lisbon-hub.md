@@ -1,8 +1,8 @@
 ---
 date: 2024-02-11
-image: /img/chronicle/2024-02-11-student-workshop-in-our-lisbon-hub.webp
+image: /img/chronicle/2024-02-11-student-workshop-in-our-lisbon-hub-thumbnail.webp
 ImageAltText: freiheit.com members explain  how we build large-scale software systems in a student workshop
-hideImageOnArticle: false
+hideImageOnArticle: true
 tags: [ news ]
 headline1: Student workshop in our Lisbon Hub – large-scale software systems
 headline2:
