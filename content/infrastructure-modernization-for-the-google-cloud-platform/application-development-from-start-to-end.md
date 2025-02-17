@@ -9,8 +9,9 @@ contentTheme: black
 
 To understand the client’s requirements and goals and align our ways of working, we set up a series of workshops with our new clients covering:
 
-**- Different business cases**
-**- Looking at complete customer user journeys**
+**- Analysis of current infrastructure**
+**- Gathering clients’ infrastructure requirements**
+**- Developing Solution Designs**
 **- Demonstrating possible solutions**
 **- Setting up initial prioritized and estimated backlogs based on MoSCoW method**
 
@@ -27,4 +28,6 @@ To make sure client requirements and constraints are regularly evaluated and imp
 
 Automated tests and SRE best practices enable the teams to move quickly and to roll out any change to live directly. KPIs such as SLI, SLO, and error budgets allow the teams to prioritize quality over quantity.
 
-Our methodology and ways of working are a result of many successful projects carried out on the Google Cloud Platform.
+Our methodology and ways of working are a result of many successful infrastructure projects carried out on the Google Cloud Platform.
+
+Using the Google Cloud Platform products, such as Google Kubernetes Engine (GKE), Cloud Storage we successfully migrated many of our clients to the cloud. With two of them we have published success stories to which you can find more information below. Many more are to come.
