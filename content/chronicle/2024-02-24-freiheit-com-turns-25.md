@@ -16,4 +16,7 @@ Never failed. Never late.
 
 Here's to 25 years of doing what we love. What others can’t or won’t. With great people around us. Thank you for being part of our journey. And this still feels like just the beginning. Here's to many more years of transforming ideas into great software solutions!
 
-{{< image src="/img/chronicle/2024-02-24-freiheit-turns-25.webp" alt="freiheit.com has now over 25 years of experience in building large-scale software">}}
+{{< grid-images cols="2">}}
+{{< image src="/img/chronicle/250218-Claudia-Stefan-25-birthday.webp" alt="freiheit.com has now more than 25 years of experience in building large-scale software systems" >}}
+{{< image src="/img/chronicle/250218-members-celebrate-25-birthday.webp" alt="freiheit.com members celebrate 25 years of developing custom software systems" >}}
+{{< /grid-images >}}
