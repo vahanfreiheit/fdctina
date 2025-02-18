@@ -5,6 +5,7 @@ headline2: Dentsply Sirona and freiheit.com move 100.000 dentists into the cloud
 teaser:
 lead_image: null
 image: /img/chronicle/2024-04-08-case-study-dentsply-sirona-title-image.webp
+imageAltText: freiheit.com built a platform for Dentsply Sirona, where dentists and laboratories can now manage processes like 3D renderings.
 vimeo: null
 youtube: null
 tags: [ case-studies ]

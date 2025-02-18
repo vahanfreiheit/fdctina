@@ -1,7 +1,7 @@
 {{ $taxonomy := "tags" }}
 <article class="flex-1 h-full bg-white no-underline">
     {{ if or (.Params.Image) (.Params.lead_image) }}
-    <a href="{{ .RelPermalink | absURL }}" class="block no-underline w-full bg-cover bg-no-repeat bg-center aspect-w-16 aspect-h-9" style="aspect-ratio: 16/9; background-image: url({{site.BaseURL}}{{ if .Params.lead_image }}{{.Params.lead_image }}{{ else if .Params.Image }}{{.Params.Image }}{{ end }});">&nbsp;</a>
+    <a href="{{ .RelPermalink | absURL }}" class="block no-underline w-full bg-cover bg-no-repeat bg-center aspect-w-16 aspect-h-9" title="{{ .Params.ImageAltText }}" style="aspect-ratio: 16/9; background-image: url({{site.BaseURL}}{{ if .Params.lead_image }}{{.Params.lead_image }}{{ else if .Params.Image }}{{.Params.Image }}{{ end }});">&nbsp;</a>
     {{ else }}
     <a href="{{ .RelPermalink | absURL }}" class="block no-underline w-full bg-contain bg-no-repeat bg-center aspect-w-16 aspect-h-9 bg-white"
         style="aspect-ratio: 16/9; background-size: 85%; background-image: url({{site.BaseURL}}/img/logo_alabaster.svg)">&nbsp;</a>

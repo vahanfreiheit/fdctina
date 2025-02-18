@@ -5,7 +5,7 @@ headline2:
 teaser:
 lead_image: null
 image: /img/chronicle/2024-06-25-freiheit-at-stackit.webp
-ImageAltText: freiheit.com @ STACKIT Cloud x Summit 2024
+ImageAltText: freiheit.com works for the Schwarz IT on various software solutions.
 vimeo: null
 youtube: null
 tags: [ news ]
@@ -21,8 +21,8 @@ We at freiheit.com believe it's through data-driven software engineering.
 That is what our Head of Engineering  and Co-Founder, Stefan Richter talked about at the STACKIT Cloud x Summit yesterday.
 
 {{< flex-images >}}
-    {{< image src="/img/chronicle/2024-06-25-freiheit-at-stackit-2.webp" alt="freiheit.com at stackit">}}
-    {{< image src="/img/chronicle/2024-06-25-stefan-richter-at-stackit.webp" alt="Stefan Richter at stackit">}}
+    {{< image src="/img/chronicle/2024-06-25-freiheit-at-stackit-2.webp" alt="freiheit.com’s co-founder Stefan talks about data-driven engineering at STACKIT Cloud x Summit.">}}
+    {{< image src="/img/chronicle/2024-06-25-stefan-richter-at-stackit.webp" alt="freiheit.com and the Schwarz IT work and present their software projects.">}}
 {{< /flex-images >}}
 
 Source: [https://www.stackit.de/en/cloudxsummit/#programm](https://www.stackit.de/en/cloudxsummit/#programm)

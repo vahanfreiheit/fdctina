@@ -5,7 +5,7 @@ headline2: Erfolgreiche Unternehmer verfügen über implizites Wissen, das nur s
 teaser:
 lead_image: null
 image: /img/chronicle/2024-07-02_Fachartikel_Unternehmeredition_010724.webp
-ImageAltText: Fachartikel Unternehmeredition Juni 2024 - Autor Stefan Richter
+ImageAltText: freiheit.com co-founder Stefan Richter talks about how to train an AI with the company’s implicit knowledge.
 vimeo: null
 youtube: null
 tags: [ news ]

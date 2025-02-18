@@ -5,7 +5,7 @@ headline2:
 teaser:
 lead_image:
 image: /img/chronicle/2024-11-13-product-and-systems-engineering-leads.webp
-ImageAltText: Product & Systems Engineering Leads
+ImageAltText: Product and System Engineering Leads coordinate teams to make sure the product meets the clients needs at freiheit.com.
 hideImage:
 vimeo: null
 youtube: null
@@ -18,7 +18,7 @@ We are a software engineering company - for engineers by engineers. How are we s
 
 Who is responsible for that? The Product Engineering Leads and Systems Engineering Leads.
 
-{{< youtube id="7RXW7BRBRjs" img="/img/chronicle/2024-11-13-product-and-systems-engineering-leads.webp" >}}
+{{< youtube id="7RXW7BRBRjs" img="/img/chronicle/2024-11-13-product-and-systems-engineering-leads.webp" alt="Product and System Engineering Leads coordinate teams to make sure the product meets the clients needs at freiheit.com." >}}
 
 These aren’t managers. freiheit.com members that take on these roles started out like every newbie, as associate engineers. They developed their skills through different engineering levels over time. Eventually they became team leads and then took on overarching responsibilities of entire projects, so they know first hand how we work at freiheit.com.
 
