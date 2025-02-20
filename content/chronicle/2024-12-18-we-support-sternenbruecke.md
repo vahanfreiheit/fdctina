@@ -8,7 +8,6 @@ headline1: The Sternenbrücke
 headline2:
 teaser:
 ---
-### The Sternenbrücke
 
 Every year around the holidays, our community comes together to support a cause close to our hearts, the Sternenbrücke from Hamburg. The children's hospice Sternenbrücke provides respite care for terminally ill children and affected families. Even after the loss of the child, the Sternenbrücke continues to support the families in their grief.
 
