@@ -7,9 +7,9 @@ weight: 1
 
 ### We are a global team.
 
-In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world, different cultures, colors, languages, genders and lifestyles. We celebrate diversity and openness.
+In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world.
 
-When you ask anybody why they are working here, it is pretty likely that people will say “because of the people” and “because I have never learnt so much in my life”. Our company is a place to be yourself, aim high, taking care of each other and growing without limits.
+When you ask anybody why they are working here, it is pretty likely that people will say “because of the people” and “because I have never learnt so much in my life”.
 
 {{< flex-images >}}
   {{< image src="/img/join-the-team/our-community-1.jpg.webp" alt="freiheit.com members learn from each other." >}}

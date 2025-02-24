@@ -181,8 +181,51 @@
 &lt;p>freiheit.com was founded in Hamburg, but it has grown far beyond that. In 2018 we opened our second engineering hub in Lisbon.&lt;/p>
 &lt;p>Our hub in Lisbon operates under the same organizational principles and team structures as our headquarters in Hamburg. The engineering members work together seamlessly and often in mixed teams between the two hubs, sharing knowledge and expertise across borders.&lt;/p>
 &lt;p>Additionally, our members regularly travel between our engineering hubs. The newbies from Lisbon come to Hamburg for their first two weeks of onboarding to connect with our company culture. Obviously, they don’t just come to work. A big part of the trip is exploring Hamburg and enjoying time with their new colleagues. Every year, the whole company meets for our Summer and Christmas Events.&lt;/p></description></item><item><title>We are a global team</title><link>https://freiheit.com/join-us/our-community/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/join-us/our-community/</guid><description>&lt;h3 id="we-are-a-global-team">We are a global team.&lt;/h3>
-&lt;p>In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world, different cultures, colors, languages, genders and lifestyles. We celebrate diversity and openness.&lt;/p>
-&lt;p>When you ask anybody why they are working here, it is pretty likely that people will say “because of the people” and “because I have never learnt so much in my life”. Our company is a place to be yourself, aim high, taking care of each other and growing without limits.&lt;/p></description></item><item><title/><link>https://freiheit.com/imprint/force-css/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/imprint/force-css/</guid><description>&lt;span class="hidden">
+&lt;p>In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world.&lt;/p>
+&lt;p>When you ask anybody why they are working here, it is pretty likely that people will say “because of the people” and “because I have never learnt so much in my life”.&lt;/p>
+&lt;div class="
+ fdc-flex-images
+ flex
+ flex-col
+ md:flex-row
+ justify-start
+ items-center
+ md:place-items-start
+ gap-8
+ md:gap-12
+ pt-4
+ pb-8
+ md:pt-12
+ md:pb-16
+">
+ 
+ 
+ &lt;figure class="fdc-figure">
+ 
+ &lt;img
+ width="563"
+ height="450"
+ src="https://freiheit.com//img/join-the-team/our-community-1.jpg.webp"
+ alt="freiheit.com members learn from each other."
+ />
+ 
+ 
+ &lt;/figure>
+ 
+ &lt;figure class="fdc-figure">
+ 
+ &lt;img
+ width="1000"
+ height="666"
+ src="https://freiheit.com//img/join-the-team/Join_Us_rt.webp"
+ alt="freiheit.com members grow without limits and become well-rounded software engineers."
+ />
+ 
+ 
+ &lt;/figure>
+
+&lt;/div>
+&lt;p>Of course we have a beautiful office in a very nice area of each city, a place to hang out, play pool and have fun with your team members. But more importantly, we offer you the ability to work on interesting things and to own a complete large-scale project from idea to implementation and operations. You have the opportunity to learn from senior engineers, work in a well-organized and well-managed company and start a fulfilling career in tech.&lt;/p></description></item><item><title/><link>https://freiheit.com/imprint/force-css/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/imprint/force-css/</guid><description>&lt;span class="hidden">
  &lt;span class="grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4">&lt;/span>
 &lt;/span></description></item><item><title>Follow us</title><link>https://freiheit.com/get-in-touch/contact-followus/</link><pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate><guid>https://freiheit.com/get-in-touch/contact-followus/</guid><description>&lt;h3 class="text-yellow" id="follow-us">Follow us&lt;/h3>
 &lt;p>&lt;a class="font-serif no-underline hover:text-red" href="https://www.youtube.com/channel/UCouXbAqEDBOuiSYUWxSIoNw" target="_blank" rel="noopener">YouTube&amp;nbsp;→&lt;/a>&lt;br>
