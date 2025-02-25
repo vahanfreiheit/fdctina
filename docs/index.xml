@@ -561,10 +561,12 @@ Portugal&lt;/p></description></item><item><title>Episode three</title><link>http
  autoplay
  playsinline
  preload="auto"
- poster="https://freiheit.com//video/poster.jpg.webp"
+ poster="https://freiheit.com//video/homepage_video_2025.webp"
  class="w-full h-full absolute z-10 top-0 left-0 object-cover"
  id="welcomeVideo"
  >
+ &lt;source src="https://freiheit.com/video/homepage_video_2025.mp4" type="video/mp4" media="screen and (min-width: 855px)">
+ &lt;source src="https://freiheit.com/video/homepage_video_2025_mobile.mp4" type="video/mp4">
  &lt;/video>
  &lt;div class="relative w-full h-full z-30 flex flex-col items-center justify-end pb-16 md:pb-32 text-white md:px-8 md:px-24 text-center">
  &lt;section class="flex flex-col items-center max-w-screen-3xl">
@@ -587,7 +589,14 @@ Portugal&lt;/p></description></item><item><title>Episode three</title><link>http
  &lt;/div>
  &lt;/section>
  &lt;/div>
-&lt;/div></description></item><item><title>We make the impossible possible</title><link>https://freiheit.com/we-make-the-impossible-possible/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://freiheit.com/we-make-the-impossible-possible/</guid><description>&lt;h3 id="we-make-the-impossible-possible">We make the impossible possible.&lt;/h3>
+&lt;/div>
+
+&lt;script>
+ document.addEventListener('DOMContentLoaded', function() {
+ let video = document.getElementById('welcomeVideo');
+ video.play();
+ });
+&lt;/script></description></item><item><title>We make the impossible possible</title><link>https://freiheit.com/we-make-the-impossible-possible/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://freiheit.com/we-make-the-impossible-possible/</guid><description>&lt;h3 id="we-make-the-impossible-possible">We make the impossible possible.&lt;/h3>
 &lt;p>We are a software engineering company for engineers by engineers.&lt;br>
 For over a quarter of a century we have been building large-scale software systems that are business-critical to our clients.&lt;br>
 Large-scale means millions of users, queries, transactions and billions of revenue.&lt;/p>
