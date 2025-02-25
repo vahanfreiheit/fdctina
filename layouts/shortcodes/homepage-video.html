@@ -5,10 +5,12 @@
           autoplay
           playsinline
           preload="auto"
-          poster="{{site.BaseURL}}/video/poster.jpg.webp"
+          poster="{{site.BaseURL}}/video/homepage_video_2025.webp"
           class="w-full h-full absolute z-10 top-0 left-0 object-cover"
           id="welcomeVideo"
   >
+    <source src="{{site.BaseURL}}video/homepage_video_2025.mp4" type="video/mp4" media="screen and (min-width: 855px)">
+    <source src="{{site.BaseURL}}video/homepage_video_2025_mobile.mp4" type="video/mp4">
   </video>
   <div class="relative w-full h-full z-30 flex flex-col items-center justify-end pb-16 md:pb-32 text-white md:px-8 md:px-24 text-center">
     <section class="flex flex-col items-center max-w-screen-3xl">
@@ -37,27 +39,9 @@
 
 {{ define "page_script" }}
 <script>
-  function getWidth() {
-    return Math.max(
-      document.body.scrollWidth,
-      document.documentElement.scrollWidth,
-      document.body.offsetWidth,
-      document.documentElement.offsetWidth,
-      document.documentElement.clientWidth
-    );
-  }
-  let video = document.getElementById('welcomeVideo');
-  let source = document.createElement("source");
-  if (video && source) {
-    if (getWidth() < 768) {
-      source.src = "{{site.BaseURL}}/video/video_mobile.mp4";
-      source.type = "video/mp4";
-    } else {
-      source.src = "{{site.BaseURL}}/video/video.mp4";
-      source.type = "video/mp4";
-    }
-    video.append(source);
+  document.addEventListener('DOMContentLoaded', function() {
+    let video = document.getElementById('welcomeVideo');
     video.play();
-  }
+  });
 </script>
 {{ end }}
