@@ -1,0 +1,104 @@
+media:
+  input: static/img
+  output: /img
+  extensions: ["jpg","webp","mp4","pdf"]
+content:
+  - name: chronicle
+    label: Chronicle
+    path: content/chronicle
+    type: collection
+    subfolders: false
+    exclude: [ _index.md ]
+    view:
+      fields: [ headline1, date, image, tags, draft ]
+      default:
+        sort: date
+        order: desc
+    primary: headline1
+    sort: date
+    fields:
+    - name: headline1
+      label: Title
+      type: string
+      required: true
+    - name: headline2
+      label: Subtitle
+      type: string
+    - name: teaser
+      label: Teaser
+      type: text
+    - name: date
+      label: Date
+      type: date
+      required: true
+      options:
+        format: yyyy-MM-dd
+    - name: image
+      label: Teaser Image
+      type: image
+      list: false
+      input: static/chronicle
+      output: img
+      options:
+        path: static/chronicle
+        extensions: [ "jpg", "webp" ]
+    - name: ImageAltText
+      label: Alt-text
+      type: string
+    - name: hideImageOnArticle
+      label: Hide teaser image in article
+      type: boolean
+      default: false
+    - name: tags
+      label: Sections
+      type: select
+      list: true
+      options:
+        values:
+        - value: news
+          label: News
+        - value: showroom
+          label: Showroom
+        - value: case-studies
+          label: Case-Studies
+        - value: we-support
+          label: We Support
+        - value: Podcast
+          label: Podcast
+    - name: draft
+      label: Draft
+      type: boolean
+      default: false
+    - name: body
+      label: Body
+      type: text
+  - name: join-us
+    label: Join Us
+    path: content/join-us
+    type: collection
+    subfolders: false
+    exclude: [ _index.md ]
+    view:
+      fields: [ title, date, weight, draft ]
+    fields:
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: date
+      label: Date
+      type: date
+      required: true
+      options:
+        format: yyyy-MM-dd
+    - name: draft
+      label: Draft
+      type: boolean
+      default: false
+    - name: weight
+      label: Order
+      type: number
+      default: 1
+    - name: body
+      label: Body
+      type: text
