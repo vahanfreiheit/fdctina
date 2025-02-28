@@ -4,7 +4,7 @@ date: 2023-01-31
 draft: false
 weight: 1
 ---
-### We are a global team.
+### We are a global team
 
 In our Engineering Hubs in Hamburg and Lisbon you will meet people from all over the world.
 
