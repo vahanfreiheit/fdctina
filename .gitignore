@@ -1,9 +1,9 @@
-## Hugo default output directory
 public
 resources
 node_modules
 hugo_stats.json
 .hugo_build.lock
+.github
 
 ## ide
 .idea
