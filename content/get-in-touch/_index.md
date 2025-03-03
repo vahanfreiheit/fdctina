@@ -8,9 +8,6 @@ hideFooter: true
 hideHeaderTitle: true
 aliases:
   - /contact/
-  - /de/kontact/
-  - /en/contact/
-  - /pt/contact/
 menu:
   main:
     name: Get in touch
@@ -18,6 +15,8 @@ menu:
 ---
 ## Get in touch with our team {.text-yellow}
 
-We always love to hear from interesting people and about exciting projects. Whether you’re looking to join our team or tackle a digital project with us, one email is all it takes to get the ball rolling.
+We always love to hear from interesting people. Get in touch with us when you want to join our team or if you need help to make your software project successful.
+
+Send us an email and let the journey begin.
 
 [kontakt@freiheit.com](mailto:kontakt@freiheit.com)
