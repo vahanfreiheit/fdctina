@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Imprint on freiheit.com</title><link>https://freiheit.com/imprint/</link><description>Recent content in Imprint on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/imprint/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://freiheit.com/imprint/force-css/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://freiheit.com/imprint/force-css/</guid><description>&lt;span class="hidden">
- &lt;span class="grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4">&lt;/span>
-&lt;/span></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imprint on freiheit.com</title>
+    <link>https://mploigt.github.io/freiheit/imprint/</link>
+    <description>Recent content in Imprint on freiheit.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mploigt.github.io/freiheit/imprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mploigt.github.io/freiheit/imprint/force-css/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/imprint/force-css/</guid>
+      <description>&lt;span class=&#34;hidden&#34;&gt;&#xA;  &lt;span class=&#34;grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4&#34;&gt;&lt;/span&gt;&#xA;&lt;/span&gt;</description>
+    </item>
+  </channel>
+</rss>
