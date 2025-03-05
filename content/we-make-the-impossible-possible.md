@@ -5,7 +5,7 @@ draft: false
 date: 2022-02-04T00:00:00.000Z
 ---
 
-### We make the impossible possible.
+### We make the possible impossible.
 
 We are a software engineering company for engineers by engineers.
 For over a quarter of a century we have been building large-scale software systems that are business-critical to our clients.
