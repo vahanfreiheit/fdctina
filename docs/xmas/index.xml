@@ -1,180 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Merry Christmas 2023 on freiheit.com</title><link>https://freiheit.com/xmas/</link><description>Recent content in Merry Christmas 2023 on freiheit.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freiheit.com/xmas/index.xml" rel="self" type="application/rss+xml"/><item><title>Merry Christmas</title><link>https://freiheit.com/xmas/1/</link><pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate><guid>https://freiheit.com/xmas/1/</guid><description>&lt;style lang="css">
- @-webkit-keyframes light {
- from {
- opacity: 1;
- }
-
- 20% {
- opacity: 0.9;
- }
-
- 40% {
- opacity: 0.8;
- }
-
- 60% {
- opacity: 0.7;
- }
-
- 80% {
- opacity: 0.8;
- }
-
- to {
- opacity: 0.9;
- }
- }
-
- @keyframes snow {
- 0% {
- background-position: 0px 0px, 0px 0px, 0px 0px;
- }
-
- 100% {
- background-position: 500px 1000px, 400px 400px, 300px 300px;
- }
- }
- :root {
- --headerHeight: 550px;
- }
-
- body {
- margin: 0;
- padding: 0;
- }
-
- .header {
- position: absolute;
- height: var(--headerHeight);
- top: 0;
- right: 0;
- left: 0;
- overflow-x: hidden;
- z-index: 2;
- }
-
- .header-back {
- position: relative;
- width: 100%;
- height: calc(var(--headerHeight) - 150px);
- background-image:
- url('https://freiheit.com//img/xmas/snow1.png'),
- url('https://freiheit.com//img/xmas/snow2.png'),
- url('https://freiheit.com//img/xmas/snow3.png');
- animation: snow 25s linear infinite;
- }
-
- .header-text {
- position: absolute;
- top: 100px;
- right: 0;
- left: 0;
- }
-
- .header-text .glow {
- text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
- }
-
- .floor {
- width: 100%;
- position: absolute;
- top: calc(var(--headerHeight) - 174px);
- left: 0;
- right: 0;
- height: 174px;
- background-image: url(https://freiheit.com//img/xmas/divider-snow-3.svg);
- background-size: contain;
- background-repeat: repeat-x;
- }
- .text-head-lg {
- font-size: clamp(2.8rem, 5vw + 1rem, 5rem) !important;
- }
- .homepage-video {
- height: calc(var(--headerHeight) - 150px);
- position: absolute;
- top: 0;
- left: 0;
- z-index: 1;
- }
- .content-spacer {
- height: calc(var(--headerHeight) - 100px);
- }
-
- @media (min-width: 576px) {
- :root {
- --headerHeight: 650px;
- }
- .header {
- height: var(--headerHeight);
- }
- .header-back {
- height: calc(var(--headerHeight) - 150px);
- }
- .floor {
- top: calc(var(--headerHeight) - 190px);
- }
- .homepage-video {
- height: calc(var(--headerHeight) - 150px);
- }
- .content-spacer {
- height: calc(var(--headerHeight) - 100px);
- }
- }
-
-&lt;/style>
-&lt;script>
-
- window.onload = function(e){
- function getWidth() {
- return Math.max(
- document.body.scrollWidth,
- document.documentElement.scrollWidth,
- document.body.offsetWidth,
- document.documentElement.offsetWidth,
- document.documentElement.clientWidth
- );
- }
- let video = document.getElementById('xmasVideo');
- let source = document.createElement("source");
- if (video &amp;&amp; source) {
- if (getWidth() &lt; 768) {
- source.src = "https:\/\/freiheit.com\//video/xmas2024_mobile.mp4";
- source.type = "video/mp4";
- } else {
- source.src = "https:\/\/freiheit.com\//video/xmas2024_desktop.mp4";
- source.type = "video/mp4";
- }
- video.append(source);
- video.play();
- }
- }
-&lt;/script>
-&lt;div class="header">
- &lt;div class="header-back">
- &lt;div class="floor">&amp;nbsp;&lt;/div>
- &lt;/div>
- &lt;div class="header-text">
- &lt;div class="pl-4 sm:pt-12 lg:pl-20 xl:pl-40">
- &lt;div class="glow text-head-lg md:text-head-xl font-serif m-0 mb-0 md:mt-10 text-white" style="line-height: 0.8em; ">MERRY CHRISTMAS&lt;/div>
- &lt;div class="text-head-md md:text-head-md font-serif m-0 mb-12 text-white">AND A HAPPY NEW YEAR!&lt;/div>
- &lt;div class="glow text-head-lg md:text-head-xl font-serif m-0 mb-0 text-white" style="line-height: 0.8em;">FELIZ NATAL&lt;/div>
- &lt;div class="text-head-md md:text-head-md font-serif m-0 mb-0 text-white">E UM PRÓSPERO ANO NOVA!&lt;/div>
- &lt;/div>
- &lt;/div>
-&lt;/div>
-&lt;div class="content-spacer">&lt;/div>
-&lt;div class="homepage-video w-full relative">
- &lt;video
- loop
- muted
- autoplay
- playsinline
- preload="auto"
- poster="https://freiheit.com//video/xmas2024_poster.jpg"
- class="w-full h-full absolute z-10 top-0 left-0 object-cover"
- id="xmasVideo"
- >
- &lt;/video>
-&lt;/div>
-
-&lt;p>In 2024, our engineers wrote 7,797,336 lines of code, completed 18,923 user stories and made over 62,500 commits. What a year.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Merry Christmas 2023 on freiheit.com</title>
+    <link>https://mploigt.github.io/freiheit/xmas/</link>
+    <description>Recent content in Merry Christmas 2023 on freiheit.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mploigt.github.io/freiheit/xmas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merry Christmas</title>
+      <link>https://mploigt.github.io/freiheit/xmas/1/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://mploigt.github.io/freiheit/xmas/1/</guid>
+      <description>&lt;style lang=&#34;css&#34;&gt;&#xA;  @-webkit-keyframes light {&#xA;    from {&#xA;      opacity: 1;&#xA;    }&#xA;&#xA;    20% {&#xA;      opacity: 0.9;&#xA;    }&#xA;&#xA;    40% {&#xA;      opacity: 0.8;&#xA;    }&#xA;&#xA;    60% {&#xA;      opacity: 0.7;&#xA;    }&#xA;&#xA;    80% {&#xA;      opacity: 0.8;&#xA;    }&#xA;&#xA;    to {&#xA;      opacity: 0.9;&#xA;    }&#xA;  }&#xA;&#xA;  @keyframes snow {&#xA;    0% {&#xA;      background-position: 0px 0px, 0px 0px, 0px 0px;&#xA;    }&#xA;&#xA;    100% {&#xA;      background-position: 500px 1000px, 400px 400px, 300px 300px;&#xA;    }&#xA;  }&#xA;  :root {&#xA;    --headerHeight: 550px;&#xA;  }&#xA;&#xA;  body {&#xA;    margin: 0;&#xA;    padding: 0;&#xA;  }&#xA;&#xA;  .header {&#xA;    position: absolute;&#xA;    height: var(--headerHeight);&#xA;    top: 0;&#xA;    right: 0;&#xA;    left: 0;&#xA;    overflow-x: hidden;&#xA;    z-index: 2;&#xA;  }&#xA;&#xA;  .header-back {&#xA;    position: relative;&#xA;    width: 100%;&#xA;    height: calc(var(--headerHeight) - 150px);&#xA;    background-image:&#xA;      url(&#39;https://mploigt.github.io/freiheit//img/xmas/snow1.png&#39;),&#xA;      url(&#39;https://mploigt.github.io/freiheit//img/xmas/snow2.png&#39;),&#xA;      url(&#39;https://mploigt.github.io/freiheit//img/xmas/snow3.png&#39;);&#xA;    animation: snow 25s linear infinite;&#xA;  }&#xA;&#xA;  .header-text {&#xA;    position: absolute;&#xA;    top: 100px;&#xA;    right: 0;&#xA;    left: 0;&#xA;  }&#xA;&#xA;  .header-text .glow {&#xA;    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);&#xA;  }&#xA;&#xA;  .floor {&#xA;    width: 100%;&#xA;    position: absolute;&#xA;    top: calc(var(--headerHeight) - 174px);&#xA;    left: 0;&#xA;    right: 0;&#xA;    height: 174px;&#xA;    background-image: url(https://mploigt.github.io/freiheit//img/xmas/divider-snow-3.svg);&#xA;    background-size: contain;&#xA;    background-repeat: repeat-x;&#xA;  }&#xA;  .text-head-lg {&#xA;    font-size: clamp(2.8rem, 5vw + 1rem, 5rem) !important;&#xA;  }&#xA;  .homepage-video {&#xA;    height: calc(var(--headerHeight) - 150px);&#xA;    position: absolute;&#xA;    top: 0;&#xA;    left: 0;&#xA;    z-index: 1;&#xA;  }&#xA;  .content-spacer {&#xA;    height: calc(var(--headerHeight) - 100px);&#xA;  }&#xA;&#xA;  @media (min-width: 576px) {&#xA;    :root {&#xA;      --headerHeight: 650px;&#xA;    }&#xA;    .header {&#xA;      height: var(--headerHeight);&#xA;    }&#xA;    .header-back {&#xA;      height: calc(var(--headerHeight) - 150px);&#xA;    }&#xA;    .floor {&#xA;      top: calc(var(--headerHeight) - 190px);&#xA;    }&#xA;    .homepage-video {&#xA;      height: calc(var(--headerHeight) - 150px);&#xA;    }&#xA;    .content-spacer {&#xA;      height: calc(var(--headerHeight) - 100px);&#xA;    }&#xA;  }&#xA;&#xA;&lt;/style&gt;&#xA;&lt;script&gt;&#xA;&#xA;  window.onload = function(e){&#xA;    function getWidth() {&#xA;      return Math.max(&#xA;        document.body.scrollWidth,&#xA;        document.documentElement.scrollWidth,&#xA;        document.body.offsetWidth,&#xA;        document.documentElement.offsetWidth,&#xA;        document.documentElement.clientWidth&#xA;      );&#xA;    }&#xA;    let video = document.getElementById(&#39;xmasVideo&#39;);&#xA;    let source = document.createElement(&#34;source&#34;);&#xA;    if (video &amp;&amp; source) {&#xA;      if (getWidth() &lt; 768) {&#xA;        source.src = &#34;https:\/\/mploigt.github.io\/freiheit\//video/xmas2024_mobile.mp4&#34;;&#xA;        source.type = &#34;video/mp4&#34;;&#xA;      } else {&#xA;        source.src = &#34;https:\/\/mploigt.github.io\/freiheit\//video/xmas2024_desktop.mp4&#34;;&#xA;        source.type = &#34;video/mp4&#34;;&#xA;      }&#xA;      video.append(source);&#xA;      video.play();&#xA;    }&#xA;  }&#xA;&lt;/script&gt;&#xA;&lt;div class=&#34;header&#34;&gt;&#xA;  &lt;div class=&#34;header-back&#34;&gt;&#xA;    &lt;div class=&#34;floor&#34;&gt;&amp;nbsp;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;header-text&#34;&gt;&#xA;    &lt;div class=&#34;pl-4 sm:pt-12 lg:pl-20 xl:pl-40&#34;&gt;&#xA;      &lt;div class=&#34;glow text-head-lg md:text-head-xl font-serif m-0 mb-0 md:mt-10 text-white&#34; style=&#34;line-height: 0.8em; &#34;&gt;MERRY CHRISTMAS&lt;/div&gt;&#xA;      &lt;div class=&#34;text-head-md md:text-head-md font-serif m-0 mb-12 text-white&#34;&gt;AND A HAPPY NEW YEAR!&lt;/div&gt;&#xA;      &lt;div class=&#34;glow text-head-lg md:text-head-xl font-serif m-0 mb-0 text-white&#34; style=&#34;line-height: 0.8em;&#34;&gt;FELIZ NATAL&lt;/div&gt;&#xA;      &lt;div class=&#34;text-head-md md:text-head-md font-serif m-0 mb-0 text-white&#34;&gt;E UM PRÓSPERO ANO NOVA!&lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;content-spacer&#34;&gt;&lt;/div&gt;&#xA;&lt;div class=&#34;homepage-video w-full relative&#34;&gt;&#xA;  &lt;video&#xA;          loop&#xA;          muted&#xA;          autoplay&#xA;          playsinline&#xA;          preload=&#34;auto&#34;&#xA;          poster=&#34;https://mploigt.github.io/freiheit//video/xmas2024_poster.jpg&#34;&#xA;          class=&#34;w-full h-full absolute z-10 top-0 left-0 object-cover&#34;&#xA;          id=&#34;xmasVideo&#34;&#xA;  &gt;&#xA;  &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;In 2024, our engineers wrote 7,797,336 lines of code, completed 18,923 user stories and made over 62,500 commits. What a year.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
