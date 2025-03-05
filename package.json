@@ -5,9 +5,12 @@
   "dependencies": {
     "autoprefixer": "^10.4.4",
     "postcss-cli": "^9.1.0",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "tinacms": "^2.7.2"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2"
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tinacms/cli": "^1.9.2",
+    "@types/node": "^22.13.9"
   }
 }
